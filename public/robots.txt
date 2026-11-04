@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://good-coconut.vercel.app/sitemap.xml

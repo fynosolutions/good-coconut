@@ -6,7 +6,7 @@ const menus=await Promise.all(['menu-content.json','menu-wall-street.json'].map(
 const browser=await puppeteer.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
 const result={checks:[],viewports:[],errors:[]};
 const origin='http://127.0.0.1:4185';
-const shops=[{route:'/menu/',slug:'flushing',name:'Flushing',cards:88,categories:11},{route:'/menu/wall-street/',slug:'wall-street',name:'Wall Street',cards:83,categories:12}];
+const shops=[{route:'/menu/',slug:'flushing',name:'Flushing',cards:88,categories:11},{route:'/menu/wall-street/',slug:'wall-street',name:'FiDi',cards:83,categories:12}];
 await mkdir('qa/menu',{recursive:true});
 try{
  const page=await browser.newPage();page.on('pageerror',error=>result.errors.push(error.message));

@@ -1,0 +1,111 @@
+/* Extras: signature cursors, order panel (pickup + delivery), sip-to-scroll coconut. Animations use transform/opacity only. */
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Signature cursors. The browser draws them natively, so they are there from the first frame and after refresh. */
+@media (hover:hover) and (pointer:fine){
+ html{cursor:url(/assets/cursor/coconut.png) 32 21,auto;cursor:-webkit-image-set(url(/assets/cursor/coconut.png) 1x,url(/assets/cursor/coconut@2x.png) 2x) 32 21,auto;cursor:image-set(url(/assets/cursor/coconut.png) 1x,url(/assets/cursor/coconut@2x.png) 2x) 32 21,auto}
+ html :is(a,button,summary,label,select,[role=button]){cursor:url(/assets/cursor/coconut-hover.png) 32 21,pointer!important;cursor:-webkit-image-set(url(/assets/cursor/coconut-hover.png) 1x,url(/assets/cursor/coconut-hover@2x.png) 2x) 32 21,pointer!important;cursor:image-set(url(/assets/cursor/coconut-hover.png) 1x,url(/assets/cursor/coconut-hover@2x.png) 2x) 32 21,pointer!important}
+ html[data-cursor=drink]{cursor:url(/assets/cursor/drink.png) 37 7,auto;cursor:-webkit-image-set(url(/assets/cursor/drink.png) 1x,url(/assets/cursor/drink@2x.png) 2x) 37 7,auto;cursor:image-set(url(/assets/cursor/drink.png) 1x,url(/assets/cursor/drink@2x.png) 2x) 37 7,auto}
+ html[data-cursor=drink] :is(a,button,summary,label,select,[role=button]){cursor:url(/assets/cursor/drink-hover.png) 37 7,pointer!important;cursor:-webkit-image-set(url(/assets/cursor/drink-hover.png) 1x,url(/assets/cursor/drink-hover@2x.png) 2x) 37 7,pointer!important;cursor:image-set(url(/assets/cursor/drink-hover.png) 1x,url(/assets/cursor/drink-hover@2x.png) 2x) 37 7,pointer!important}
+ html[data-cursor=jar]{cursor:url(/assets/cursor/jar.png) 32 12,auto;cursor:-webkit-image-set(url(/assets/cursor/jar.png) 1x,url(/assets/cursor/jar@2x.png) 2x) 32 12,auto;cursor:image-set(url(/assets/cursor/jar.png) 1x,url(/assets/cursor/jar@2x.png) 2x) 32 12,auto}
+ html[data-cursor=jar] :is(a,button,summary,label,select,[role=button]){cursor:url(/assets/cursor/jar-hover.png) 32 12,pointer!important;cursor:-webkit-image-set(url(/assets/cursor/jar-hover.png) 1x,url(/assets/cursor/jar-hover@2x.png) 2x) 32 12,pointer!important;cursor:image-set(url(/assets/cursor/jar-hover.png) 1x,url(/assets/cursor/jar-hover@2x.png) 2x) 32 12,pointer!important}
+ html :is(input:not([type=checkbox]):not([type=radio]),textarea){cursor:text!important}
+}
+
+/* Picker: the three signatures next to the logo. */
+.signature-picker{display:flex;align-items:center;gap:4px;margin-right:auto;margin-left:-8px}
+.signature-picker button{position:relative;display:grid;place-items:center;width:46px;height:46px;padding:5px;border:1.5px solid transparent;border-radius:50%;background:transparent;transition:transform .16s ease-out,background-color .2s ease,border-color .2s ease}
+.signature-picker svg{width:34px;height:34px;overflow:visible}
+.signature-picker button[aria-pressed=true]{background:#80c9c538;border-color:#123e40}
+.signature-picker button:active{transform:scale(.94)}
+.signature-picker button:focus-visible{outline:3px solid #216a83;outline-offset:2px}
+.signature-picker button::after{content:attr(data-label);position:absolute;top:calc(100% + 8px);left:50%;padding:6px 10px;border-radius:8px;background:#123e40;color:#fffdf5;font-size:12px;font-weight:500;white-space:nowrap;opacity:0;transform:translate(-50%,-4px);pointer-events:none;transition:opacity .15s ease-out,transform .15s ease-out}
+@media (hover:hover){.signature-picker button:hover{background:#80c9c51f}.signature-picker button[aria-pressed=true]:hover{background:#80c9c538}.signature-picker button:hover::after{opacity:1;transform:translate(-50%,0)}}
+.signature-picker button:focus-visible::after{opacity:1;transform:translate(-50%,0)}
+@media (max-width:1100px){.signature-picker button{width:40px;height:40px}.signature-picker svg{width:30px;height:30px}}
+@media (max-width:800px),(hover:none){.signature-picker{display:none}}
+
+/* Click splash at the pointer tip; on touch screens the chosen treat pops up where you tap. */
+.gc-burst-layer{position:fixed;inset:0;z-index:9998;pointer-events:none;overflow:hidden}
+.gc-burst{position:absolute;left:0;top:0;width:0;height:0}
+.gc-burst i{position:absolute;left:-4px;top:-4px;width:8px;height:8px;border-radius:50%;background:#80c9c5;opacity:0}
+.gc-burst i:nth-child(odd){background:#f4df83}
+.gc-burst-icon{position:absolute;left:0;top:0;width:64px;height:64px;max-width:none;opacity:0}
+.gc-straw{position:absolute;left:-2px;top:-34px;width:30px;height:40px;opacity:0}
+
+/* Order online: pickup + delivery for each shop. */
+.order-caret{width:12px;height:12px;margin-left:-14px;transition:transform .2s cubic-bezier(.23,1,.32,1)}
+.order-toggle[aria-expanded=true] .order-caret{transform:rotate(180deg)}
+.order-panel{position:absolute;top:calc(100% - 8px);right:var(--gutter);z-index:55;width:min(640px,calc(100vw - 32px));max-height:calc(100dvh - 110px);overflow:auto;padding:22px;border:1px solid #123e4022;border-radius:20px;background:#fffdf5;box-shadow:0 18px 44px #123e4026;transform-origin:top right;transition:opacity .18s ease-out,transform .2s cubic-bezier(.23,1,.32,1),visibility 0s linear .2s}
+.order-panel[data-state=closed]{opacity:0;transform:translateY(-6px) scale(.98);visibility:hidden;pointer-events:none}
+.order-panel[data-state=open]{opacity:1;transform:none;visibility:visible;transition-delay:0s}
+.order-panel-shops{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.order-shop{padding:18px;border-radius:14px;background:#e5efdf;text-align:left}
+.order-shop+.order-shop{background:var(--lilac,#e9e3ef)}
+.order-shop-name{margin:0 0 14px;font-size:24px;line-height:1.1}
+.order-shop-name span{display:block;margin-top:6px;font-size:12px;font-weight:500;letter-spacing:0;opacity:.75}
+.order-pickup{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;border-radius:12px;background:#123e40;color:#fffdf5;text-decoration:none;transition:transform .16s ease-out}
+.order-pickup strong{display:block;font-size:15px;font-weight:600}
+.order-pickup small{display:block;font-size:12px;opacity:.8}
+.order-pickup:active,.order-delivery a:active{transform:scale(.97)}
+.order-label{margin:16px 0 8px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.order-delivery{display:flex;flex-wrap:wrap;gap:8px}
+.order-delivery a{padding:9px 14px;border:1px solid #123e404d;border-radius:100px;background:#fffdf5;font-size:13px;font-weight:500;text-decoration:none;transition:transform .16s ease-out,background-color .2s ease}
+@media (hover:hover){.order-delivery a:hover{background:#fff}.order-pickup:hover{background:#0c2f31}}
+@media (max-width:800px){.order-panel{position:fixed;top:88px;right:16px;left:16px;width:auto;padding:16px}.order-panel-shops{grid-template-columns:1fr;gap:12px}.order-shop-name{font-size:22px}}
+
+/* Shop cards: mall, delivery apps, one map per shop. */
+.shop-mall{display:block;margin-bottom:4px;font-size:13px;font-weight:500;opacity:.75}
+.shop-near{margin:-12px 0 14px;font-size:14px}
+.shop-delivery{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin-top:18px;font-size:14px}
+.shop-delivery span{flex-basis:100%;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.shop-delivery a{padding:7px 12px;border:1px solid #123e404d;border-radius:100px;background:#fffdf5;font-size:13px;font-weight:500;text-decoration:none}
+@media (hover:hover){.shop-delivery a:hover{background:#fff}}
+.shop-map{display:block;width:100%;height:300px;margin-top:24px;border:1px solid #123e4030;border-radius:12px;background:#e6f1ec}
+@media (max-width:560px){.shop-map{height:240px}}
+.menu-order-shops{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:760px;margin:28px auto 22px}
+@media (max-width:640px){.menu-order-shops{grid-template-columns:1fr}}
+
+/* Sip to scroll: the coconut empties as you scroll, then becomes an Order online button. */
+.sip{position:fixed;right:20px;bottom:20px;z-index:60;opacity:0;scale:.9;pointer-events:none;transition:opacity .25s ease-out,scale .25s cubic-bezier(.23,1,.32,1),transform .16s ease-out;display:grid;place-items:center;width:76px;height:76px;border:1.5px solid #123e4022;border-radius:50%;background:#fffdf5;box-shadow:0 6px 20px #123e4026;text-decoration:none}
+.sip.shown{opacity:1;scale:1;pointer-events:auto}
+.sip:active{transform:scale(.95)}
+.sip svg{width:56px;height:56px;transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}
+.sip-label{position:absolute;inset:-1.5px;display:grid;place-items:center;border-radius:50%;background:#f4df83;color:#123e40;font-size:13px;font-weight:500;line-height:1.2;text-align:center;opacity:0;transform:scale(.9);transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}
+.sip.done svg{opacity:0;transform:scale(.85)}
+.sip.done .sip-label{opacity:1;transform:none}
+.sip:focus-visible{outline:3px solid #216a83;outline-offset:3px}
+.footer-bottom{padding-right:96px}
+@media (max-width:800px){.footer-bottom{padding-right:68px}.sip{right:12px;bottom:12px;width:52px;height:52px}.sip svg{width:38px;height:38px}.sip-label{font-size:10px}}
+body.order-open .sip{opacity:0;pointer-events:none}
+
+@media (prefers-reduced-motion:reduce){.order-panel,.order-caret,.signature-picker button,.signature-picker button::after{transition-duration:0s}}
+
+/* Hero + page-title entrances run in CSS from the first frame (no show-hide-show flash); everything is in place by ~0.8s. */
+@keyframes gc-rise{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}
+@keyframes gc-zoom{from{opacity:0;scale:.92}to{opacity:1;scale:1}}
+@keyframes gc-photo{from{opacity:0;translate:8% 0}to{opacity:1;translate:0 0}}
+@keyframes gc-mark{from{opacity:0;transform:scale(.6) rotate(18deg)}60%{opacity:1;transform:scale(1.03) rotate(-3deg)}to{opacity:1;transform:none}}
+.hero-copy>*,.page-title .wrap>*{animation:gc-rise .45s cubic-bezier(.23,1,.32,1) both}
+.hero-copy>h1,.page-title .wrap>h1{animation-name:gc-zoom;animation-duration:.6s}
+.hero-copy>:nth-child(3),.page-title .wrap>:nth-child(2){animation-delay:.06s}
+.hero-copy>:nth-child(4),.page-title .wrap>:nth-child(3){animation-delay:.12s}
+.hero-copy>:nth-child(n+5),.page-title .wrap>:nth-child(n+4){animation-delay:.18s}
+.hero-photo>img{animation:gc-photo .7s cubic-bezier(.23,1,.32,1) both}
+.hero-brand-mark{animation:gc-mark .9s cubic-bezier(.23,1,.32,1) .15s both}
+
+/* Small fixes */
+.order-shop-name span{text-shadow:none}
+.menu-order-shops .order-shop{background:#fffdf5}
+
+/* Design review round 1 fixes */
+.menu-card h3{min-height:2.6em}
+.menu-toggle{min-width:44px;min-height:44px}
+.menu-toggle span{margin-left:0}
+.photo-set .photo-cover img{object-fit:cover;background:var(--cream)}
+.footer-bottom small,.footer-bottom a{font-size:12px}
+@media (max-width:560px){.full-shops .shop-actions,.shops .shop-actions{flex-direction:column;align-items:flex-start;gap:14px}.story.section{padding-bottom:20px}.story-copy>.sun-icon{margin-top:4px}}
+.fine,.menu-store-note .fine,.menu-card .product-details>summary,.footer-bottom>span{font-size:13px}
+.menu-introduction .menu-store-note .fine{font-size:13px!important}
+.menu-sidebar .menu-categories small{font-size:12px}
+.menu-sidebar .category-count{font-size:12px;opacity:.8}

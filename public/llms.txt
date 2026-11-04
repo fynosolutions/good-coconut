@@ -1,0 +1,25 @@
+# Good Coconut 好好椰
+
+Coconut drinks, coconut pudding and egg waffles in New York City. Two shops:
+
+## Good Coconut Flushing (Flushing, Queens)
+- Address: Inside Golden Shopping Mall, 41-28 Main St, Unit T6, Flushing, NY 11355
+- Phone: (917) 285-2287
+- Menu: https://good-coconut.vercel.app/menu/
+- Pickup (Chowbus): https://pos.chowbus.com/online-ordering/store/Good-Coconut/15247
+- Delivery (Uber Eats): https://www.ubereats.com/store/good-coconut-%E5%A5%BD%E5%A5%BD%E6%A4%B0/4INN8agfUqyRXJOZiEEUjw
+- Delivery (DoorDash): https://www.doordash.com/store/good-coconut-flushing-31799419/
+- Delivery (Grubhub): https://www.grubhub.com/restaurant/good-coconut-hao-hao-ye-41-28-main-st-queens/11229160
+- Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJ4SGrzKVhwokRDcxRcQg3UAQ
+
+## Good Coconut FiDi (Financial District, Lower Manhattan)
+- Address: Inside Golden Mall FiDi, lower level, 47 Broadway, Unit C7, New York, NY 10006
+- Phone: (929) 488-8858
+- Menu: https://good-coconut.vercel.app/menu/wall-street/
+- Pickup (Chowbus): https://pos.chowbus.com/online-ordering/store/Good-Coconutwall-street/44491
+- Delivery (DoorDash): https://www.doordash.com/store/good-coconut-fidi-new-york-51088871/
+- Delivery (Grubhub): https://www.grubhub.com/restaurant/good-coconut-47-broadway-new-york/15173296
+- Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJg6qzaKFbwokRpdfe4txl3FU
+
+Locations page: https://good-coconut.vercel.app/online/
+Contact: goodcoconut01@gmail.com · Instagram @goodcoconutny

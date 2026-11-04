@@ -15,7 +15,7 @@ try{
   await new Promise(r=>setTimeout(r,500));
   const state=await page.evaluate(()=>({sameDocument:document===originalDocument,sameHero:document.querySelector('.menu-hero')===originalHero,sameNav:document.querySelector('.menu-location-switch')===originalNav,min:Math.min(...positions),max:Math.max(...positions),end:scrollY,title:document.title}));
   assert.ok(state.sameDocument&&state.sameHero&&state.sameNav);assert.ok(Math.abs(state.min-start)<=2&&Math.abs(state.max-start)<=2,JSON.stringify({width,start,...state}));
-  assert.match(state.title,/Wall Street/);result.positions.push({width,start,...state});
+  assert.match(state.title,/FiDi/);result.positions.push({width,start,...state});
   await page.click('.menu-location-switch a[href="/menu/#menu-browse"]');await waitShop('flushing');
   await page.evaluate(()=>history.back());await waitShop('wall-street');
   await page.evaluate(()=>history.forward());await waitShop('flushing');
