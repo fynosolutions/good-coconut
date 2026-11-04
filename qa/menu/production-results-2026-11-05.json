@@ -1,0 +1,67 @@
+{
+  "origin": "https://good-coconut.vercel.app",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "brand": true
+    },
+    {
+      "path": "/menu/",
+      "status": 200,
+      "brand": true
+    },
+    {
+      "path": "/menu/wall-street/",
+      "status": 200,
+      "brand": true
+    },
+    {
+      "path": "/online/",
+      "status": 200,
+      "brand": true
+    },
+    {
+      "path": "/contact-us/",
+      "status": 200,
+      "brand": true
+    }
+  ],
+  "menus": [
+    {
+      "width": 1440,
+      "slug": "flushing",
+      "count": 88,
+      "overflow": false,
+      "broken": [],
+      "sidebarButtons": 0
+    },
+    {
+      "width": 1440,
+      "slug": "wall-street",
+      "count": 83,
+      "overflow": false,
+      "broken": [],
+      "sidebarButtons": 0
+    },
+    {
+      "width": 390,
+      "slug": "flushing",
+      "count": 88,
+      "overflow": false,
+      "broken": [],
+      "sidebarButtons": 0
+    },
+    {
+      "width": 390,
+      "slug": "wall-street",
+      "count": 83,
+      "overflow": false,
+      "broken": [],
+      "sidebarButtons": 0
+    }
+  ],
+  "errors": [],
+  "releaseFilesMatch": true,
+  "passed": true
+}
