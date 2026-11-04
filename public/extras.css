@@ -13,16 +13,22 @@
 }
 
 /* Picker: the three signatures next to the logo. */
-.signature-picker{display:flex;align-items:center;gap:4px;margin-right:auto;margin-left:-8px}
-.signature-picker button{position:relative;display:grid;place-items:center;width:46px;height:46px;padding:5px;border:1.5px solid transparent;border-radius:50%;background:transparent;transition:transform .16s ease-out,background-color .2s ease,border-color .2s ease}
-.signature-picker svg{width:34px;height:34px;overflow:visible}
-.signature-picker button[aria-pressed=true]{background:#80c9c538;border-color:#123e40}
+.signature-picker{display:flex;align-items:center;gap:14px;margin-right:auto;margin-left:6px;padding:4px 18px 4px 6px;border:1.5px solid #f0dc8a;border-radius:100px;background:#fbf0c9}
+.signature-icons{display:flex;gap:30px}
+.signature-cta{display:grid;min-width:8.6em;line-height:1.15;color:#123e40}
+.signature-cta strong{font-size:14px;font-weight:600}
+.signature-cta small{margin-top:2px;font-size:12px;opacity:.75}
+.signature-picker button{position:relative;display:grid;place-items:center;width:48px;height:48px;padding:4px;border:1.5px solid transparent;border-radius:50%;background:transparent;transition:transform .16s ease-out,background-color .2s ease,border-color .2s ease}
+.signature-picker svg{width:38px;height:38px;overflow:visible}
+.signature-picker button[aria-pressed=true]{background:#fffdf5;border-color:#123e40}
 .signature-picker button:active{transform:scale(.94)}
 .signature-picker button:focus-visible{outline:3px solid #216a83;outline-offset:2px}
-.signature-picker button::after{content:attr(data-label);position:absolute;top:calc(100% + 8px);left:50%;padding:6px 10px;border-radius:8px;background:#123e40;color:#fffdf5;font-size:12px;font-weight:500;white-space:nowrap;opacity:0;transform:translate(-50%,-4px);pointer-events:none;transition:opacity .15s ease-out,transform .15s ease-out}
-@media (hover:hover){.signature-picker button:hover{background:#80c9c51f}.signature-picker button[aria-pressed=true]:hover{background:#80c9c538}.signature-picker button:hover::after{opacity:1;transform:translate(-50%,0)}}
-.signature-picker button:focus-visible::after{opacity:1;transform:translate(-50%,0)}
-@media (max-width:1100px){.signature-picker button{width:40px;height:40px}.signature-picker svg{width:30px;height:30px}}
+@media (hover:hover){.signature-picker button:hover{background:#fffdf5b3}.signature-picker button[aria-pressed=true]:hover{background:#fffdf5}}
+@media (min-width:801px){.site-header nav a{white-space:nowrap}.signature-cta{white-space:nowrap}}
+@media (max-width:1320px){.signature-cta small{display:none}.signature-cta{min-width:0}}
+@media (max-width:1220px){.signature-picker{padding-right:6px}.signature-cta{display:none}}
+@media (max-width:1100px){.signature-icons{gap:26px}.signature-picker button{width:42px;height:42px}.signature-picker svg{width:32px;height:32px}}
+@media (max-width:920px){.signature-icons{gap:10px}.signature-picker button{width:38px;height:38px}.signature-picker svg{width:28px;height:28px}}
 @media (max-width:800px),(hover:none){.signature-picker{display:none}}
 
 /* Click splash at the pointer tip; on touch screens the chosen treat pops up where you tap. */
@@ -47,20 +53,22 @@
 .order-pickup{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;border-radius:12px;background:#123e40;color:#fffdf5;text-decoration:none;transition:transform .16s ease-out}
 .order-pickup strong{display:block;font-size:15px;font-weight:600}
 .order-pickup small{display:block;font-size:12px;opacity:.8}
-.order-pickup:active,.order-delivery a:active{transform:scale(.97)}
+.order-pickup:active{transform:scale(.97)}
 .order-label{margin:16px 0 8px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
-.order-delivery{display:flex;flex-wrap:wrap;gap:8px}
-.order-delivery a{padding:9px 14px;border:1px solid #123e404d;border-radius:100px;background:#fffdf5;font-size:13px;font-weight:500;text-decoration:none;transition:transform .16s ease-out,background-color .2s ease}
-@media (hover:hover){.order-delivery a:hover{background:#fff}.order-pickup:hover{background:#0c2f31}}
+.order-delivery{display:flex;flex-wrap:wrap;gap:10px}
+.delivery-icon{display:grid;place-items:center;width:76px;height:46px;border:1px solid #123e4033;border-radius:14px;background:#fff;transition:transform .16s ease-out,box-shadow .2s ease}
+.delivery-icon svg{display:block}
+@media (hover:hover) and (pointer:fine){.delivery-icon:hover{transform:translateY(-2px);box-shadow:0 6px 14px #123e4022}}
+.delivery-icon:active{transform:scale(.94)}
+.delivery-icon:focus-visible{outline:3px solid #216a83;outline-offset:2px}
+@media (hover:hover){.order-pickup:hover{background:#0c2f31}}
 @media (max-width:800px){.order-panel{position:fixed;top:88px;right:16px;left:16px;width:auto;padding:16px}.order-panel-shops{grid-template-columns:1fr;gap:12px}.order-shop-name{font-size:22px}}
 
 /* Shop cards: mall, delivery apps, one map per shop. */
 .shop-mall{display:block;margin-bottom:4px;font-size:13px;font-weight:500;opacity:.75}
 .shop-near{margin:-12px 0 14px;font-size:14px}
-.shop-delivery{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin-top:18px;font-size:14px}
+.shop-delivery{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:18px}
 .shop-delivery span{flex-basis:100%;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
-.shop-delivery a{padding:7px 12px;border:1px solid #123e404d;border-radius:100px;background:#fffdf5;font-size:13px;font-weight:500;text-decoration:none}
-@media (hover:hover){.shop-delivery a:hover{background:#fff}}
 .shop-map{display:block;width:100%;height:300px;margin-top:24px;border:1px solid #123e4030;border-radius:12px;background:#e6f1ec}
 @media (max-width:560px){.shop-map{height:240px}}
 .menu-order-shops{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:760px;margin:28px auto 22px}
@@ -79,7 +87,7 @@
 @media (max-width:800px){.footer-bottom{padding-right:68px}.sip{right:12px;bottom:12px;width:52px;height:52px}.sip svg{width:38px;height:38px}.sip-label{font-size:10px}}
 body.order-open .sip{opacity:0;pointer-events:none}
 
-@media (prefers-reduced-motion:reduce){.order-panel,.order-caret,.signature-picker button,.signature-picker button::after{transition-duration:0s}}
+@media (prefers-reduced-motion:reduce){.order-panel,.order-caret,.signature-picker button,.delivery-icon{transition-duration:0s}}
 
 /* Hero + page-title entrances run in CSS from the first frame (no show-hide-show flash); everything is in place by ~0.8s. */
 @keyframes gc-rise{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}

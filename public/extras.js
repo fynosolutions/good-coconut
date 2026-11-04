@@ -7,6 +7,7 @@ const saved={get(){try{return localStorage.getItem('gc-cursor');}catch{return nu
 
 // Signature cursor picker: coconut (椰子蛋), drink (饮品), jar (椰子杯). CSS draws the cursor from html[data-cursor].
 const kinds=['coconut','drink','jar'];
+const firstVisit=!saved.get();
 let kind=kinds.includes(saved.get())?saved.get():'coconut';
 const picks=[...document.querySelectorAll('.signature-picker button')];
 function choose(next,button){
@@ -15,7 +16,16 @@ function choose(next,button){
  if(button&&!reduce)button.animate([{transform:'scale(.86)'},{transform:'scale(1.08)',offset:.55},{transform:'scale(1)'}],{duration:320,easing:ease});
 }
 picks.forEach(b=>b.addEventListener('click',()=>choose(b.dataset.cursor,b)));
+// The yellow pill says "Click me"; hovering or focusing a treat shows its name there (a tooltip below would sit under the big cursor).
+const cta=document.querySelector('.signature-cta');
+if(cta){
+ const [title,sub]=[cta.querySelector('strong'),cta.querySelector('small')];
+ const rest=()=>{title.textContent='Click me';sub.textContent='Change your cursor';};
+ picks.forEach(b=>{const show=()=>{title.textContent=b.dataset.en;sub.textContent=b.dataset.zh;};b.addEventListener('pointerenter',show);b.addEventListener('focus',show);b.addEventListener('pointerleave',rest);b.addEventListener('blur',rest);});
+}
 choose(kind);
+// First visit on a computer: the first treat gives one small bounce after the page settles, as an invitation to click.
+if(fine&&!reduce&&firstVisit&&picks[0])setTimeout(()=>picks[0].animate([{transform:'translateY(0) rotate(0)'},{transform:'translateY(-6px) rotate(-8deg)',offset:.35},{transform:'translateY(0) rotate(4deg)',offset:.7},{transform:'translateY(0) rotate(0)'}],{duration:700,easing:'cubic-bezier(.23,1,.32,1)'}),1400);
 // Phones show the treat at the tap point: load its image now so the first tap is not empty.
 if(!fine)kinds.forEach(k=>{const img=new Image();img.src=`/assets/cursor/${k}@2x.png`;});
 
@@ -46,7 +56,8 @@ addEventListener('pointercancel',()=>{down=null;},{passive:true});
 addEventListener('pointerup',e=>{
  if(!down||e.pointerType==='mouse')return;
  const tap=Math.hypot(e.clientX-down.x,e.clientY-down.y)<10&&e.timeStamp-down.t<500;down=null;
- if(tap)burst(e.clientX,e.clientY,true);
+ // Taps on links and buttons stay clean (no splash over what was tapped); taps in open space pop the treat.
+ if(tap&&!e.target.closest('a,button,summary,label,input,textarea,select,[role=button]'))burst(e.clientX,e.clientY,true);
 },{passive:true});
 
 // Order online: hover (mouse) or tap opens pickup + delivery for both shops. Without JS the button goes to /online/.
