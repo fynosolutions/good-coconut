@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "Normal-motion mobile and desktop: no document reload, hero/nav replacement or scroll jump; Back/Forward, search and modal remain correct",
+    "Failed fetch retains current menu and URL; retry works; rapid reverse selection cannot be overwritten by a stale response"
+  ],
+  "positions": [
+    {
+      "width": 390,
+      "start": 464,
+      "sameDocument": true,
+      "sameHero": true,
+      "sameNav": true,
+      "min": 464,
+      "max": 464,
+      "end": 464,
+      "title": "Wall Street menu | Good Coconut"
+    },
+    {
+      "width": 1440,
+      "start": 490,
+      "sameDocument": true,
+      "sameHero": true,
+      "sameNav": true,
+      "min": 490,
+      "max": 490,
+      "end": 490,
+      "title": "Wall Street menu | Good Coconut"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,84 @@
+{
+  "checks": [
+    "Flushing: all rendered names/prices match its data; search/reset, modal focus and ordering match location",
+    "Wall Street: all rendered names/prices match its data; search/reset, modal focus and ordering match location",
+    "Location switch clears the previous search; direct URL, refresh and browser Back retain the correct menu",
+    "Both location menus, switching and product details work without JavaScript"
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "location": "flushing",
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "squares": true
+    },
+    {
+      "width": 390,
+      "location": "flushing",
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "squares": true
+    },
+    {
+      "width": 768,
+      "location": "flushing",
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "squares": true
+    },
+    {
+      "width": 1440,
+      "location": "flushing",
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "squares": true
+    },
+    {
+      "width": 320,
+      "location": "wall-street",
+      "overflow": false,
+      "broken": [],
+      "cards": 83,
+      "categories": 12,
+      "squares": true
+    },
+    {
+      "width": 390,
+      "location": "wall-street",
+      "overflow": false,
+      "broken": [],
+      "cards": 83,
+      "categories": 12,
+      "squares": true
+    },
+    {
+      "width": 768,
+      "location": "wall-street",
+      "overflow": false,
+      "broken": [],
+      "cards": 83,
+      "categories": 12,
+      "squares": true
+    },
+    {
+      "width": 1440,
+      "location": "wall-street",
+      "overflow": false,
+      "broken": [],
+      "cards": 83,
+      "categories": 12,
+      "squares": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

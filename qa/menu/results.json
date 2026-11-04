@@ -1,0 +1,53 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "soldOut": false
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "soldOut": false
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "soldOut": false
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "soldOut": false
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "cards": 88,
+      "categories": 11,
+      "soldOut": false
+    }
+  ],
+  "checks": [
+    "Chinese search filters products; product dialog and Escape restore focus",
+    "English search, empty state and reset",
+    "Mobile main navigation, category anchors clear sticky controls, dialog fits",
+    "Shared navigation on all pages and correct Flushing order links",
+    "Full menu and expandable product information without JavaScript"
+  ],
+  "errors": [],
+  "passed": true
+}

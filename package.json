@@ -7,7 +7,7 @@
     "build": "node build.mjs",
     "start": "node --env-file-if-exists=.env server.mjs",
     "test": "node --test test-server.mjs test-vercel.mjs",
-    "check": "node --check server.mjs && node --check public/app.js && node --check api/contact.js"
+    "check": "node --check server.mjs && node --check public/app.js && node --check api/contact.js && node --check menu.mjs && node --check public/menu.js"
   },
   "engines": {
     "node": "22.x"

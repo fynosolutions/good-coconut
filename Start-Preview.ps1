@@ -1,3 +1,4 @@
+param([ValidateSet('/', '/menu/')][string]$Page = '/')
 $ErrorActionPreference = 'Stop'
 $previewRoot = $PSScriptRoot
 $nodeCommand = (Get-Command node -ErrorAction Stop).Source
@@ -24,5 +25,5 @@ if ($existing) {
     }
     if (-not $ready) { throw 'Preview did not start. Run npm start in this folder to inspect the error.' }
 }
-Start-Process $previewUrl
+Start-Process ($previewUrl + $Page)
 
