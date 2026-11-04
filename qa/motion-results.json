@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "results": [
+    "/ heading and icon jump in and settle",
+    "/online/ heading and icon jump in and settle",
+    "/contact-us/ heading and icon jump in and settle",
+    "three distinct product heading/body combinations animate on desktop and mobile without overflow",
+    "scroll entrances run once",
+    "reduced motion cancels current entrances and disables new ones",
+    "mobile width and no-JavaScript text visibility"
+  ],
+  "errors": []
+}

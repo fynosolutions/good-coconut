@@ -1,0 +1,18 @@
+{
+  "name": "good-coconut-wave",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test test-server.mjs test-vercel.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check api/contact.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}

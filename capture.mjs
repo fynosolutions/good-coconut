@@ -1,0 +1,5 @@
+import puppeteer from 'puppeteer-core';
+import assert from 'node:assert/strict';
+const b=await puppeteer.launch({executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
+try{const p=await b.newPage();for(const [name,path]of [['home','/'],['online','/online/'],['contact-us','/contact-us/']]){for(const [size,width]of [['desktop',1440],['mobile',390]]){await p.setViewport({width,height:900});await p.goto('http://127.0.0.1:4185'+path,{waitUntil:'networkidle0'});await p.evaluate(async()=>{await document.fonts.ready;document.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...document.images].map(i=>i.decode()));document.querySelectorAll('.reveal').forEach(e=>e.classList.add('visible'));});await new Promise(r=>setTimeout(r,850));assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await p.screenshot({path:`qa/${name}-${size}.png`,fullPage:true});if(name==='home'&&size==='desktop')await p.screenshot({path:'qa/home-preview.png'});}}
+console.log('Final captures: all images decoded; desktop/mobile layouts have no overflow.');}finally{await b.close();}

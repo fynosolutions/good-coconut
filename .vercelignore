@@ -1,0 +1,10 @@
+.git
+.env*
+qa
+qa-*.mjs
+test-*.mjs
+capture.mjs
+inspect-layout.mjs
+*.ps1
+*.cmd
+.preview.pid

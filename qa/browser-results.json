@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/online/",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/online/",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/online/",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/online/",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/online/",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact-us/",
+      "width": 320,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact-us/",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact-us/",
+      "width": 768,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1024,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    }
+  ],
+  "checks": [
+    "mobile menu opens, Escape restores focus, desktop clears scroll lock",
+    "continuous gallery motion and pause",
+    "reduced motion defaults to paused",
+    "separate Chowbus shop destinations",
+    "unconfigured form reports failure, preserves input, allows retry",
+    "no-JavaScript navigation and content"
+  ],
+  "errors": [],
+  "passed": true
+}
