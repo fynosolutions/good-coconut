@@ -1,0 +1,249 @@
+- button "Accessibility Menu" [ref=e4]
+- heading "MeloMelo Online Store" [level=1, ref=e1]
+- generic [ref=e2] clickable [onclick]
+  - link "Skip to Main Content" [ref=e3]
+  - generic
+    - generic
+      - paragraph
+        - StaticText "为确保更高品质的下单与履约体验，官网目前设有 "
+        - strong
+          - StaticText "200美元的最低订单金额"
+      - button "Close Announcement" [ref=e18]
+        - StaticText "Close Announcement"
+    - generic
+      - link "美味菜单" [ref=e19]
+        - StaticText "美味菜单"
+      - link "门市据点" [ref=e20]
+        - StaticText "门市据点"
+      - link "品牌故事" [ref=e21]
+        - StaticText "品牌故事"
+    - link "Go to homepage" [ref=e5]
+    - button "搜寻 Melo Melo" [ref=e6]
+    - button "Open the right panel with login form" [ref=e7]
+      - StaticText "Open the right panel with login form"
+    - button "Open the right panel with shipping cart content" [ref=e8]
+      - StaticText "Open the right panel with shipping cart content"
+    - button "Preferred language" [ref=e22]
+      - StaticText "简体中文"
+  - generic
+    - navigation "Breadcrumb" [ref=e9]
+      - link "首页" [ref=e23]
+      - StaticText "门市据点"
+    - StaticText "Location"
+    - heading "来这边可以找到我们" [level=1, ref=e10]
+    - image
+    - image
+    - image
+    - image
+    - LabelText
+      - StaticText "Search for locations"
+    - generic
+      - generic [ref=e24] clickable [onclick]
+        - textbox "Search for locations" [ref=e43]
+      - button "Search location" [disabled, ref=e25]
+    - button "使用目前位置" [disabled, ref=e11]
+    - generic
+      - StaticText "City of industry"
+      - image "Front view of two Melo Melo glass jars"
+      - heading "City of industry" [level=2, ref=e44]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "17919 E Gale Ave #101, City of Industry CA 91748"
+        - listitem [level=1]
+          - image
+          - StaticText "(805) 869-8888"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周日：上午 8:30 - 下午 4:00"
+      - link "Google Maps" [ref=e45]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "San Gabriel"
+      - image "Interior of a location with some white tables and chairs"
+      - heading "San Gabriel" [level=2, ref=e46]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "529 E Valley Blvd #178b, San Gabriel, CA 91776"
+        - listitem [level=1]
+          - image
+          - StaticText "(626) 782-7955"
+        - listitem [level=1]
+          - image
+          - StaticText "周日至周四：上午 11:00 - 晚上 10:00；周五至周六：上午 11:00 - 晚上 11:00"
+      - link "Google Maps" [ref=e47]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Rowland Heights"
+      - image "Interior of a location with white tables and pink and green chairs."
+      - heading "Rowland Heights" [level=2, ref=e48]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "1380 Fullerton Rd #107, Rowland Heights, CA 91748"
+        - listitem [level=1]
+          - image
+          - StaticText "(626) 820-9588"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周四：上午 11:00 - 晚上 10:00；周五至周日：上午 11:00 - 晚上 11:00"
+      - link "Google Maps" [ref=e49]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Ktown"
+      - image "Interior of a location with products on its shelves, some lamps and TVs"
+      - heading "Ktown" [level=2, ref=e50]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "3470 W 6th St #2B, Los Angeles, CA 90020"
+        - listitem [level=1]
+          - image
+          - StaticText "(213) 375-7757"
+        - listitem [level=1]
+          - image
+          - StaticText "周日至周四：上午 11:00 - 晚上 10:00；周五至周六：上午 11:00 - 晚上 11:00"
+      - link "Google Maps" [ref=e51]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Sawtelle"
+      - image "Entrance door of a MeloMelo location"
+      - heading "Sawtelle" [level=2, ref=e52]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "2002 Sawtelle Blvd, Los Angeles, CA 90025"
+        - listitem [level=1]
+          - image
+          - StaticText "(310) 235-1101"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周五：中午12:00至晚上10:00；周六至周日：上午11:30至晚上10:00"
+      - link "Google Maps" [ref=e53]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Irvine"
+      - image "Interior of a location with products on its shelves, some lamps, tables and chairs"
+      - heading "Irvine" [level=2, ref=e54]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "14775 Jeffrey Rd Ste J, Irvine, CA 92618"
+        - listitem [level=1]
+          - image
+          - StaticText "(949) 316-4445"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周日：上午 11:00 至晚上 10:00"
+      - link "Google Maps" [ref=e55]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "UTC"
+      - image "Interior of a location with white tables and pink and white chairs."
+      - heading "UTC" [level=2, ref=e56]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "4545 La Jolla Village Dr Ste H17, San Diego, CA 92122"
+        - listitem [level=1]
+          - image
+          - StaticText "858-352-6616"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周六：上午10:00 - 晚上9:00；周日：上午11:00 - 晚上9:00"
+      - link "Google Maps" [ref=e57]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Del Mar"
+      - image "Front view of two Melo Melo glass jars"
+      - heading "Del Mar" [level=2, ref=e58]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "12925 El Camino Real AA3, San Diego, CA 92130"
+        - listitem [level=1]
+          - image
+          - StaticText "(858) 910-9888"
+        - listitem [level=1]
+          - image
+          - StaticText "周日至周四：上午 11:00 - 晚上 9:00；周五至周六：上午 11:00 - 晚上 10:00"
+      - link "Google Maps" [ref=e59]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Cupertino"
+      - image "Interior of a location with some white tables and chairs"
+      - heading "Cupertino" [level=2, ref=e60]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "19652 Stevens Creek Blvd, Cupertino, CA 95014"
+        - listitem [level=1]
+          - image
+          - StaticText "408-898-2963"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周四：12:30 PM - 9:30 PM 周五至周日：12:00 PM - 9:30 PM"
+      - link "Google Maps" [ref=e61]
+        - StaticText "Google Maps"
+    - generic
+      - StaticText "Milpitas"
+      - image "Interior of a location with some white tables and chairs"
+      - heading "Milpitas" [level=2, ref=e62]
+      - separator
+      - list
+        - listitem [level=1]
+          - image
+          - StaticText "302 Barber Ct, Milpitas, CA 95035"
+        - listitem [level=1]
+          - image
+          - StaticText "408-886-9666"
+        - listitem [level=1]
+          - image
+          - StaticText "周一至周四：上午 9:00 - 晚上 9:30；周五：上午 9:00 - 晚上 10:00；周六：上午 11:00 - 晚上 10:00；周日：上午 11:00 - 晚上 9:30"
+      - link "Google Maps" [ref=e63]
+        - StaticText "Google Maps"
+  - generic
+    - image "Footer background"
+    - heading "Let’s stay in touch." [level=2, ref=e12]
+    - LabelText
+      - StaticText "Email"
+    - generic
+      - generic [ref=e26] clickable [onclick]
+        - textbox "Email" [ref=e64]
+      - button "订阅" [ref=e27]
+        - StaticText "订阅"
+    - generic
+      - StaticText "通过输入您的电子邮件地址，您将收到确认电子邮件，以选择接收 MeloMelo 的优惠、促销和其他商业信息。您可以在此查看我们的"
+      - link "隐私政策" [ref=e28]
+      - StaticText "，并随时"
+      - link "取消订阅" [ref=e29]
+      - StaticText "。"
+    - link "Instagram" [ref=e13]
+    - link "Facebook" [ref=e14]
+    - heading "认识我们" [level=3, ref=e15]
+    - link "品牌故事" [ref=e30]
+    - link "门市据点" [ref=e31]
+    - link "美味菜单" [ref=e32]
+    - link "最新消息" [ref=e33]
+    - link "营养标示表" [ref=e34]
+    - link "人才招募" [ref=e35]
+    - heading "顾客服务" [level=3, ref=e16]
+    - link "联络我们" [ref=e36]
+    - link "常见问题" [ref=e37]
+    - link "追踪订单" [ref=e38]
+    - heading "网站条款" [level=3, ref=e17]
+    - link "使用条款与政策" [ref=e39]
+    - link "隐私权政策" [ref=e40]
+    - link "Cookie政策" [ref=e41]
+    - link "无障碍" [ref=e42]
+    - StaticText "© 2026 Melo Melo Coconut Dessert. All rights reserved."
