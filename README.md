@@ -1,5 +1,7 @@
 # Good Coconut — Wave 独立版本
 
+视觉与内容布局参考见 [MeloMelo 三页面分析](docs/research/melomelo/README.md)，包含 Menu、Locations、Brand 独立报告及桌面/手机截图证据。
+
 最新交付与上线状态见 [2026 年 11 月 5 日网站更新汇报](docs/PROJECT-NOTES-2026-11-05.md)。该汇报记录当前已发布版本；下文包含历次工作记录，最终状态以汇报为准。
 
 ## 菜单页面（2026-11-05）

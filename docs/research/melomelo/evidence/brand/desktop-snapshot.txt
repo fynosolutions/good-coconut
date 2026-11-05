@@ -1,0 +1,97 @@
+- button "Accessibility Menu" [ref=e4]
+- heading "MeloMelo Online Store" [level=1, ref=e1]
+- generic [ref=e2] clickable [onclick]
+  - link "Skip to Main Content" [ref=e3]
+  - generic
+    - generic
+      - paragraph
+        - StaticText "为确保更高品质的下单与履约体验，官网目前设有 "
+        - strong
+          - StaticText "200美元的最低订单金额"
+      - button "Close Announcement" [ref=e19]
+        - StaticText "Close Announcement"
+    - generic
+      - link "美味菜单" [ref=e20]
+        - StaticText "美味菜单"
+      - link "门市据点" [ref=e21]
+        - StaticText "门市据点"
+      - link "品牌故事" [ref=e22]
+        - StaticText "品牌故事"
+    - link "Go to homepage" [ref=e5]
+    - button "搜寻 Melo Melo" [ref=e6]
+    - button "Open the right panel with login form" [ref=e7]
+      - StaticText "Open the right panel with login form"
+    - button "Open the right panel with shipping cart content" [ref=e8]
+      - StaticText "Open the right panel with shipping cart content"
+    - button "Preferred language" [ref=e23]
+      - StaticText "简体中文"
+  - generic
+    - navigation "Breadcrumb" [ref=e9]
+      - link "首页" [ref=e24]
+      - StaticText "品牌故事"
+    - StaticText "Our Story"
+    - heading "我们对椰子的热爱" [level=1, ref=e10]
+    - generic
+      - image
+      - image
+      - heading "MeloMelo的起源" [level=2, ref=e25]
+      - paragraph
+        - StaticText "源于我们对椰子的热爱。\n我们致力于制作和提供美味、天然和有益健康的甜点。每个好的甜点都始于最好的原料，我们只使用所找到的最美味的水果和牛奶。"
+      - image "The background image of the brand page"
+    - heading "在品质原料方面， 你可以尝出不同。" [level=3, ref=e11]
+      - StaticText "在品质原料方面，\n你可以尝出不同。"
+    - paragraph
+      - StaticText "俗话说：一分价钱一分货。\n我们发现这通常是正确的，所以我们不会因为廉价的原料而节省成本或偷工减料。\n\n在选择食物方面，我们一直有着高标准，这也体现在我们提供的食品上。在每一口中，你都能品尝到我们最好的味道。"
+    - image "在品质原料方面， 你可以尝出不同。"
+    - heading "为什么选择玻璃罐子呢?" [level=3, ref=e12]
+    - paragraph
+      - StaticText "首先，制作椰子果冻是一个热过程，我们无法确定将热液体果冻倒入塑料罐是否会对健康造成任何潜在风险。我们不想冒险影响我们客人或团队成员的健康。其次，玻璃罐可以以各种有趣和有用的方式重复使用，并且始终可以回收。这是一个美好的事情，考虑到我们环境中不断增加的塑料垃圾量，这些垃圾几乎永远不会分解"
+    - generic
+      - image
+      - image
+      - image "The first background image of the brand page"
+      - image "The second background image of the brand page"
+      - image "The third background image of the brand page"
+      - image "The fourth background image of the brand page"
+    - generic
+      - image
+      - image
+      - heading "我们相信，只有一个健康的环境才能提供我们用来制作美味甜点的健康原料。" [level=4, ref=e26]
+    - paragraph
+      - StaticText "所以，我们选择使用玻璃罐，以确保客人的健康，并为环境保护贡献一份微薄的力量。"
+    - image "cover image"
+  - generic
+    - image "Footer background"
+    - heading "Let’s stay in touch." [level=2, ref=e13]
+    - LabelText
+      - StaticText "Email"
+    - generic
+      - generic [ref=e27] clickable [onclick]
+        - textbox "Email" [ref=e44]
+      - button "订阅" [ref=e28]
+        - StaticText "订阅"
+    - generic
+      - StaticText "通过输入您的电子邮件地址，您将收到确认电子邮件，以选择接收 MeloMelo 的优惠、促销和其他商业信息。您可以在此查看我们的"
+      - link "隐私政策" [ref=e29]
+      - StaticText "，并随时"
+      - link "取消订阅" [ref=e30]
+      - StaticText "。"
+    - link "Instagram" [ref=e14]
+    - link "Facebook" [ref=e15]
+    - heading "认识我们" [level=3, ref=e16]
+    - link "品牌故事" [ref=e31]
+    - link "门市据点" [ref=e32]
+    - link "美味菜单" [ref=e33]
+    - link "最新消息" [ref=e34]
+    - link "营养标示表" [ref=e35]
+    - link "人才招募" [ref=e36]
+    - heading "顾客服务" [level=3, ref=e17]
+    - link "联络我们" [ref=e37]
+    - link "常见问题" [ref=e38]
+    - link "追踪订单" [ref=e39]
+    - heading "网站条款" [level=3, ref=e18]
+    - link "使用条款与政策" [ref=e40]
+    - link "隐私权政策" [ref=e41]
+    - link "Cookie政策" [ref=e42]
+    - link "无障碍" [ref=e43]
+    - StaticText "© 2026 Melo Melo Coconut Dessert. All rights reserved."
