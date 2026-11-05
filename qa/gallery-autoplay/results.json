@@ -1,0 +1,506 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "videos": [
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        }
+      ],
+      "rows": [
+        4,
+        4
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "videos": [
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        }
+      ],
+      "rows": [
+        4,
+        4
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "videos": [
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        }
+      ],
+      "rows": [
+        4,
+        4
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "videos": [
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        }
+      ],
+      "rows": [
+        4,
+        4
+      ]
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "videos": [
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        },
+        {
+          "autoplay": true,
+          "muted": true,
+          "loop": true,
+          "inline": true,
+          "controls": false,
+          "fit": "contain"
+        }
+      ],
+      "rows": [
+        4,
+        4
+      ]
+    }
+  ],
+  "playback": [
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/moments/coconut-day-out.mp4",
+      "time": 0.209835,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20260630_DaMc6xWOuDw.mp4",
+      "time": 0.1028,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20260714_Dawsd0yumpW.mp4",
+      "time": 0.2627,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20260714_DayYJ-2ANI1.mp4",
+      "time": 0.1511,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20260717_Da5Sy5WuSNR.mp4",
+      "time": 0.3091,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20260812_Db8t5qXMwCC.mp4",
+      "time": 0.3094,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20260906_Dc9cy5qskQD.mp4",
+      "time": 0.4675,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 390,
+      "src": "http://127.0.0.1:4192/assets/reels/20261024_De4gy-Bz8Wu.mp4",
+      "time": 0.3095,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/moments/coconut-day-out.mp4",
+      "time": 0.109652,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20260630_DaMc6xWOuDw.mp4",
+      "time": 0.309,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20260714_Dawsd0yumpW.mp4",
+      "time": 0.4671,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20260714_DayYJ-2ANI1.mp4",
+      "time": 0.1504,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20260717_Da5Sy5WuSNR.mp4",
+      "time": 0.3092,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20260812_Db8t5qXMwCC.mp4",
+      "time": 0.3096,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20260906_Dc9cy5qskQD.mp4",
+      "time": 0.6262,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    },
+    {
+      "viewport": 1440,
+      "src": "http://127.0.0.1:4192/assets/reels/20261024_De4gy-Bz8Wu.mp4",
+      "time": 0.1079,
+      "width": 720,
+      "height": 1280,
+      "error": null
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

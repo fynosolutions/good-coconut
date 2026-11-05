@@ -6,3 +6,5 @@ node_modules/
 qa/**/*.png
 *.log
 .preview.pid
+.preview.port
+.npm-cache/

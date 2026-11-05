@@ -21,6 +21,7 @@ if ($existing) {
     $nodeCommand = (Get-Command node -ErrorAction Stop).Source
     $previewProcess = Start-Process -FilePath $nodeCommand -ArgumentList '--env-file-if-exists=.env', 'server.mjs' -WorkingDirectory $previewRoot -WindowStyle Hidden -PassThru
     Set-Content -LiteralPath (Join-Path $previewRoot '.preview.pid') -Value $previewProcess.Id
+    Set-Content -LiteralPath (Join-Path $previewRoot '.preview.port') -Value $previewPort
     $ready = $false
     for ($i = 0; $i -lt 30; $i++) {
         Start-Sleep -Milliseconds 200

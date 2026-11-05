@@ -3,7 +3,7 @@ import {mkdir,writeFile} from 'node:fs/promises';
 // Normally uses this project's devDependency; a sibling checkout can supply it.
 const {default:puppeteer}=await import(process.env.QA_PUPPETEER_PATH||'puppeteer-core');
 const browser=await puppeteer.launch({executablePath:process.env.QA_BROWSER||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe',headless:true});
-const base=process.env.QA_BASE||'http://127.0.0.1:4191';
+const base=process.env.QA_BASE||'http://127.0.0.1:4192';
 const report={viewports:[],interactions:[],errors:[]};
 await mkdir('qa/gallery',{recursive:true});
 try{
@@ -20,7 +20,7 @@ try{
   });
   assert.ok(metrics.overflow<=1,`Page overflows at ${width}px`);
   assert.equal(metrics.brokenImages,0,`Broken Gallery images at ${width}px`);
-  assert.equal(metrics.placeholders,3);assert.equal(metrics.photos,11);assert.deepEqual(metrics.extraRows,[4,4]);assert.equal(metrics.handwriting,true);
+  assert.equal(metrics.placeholders,0);assert.equal(metrics.photos,11);assert.deepEqual(metrics.extraRows,[0,3]);assert.equal(metrics.handwriting,true);
   assert.equal(metrics.headerOverflow,false,`Header overflows at ${width}px`);
   report.viewports.push({width,...metrics});
   if([390,1024,1440].includes(width)){
@@ -55,6 +55,7 @@ try{
  // An actual photo from each new row must open, including the bottom of the wall.
  for(const row of await page.$$('.scrap-extra-row')){
   const link=await row.$('[data-gallery-photo]');
+  if(!link)continue;
   await link.click();await page.waitForSelector('.scrap-lightbox[open]');
   assert.equal(await page.$eval('.scrap-lightbox img',e=>e.complete&&e.naturalWidth>0),true);
   await page.keyboard.press('Escape');

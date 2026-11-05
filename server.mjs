@@ -1,10 +1,11 @@
 import http from 'node:http';
 import {readFile,stat} from 'node:fs/promises';
+import {createReadStream} from 'node:fs';
 import {resolve,extname,sep} from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {randomUUID,createHash} from 'node:crypto';
 const root=resolve(fileURLToPath(new URL('./public/',import.meta.url)));
-const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.ttf':'font/ttf','.txt':'text/plain; charset=utf-8'};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.ttf':'font/ttf','.txt':'text/plain; charset=utf-8','.mp4':'video/mp4'};
 export async function deliverMail(fields,key,env=process.env,fetcher=fetch){
  if(!env.RESEND_API_KEY||!env.MAIL_FROM)throw Object.assign(new Error('Sending is temporarily unavailable. Please email goodcoconut01@gmail.com; your message has not been sent.'),{status:503});
  const response=await fetcher('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${env.RESEND_API_KEY}`,'Content-Type':'application/json','Idempotency-Key':key},body:JSON.stringify({from:env.MAIL_FROM,to:[env.MAIL_TO||'goodcoconut01@gmail.com'],reply_to:fields.email,subject:`Good Coconut inquiry: ${fields.subject||'Website contact'}`,text:`First name: ${fields.name||'(not provided)'}\nEmail: ${fields.email}\nSubject: ${fields.subject||'(not provided)'}\n\n${fields.message||'(No message provided)'}`}),signal:AbortSignal.timeout(12000)});
@@ -46,7 +47,33 @@ export function createHandler({sendMail=deliverMail,env=process.env}={}){
    let decoded;try{decoded=decodeURIComponent(pathname);}catch{return respond(400,'Invalid address.');}
    if(decoded.includes('\\')||decoded.includes('\0'))return respond(404,'Page not found.');
    let path=resolve(root,'.'+decoded);if(path!==root&&!path.startsWith(root+sep))return respond(404,'Page not found.');
-   try{if((await stat(path)).isDirectory()){if(!pathname.endsWith('/')){res.writeHead(308,{Location:pathname+'/'});return res.end();}path=resolve(path,'index.html');}const file=await readFile(path);res.setHeader('Content-Type',types[extname(path)]||'application/octet-stream');res.setHeader('Cache-Control','no-store');res.end(req.method==='HEAD'?undefined:file);}catch{return respond(404,'Page not found. Return to the home page to continue.');}
+   try{
+    if((await stat(path)).isDirectory()){if(!pathname.endsWith('/')){res.writeHead(308,{Location:pathname+'/'});return res.end();}path=resolve(path,'index.html');}
+    res.setHeader('Content-Type',types[extname(path)]||'application/octet-stream');
+    res.setHeader('Cache-Control','no-store');
+    if(extname(path)==='.mp4'){
+     const {size}=await stat(path);
+     res.setHeader('Accept-Ranges','bytes');
+     let start=0,end=size-1;
+     if(req.method==='GET'&&req.headers.range){
+      const range=/^bytes=(\d*)-(\d*)$/.exec(req.headers.range);
+      if(range&&(range[1]||range[2])){
+       start=range[1]?Number(range[1]):Math.max(0,size-Number(range[2]));
+       end=range[1]&&range[2]?Math.min(Number(range[2]),size-1):size-1;
+      }
+      if(!range||(!range[1]&&!range[2])||!Number.isSafeInteger(start)||!Number.isSafeInteger(end)||start>end||start>=size){
+       res.writeHead(416,{'Content-Range':`bytes */${size}`,'Content-Length':'0'});return res.end();
+      }
+      res.statusCode=206;res.setHeader('Content-Range',`bytes ${start}-${end}/${size}`);
+     }
+     res.setHeader('Content-Length',Math.max(0,end-start+1));
+     if(req.method==='HEAD'||size===0)return res.end();
+     const stream=createReadStream(path,{start,end});
+     stream.on('error',()=>res.destroy());res.on('close',()=>stream.destroy());
+     return stream.pipe(res);
+    }
+    const file=await readFile(path);res.end(req.method==='HEAD'?undefined:file);
+   }catch{return respond(404,'Page not found. Return to the home page to continue.');}
   }catch(error){respond(error.status||502,error.status?error.message:'Sending is unavailable right now. Please try again or email goodcoconut01@gmail.com.');}
  };
 }

@@ -4,11 +4,11 @@
       "width": 320,
       "overflow": 0,
       "brokenImages": 0,
-      "placeholders": 3,
+      "placeholders": 0,
       "photos": 11,
       "extraRows": [
-        4,
-        4
+        0,
+        3
       ],
       "handwriting": true,
       "pieces": [
@@ -17,15 +17,15 @@
           "width": 154
         },
         {
-          "class": "scrap-piece scrap-reel scrap-first-bite",
-          "width": 155
+          "class": "scrap-piece scrap-reel scrap-video scrap-first-bite",
+          "width": 282
         },
         {
           "class": "scrap-piece scrap-photo scrap-shop",
           "width": 150
         },
         {
-          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "class": "scrap-piece scrap-reel scrap-video scrap-little-stop",
           "width": 155
         },
         {
@@ -34,31 +34,31 @@
         },
         {
           "class": "scrap-piece scrap-note",
-          "width": 149
+          "width": 150
         },
         {
-          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "class": "scrap-piece scrap-reel scrap-video scrap-sweet-company",
           "width": 159
         },
         {
-          "class": "scrap-piece scrap-photo scrap-strawberry",
-          "width": 153
+          "class": "scrap-piece scrap-reel scrap-video scrap-strawberry",
+          "width": 163
         },
         {
-          "class": "scrap-piece scrap-photo scrap-snowball",
-          "width": 152
+          "class": "scrap-piece scrap-reel scrap-video scrap-snowball",
+          "width": 158
         },
         {
-          "class": "scrap-piece scrap-photo scrap-beach",
-          "width": 148
+          "class": "scrap-piece scrap-reel scrap-video scrap-beach",
+          "width": 158
         },
         {
-          "class": "scrap-piece scrap-photo scrap-milk",
-          "width": 148
+          "class": "scrap-piece scrap-reel scrap-video scrap-milk",
+          "width": 158
         },
         {
-          "class": "scrap-piece scrap-photo scrap-waffles",
-          "width": 153
+          "class": "scrap-piece scrap-reel scrap-video scrap-waffles",
+          "width": 163
         },
         {
           "class": "scrap-piece scrap-photo scrap-refresh",
@@ -71,6 +71,26 @@
         {
           "class": "scrap-piece scrap-photo scrap-fresh",
           "width": 150
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-whole-coconut",
+          "width": 131
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles-to-go",
+          "width": 139
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-autumn-pair",
+          "width": 131
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-festive",
+          "width": 139
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bowl-friends",
+          "width": 131
         }
       ],
       "headerOverflow": false
@@ -79,11 +99,11 @@
       "width": 390,
       "overflow": 0,
       "brokenImages": 0,
-      "placeholders": 3,
+      "placeholders": 0,
       "photos": 11,
       "extraRows": [
-        4,
-        4
+        0,
+        3
       ],
       "handwriting": true,
       "pieces": [
@@ -92,15 +112,15 @@
           "width": 187
         },
         {
-          "class": "scrap-piece scrap-reel scrap-first-bite",
-          "width": 188
+          "class": "scrap-piece scrap-reel scrap-video scrap-first-bite",
+          "width": 310
         },
         {
           "class": "scrap-piece scrap-photo scrap-shop",
           "width": 182
         },
         {
-          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "class": "scrap-piece scrap-reel scrap-video scrap-little-stop",
           "width": 188
         },
         {
@@ -109,31 +129,31 @@
         },
         {
           "class": "scrap-piece scrap-note",
-          "width": 175
+          "width": 176
         },
         {
-          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "class": "scrap-piece scrap-reel scrap-video scrap-sweet-company",
           "width": 194
         },
         {
-          "class": "scrap-piece scrap-photo scrap-strawberry",
-          "width": 187
+          "class": "scrap-piece scrap-reel scrap-video scrap-strawberry",
+          "width": 200
         },
         {
-          "class": "scrap-piece scrap-photo scrap-snowball",
-          "width": 185
+          "class": "scrap-piece scrap-reel scrap-video scrap-snowball",
+          "width": 192
         },
         {
-          "class": "scrap-piece scrap-photo scrap-beach",
-          "width": 182
+          "class": "scrap-piece scrap-reel scrap-video scrap-beach",
+          "width": 194
         },
         {
-          "class": "scrap-piece scrap-photo scrap-milk",
-          "width": 182
+          "class": "scrap-piece scrap-reel scrap-video scrap-milk",
+          "width": 192
         },
         {
-          "class": "scrap-piece scrap-photo scrap-waffles",
-          "width": 187
+          "class": "scrap-piece scrap-reel scrap-video scrap-waffles",
+          "width": 200
         },
         {
           "class": "scrap-piece scrap-photo scrap-refresh",
@@ -146,6 +166,26 @@
         {
           "class": "scrap-piece scrap-photo scrap-fresh",
           "width": 185
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-whole-coconut",
+          "width": 162
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles-to-go",
+          "width": 170
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-autumn-pair",
+          "width": 162
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-festive",
+          "width": 171
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bowl-friends",
+          "width": 162
         }
       ],
       "headerOverflow": false
@@ -154,11 +194,11 @@
       "width": 768,
       "overflow": 0,
       "brokenImages": 0,
-      "placeholders": 3,
+      "placeholders": 0,
       "photos": 11,
       "extraRows": [
-        4,
-        4
+        0,
+        3
       ],
       "handwriting": true,
       "pieces": [
@@ -167,15 +207,15 @@
           "width": 393
         },
         {
-          "class": "scrap-piece scrap-reel scrap-first-bite",
-          "width": 398
+          "class": "scrap-piece scrap-reel scrap-video scrap-first-bite",
+          "width": 310
         },
         {
           "class": "scrap-piece scrap-photo scrap-shop",
           "width": 386
         },
         {
-          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "class": "scrap-piece scrap-reel scrap-video scrap-little-stop",
           "width": 398
         },
         {
@@ -187,28 +227,28 @@
           "width": 364
         },
         {
-          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "class": "scrap-piece scrap-reel scrap-video scrap-sweet-company",
           "width": 409
         },
         {
-          "class": "scrap-piece scrap-photo scrap-strawberry",
-          "width": 393
+          "class": "scrap-piece scrap-reel scrap-video scrap-strawberry",
+          "width": 421
         },
         {
-          "class": "scrap-piece scrap-photo scrap-snowball",
-          "width": 394
+          "class": "scrap-piece scrap-reel scrap-video scrap-snowball",
+          "width": 410
         },
         {
-          "class": "scrap-piece scrap-photo scrap-beach",
-          "width": 382
+          "class": "scrap-piece scrap-reel scrap-video scrap-beach",
+          "width": 410
         },
         {
-          "class": "scrap-piece scrap-photo scrap-milk",
-          "width": 386
+          "class": "scrap-piece scrap-reel scrap-video scrap-milk",
+          "width": 410
         },
         {
-          "class": "scrap-piece scrap-photo scrap-waffles",
-          "width": 393
+          "class": "scrap-piece scrap-reel scrap-video scrap-waffles",
+          "width": 421
         },
         {
           "class": "scrap-piece scrap-photo scrap-refresh",
@@ -221,6 +261,26 @@
         {
           "class": "scrap-piece scrap-photo scrap-fresh",
           "width": 393
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-whole-coconut",
+          "width": 209
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles-to-go",
+          "width": 220
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-autumn-pair",
+          "width": 209
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-festive",
+          "width": 220
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bowl-friends",
+          "width": 209
         }
       ],
       "headerOverflow": false
@@ -229,11 +289,11 @@
       "width": 820,
       "overflow": 0,
       "brokenImages": 0,
-      "placeholders": 3,
+      "placeholders": 0,
       "photos": 11,
       "extraRows": [
-        4,
-        4
+        0,
+        3
       ],
       "handwriting": true,
       "pieces": [
@@ -242,15 +302,15 @@
           "width": 421
         },
         {
-          "class": "scrap-piece scrap-reel scrap-first-bite",
-          "width": 428
+          "class": "scrap-piece scrap-reel scrap-video scrap-first-bite",
+          "width": 310
         },
         {
           "class": "scrap-piece scrap-photo scrap-shop",
           "width": 414
         },
         {
-          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "class": "scrap-piece scrap-reel scrap-video scrap-little-stop",
           "width": 428
         },
         {
@@ -262,28 +322,28 @@
           "width": 390
         },
         {
-          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "class": "scrap-piece scrap-reel scrap-video scrap-sweet-company",
           "width": 439
         },
         {
-          "class": "scrap-piece scrap-photo scrap-strawberry",
-          "width": 421
+          "class": "scrap-piece scrap-reel scrap-video scrap-strawberry",
+          "width": 451
         },
         {
-          "class": "scrap-piece scrap-photo scrap-snowball",
-          "width": 422
+          "class": "scrap-piece scrap-reel scrap-video scrap-snowball",
+          "width": 440
         },
         {
-          "class": "scrap-piece scrap-photo scrap-beach",
-          "width": 410
+          "class": "scrap-piece scrap-reel scrap-video scrap-beach",
+          "width": 440
         },
         {
-          "class": "scrap-piece scrap-photo scrap-milk",
-          "width": 414
+          "class": "scrap-piece scrap-reel scrap-video scrap-milk",
+          "width": 440
         },
         {
-          "class": "scrap-piece scrap-photo scrap-waffles",
-          "width": 421
+          "class": "scrap-piece scrap-reel scrap-video scrap-waffles",
+          "width": 451
         },
         {
           "class": "scrap-piece scrap-photo scrap-refresh",
@@ -296,6 +356,26 @@
         {
           "class": "scrap-piece scrap-photo scrap-fresh",
           "width": 421
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-whole-coconut",
+          "width": 227
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles-to-go",
+          "width": 238
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-autumn-pair",
+          "width": 227
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-festive",
+          "width": 238
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bowl-friends",
+          "width": 227
         }
       ],
       "headerOverflow": false
@@ -304,11 +384,11 @@
       "width": 1024,
       "overflow": 0,
       "brokenImages": 0,
-      "placeholders": 3,
+      "placeholders": 0,
       "photos": 11,
       "extraRows": [
-        4,
-        4
+        0,
+        3
       ],
       "handwriting": true,
       "pieces": [
@@ -317,16 +397,16 @@
           "width": 255
         },
         {
-          "class": "scrap-piece scrap-reel scrap-first-bite",
-          "width": 249
+          "class": "scrap-piece scrap-reel scrap-video scrap-first-bite",
+          "width": 221
         },
         {
           "class": "scrap-piece scrap-photo scrap-shop",
           "width": 229
         },
         {
-          "class": "scrap-piece scrap-reel scrap-little-stop",
-          "width": 236
+          "class": "scrap-piece scrap-reel scrap-video scrap-little-stop",
+          "width": 234
         },
         {
           "class": "scrap-piece scrap-photo scrap-lime",
@@ -334,31 +414,31 @@
         },
         {
           "class": "scrap-piece scrap-note",
-          "width": 208
+          "width": 209
         },
         {
-          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "class": "scrap-piece scrap-reel scrap-video scrap-sweet-company",
           "width": 247
         },
         {
-          "class": "scrap-piece scrap-photo scrap-strawberry",
-          "width": 274
+          "class": "scrap-piece scrap-reel scrap-video scrap-strawberry",
+          "width": 296
         },
         {
-          "class": "scrap-piece scrap-photo scrap-snowball",
-          "width": 225
+          "class": "scrap-piece scrap-reel scrap-video scrap-snowball",
+          "width": 236
         },
         {
-          "class": "scrap-piece scrap-photo scrap-beach",
-          "width": 263
+          "class": "scrap-piece scrap-reel scrap-video scrap-beach",
+          "width": 280
         },
         {
-          "class": "scrap-piece scrap-photo scrap-milk",
-          "width": 233
+          "class": "scrap-piece scrap-reel scrap-video scrap-milk",
+          "width": 253
         },
         {
-          "class": "scrap-piece scrap-photo scrap-waffles",
-          "width": 230
+          "class": "scrap-piece scrap-reel scrap-video scrap-waffles",
+          "width": 248
         },
         {
           "class": "scrap-piece scrap-photo scrap-refresh",
@@ -371,6 +451,26 @@
         {
           "class": "scrap-piece scrap-photo scrap-fresh",
           "width": 266
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-whole-coconut",
+          "width": 287
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles-to-go",
+          "width": 300
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-autumn-pair",
+          "width": 287
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-festive",
+          "width": 300
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bowl-friends",
+          "width": 287
         }
       ],
       "headerOverflow": false
@@ -379,11 +479,11 @@
       "width": 1440,
       "overflow": 0,
       "brokenImages": 0,
-      "placeholders": 3,
+      "placeholders": 0,
       "photos": 11,
       "extraRows": [
-        4,
-        4
+        0,
+        3
       ],
       "handwriting": true,
       "pieces": [
@@ -392,15 +492,15 @@
           "width": 328
         },
         {
-          "class": "scrap-piece scrap-reel scrap-first-bite",
-          "width": 322
+          "class": "scrap-piece scrap-reel scrap-video scrap-first-bite",
+          "width": 285
         },
         {
           "class": "scrap-piece scrap-photo scrap-shop",
           "width": 294
         },
         {
-          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "class": "scrap-piece scrap-reel scrap-video scrap-little-stop",
           "width": 302
         },
         {
@@ -409,31 +509,31 @@
         },
         {
           "class": "scrap-piece scrap-note",
-          "width": 267
+          "width": 268
         },
         {
-          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "class": "scrap-piece scrap-reel scrap-video scrap-sweet-company",
           "width": 318
         },
         {
-          "class": "scrap-piece scrap-photo scrap-strawberry",
-          "width": 349
+          "class": "scrap-piece scrap-reel scrap-video scrap-strawberry",
+          "width": 376
         },
         {
-          "class": "scrap-piece scrap-photo scrap-snowball",
-          "width": 287
+          "class": "scrap-piece scrap-reel scrap-video scrap-snowball",
+          "width": 299
         },
         {
-          "class": "scrap-piece scrap-photo scrap-beach",
-          "width": 335
+          "class": "scrap-piece scrap-reel scrap-video scrap-beach",
+          "width": 354
         },
         {
-          "class": "scrap-piece scrap-photo scrap-milk",
-          "width": 296
+          "class": "scrap-piece scrap-reel scrap-video scrap-milk",
+          "width": 322
         },
         {
-          "class": "scrap-piece scrap-photo scrap-waffles",
-          "width": 292
+          "class": "scrap-piece scrap-reel scrap-video scrap-waffles",
+          "width": 312
         },
         {
           "class": "scrap-piece scrap-photo scrap-refresh",
@@ -446,6 +546,26 @@
         {
           "class": "scrap-piece scrap-photo scrap-fresh",
           "width": 338
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-whole-coconut",
+          "width": 380
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles-to-go",
+          "width": 398
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-autumn-pair",
+          "width": 380
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-festive",
+          "width": 398
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bowl-friends",
+          "width": 380
         }
       ],
       "headerOverflow": false
