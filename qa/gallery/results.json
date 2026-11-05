@@ -1,0 +1,464 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "brokenImages": 0,
+      "placeholders": 3,
+      "photos": 11,
+      "extraRows": [
+        4,
+        4
+      ],
+      "handwriting": true,
+      "pieces": [
+        {
+          "class": "scrap-piece scrap-photo scrap-pudding",
+          "width": 154
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-first-bite",
+          "width": 155
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-shop",
+          "width": 150
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "width": 155
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-lime",
+          "width": 154
+        },
+        {
+          "class": "scrap-piece scrap-note",
+          "width": 149
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "width": 159
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-strawberry",
+          "width": 153
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-snowball",
+          "width": 152
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-beach",
+          "width": 148
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-milk",
+          "width": 148
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles",
+          "width": 153
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-refresh",
+          "width": 151
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bloom",
+          "width": 155
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-fresh",
+          "width": 150
+        }
+      ],
+      "headerOverflow": false
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "brokenImages": 0,
+      "placeholders": 3,
+      "photos": 11,
+      "extraRows": [
+        4,
+        4
+      ],
+      "handwriting": true,
+      "pieces": [
+        {
+          "class": "scrap-piece scrap-photo scrap-pudding",
+          "width": 187
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-first-bite",
+          "width": 188
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-shop",
+          "width": 182
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "width": 188
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-lime",
+          "width": 184
+        },
+        {
+          "class": "scrap-piece scrap-note",
+          "width": 175
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "width": 194
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-strawberry",
+          "width": 187
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-snowball",
+          "width": 185
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-beach",
+          "width": 182
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-milk",
+          "width": 182
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles",
+          "width": 187
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-refresh",
+          "width": 183
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bloom",
+          "width": 190
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-fresh",
+          "width": 185
+        }
+      ],
+      "headerOverflow": false
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "brokenImages": 0,
+      "placeholders": 3,
+      "photos": 11,
+      "extraRows": [
+        4,
+        4
+      ],
+      "handwriting": true,
+      "pieces": [
+        {
+          "class": "scrap-piece scrap-photo scrap-pudding",
+          "width": 393
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-first-bite",
+          "width": 398
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-shop",
+          "width": 386
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "width": 398
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-lime",
+          "width": 391
+        },
+        {
+          "class": "scrap-piece scrap-note",
+          "width": 364
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "width": 409
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-strawberry",
+          "width": 393
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-snowball",
+          "width": 394
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-beach",
+          "width": 382
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-milk",
+          "width": 386
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles",
+          "width": 393
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-refresh",
+          "width": 389
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bloom",
+          "width": 398
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-fresh",
+          "width": 393
+        }
+      ],
+      "headerOverflow": false
+    },
+    {
+      "width": 820,
+      "overflow": 0,
+      "brokenImages": 0,
+      "placeholders": 3,
+      "photos": 11,
+      "extraRows": [
+        4,
+        4
+      ],
+      "handwriting": true,
+      "pieces": [
+        {
+          "class": "scrap-piece scrap-photo scrap-pudding",
+          "width": 421
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-first-bite",
+          "width": 428
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-shop",
+          "width": 414
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "width": 428
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-lime",
+          "width": 419
+        },
+        {
+          "class": "scrap-piece scrap-note",
+          "width": 390
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "width": 439
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-strawberry",
+          "width": 421
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-snowball",
+          "width": 422
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-beach",
+          "width": 410
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-milk",
+          "width": 414
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles",
+          "width": 421
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-refresh",
+          "width": 418
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bloom",
+          "width": 427
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-fresh",
+          "width": 421
+        }
+      ],
+      "headerOverflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "brokenImages": 0,
+      "placeholders": 3,
+      "photos": 11,
+      "extraRows": [
+        4,
+        4
+      ],
+      "handwriting": true,
+      "pieces": [
+        {
+          "class": "scrap-piece scrap-photo scrap-pudding",
+          "width": 255
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-first-bite",
+          "width": 249
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-shop",
+          "width": 229
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "width": 236
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-lime",
+          "width": 242
+        },
+        {
+          "class": "scrap-piece scrap-note",
+          "width": 208
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "width": 247
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-strawberry",
+          "width": 274
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-snowball",
+          "width": 225
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-beach",
+          "width": 263
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-milk",
+          "width": 233
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles",
+          "width": 230
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-refresh",
+          "width": 268
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bloom",
+          "width": 237
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-fresh",
+          "width": 266
+        }
+      ],
+      "headerOverflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "brokenImages": 0,
+      "placeholders": 3,
+      "photos": 11,
+      "extraRows": [
+        4,
+        4
+      ],
+      "handwriting": true,
+      "pieces": [
+        {
+          "class": "scrap-piece scrap-photo scrap-pudding",
+          "width": 328
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-first-bite",
+          "width": 322
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-shop",
+          "width": 294
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-little-stop",
+          "width": 302
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-lime",
+          "width": 312
+        },
+        {
+          "class": "scrap-piece scrap-note",
+          "width": 267
+        },
+        {
+          "class": "scrap-piece scrap-reel scrap-sweet-company",
+          "width": 318
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-strawberry",
+          "width": 349
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-snowball",
+          "width": 287
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-beach",
+          "width": 335
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-milk",
+          "width": 296
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-waffles",
+          "width": 292
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-refresh",
+          "width": 341
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-bloom",
+          "width": 301
+        },
+        {
+          "class": "scrap-piece scrap-photo scrap-fresh",
+          "width": 338
+        }
+      ],
+      "headerOverflow": false
+    }
+  ],
+  "interactions": [
+    "Gallery navigation and original photo ribbon",
+    "Photo opens; background cannot receive focus; Escape closes; focus returns",
+    "Photos in both added rows open in the lightbox",
+    "Mobile Gallery menu link closes navigation",
+    "Reduced motion keeps collage static",
+    "No-JavaScript photos retain source-image links and visible content"
+  ],
+  "errors": [],
+  "passed": true
+}

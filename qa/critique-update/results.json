@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "playIcons": 0,
+      "photos": 11,
+      "statusSizes": [
+        12,
+        12,
+        12
+      ],
+      "links": [
+        "/menu/#category-156002",
+        "/menu/#category-156004",
+        "/menu/#category-156003",
+        "/menu/#category-231143"
+      ],
+      "anchor": {
+        "heading": 245.078125,
+        "header": 80
+      }
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "playIcons": 0,
+      "photos": 11,
+      "statusSizes": [
+        12,
+        12,
+        12
+      ],
+      "links": [
+        "/menu/#category-156002",
+        "/menu/#category-156004",
+        "/menu/#category-156003",
+        "/menu/#category-231143"
+      ],
+      "anchor": {
+        "heading": 244.890625,
+        "header": 80
+      }
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "playIcons": 0,
+      "photos": 11,
+      "statusSizes": [
+        12,
+        12,
+        12
+      ],
+      "links": [
+        "/menu/#category-156002",
+        "/menu/#category-156004",
+        "/menu/#category-156003",
+        "/menu/#category-231143"
+      ],
+      "anchor": {
+        "heading": 245.359375,
+        "header": 80
+      }
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "playIcons": 0,
+      "photos": 11,
+      "statusSizes": [
+        13,
+        13,
+        13
+      ],
+      "links": [
+        "/menu/#category-156002",
+        "/menu/#category-156004",
+        "/menu/#category-156003",
+        "/menu/#category-231143"
+      ],
+      "anchor": {
+        "heading": 300.34375,
+        "header": 100
+      }
+    },
+    {
+      "link": "/menu/#category-156002",
+      "name": "Special Coconut Refresher",
+      "bounds": {
+        "top": 205,
+        "bottom": 1458.375
+      }
+    },
+    {
+      "link": "/menu/#category-156004",
+      "name": "Coconut Pudding",
+      "bounds": {
+        "top": 204.515625,
+        "bottom": 3947.453125
+      }
+    },
+    {
+      "link": "/menu/#category-156003",
+      "name": "Signature Latte / Tea",
+      "bounds": {
+        "top": 204.734375,
+        "bottom": 2500
+      }
+    },
+    {
+      "link": "/menu/#category-231143",
+      "name": "Egg Waffle",
+      "bounds": {
+        "top": 205.328125,
+        "bottom": 2520.84375
+      }
+    },
+    {
+      "directAnchorTop": 244.890625,
+      "errors": []
+    }
+  ]
+}

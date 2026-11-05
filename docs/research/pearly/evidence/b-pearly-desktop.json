@@ -1,0 +1,743 @@
+{
+  "backgrounds": [
+    {
+      "bg": "url(\"data:image/svg+xml,%0A%3Csvg width='15px' height='16px' viewBox='0 0 15 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='2.-Menu' transform='translate(-15.000000, -13.000000)' stroke='%23000000'%3E%3Cg id='Group' transform='translate(15.000000, 13.521000)'%3E%3Cpath d='M0,0.479000129 L15,14.2971819' id='Path-3'%3E%3C/path%3E%3Cpath d='M0,14.7761821 L15,-1.24344979e-14' id='Path-3'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+      "cls": "drawer__close",
+      "h": 0,
+      "tag": "BUTTON",
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "bg": "repeating-linear-gradient(-45deg, rgb(71, 39, 87), rgb(71, 39, 87) 10px, rgb(136, 88, 122) 13.5px, rgb(136, 88, 122) 30px)",
+      "cls": "drawer__free-shipping-bar-progress",
+      "h": 0,
+      "tag": "DIV",
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "bg": "linear-gradient(rgb(255, 237, 226) -13.45%, rgb(249, 233, 255) 99.45%)",
+      "cls": "nav__takeover",
+      "h": 0,
+      "tag": "DIV",
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "bg": "url(\"https://drinkpearly.com/cdn/shop/t/113/assets/wave-light-beige-purple.svg?v=170877780472150953011710010424\")",
+      "cls": "section-wave-purple",
+      "h": 29,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 823
+    },
+    {
+      "bg": "linear-gradient(rgb(195, 140, 197) 11.5%, rgb(221, 169, 204) 84.38%)",
+      "cls": "claims",
+      "h": 326,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 851
+    },
+    {
+      "bg": "url(\"https://drinkpearly.com/cdn/shop/t/113/assets/wave-pink2-beige.svg?v=46433877277367877331710010424\")",
+      "cls": "section-wave-purple",
+      "h": 29,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 1176
+    },
+    {
+      "bg": "linear-gradient(rgb(255, 237, 221), rgb(250, 233, 255) 53.63%)",
+      "cls": "featured-products-alt",
+      "h": 803,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 1204
+    },
+    {
+      "bg": "url(\"https://drinkpearly.com/cdn/shop/t/113/assets/wave-light-purple-purple.svg?v=71237880767324776261710010424\")",
+      "cls": "section-wave-purple",
+      "h": 29,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 2006
+    },
+    {
+      "bg": "linear-gradient(rgb(195, 140, 197) 10.62%, rgb(255, 208, 214) 77.94%)",
+      "cls": "instructions",
+      "h": 711,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 2034
+    },
+    {
+      "bg": "url(\"https://drinkpearly.com/cdn/shop/t/113/assets/wave-pink-beige.svg?v=24814356247992060201710010424\")",
+      "cls": "section-wave-purple",
+      "h": 29,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 2744
+    },
+    {
+      "bg": "linear-gradient(rgb(255, 237, 221) 0.68%, rgb(249, 233, 255) 64.07%)",
+      "cls": "section-video",
+      "h": 867,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 2772
+    },
+    {
+      "bg": "url(\"https://drinkpearly.com/cdn/shop/t/113/assets/wave-light-purple-purple.svg?v=71237880767324776261710010424\")",
+      "cls": "section-wave-purple",
+      "h": 29,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 3638
+    },
+    {
+      "bg": "linear-gradient(rgb(195, 140, 197) 10.62%, rgb(255, 208, 214) 77.94%)",
+      "cls": "junip-review-carousel ",
+      "h": 96,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 3666
+    },
+    {
+      "bg": "url(\"https://drinkpearly.com/cdn/shop/t/113/assets/wave-pink-beige.svg?v=24814356247992060201710010424\")",
+      "cls": "section-wave-purple",
+      "h": 29,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 3761
+    },
+    {
+      "bg": "linear-gradient(rgb(255, 237, 221) 6.63%, rgb(250, 233, 253) 40.31%)",
+      "cls": "action",
+      "h": 396,
+      "tag": "DIV",
+      "w": 1440,
+      "x": 0,
+      "y": 3789
+    }
+  ],
+  "headings": [
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 230,
+      "size": "128px",
+      "text": "DIY BUBBLE TEA KITS",
+      "w": 475,
+      "x": 108,
+      "y": 219
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 68,
+      "size": "64px",
+      "text": "BEST SELLERS",
+      "w": 1224,
+      "x": 108,
+      "y": 1304
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "BIG BOBA BUNDLE",
+      "w": 192,
+      "x": 129,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "BOBA LOVER BUNDLE",
+      "w": 222,
+      "x": 449,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "REUSABLE CUP",
+      "w": 159,
+      "x": 769,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "STARTER BUNDLE",
+      "w": 184,
+      "x": 1089,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "ORIGINAL MILK TEA KIT",
+      "w": 249,
+      "x": 1409,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "TARO MILK TEA KIT",
+      "w": 203,
+      "x": 1729,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "BOBA TUMBLER SET",
+      "w": 209,
+      "x": 2049,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "MATCHA MILK TEA KIT",
+      "w": 235,
+      "x": 2369,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "THAI MILK TEA KIT",
+      "w": 198,
+      "x": 2689,
+      "y": 1743
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 41,
+      "size": "37.6px",
+      "text": "SHOP ALL PRODUCTS",
+      "w": 223,
+      "x": 3026,
+      "y": 1604
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 58,
+      "size": "64px",
+      "text": "READY IN UNDER 3 MINUTES",
+      "w": 1440,
+      "x": 0,
+      "y": 2084
+    },
+    {
+      "font": "\"Interstate Compressed\", sans-serif",
+      "h": 58,
+      "size": "64px",
+      "text": "PEARLY IN ACTION",
+      "w": 400,
+      "x": 520,
+      "y": 2822
+    },
+    {
+      "font": "\"Neuzeit Grotesk Regular\"",
+      "h": 17,
+      "size": "19.2px",
+      "text": "Want to join our community?",
+      "w": 229,
+      "x": 605,
+      "y": 4286
+    }
+  ],
+  "images": [
+    {
+      "alt": "Pearly Bubble Tea Kit Bundle",
+      "h": 694,
+      "src": "https://drinkpearly.com/cdn/shop/files/banner_816531f7-feeb-4a82-bed8-6385c512bda0.jpg?v=1689097114",
+      "w": 1440,
+      "x": 0,
+      "y": 130
+    },
+    {
+      "alt": "Big Boba Bundle",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/files/Big-bundle-No-Passionfruit_500x.jpg?v=1684940673",
+      "w": 258,
+      "x": 129,
+      "y": 1476
+    },
+    {
+      "alt": "Boba Lover Bundle",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/files/New-Bundle-SKU3-Nopassionfruit_500x.jpg?v=1684940802",
+      "w": 258,
+      "x": 449,
+      "y": 1476
+    },
+    {
+      "alt": "Reusable Cup",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/products/Cup_Box_3b8239ef-fb88-4cbd-8da1-2252a7516bf4_500x.jpg?v=1659473267",
+      "w": 258,
+      "x": 769,
+      "y": 1476
+    },
+    {
+      "alt": "Starter Bundle",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/products/Starter-bundle_500x.jpg?v=1659663396",
+      "w": 258,
+      "x": 1089,
+      "y": 1476
+    },
+    {
+      "alt": "Original Milk Tea Kit",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/products/Original-box-and-cup_500x.jpg?v=1659472213",
+      "w": 258,
+      "x": 1409,
+      "y": 1476
+    },
+    {
+      "alt": "Taro Milk Tea Kit",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/products/Taro-box-and-cup_54566da8-93cd-412e-a906-6998cc1c30cf_500x.jpg?v=1659472093",
+      "w": 258,
+      "x": 1729,
+      "y": 1476
+    },
+    {
+      "alt": "Boba Tumbler Set",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/files/Cup-03_500x.jpg?v=1700061206",
+      "w": 258,
+      "x": 2049,
+      "y": 1476
+    },
+    {
+      "alt": "Matcha Milk Tea Kit",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/products/Matcha-box-and-cup_981541af-1d3f-4ed5-979c-a1b41ec98726_500x.jpg?v=1659472435",
+      "w": 258,
+      "x": 2369,
+      "y": 1476
+    },
+    {
+      "alt": "Thai Milk Tea Kit",
+      "h": 258,
+      "src": "https://drinkpearly.com/cdn/shop/products/Thai-box-and-cup_500x.jpg?v=1659472532",
+      "w": 258,
+      "x": 2689,
+      "y": 1476
+    },
+    {
+      "alt": "Pearly Logo",
+      "h": 50,
+      "src": "https://drinkpearly.com/cdn/shop/files/432954_LOGO_LOGO_9b06d1fb-a10d-4b70-94ff-1df099b0752f_x1000.png?v=1660240820",
+      "w": 109,
+      "x": 666,
+      "y": 4226
+    }
+  ],
+  "links": [
+    {
+      "aria": null,
+      "h": 44,
+      "href": "https://drinkpearly.com/",
+      "text": "",
+      "w": 96,
+      "x": 108,
+      "y": 71
+    },
+    {
+      "aria": null,
+      "h": 31,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "SHOP",
+      "w": 43,
+      "x": 1086,
+      "y": 76
+    },
+    {
+      "aria": null,
+      "h": 31,
+      "href": "https://drinkpearly.com/pages/contact",
+      "text": "CONTACT",
+      "w": 71,
+      "x": 1163,
+      "y": 76
+    },
+    {
+      "aria": null,
+      "h": 27,
+      "href": "https://drinkpearly.com/#",
+      "text": "0",
+      "w": 27,
+      "x": 1275,
+      "y": 79
+    },
+    {
+      "aria": null,
+      "h": 59,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "SHOP NOW",
+      "w": 325,
+      "x": 108,
+      "y": 560
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/big-boba-bundle",
+      "text": "",
+      "w": 258,
+      "x": 129,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 129,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/boba-lover-bundle",
+      "text": "",
+      "w": 258,
+      "x": 449,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 449,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/reusable-boba-cup",
+      "text": "",
+      "w": 258,
+      "x": 769,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 769,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/starter-bundle-original-milk-tea-kit-and-taro-kit",
+      "text": "",
+      "w": 258,
+      "x": 1089,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 1089,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/original-milk-tea-kit",
+      "text": "",
+      "w": 258,
+      "x": 1409,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 1409,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/taro-milk-tea-kit-1",
+      "text": "",
+      "w": 258,
+      "x": 1729,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 1729,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/double-wall-boba-tumbler-2-pack",
+      "text": "",
+      "w": 258,
+      "x": 2049,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 2049,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/matcha-milk-tea-kit",
+      "text": "",
+      "w": 258,
+      "x": 2369,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 2369,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 267,
+      "href": "https://drinkpearly.com/products/thai-milk-tea-kit",
+      "text": "",
+      "w": 258,
+      "x": 2689,
+      "y": 1476
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/#",
+      "text": "ADD TO CART",
+      "w": 258,
+      "x": 2689,
+      "y": 1857
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "DIY KITS",
+      "w": 258,
+      "x": 3009,
+      "y": 1661
+    },
+    {
+      "aria": null,
+      "h": 48,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "ACCESSORIES",
+      "w": 258,
+      "x": 3009,
+      "y": 1729
+    },
+    {
+      "aria": null,
+      "h": 61,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "SHOP NOW",
+      "w": 300,
+      "x": 570,
+      "y": 2634
+    },
+    {
+      "aria": null,
+      "h": 59,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "SHOP NOW",
+      "w": 325,
+      "x": 558,
+      "y": 3530
+    },
+    {
+      "aria": null,
+      "h": 61,
+      "href": "https://drinkpearly.com/collections/bubble-tea-kits",
+      "text": "SHOP NOW",
+      "w": 325,
+      "x": 558,
+      "y": 4024
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/policies/privacy-policy",
+      "text": "Privacy Policy",
+      "w": 96,
+      "x": 310,
+      "y": 4347
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/policies/shipping-policy",
+      "text": "Shipping Policy",
+      "w": 108,
+      "x": 424,
+      "y": 4347
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/policies/refund-policy",
+      "text": "Refund Policy",
+      "w": 95,
+      "x": 550,
+      "y": 4347
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/policies/terms-of-service",
+      "text": "Terms of Service",
+      "w": 114,
+      "x": 663,
+      "y": 4347
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/blogs/boba-tea-advice",
+      "text": "Blog",
+      "w": 32,
+      "x": 794,
+      "y": 4347
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/blogs/boba-near-me",
+      "text": "Boba Shops Guide",
+      "w": 133,
+      "x": 844,
+      "y": 4347
+    },
+    {
+      "aria": null,
+      "h": 18,
+      "href": "https://drinkpearly.com/pages/partner-program",
+      "text": "Affiliate",
+      "w": 55,
+      "x": 994,
+      "y": 4347
+    }
+  ],
+  "scroll": [
+    1440,
+    4547
+  ],
+  "title": "[Human] Pearly Drinks | Pearly Bubble Tea Kits",
+  "url": "https://drinkpearly.com/",
+  "videos": [
+    {
+      "autoplay": true,
+      "controls": false,
+      "h": 258,
+      "loop": true,
+      "muted": true,
+      "poster": "",
+      "src": "https://cdn.shopify.com/s/files/1/0581/4835/6276/files/Action_1.mp4?v=1643136296",
+      "w": 258,
+      "x": 281,
+      "y": 2192
+    },
+    {
+      "autoplay": true,
+      "controls": false,
+      "h": 258,
+      "loop": true,
+      "muted": true,
+      "poster": "",
+      "src": "https://cdn.shopify.com/s/files/1/0581/4835/6276/files/Action_2.mp4?v=1643136296",
+      "w": 258,
+      "x": 591,
+      "y": 2192
+    },
+    {
+      "autoplay": true,
+      "controls": false,
+      "h": 258,
+      "loop": true,
+      "muted": true,
+      "poster": "",
+      "src": "https://cdn.shopify.com/s/files/1/0581/4835/6276/files/Action_3.mp4?v=1643136296",
+      "w": 258,
+      "x": 901,
+      "y": 2192
+    },
+    {
+      "autoplay": false,
+      "controls": true,
+      "h": 600,
+      "loop": false,
+      "muted": false,
+      "poster": "https://cdn.shopify.com/s/files/1/0581/4835/6276/files/Tap_to_play_short_video_1.png?v=1643937946",
+      "src": "https://cdn.shopify.com/s/files/1/0581/4835/6276/files/How_do_kits_work_section_vertical.mp4?v=1643936584",
+      "w": 338,
+      "x": 551,
+      "y": 2910
+    }
+  ],
+  "viewport": [
+    1440,
+    900
+  ]
+}

@@ -4,7 +4,7 @@ import {resolve,extname,sep} from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {randomUUID,createHash} from 'node:crypto';
 const root=resolve(fileURLToPath(new URL('./public/',import.meta.url)));
-const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'};
+const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.webp':'image/webp','.woff2':'font/woff2','.ttf':'font/ttf','.txt':'text/plain; charset=utf-8'};
 export async function deliverMail(fields,key,env=process.env,fetcher=fetch){
  if(!env.RESEND_API_KEY||!env.MAIL_FROM)throw Object.assign(new Error('Sending is temporarily unavailable. Please email goodcoconut01@gmail.com; your message has not been sent.'),{status:503});
  const response=await fetcher('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${env.RESEND_API_KEY}`,'Content-Type':'application/json','Idempotency-Key':key},body:JSON.stringify({from:env.MAIL_FROM,to:[env.MAIL_TO||'goodcoconut01@gmail.com'],reply_to:fields.email,subject:`Good Coconut inquiry: ${fields.subject||'Website contact'}`,text:`First name: ${fields.name||'(not provided)'}\nEmail: ${fields.email}\nSubject: ${fields.subject||'(not provided)'}\n\n${fields.message||'(No message provided)'}`}),signal:AbortSignal.timeout(12000)});

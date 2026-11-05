@@ -1,0 +1,1 @@
+[log] auto_open_controller_script from Edge
