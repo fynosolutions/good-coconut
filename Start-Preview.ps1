@@ -1,4 +1,7 @@
-param([ValidateSet('/', '/menu/')][string]$Page = '/')
+param(
+    [ValidateSet('/', '/menu/', '/#gallery')][string]$Page = '/',
+    [ValidateRange(1024, 65535)][int]$Port = 4185
+)
 $ErrorActionPreference = 'Stop'
 $previewRoot = $PSScriptRoot
 $nodeCommand = (Get-Command node -ErrorAction Stop).Source
@@ -7,13 +10,13 @@ try {
     & $nodeCommand 'build.mjs'
     if ($LASTEXITCODE -ne 0) { throw 'Could not rebuild the preview pages.' }
 } finally { Pop-Location }
-$previewPort = 4185
+$previewPort = $Port
 $env:PORT = "$previewPort"
 $previewUrl = "http://127.0.0.1:$previewPort"
 $existing = $null
 try { $existing = Invoke-WebRequest -UseBasicParsing -Uri $previewUrl -TimeoutSec 2 } catch {}
 if ($existing) {
-    if ($existing.Content -notmatch 'Good days\.') { throw 'Port 4185 is occupied by another service.' }
+    if ($existing.Content -notmatch 'Good days\.' -or ($Page -eq '/#gallery' -and $existing.Content -notmatch 'id="gallery"')) { throw "Port $previewPort is occupied by another preview. Close that preview first." }
 } else {
     $nodeCommand = (Get-Command node -ErrorAction Stop).Source
     $previewProcess = Start-Process -FilePath $nodeCommand -ArgumentList '--env-file-if-exists=.env', 'server.mjs' -WorkingDirectory $previewRoot -WindowStyle Hidden -PassThru

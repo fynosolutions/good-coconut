@@ -1,5 +1,9 @@
 # Good Coconut — Wave 独立版本
 
+新增 Gallery 本地氛围预览：双击 `Preview-Gallery.cmd` 直接打开 Ins 拼贴墙。保留原照片带，新增拍立得、胶带、手写便签与三个待上线视频位。本轮已优化产品分类入口、首屏介绍、视频状态和手机锚点；按用户要求不替换相邻重复素材。当前未发布，说明与验证记录见 [Gallery 说明](docs/GALLERY.md)。
+
+完整参考与调查见 [研究索引](docs/research/README.md)，包括 Pearly、MeloMelo、本站对照评审，以及用户指定的 Memoria Visuals / LiCoWa 美食剪贴簿参考。
+
 视觉与内容布局参考见 [MeloMelo 三页面分析](docs/research/melomelo/README.md)，包含 Menu、Locations、Brand 独立报告及桌面/手机截图证据。
 
 最新交付与上线状态见 [2026 年 11 月 5 日网站更新汇报](docs/PROJECT-NOTES-2026-11-05.md)。该汇报记录当前已发布版本；下文包含历次工作记录，最终状态以汇报为准。

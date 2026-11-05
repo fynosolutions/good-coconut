@@ -63,3 +63,19 @@ h1,h2,h3{text-shadow:.055em .065em 0 rgb(18 62 64 / 28%)}
 @media(max-width:560px){.location-map{margin-top:45px}.map-heading{align-items:flex-start;flex-direction:column;gap:20px}.location-map iframe{height:340px}}
 
 @media(hover:hover) and (pointer:fine){.photo-set figure:hover{scale:1.14;z-index:2}.photo-set figure:hover img{box-shadow:0 12px 24px rgb(18 62 64 / 18%)}}
+
+/* Reference review: product clarity within the existing brand world. */
+.hero-copy>.hero-description{font-size:clamp(16px,1.45vw,20px);font-weight:500;line-height:1.5;margin:22px 0 0;max-width:30ch}
+.hero-copy>.hero-description+p{margin:14px 0 26px}
+.page-home h1,.page-home h2,.page-home h3{letter-spacing:-.04em;text-shadow:.025em .035em .025em rgb(18 62 64 / 18%)}
+.story-detail{display:grid;grid-template-columns:130px 1fr;align-items:center;gap:20px;margin-top:26px}
+.story-detail img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px}
+.story-detail strong{font-size:15px;font-weight:600}
+.story-detail p{font-size:13px;line-height:1.65;margin-top:8px}
+.story-detail .text-link{font-size:13px;margin-top:10px}
+.story-copy>.sun-icon{width:70px;height:70px;right:0;bottom:-60px}
+.product-copy strong{font-weight:600}
+.product-links{display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin-top:22px}
+.product-copy .product-links .text-link{margin:0}
+@media(max-width:800px){.story-detail{grid-template-columns:90px 1fr;gap:14px}}
+@media(max-width:560px){.hero-copy>.hero-description{font-size:17px;margin-top:18px;max-width:28ch}.story-detail{grid-template-columns:100px 1fr;margin-top:22px}.story-copy>.sun-icon{position:static;width:50px;height:50px;margin:14px 0 0 auto}.product-links{gap:8px}.product-links .text-link{padding:8px 0}.product-feature{margin-bottom:38px}}
