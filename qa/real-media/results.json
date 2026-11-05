@@ -1,0 +1,196 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "sections": [
+        "hero",
+        "favorites section",
+        "story section",
+        "gallery-section section",
+        "scrapbook",
+        "visit section"
+      ],
+      "heroPhotoTop": 375.65625,
+      "brokenImages": [],
+      "newPhotos": [
+        "/assets/moments/fruit-pudding-jars.webp",
+        "/assets/moments/waffle-and-coconut.webp",
+        "/assets/moments/fruit-counter.webp",
+        "/assets/moments/coconut-drink-trio.webp",
+        "/assets/moments/dessert-bowl.webp",
+        "/assets/moments/whole-coconut-fruit.webp",
+        "/assets/moments/waffles-to-go.webp",
+        "/assets/moments/autumn-coconut-pair.webp",
+        "/assets/moments/festive-dessert.webp",
+        "/assets/moments/dessert-bowl-friends.webp"
+      ],
+      "video": {
+        "count": 1,
+        "preload": "none",
+        "autoplay": false,
+        "controls": true
+      },
+      "albumOpen": false
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "sections": [
+        "hero",
+        "favorites section",
+        "story section",
+        "gallery-section section",
+        "scrapbook",
+        "visit section"
+      ],
+      "heroPhotoTop": 387.28125,
+      "brokenImages": [],
+      "newPhotos": [
+        "/assets/moments/fruit-pudding-jars.webp",
+        "/assets/moments/waffle-and-coconut.webp",
+        "/assets/moments/fruit-counter.webp",
+        "/assets/moments/coconut-drink-trio.webp",
+        "/assets/moments/dessert-bowl.webp",
+        "/assets/moments/whole-coconut-fruit.webp",
+        "/assets/moments/waffles-to-go.webp",
+        "/assets/moments/autumn-coconut-pair.webp",
+        "/assets/moments/festive-dessert.webp",
+        "/assets/moments/dessert-bowl-friends.webp"
+      ],
+      "video": {
+        "count": 1,
+        "preload": "none",
+        "autoplay": false,
+        "controls": true
+      },
+      "albumOpen": false
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "sections": [
+        "hero",
+        "favorites section",
+        "story section",
+        "gallery-section section",
+        "scrapbook",
+        "visit section"
+      ],
+      "heroPhotoTop": 110,
+      "brokenImages": [],
+      "newPhotos": [
+        "/assets/moments/fruit-pudding-jars.webp",
+        "/assets/moments/waffle-and-coconut.webp",
+        "/assets/moments/fruit-counter.webp",
+        "/assets/moments/coconut-drink-trio.webp",
+        "/assets/moments/dessert-bowl.webp",
+        "/assets/moments/whole-coconut-fruit.webp",
+        "/assets/moments/waffles-to-go.webp",
+        "/assets/moments/autumn-coconut-pair.webp",
+        "/assets/moments/festive-dessert.webp",
+        "/assets/moments/dessert-bowl-friends.webp"
+      ],
+      "video": {
+        "count": 1,
+        "preload": "none",
+        "autoplay": false,
+        "controls": true
+      },
+      "albumOpen": false
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "sections": [
+        "hero",
+        "favorites section",
+        "story section",
+        "gallery-section section",
+        "scrapbook",
+        "visit section"
+      ],
+      "heroPhotoTop": 118,
+      "brokenImages": [],
+      "newPhotos": [
+        "/assets/moments/fruit-pudding-jars.webp",
+        "/assets/moments/waffle-and-coconut.webp",
+        "/assets/moments/fruit-counter.webp",
+        "/assets/moments/coconut-drink-trio.webp",
+        "/assets/moments/dessert-bowl.webp",
+        "/assets/moments/whole-coconut-fruit.webp",
+        "/assets/moments/waffles-to-go.webp",
+        "/assets/moments/autumn-coconut-pair.webp",
+        "/assets/moments/festive-dessert.webp",
+        "/assets/moments/dessert-bowl-friends.webp"
+      ],
+      "video": {
+        "count": 1,
+        "preload": "none",
+        "autoplay": false,
+        "controls": true
+      },
+      "albumOpen": false
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "sections": [
+        "hero",
+        "favorites section",
+        "story section",
+        "gallery-section section",
+        "scrapbook",
+        "visit section"
+      ],
+      "heroPhotoTop": 130,
+      "brokenImages": [],
+      "newPhotos": [
+        "/assets/moments/fruit-pudding-jars.webp",
+        "/assets/moments/waffle-and-coconut.webp",
+        "/assets/moments/fruit-counter.webp",
+        "/assets/moments/coconut-drink-trio.webp",
+        "/assets/moments/dessert-bowl.webp",
+        "/assets/moments/whole-coconut-fruit.webp",
+        "/assets/moments/waffles-to-go.webp",
+        "/assets/moments/autumn-coconut-pair.webp",
+        "/assets/moments/festive-dessert.webp",
+        "/assets/moments/dessert-bowl-friends.webp"
+      ],
+      "video": {
+        "count": 1,
+        "preload": "none",
+        "autoplay": false,
+        "controls": true
+      },
+      "albumOpen": false
+    }
+  ],
+  "errors": [],
+  "media": [
+    {
+      "status": 206,
+      "range": "bytes 0-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 7110656-10021515/10021516",
+      "type": "video/mp4"
+    }
+  ],
+  "checks": [
+    "No video download before visitor playback",
+    "Album opens; new photo enlarges; Escape returns focus; Enter collapses album",
+    "Failed video request exposes recovery link",
+    "Album and native video remain available without JavaScript"
+  ],
+  "playback": {
+    "duration": 36.466667,
+    "currentTime": 25,
+    "width": 720,
+    "height": 1280,
+    "error": null
+  },
+  "passed": true
+}

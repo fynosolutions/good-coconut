@@ -6,7 +6,8 @@ Palette: coconut #fffdf5, mint #80c9c5, deep teal #123e40, sea #216a83, butter #
 Type: local Poppins 600 for large, tightly spaced display headings; Poppins 400/500 for reading and navigation. Original logos retain their own lettering.
 Layout: full-width photographic opening with a prominent mint editorial headline, followed by waved sections, asymmetric story composition, alternating large product portraits, a moving photo ribbon, and straightforward store actions. Left aligned copy; centered display transitions.
 
-Home: header / split photo hero / story / three product features / full-width photo ribbon / two shop choices / footer.
+Home: header / split photo hero / three product features / story / full-width photo ribbon / scrapbook Gallery / two shop choices / footer.
+Update 2026-11-06: home now leads with three product features before the story, then the original photo ribbon, scrapbook Gallery and shops. Mint / cream / deep teal remain the core palette. Product areas use quiet cream surfaces and consistent square image crops; hand lettering and collage decoration stay in Gallery. Mobile hero uses a compact two-line headline and shows the product photograph around 387px at 390px width. Ten supplied real photographs and one manually played outdoor brand film are integrated; five album photos expand on demand. Original scrapbook photos and its two rows of four remain.
 Online: header / short title / two substantial location panels / ordering FAQ / footer.
 Contact: header / introduction and original four-field form / location information / footer.
 

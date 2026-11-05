@@ -26,3 +26,18 @@ if (galleryDialog && typeof galleryDialog.showModal === 'function') {
     opener?.focus({preventScroll:true});
   });
 }
+
+// Leave loading and playback to the visitor; report genuine media failures.
+document.querySelectorAll('.scrap-video video').forEach(video => {
+  const showError = () => {
+    video.closest('.scrap-video').querySelector('.scrap-video-error').hidden = false;
+  };
+  video.addEventListener('error', showError);
+  video.querySelector('source')?.addEventListener('error', showError);
+  video.addEventListener('loadeddata', () => {
+    video.closest('.scrap-video').querySelector('.scrap-video-error').hidden = true;
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) video.pause();
+  });
+});

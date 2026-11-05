@@ -5,20 +5,16 @@
       "width": 320,
       "overflow": 0,
       "playIcons": 0,
-      "photos": 11,
-      "statusSizes": [
-        12,
-        12,
-        12
-      ],
+      "photos": 18,
+      "statusSizes": [],
       "links": [
         "/menu/#category-156002",
         "/menu/#category-156004",
-        "/menu/#category-156003",
-        "/menu/#category-231143"
+        "/menu/#category-231143",
+        "/menu/#menu-browse"
       ],
       "anchor": {
-        "heading": 245.078125,
+        "heading": 231.59375,
         "header": 80
       }
     },
@@ -26,20 +22,16 @@
       "width": 390,
       "overflow": 0,
       "playIcons": 0,
-      "photos": 11,
-      "statusSizes": [
-        12,
-        12,
-        12
-      ],
+      "photos": 18,
+      "statusSizes": [],
       "links": [
         "/menu/#category-156002",
         "/menu/#category-156004",
-        "/menu/#category-156003",
-        "/menu/#category-231143"
+        "/menu/#category-231143",
+        "/menu/#menu-browse"
       ],
       "anchor": {
-        "heading": 244.890625,
+        "heading": 231.984375,
         "header": 80
       }
     },
@@ -47,20 +39,16 @@
       "width": 768,
       "overflow": 0,
       "playIcons": 0,
-      "photos": 11,
-      "statusSizes": [
-        12,
-        12,
-        12
-      ],
+      "photos": 18,
+      "statusSizes": [],
       "links": [
         "/menu/#category-156002",
         "/menu/#category-156004",
-        "/menu/#category-156003",
-        "/menu/#category-231143"
+        "/menu/#category-231143",
+        "/menu/#menu-browse"
       ],
       "anchor": {
-        "heading": 245.359375,
+        "heading": 232.03125,
         "header": 80
       }
     },
@@ -68,20 +56,16 @@
       "width": 1440,
       "overflow": 0,
       "playIcons": 0,
-      "photos": 11,
-      "statusSizes": [
-        13,
-        13,
-        13
-      ],
+      "photos": 18,
+      "statusSizes": [],
       "links": [
         "/menu/#category-156002",
         "/menu/#category-156004",
-        "/menu/#category-156003",
-        "/menu/#category-231143"
+        "/menu/#category-231143",
+        "/menu/#menu-browse"
       ],
       "anchor": {
-        "heading": 300.34375,
+        "heading": 299.96875,
         "header": 100
       }
     },
@@ -102,14 +86,6 @@
       }
     },
     {
-      "link": "/menu/#category-156003",
-      "name": "Signature Latte / Tea",
-      "bounds": {
-        "top": 204.734375,
-        "bottom": 2500
-      }
-    },
-    {
       "link": "/menu/#category-231143",
       "name": "Egg Waffle",
       "bounds": {
@@ -118,7 +94,7 @@
       }
     },
     {
-      "directAnchorTop": 244.890625,
+      "directAnchorTop": 231.984375,
       "errors": []
     }
   ]

@@ -122,3 +122,41 @@ body.scrap-photo-open{overflow:hidden}
 /* Clear next steps; keep the existing scrapbook composition and photographs. */
 .scrapbook-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:22px;margin-top:24px}
 @media(max-width:800px){.scrapbook{scroll-margin-top:80px}.scrapbook-actions{gap:18px}.scrapbook-actions .text-link{padding:10px 0}}
+
+/* Real media fills all three portrait positions; only the film has playback controls. */
+.scrap-reel-media>.scrap-photo-link{width:100%;height:100%}
+.scrap-reel-media>.scrap-photo-link>img{width:100%;height:100%;object-fit:cover;object-position:center}
+.scrap-still .scrap-reel-media{aspect-ratio:3/4}
+.scrap-video{--tilt:0deg}
+.scrap-video video{display:block;object-fit:contain;background:#123e40}
+.scrap-video video:focus-visible{outline:3px solid #216a83;outline-offset:3px}
+.scrap-video figcaption small{font-size:12px;line-height:1.5;color:#123e40}
+.scrap-video-error{position:absolute;bottom:48px;left:10px;right:10px;padding:12px;background:#fffdf5;font-size:13px;line-height:1.5}
+.scrap-note-sign{font-size:12px;letter-spacing:0}
+.scrap-album{margin:0 0 58px;border-top:1px solid #123e4030;border-bottom:1px solid #123e4030;padding:8px 0}
+.scrap-album summary{display:flex;justify-content:space-between;align-items:center;cursor:pointer;list-style:none;font-size:18px;font-weight:500;padding:18px 8px}
+.scrap-album summary::-webkit-details-marker{display:none}
+.scrap-album summary span{font-size:28px;line-height:1;transition:transform .2s}
+.scrap-album[open] summary span{transform:rotate(45deg)}
+.scrap-album summary:focus-visible{outline:3px solid #216a83;outline-offset:3px}
+.scrap-album>p{font-size:14px;padding:0 8px}
+.scrap-album-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px;padding:36px 12px 28px}
+.scrap-album-grid>.scrap-photo{position:relative;inset:auto;width:100%;--tilt:0deg}
+.scrap-album-grid>.scrap-photo img{aspect-ratio:4/5}
+.scrap-album-grid>.scrap-photo:nth-child(even){--tilt:2deg}
+@media(max-width:600px){.scrap-album-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 16px;padding:30px 5px}.scrap-album summary{font-size:16px}.scrap-album-grid>.scrap-photo figcaption{font-size:22px}}
+@media(max-width:900px){
+ .scrap-video{grid-column:1/-1;grid-row:1;width:min(100%,310px);margin:0 auto 6px;--tilt:0deg}
+ .scrap-pudding{grid-column:1;grid-row:2;margin-top:24px}
+ .scrap-shop{grid-column:2;grid-row:2;margin-top:0}
+ .scrap-little-stop{grid-column:1;grid-row:3;margin-top:0}
+ .scrap-lime{grid-column:2;grid-row:3;margin-top:32px}
+ .scrap-note{grid-column:1;grid-row:4;margin-top:24px}
+ .scrap-sweet-company{grid-column:2;grid-row:4;margin-top:0}
+ .scrap-sticker-coconut{top:46%;left:38%}
+ .scrap-sticker-ny{top:72%}
+ .scrapbook{padding-top:42px}
+ .scrapbook-heading h2{font-size:60px}
+ .scrapbook-intro{margin-top:16px;font-size:13px}
+ .scrap-note-sign{font-size:11px}
+}

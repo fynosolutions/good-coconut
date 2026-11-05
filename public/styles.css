@@ -79,3 +79,54 @@ h1,h2,h3{text-shadow:.055em .065em 0 rgb(18 62 64 / 28%)}
 .product-copy .product-links .text-link{margin:0}
 @media(max-width:800px){.story-detail{grid-template-columns:90px 1fr;gap:14px}}
 @media(max-width:560px){.hero-copy>.hero-description{font-size:17px;margin-top:18px;max-width:28ch}.story-detail{grid-template-columns:100px 1fr;margin-top:22px}.story-copy>.sun-icon{position:static;width:50px;height:50px;margin:14px 0 0 auto}.product-links{gap:8px}.product-links .text-link{padding:8px 0}.product-feature{margin-bottom:38px}}
+
+/* Product-first homepage: the existing mint identity, with quieter food surfaces. */
+.page-home h1,.page-home h2,.page-home h3{text-shadow:none}
+.page-home ::selection{background:var(--mint);color:var(--ink)}
+.hero-copy{padding-bottom:80px}
+.hero-actions{margin-top:28px}
+.hero-copy>.hero-locations{font-size:13px;line-height:1.6;margin:24px 0 0}
+.hero-locations a{padding:8px 0;text-underline-offset:4px}
+.favorites{background:var(--cream);padding-top:82px;padding-bottom:88px;scroll-margin-top:100px}
+.favorites .section-intro{align-items:flex-end;gap:32px;margin-bottom:52px}
+.favorites .section-intro>p{max-width:31ch;font-size:16px;line-height:1.75;margin:0}
+.favorites .product-feature{max-width:1060px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10%;margin:0 auto 72px;align-items:center}
+.favorites .product-feature:last-child{margin-bottom:0}
+.favorites .product-image{width:100%;max-width:none;transform:none}
+.favorites .product-feature .product-image img{width:100%;aspect-ratio:1;object-fit:cover;object-position:50% 55%;border-radius:14px;box-shadow:none}
+.favorites .product-copy{padding:0}
+.favorites .product-copy h3{font-size:clamp(32px,3.2vw,46px);margin-bottom:20px}
+.favorites .product-copy p{font-size:16px;line-height:1.8;max-width:38ch}
+.favorites .product-copy .text-link{padding:10px 0}
+.page-home .story{background:#edf4e9;padding:92px 0}
+.page-home .story-copy>.sun-icon{display:none}
+.page-home .story-photo{transform:rotate(-3deg)}
+.page-home .gallery-section{background:var(--cream);padding-top:78px;padding-bottom:40px}
+.page-home .gallery-section>.wave{fill:var(--cream)}
+@media(max-width:1100px){.favorites .product-feature{gap:7%;margin-bottom:54px}.favorites .product-copy p{font-size:15px}}
+@media(max-width:800px){.favorites{scroll-margin-top:80px}.favorites .section-intro>p{font-size:14px}.favorites .product-copy h3{font-size:32px}}
+@media(max-width:560px){
+ .hero-copy{padding:28px var(--gutter) 24px}
+ .hero h1{font-size:clamp(32px,9.6vw,52px);line-height:1.07;letter-spacing:-.04em}
+ .hero-copy>.hero-description{font-size:16px;line-height:1.5;margin:16px 0 0;max-width:29ch}
+ .hero-actions{margin-top:20px;gap:16px;flex-wrap:wrap}
+ .hero-actions .button{padding:13px 18px;gap:18px}
+ .hero-actions .text-link{font-size:12px;padding:10px 0}
+ .hero-copy>.hero-locations{font-size:12px;margin-top:14px}
+ .hero-photo{height:300px;margin-top:8px}
+ .hero-brand-mark{width:270px;top:-61px;right:5px}
+ .favorites{margin-top:0;padding:42px 0 58px}
+ .favorites .section-intro{margin-bottom:30px}
+ .favorites .section-intro h2{font-size:38px}
+ .favorites .section-intro>p{margin-top:16px;font-size:14px;max-width:32ch}
+ .favorites .product-feature{grid-template-columns:1fr;gap:22px;margin:0 0 40px}
+ .favorites .product-image{max-width:390px;width:100%;margin:auto}
+ .favorites .product-copy h3{font-size:30px;margin-bottom:12px}
+ .favorites .product-copy p{font-size:15px;line-height:1.75}
+ .favorites .product-copy>.text-link{margin-top:12px}
+ .favorites .product-links{margin-top:12px;gap:0}
+ .page-home .story{padding:56px 0}
+ .story-layout{gap:30px}
+ .story-copy h2{font-size:32px}
+ .page-home .gallery-section{padding-top:45px;padding-bottom:24px}
+}

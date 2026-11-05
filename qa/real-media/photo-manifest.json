@@ -1,0 +1,72 @@
+[
+  {
+    "source": "52b232d3-2cb8-4eee-900c-be3f82fcb09f.png",
+    "output": "public/assets/moments/dessert-bowl.webp",
+    "width": 994,
+    "height": 1188,
+    "bytes": 86344
+  },
+  {
+    "source": "47cadfe6-8054-4cea-bfa4-2073e3d0b76b.png",
+    "output": "public/assets/moments/coconut-drink-trio.webp",
+    "width": 955,
+    "height": 1285,
+    "bytes": 81502
+  },
+  {
+    "source": "a751224a-3336-437b-b62b-3db08a6180f6.png",
+    "output": "public/assets/moments/waffle-and-coconut.webp",
+    "width": 1063,
+    "height": 1243,
+    "bytes": 82490
+  },
+  {
+    "source": "ab8ec268-011a-4c59-8f42-104bc15bfc06.png",
+    "output": "public/assets/moments/fruit-pudding-jars.webp",
+    "width": 1164,
+    "height": 1311,
+    "bytes": 170464
+  },
+  {
+    "source": "96e8770d-8e36-4c9a-a333-e574b7d3f49d.png",
+    "output": "public/assets/moments/whole-coconut-fruit.webp",
+    "width": 1018,
+    "height": 1201,
+    "bytes": 56802
+  },
+  {
+    "source": "e6fdab1c-0eb5-4406-8332-9c5bafb93191.png",
+    "output": "public/assets/moments/waffles-to-go.webp",
+    "width": 1104,
+    "height": 1242,
+    "bytes": 108704
+  },
+  {
+    "source": "26c998d2-d00b-42c0-8973-8875165278cc.png",
+    "output": "public/assets/moments/autumn-coconut-pair.webp",
+    "width": 918,
+    "height": 1242,
+    "bytes": 180582
+  },
+  {
+    "source": "35bad323-6483-444d-891f-798b78faf4ce.png",
+    "output": "public/assets/moments/festive-dessert.webp",
+    "width": 985,
+    "height": 1246,
+    "bytes": 135880
+  },
+  {
+    "source": "52abd303-b10d-48d9-8536-6a4e707723f5.png",
+    "output": "public/assets/moments/fruit-counter.webp",
+    "width": 1200,
+    "height": 1201,
+    "bytes": 139436
+  },
+  {
+    "source": "70e5b450-62f5-4a3d-9043-7f38c94b19a9.png",
+    "output": "public/assets/moments/dessert-bowl-friends.webp",
+    "width": 1200,
+    "height": 1158,
+    "bytes": 124918
+  }
+]
