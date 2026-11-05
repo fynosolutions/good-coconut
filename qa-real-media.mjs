@@ -30,8 +30,8 @@ try{
   }));
   assert.equal(facts.overflow,0);assert.deepEqual(facts.brokenImages,[]);
   assert(facts.sections[1].includes('favorites'));assert(facts.sections[2].includes('story'));
-  assert.equal(facts.newPhotos.length,10);assert.equal(facts.video.count,1);
-  assert.equal(facts.video.preload,'none');assert.equal(facts.video.autoplay,false);assert.equal(facts.video.controls,true);
+  assert.equal(facts.newPhotos.length,8);assert.equal(facts.video.count,8);
+  assert.equal(facts.video.preload,'metadata');assert.equal(facts.video.autoplay,true);assert.equal(facts.video.controls,false);
   assert.equal(facts.albumOpen,false);
   if(width<=390)assert(facts.heroPhotoTop<430,`Mobile product appears too late: ${facts.heroPhotoTop}`);
   report.viewports.push({width,...facts});
@@ -45,12 +45,12 @@ try{
    await page.screenshot({path:`${out}/gallery-${width}.png`});
   }
  }
- assert.equal(report.media.length,0,'Video must not download before playback');
- report.checks.push('No video download before visitor playback');
+ assert(report.media.length>0,'Autoplay videos should load without a click');
+ report.checks.push('Video media loads automatically');
  // The native player must actually decode, play and seek, not merely expose a button.
  await page.setViewport({width:390,height:844});
  await page.$eval('video',v=>v.scrollIntoView({behavior:'instant',block:'center'}));
- await page.$eval('video',async v=>{await v.play();});
+ await page.waitForFunction(()=>!document.querySelector('video').paused);
  await page.waitForFunction(()=>document.querySelector('video').currentTime>1,{timeout:20000});
  await page.$eval('video',v=>{v.pause();v.currentTime=25;});
  await page.waitForFunction(()=>{const v=document.querySelector('video');return !v.seeking&&v.readyState>=2&&Math.abs(v.currentTime-25)<.2;});
@@ -80,7 +80,7 @@ try{
  await page.setJavaScriptEnabled(false);await page.goto(base,{waitUntil:'load'});
  await page.click('.scrap-album summary');
  assert.equal(await page.$eval('.scrap-album',e=>e.open),true);
- assert.equal(await page.$eval('video',e=>e.controls),true);
+ assert.equal(await page.$eval('video',e=>e.autoplay&&e.muted&&e.loop&&!e.controls),true);
  report.checks.push('Album and native video remain available without JavaScript');
  assert.deepEqual(report.errors,[]);report.passed=true;
 }finally{

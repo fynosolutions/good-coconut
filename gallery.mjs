@@ -1,8 +1,19 @@
-// Supplied brand video and photographs. No implied creator endorsements.
+// Supplied Instagram clips use local, full-length browser-compatible copies.
+const clip = (id, file, note) => ({id, title:note, note,
+  poster:`/assets/reels/${file}.jpg`, src:`/assets/reels/${file}.mp4`, creator:null});
+export const suppliedClips = [
+  clip('little-stop','20260630_DaMc6xWOuDw','a little coconut moment'),
+  clip('sweet-company','20260714_Dawsd0yumpW','good days, on repeat'),
+  clip('strawberry','20260714_DayYJ-2ANI1','a little taste of happy'),
+  clip('snowball','20260717_Da5Sy5WuSNR','sweet little things'),
+  clip('beach','20260812_Db8t5qXMwCC','a moment worth keeping'),
+  clip('milk','20260906_Dc9cy5qskQD','sip, smile, repeat.'),
+  clip('waffles','20261024_De4gy-Bz8Wu','the sweetest company')
+];
 export const galleryReels = [
   {id:'first-bite', title:'A coconut kind of day.', note:'a little sunshine to go', poster:'/assets/moments/coconut-day-out-poster.jpg', src:'/assets/moments/coconut-day-out.mp4', creator:null},
-  {id:'little-stop', title:'Three Good Coconut drinks on the shop counter', note:'pick your happy sip', poster:'/assets/moments/coconut-drink-trio.webp', src:null, creator:null},
-  {id:'sweet-company', title:'A dessert bowl with jelly, colorful toppings and a Good Coconut flag', note:'one more spoonful', poster:'/assets/moments/dessert-bowl.webp', src:null, creator:null}
+  suppliedClips[0],
+  suppliedClips[1]
 ];
 // More real moments are available on demand, without extending the main collage.
 export const galleryAlbum = [
@@ -30,7 +41,9 @@ export const galleryPhotoRows = [
 const escape = value => String(value).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const expand = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
 function photo(id,src,alt,caption){return `<figure class="scrap-piece scrap-photo scrap-${id}"><span class="scrap-tape" aria-hidden="true"></span><span class="scrap-tape scrap-tape-corner" aria-hidden="true"></span><a class="scrap-photo-link" href="${src}" data-gallery-photo data-caption="${escape(caption)}" aria-label="Enlarge photo: ${escape(alt)}"><img src="${src}" alt="${escape(alt)}" width="600" height="600" loading="lazy"><span class="scrap-expand">${expand}</span></a><figcaption>${caption}</figcaption></figure>`;}
-function reel(item){return `<figure class="scrap-piece scrap-reel scrap-${item.id}${item.src?' scrap-video':' scrap-still'}"><span class="scrap-tape" aria-hidden="true"></span><div class="scrap-reel-media">${item.src?`<video controls playsinline preload="none" poster="${item.poster}" aria-label="${escape(item.title)} — outdoor brand film"><source src="${escape(item.src)}" type="video/mp4"><a href="${escape(item.src)}">Watch the brand film</a></video><p class="scrap-video-error" role="status" hidden>Video unavailable. <a href="${escape(item.src)}">Open the video</a></p>`:`<a class="scrap-photo-link" href="${item.poster}" data-gallery-photo data-caption="${escape(item.note)}" aria-label="Enlarge photo: ${escape(item.title)}"><img src="${item.poster}" alt="${escape(item.title)}" width="955" height="1285" loading="lazy"><span class="scrap-expand">${expand}</span></a>`}</div><figcaption><span>${item.note}</span>${item.src?'<small>Brand film · 0:36 · Play with sound</small>':''}${item.creator?`<small>${escape(item.creator)}</small>`:''}</figcaption></figure>`;}
+function reel(item){return `<figure class="scrap-piece scrap-reel scrap-video scrap-${item.id}"><span class="scrap-tape" aria-hidden="true"></span><div class="scrap-reel-media"><video autoplay muted loop playsinline preload="metadata" poster="${escape(item.poster)}" aria-label="${escape(item.title)}"><source src="${escape(item.src)}" type="video/mp4"><a href="${escape(item.src)}">Open the video</a></video><p class="scrap-video-error" role="status" hidden>Video unavailable. <a href="${escape(item.src)}">Open the video</a></p></div><figcaption><span>${escape(item.note)}</span></figcaption></figure>`;}
+function rowMoment(item){const video=suppliedClips.find(clip=>clip.id===item[0]);return video?reel(video):photo(...item);}
+
 export function scrapbookGallery(){return `<section id="gallery" class="scrapbook" aria-labelledby="scrapbook-title">
   <div class="scrapbook-inner">
     <div class="scrapbook-heading"><div><h2 id="scrapbook-title">Gallery<span class="scrap-title-dot" aria-hidden="true">.</span></h2><p class="scrap-hand scrap-subtitle">a little collection of good days</p></div><p class="scrapbook-intro">Sweet stops. Coconut cravings. <br>Little moments worth keeping.</p></div>
@@ -48,7 +61,7 @@ export function scrapbookGallery(){return `<section id="gallery" class="scrapboo
       <span class="scrap-hand scrap-margin-note" aria-hidden="true">camera eats first.</span>
     </div>
     <div class="scrapbook-continuation">
-      ${galleryPhotoRows.map(row=>`<div class="scrap-extra-row scrap-row-${row.id}" role="group" aria-label="${escape(row.note)}">${row.photos.map(item=>photo(...item)).join('')}<span class="scrap-row-annotation scrap-hand" aria-hidden="true">${row.note}</span></div>`).join('')}
+      ${galleryPhotoRows.map(row=>`<div class="scrap-extra-row scrap-row-${row.id}" role="group" aria-label="${escape(row.note)}">${row.photos.map(rowMoment).join('')}<span class="scrap-row-annotation scrap-hand" aria-hidden="true">${row.note}</span></div>`).join('')}
     </div>
     <details class="scrap-album"><summary>More good moments <span aria-hidden="true">+</span></summary><p>A few more moments from our photo album.</p><div class="scrap-album-grid">${galleryAlbum.map(item=>photo(...item)).join('')}</div></details>
     <div class="scrapbook-footer"><p class="scrap-hand">Your good moment belongs here, too.</p><a class="scrap-social" href="https://www.instagram.com/goodcoconutny/" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>@goodcoconutny <span aria-hidden="true">↗</span></a><div class="scrapbook-actions"><a class="button" href="/online/">Find your coconut stop <span aria-hidden="true">↗</span></a><a class="text-link" href="/menu/#menu-browse">View the menu ↗</a></div></div>

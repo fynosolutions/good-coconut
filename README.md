@@ -1,5 +1,7 @@
 # Good Coconut — Wave 独立版本
 
+Gallery 最新更新：7 段指定视频已替换照片位，连同原品牌短片共 8 段，全部静音自动循环播放。拍立得相框适配完整竖屏画面。预览 http://127.0.0.1:4192/#gallery ，本轮未部署。详情与验证见 `docs/GALLERY.md`。
+
 最新首页与 Gallery 预览：双击 `Preview-Gallery.cmd` 打开本地 4192 端口的拼贴墙。首页优先展示产品，缩短手机首屏；十张用户提供的照片与一段可播放品牌视频已接入，原照片带和两排八张拼贴保留。更多照片可按需展开。修改说明与验证记录见 [Gallery 说明](docs/GALLERY.md)，视觉预览见 [本轮截图](docs/updates/real-media/README.md)。本轮更新尚未合并或部署至生产环境。
 
 完整参考与调查见 [研究索引](docs/research/README.md)，包括 Pearly、MeloMelo、本站对照评审，以及用户指定的 Memoria Visuals / LiCoWa 美食剪贴簿参考。

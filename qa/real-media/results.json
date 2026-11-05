@@ -17,8 +17,6 @@
         "/assets/moments/fruit-pudding-jars.webp",
         "/assets/moments/waffle-and-coconut.webp",
         "/assets/moments/fruit-counter.webp",
-        "/assets/moments/coconut-drink-trio.webp",
-        "/assets/moments/dessert-bowl.webp",
         "/assets/moments/whole-coconut-fruit.webp",
         "/assets/moments/waffles-to-go.webp",
         "/assets/moments/autumn-coconut-pair.webp",
@@ -26,10 +24,10 @@
         "/assets/moments/dessert-bowl-friends.webp"
       ],
       "video": {
-        "count": 1,
-        "preload": "none",
-        "autoplay": false,
-        "controls": true
+        "count": 8,
+        "preload": "metadata",
+        "autoplay": true,
+        "controls": false
       },
       "albumOpen": false
     },
@@ -50,8 +48,6 @@
         "/assets/moments/fruit-pudding-jars.webp",
         "/assets/moments/waffle-and-coconut.webp",
         "/assets/moments/fruit-counter.webp",
-        "/assets/moments/coconut-drink-trio.webp",
-        "/assets/moments/dessert-bowl.webp",
         "/assets/moments/whole-coconut-fruit.webp",
         "/assets/moments/waffles-to-go.webp",
         "/assets/moments/autumn-coconut-pair.webp",
@@ -59,10 +55,10 @@
         "/assets/moments/dessert-bowl-friends.webp"
       ],
       "video": {
-        "count": 1,
-        "preload": "none",
-        "autoplay": false,
-        "controls": true
+        "count": 8,
+        "preload": "metadata",
+        "autoplay": true,
+        "controls": false
       },
       "albumOpen": false
     },
@@ -83,8 +79,6 @@
         "/assets/moments/fruit-pudding-jars.webp",
         "/assets/moments/waffle-and-coconut.webp",
         "/assets/moments/fruit-counter.webp",
-        "/assets/moments/coconut-drink-trio.webp",
-        "/assets/moments/dessert-bowl.webp",
         "/assets/moments/whole-coconut-fruit.webp",
         "/assets/moments/waffles-to-go.webp",
         "/assets/moments/autumn-coconut-pair.webp",
@@ -92,10 +86,10 @@
         "/assets/moments/dessert-bowl-friends.webp"
       ],
       "video": {
-        "count": 1,
-        "preload": "none",
-        "autoplay": false,
-        "controls": true
+        "count": 8,
+        "preload": "metadata",
+        "autoplay": true,
+        "controls": false
       },
       "albumOpen": false
     },
@@ -116,8 +110,6 @@
         "/assets/moments/fruit-pudding-jars.webp",
         "/assets/moments/waffle-and-coconut.webp",
         "/assets/moments/fruit-counter.webp",
-        "/assets/moments/coconut-drink-trio.webp",
-        "/assets/moments/dessert-bowl.webp",
         "/assets/moments/whole-coconut-fruit.webp",
         "/assets/moments/waffles-to-go.webp",
         "/assets/moments/autumn-coconut-pair.webp",
@@ -125,10 +117,10 @@
         "/assets/moments/dessert-bowl-friends.webp"
       ],
       "video": {
-        "count": 1,
-        "preload": "none",
-        "autoplay": false,
-        "controls": true
+        "count": 8,
+        "preload": "metadata",
+        "autoplay": true,
+        "controls": false
       },
       "albumOpen": false
     },
@@ -149,8 +141,6 @@
         "/assets/moments/fruit-pudding-jars.webp",
         "/assets/moments/waffle-and-coconut.webp",
         "/assets/moments/fruit-counter.webp",
-        "/assets/moments/coconut-drink-trio.webp",
-        "/assets/moments/dessert-bowl.webp",
         "/assets/moments/whole-coconut-fruit.webp",
         "/assets/moments/waffles-to-go.webp",
         "/assets/moments/autumn-coconut-pair.webp",
@@ -158,10 +148,10 @@
         "/assets/moments/dessert-bowl-friends.webp"
       ],
       "video": {
-        "count": 1,
-        "preload": "none",
-        "autoplay": false,
-        "controls": true
+        "count": 8,
+        "preload": "metadata",
+        "autoplay": true,
+        "controls": false
       },
       "albumOpen": false
     }
@@ -175,19 +165,264 @@
     },
     {
       "status": 206,
+      "range": "bytes 0-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1947807/1947808",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1918580/1918581",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-6593839/6593840",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-9749943/9749944",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1854913/1854914",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-14656221/14656222",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1947807/1947808",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1918580/1918581",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-9749943/9749944",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-6593839/6593840",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1854913/1854914",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-14656221/14656222",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1947807/1947808",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1918580/1918581",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-6593839/6593840",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-9749943/9749944",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1854913/1854914",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-14656221/14656222",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1947807/1947808",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1918580/1918581",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-6593839/6593840",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-9749943/9749944",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1854913/1854914",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-14656221/14656222",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1947807/1947808",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1918580/1918581",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-6593839/6593840",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-9749943/9749944",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1854913/1854914",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-14656221/14656222",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 3145728-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 557056-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
       "range": "bytes 7110656-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-10021515/10021516",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1947807/1947808",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1918580/1918581",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-5336977/5336978",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-6593839/6593840",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-9749943/9749944",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-1854913/1854914",
+      "type": "video/mp4"
+    },
+    {
+      "status": 206,
+      "range": "bytes 0-14656221/14656222",
       "type": "video/mp4"
     }
   ],
   "checks": [
-    "No video download before visitor playback",
+    "Video media loads automatically",
     "Album opens; new photo enlarges; Escape returns focus; Enter collapses album",
     "Failed video request exposes recovery link",
     "Album and native video remain available without JavaScript"
   ],
   "playback": {
     "duration": 36.466667,
-    "currentTime": 25,
+    "currentTime": 25.006076,
     "width": 720,
     "height": 1280,
     "error": null
