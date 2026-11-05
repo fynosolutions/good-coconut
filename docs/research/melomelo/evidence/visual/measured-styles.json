@@ -1,0 +1,71 @@
+{
+  "colors": [
+    "rgba(0, 0, 0, 0)",
+    "rgb(227, 115, 112)",
+    "rgb(255, 255, 255)",
+    "rgb(55, 1, 1)",
+    "rgb(215, 215, 215)"
+  ],
+  "controls": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "font": "Kadwa, \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "height": 38,
+      "name": "Close Announcement",
+      "size": "13.3333px",
+      "width": 38
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 1, 1)",
+      "font": "Kadwa, \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "height": 40,
+      "name": "Open Menu",
+      "size": "13.3333px",
+      "width": 40
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 1, 1)",
+      "font": "Kadwa, \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "height": 40,
+      "name": "Open the right panel with shipping cart content",
+      "size": "13.3333px",
+      "width": 40
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 1, 1)",
+      "font": "Kadwa, \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "height": 27,
+      "name": "预设",
+      "size": "12px",
+      "width": 39
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 1, 1)",
+      "font": "Kadwa, \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "height": 32,
+      "name": "Add the product to your wishlist",
+      "size": "13.3333px",
+      "width": 27.078125
+    },
+    {
+      "background": "rgb(55, 1, 1)",
+      "color": "rgb(255, 255, 255)",
+      "font": "Kadwa, \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+      "height": 44,
+      "name": "Add 椰子冻一吃 to cart",
+      "size": "16px",
+      "width": 137.921875
+    }
+  ],
+  "fonts": [
+    "Kadwa",
+    "Noto Sans SC",
+    "Noto Serif SC",
+    "Yeseva One"
+  ]
+}
