@@ -98,4 +98,6 @@ function update(){queued=false;const max=root.scrollHeight-innerHeight,p=max>0?M
 addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(update);}},{passive:true});
 addEventListener('resize',update);
 if(!document.body.classList.contains('page-contact')){document.body.append(sip);update();}
+// Home only: step aside when the footer's bottom row is on screen, so the button never covers the copyright line.
+const foot=document.querySelector('.page-home .footer-bottom');if(foot)new IntersectionObserver(([e])=>sip.classList.toggle('at-foot',e.isIntersecting)).observe(foot);
 })();

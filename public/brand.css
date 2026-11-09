@@ -622,3 +622,15 @@ input,textarea{border:1.5px solid #24428a}
 .sp.sp-moved .card img.prod{height:calc((min(100vw - 2*var(--gut,24px), 1200px) - 54px)*.155)!important}}
 /* round 8: the portrait video fills the big gallery tile instead of stretching it */
 .wall figure.wall-video video{position:absolute;inset:0}
+
+/* round 8 home fixes (home-only sections) */
+.wall figure.wall-video figcaption{left:auto;bottom:auto;right:12px;top:12px}
+@media (max-width:1180px){.cats5 .cat.big .ph{padding-top:64px}}
+.season5 .button{white-space:nowrap}
+.season5 .season-card .copy{min-width:0}
+@media (max-width:480px){.season5 .button{font-size:15px;padding-left:20px;padding-right:20px}.wall figure.wall-video figcaption{right:8px;top:8px}}
+.visit5 .shop-heading>span:first-child{display:block;padding-right:52px}
+.wall figure:nth-child(8) img{object-position:21% 50%}
+body.page-home .sip.at-foot{opacity:0;pointer-events:none}
+@media (max-width:400px){.season5 .season-card .copy{padding-left:22px;padding-right:22px}.season5 .button{font-size:14px;padding-left:16px;padding-right:16px;gap:10px}}
+@media (max-width:480px){.wall figcaption{font-size:15px}}
