@@ -6,9 +6,10 @@ const ease='cubic-bezier(.23,1,.32,1)';
 const saved={get(){try{return localStorage.getItem('gc-cursor');}catch{return null;}},set(v){try{localStorage.setItem('gc-cursor',v);}catch{}}};
 
 // Signature cursor picker: coconut (椰子蛋), drink (饮品), jar (椰子杯). CSS draws the cursor from html[data-cursor].
-const kinds=['coconut','drink','jar'];
+// 2026-11-09 (毛): coconut only. The drink and jar cursors are gone; an old saved choice is overwritten.
+const kinds=['coconut'];
 const firstVisit=!saved.get();
-let kind=kinds.includes(saved.get())?saved.get():'coconut';
+let kind='coconut';
 const picks=[...document.querySelectorAll('.signature-picker button')];
 function choose(next,button){
  kind=next;root.dataset.cursor=next;saved.set(next);
