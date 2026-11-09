@@ -13,16 +13,16 @@
 }
 
 /* Picker: the three signatures next to the logo. */
-.signature-picker{display:flex;align-items:center;gap:14px;margin-right:auto;margin-left:6px;padding:4px 18px 4px 6px;border:1.5px solid #f0dc8a;border-radius:100px;background:#fbf0c9}
+.signature-picker{display:flex;align-items:center;gap:14px;margin-right:auto;margin-left:6px;padding:4px 18px 4px 6px;border:1.5px solid #f6c7a1;border-radius:100px;background:#fbf3e4}
 .signature-icons{display:flex;gap:30px}
-.signature-cta{display:grid;min-width:8.6em;line-height:1.15;color:#123e40}
+.signature-cta{display:grid;min-width:8.6em;line-height:1.15;color:#24428a}
 .signature-cta strong{font-size:14px;font-weight:600}
 .signature-cta small{margin-top:2px;font-size:12px;opacity:.75}
 .signature-picker button{position:relative;display:grid;place-items:center;width:48px;height:48px;padding:4px;border:1.5px solid transparent;border-radius:50%;background:transparent;transition:transform .16s ease-out,background-color .2s ease,border-color .2s ease}
 .signature-picker svg{width:38px;height:38px;overflow:visible}
-.signature-picker button[aria-pressed=true]{background:#fffdf5;border-color:#123e40}
+.signature-picker button[aria-pressed=true]{background:#fffdf5;border-color:#24428a}
 .signature-picker button:active{transform:scale(.94)}
-.signature-picker button:focus-visible{outline:3px solid #216a83;outline-offset:2px}
+.signature-picker button:focus-visible{outline:3px solid #1c3470;outline-offset:2px}
 @media (hover:hover){.signature-picker button:hover{background:#fffdf5b3}.signature-picker button[aria-pressed=true]:hover{background:#fffdf5}}
 @media (min-width:801px){.site-header nav a{white-space:nowrap}.signature-cta{white-space:nowrap}}
 @media (max-width:1320px){.signature-cta small{display:none}.signature-cta{min-width:0}}
@@ -34,34 +34,34 @@
 /* Click splash at the pointer tip; on touch screens the chosen treat pops up where you tap. */
 .gc-burst-layer{position:fixed;inset:0;z-index:9998;pointer-events:none;overflow:hidden}
 .gc-burst{position:absolute;left:0;top:0;width:0;height:0}
-.gc-burst i{position:absolute;left:-4px;top:-4px;width:8px;height:8px;border-radius:50%;background:#80c9c5;opacity:0}
-.gc-burst i:nth-child(odd){background:#f4df83}
+.gc-burst i{position:absolute;left:-4px;top:-4px;width:8px;height:8px;border-radius:50%;background:#78ccc5;opacity:0}
+.gc-burst i:nth-child(odd){background:#f6c7a1}
 .gc-burst-icon{position:absolute;left:0;top:0;width:64px;height:64px;max-width:none;opacity:0}
 .gc-straw{position:absolute;left:-2px;top:-34px;width:30px;height:40px;opacity:0}
 
 /* Order online: pickup + delivery for each shop. */
 .order-caret{width:12px;height:12px;margin-left:-14px;transition:transform .2s cubic-bezier(.23,1,.32,1)}
 .order-toggle[aria-expanded=true] .order-caret{transform:rotate(180deg)}
-.order-panel{position:absolute;top:calc(100% - 8px);right:var(--gutter);z-index:55;width:min(640px,calc(100vw - 32px));max-height:calc(100dvh - 110px);overflow:auto;padding:22px;border:1px solid #123e4022;border-radius:20px;background:#fffdf5;box-shadow:0 18px 44px #123e4026;transform-origin:top right;transition:opacity .18s ease-out,transform .2s cubic-bezier(.23,1,.32,1),visibility 0s linear .2s}
+.order-panel{position:absolute;top:calc(100% - 8px);right:var(--gutter);z-index:55;width:min(640px,calc(100vw - 32px));max-height:calc(100dvh - 110px);overflow:auto;padding:22px;border:1px solid #24428a22;border-radius:20px;background:#fffdf5;box-shadow:0 18px 44px #24428a26;transform-origin:top right;transition:opacity .18s ease-out,transform .2s cubic-bezier(.23,1,.32,1),visibility 0s linear .2s}
 .order-panel[data-state=closed]{opacity:0;transform:translateY(-6px) scale(.98);visibility:hidden;pointer-events:none}
 .order-panel[data-state=open]{opacity:1;transform:none;visibility:visible;transition-delay:0s}
 .order-panel-shops{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.order-shop{padding:18px;border-radius:14px;background:#e5efdf;text-align:left}
-.order-shop+.order-shop{background:var(--lilac,#e9e3ef)}
+.order-shop{padding:18px;border-radius:14px;background:#ddeeea;text-align:left}
+.order-shop+.order-shop{background:var(--lilac,#fbf3e4)}
 .order-shop-name{margin:0 0 14px;font-size:24px;line-height:1.1}
 .order-shop-name span{display:block;margin-top:6px;font-size:12px;font-weight:500;letter-spacing:0;opacity:.75}
-.order-pickup{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;border-radius:12px;background:#123e40;color:#fffdf5;text-decoration:none;transition:transform .16s ease-out}
+.order-pickup{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;border-radius:12px;background:#24428a;color:#fffdf5;text-decoration:none;transition:transform .16s ease-out}
 .order-pickup strong{display:block;font-size:15px;font-weight:600}
 .order-pickup small{display:block;font-size:12px;opacity:.8}
 .order-pickup:active{transform:scale(.97)}
 .order-label{margin:16px 0 8px;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
 .order-delivery{display:flex;flex-wrap:wrap;gap:10px}
-.delivery-icon{display:grid;place-items:center;width:76px;height:46px;border:1px solid #123e4033;border-radius:14px;background:#fff;transition:transform .16s ease-out,box-shadow .2s ease}
+.delivery-icon{display:grid;place-items:center;width:76px;height:46px;border:1px solid #24428a33;border-radius:14px;background:#fff;transition:transform .16s ease-out,box-shadow .2s ease}
 .delivery-icon svg{display:block}
-@media (hover:hover) and (pointer:fine){.delivery-icon:hover{transform:translateY(-2px);box-shadow:0 6px 14px #123e4022}}
+@media (hover:hover) and (pointer:fine){.delivery-icon:hover{transform:translateY(-2px);box-shadow:0 6px 14px #24428a22}}
 .delivery-icon:active{transform:scale(.94)}
-.delivery-icon:focus-visible{outline:3px solid #216a83;outline-offset:2px}
-@media (hover:hover){.order-pickup:hover{background:#0c2f31}}
+.delivery-icon:focus-visible{outline:3px solid #1c3470;outline-offset:2px}
+@media (hover:hover){.order-pickup:hover{background:#1c3470}}
 @media (max-width:800px){.order-panel{position:fixed;top:88px;right:16px;left:16px;width:auto;padding:16px}.order-panel-shops{grid-template-columns:1fr;gap:12px}.order-shop-name{font-size:22px}}
 
 /* Shop cards: mall, delivery apps, one map per shop. */
@@ -69,20 +69,20 @@
 .shop-near{margin:-12px 0 14px;font-size:14px}
 .shop-delivery{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:18px}
 .shop-delivery span{flex-basis:100%;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
-.shop-map{display:block;width:100%;height:300px;margin-top:24px;border:1px solid #123e4030;border-radius:12px;background:#e6f1ec}
+.shop-map{display:block;width:100%;height:300px;margin-top:24px;border:1px solid #24428a30;border-radius:12px;background:#ddeeea}
 @media (max-width:560px){.shop-map{height:240px}}
 .menu-order-shops{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:760px;margin:28px auto 22px}
 @media (max-width:640px){.menu-order-shops{grid-template-columns:1fr}}
 
 /* Sip to scroll: the coconut empties as you scroll, then becomes an Order online button. */
-.sip{position:fixed;right:20px;bottom:20px;z-index:60;opacity:0;scale:.9;pointer-events:none;transition:opacity .25s ease-out,scale .25s cubic-bezier(.23,1,.32,1),transform .16s ease-out;display:grid;place-items:center;width:76px;height:76px;border:1.5px solid #123e4022;border-radius:50%;background:#fffdf5;box-shadow:0 6px 20px #123e4026;text-decoration:none}
+.sip{position:fixed;right:20px;bottom:20px;z-index:60;opacity:0;scale:.9;pointer-events:none;transition:opacity .25s ease-out,scale .25s cubic-bezier(.23,1,.32,1),transform .16s ease-out;display:grid;place-items:center;width:76px;height:76px;border:1.5px solid #24428a22;border-radius:50%;background:#fffdf5;box-shadow:0 6px 20px #24428a26;text-decoration:none}
 .sip.shown{opacity:1;scale:1;pointer-events:auto}
 .sip:active{transform:scale(.95)}
 .sip svg{width:56px;height:56px;transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}
-.sip-label{position:absolute;inset:-1.5px;display:grid;place-items:center;border-radius:50%;background:#f4df83;color:#123e40;font-size:13px;font-weight:500;line-height:1.2;text-align:center;opacity:0;transform:scale(.9);transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}
+.sip-label{position:absolute;inset:-1.5px;display:grid;place-items:center;border-radius:50%;background:#f6c7a1;color:#24428a;font-size:13px;font-weight:500;line-height:1.2;text-align:center;opacity:0;transform:scale(.9);transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}
 .sip.done svg{opacity:0;transform:scale(.85)}
 .sip.done .sip-label{opacity:1;transform:none}
-.sip:focus-visible{outline:3px solid #216a83;outline-offset:3px}
+.sip:focus-visible{outline:3px solid #1c3470;outline-offset:3px}
 .footer-bottom{padding-right:96px}
 @media (max-width:800px){.footer-bottom{padding-right:68px}.sip{right:12px;bottom:12px;width:52px;height:52px}.sip svg{width:38px;height:38px}.sip-label{font-size:10px}}
 body.order-open .sip{opacity:0;pointer-events:none}

@@ -41,6 +41,7 @@ ${shops.map(s=>`## Good Coconut ${s.name} (${s.area})
 ${s.delivery.map(([n,h])=>`- Delivery (${n}): ${h}`).join('\n')}
 - Google Maps: ${s.maps}`).join('\n\n')}
 
+Signature drinks and desserts: ${site}/specialties/
 Locations page: ${site}/online/
 Contact: ${brand.email} · Instagram @${brand.instagram}
 `;
