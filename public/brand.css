@@ -615,3 +615,10 @@ input,textarea{border:1.5px solid #24428a}
 .moments5 .wall figure:nth-child(6) img{object-position:22% center}
 @media(max-width:800px){.hero7-art{display:none}}
 @media(max-width:1100px){.hero7-art{height:150px}}
+/* round 8: gallery cover is the shop video */
+.wall video{width:100%;height:100%;object-fit:cover;display:block}
+/* round 8: home copy of the Specialties signatures — cards grow with their names instead of cutting the Chinese line (Specialties page untouched) */
+@media (min-width:821px){.sp.sp-moved .card{aspect-ratio:auto;padding-bottom:16px}
+.sp.sp-moved .card img.prod{height:calc((min(100vw - 2*var(--gut,24px), 1200px) - 54px)*.155)!important}}
+/* round 8: the portrait video fills the big gallery tile instead of stretching it */
+.wall figure.wall-video video{position:absolute;inset:0}
