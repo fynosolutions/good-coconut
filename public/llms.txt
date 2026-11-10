@@ -21,6 +21,5 @@ Coconut drinks, coconut pudding and egg waffles in New York City. Two shops:
 - Delivery (Grubhub): https://www.grubhub.com/restaurant/good-coconut-47-broadway-new-york/15173296
 - Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJg6qzaKFbwokRpdfe4txl3FU
 
-Signature drinks and desserts: https://good-coconut.vercel.app/specialties/
 Locations page: https://good-coconut.vercel.app/online/
 Contact: goodcoconut01@gmail.com · Instagram @goodcoconutny

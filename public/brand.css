@@ -634,3 +634,8 @@ input,textarea{border:1.5px solid #24428a}
 body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 @media (max-width:400px){.season5 .season-card .copy{padding-left:22px;padding-right:22px}.season5 .button{font-size:14px;padding-left:16px;padding-right:16px;gap:10px}}
 @media (max-width:480px){.wall figcaption{font-size:15px}}
+
+/* menu page = Wei's layout (2026-11-09): phone hero photo needs room above "Browse the menu." */
+@media (max-width:800px){.page-menu .menu-hero-art{margin-bottom:36px}}
+/* home only: the moved Specialties intro's shop list ran off-screen at 821-1100 wide; put it on its own row */
+@media (min-width:821px) and (max-width:1100px){.sp.sp-moved .below{grid-template-columns:auto 1fr}.sp.sp-moved .below .sp-shops{grid-column:1/-1;grid-auto-flow:column;justify-content:end;gap:28px}}
