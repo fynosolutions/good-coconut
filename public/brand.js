@@ -76,3 +76,25 @@
     late.forEach(function(el){ lio.observe(el); });
   }
 })();
+// Runs on its own so the dots still work when the reveal code above stops early for reduced motion.
+(function(){
+  'use strict';
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // New items in the hero take turns (2026-11-12). The list lives in content.mjs -> newItems.
+  var rot = document.querySelector('[data-new-rotator]');
+  if (rot) {
+    var slides = rot.querySelectorAll('.hero5-slide'), dots = document.querySelectorAll('.hero5-dots button'), at = 0, timer = null, held = false;
+    var show = function(n){ at = (n + slides.length) % slides.length;
+      slides.forEach(function(el, i){ el.classList.toggle('is-on', i === at); if (i === at) el.removeAttribute('aria-hidden'); else el.setAttribute('aria-hidden', 'true'); });
+      dots.forEach(function(d, i){ d.setAttribute('aria-pressed', String(i === at)); });
+      var nm = document.querySelector('.hero5-new-name'); if (nm && slides[at].dataset.label) nm.textContent = slides[at].dataset.label; };
+    var tick = function(){ if (!held && !document.hidden) show(at + 1); };
+    dots.forEach(function(d, i){ d.addEventListener('click', function(){ show(i); if (timer) { clearInterval(timer); timer = setInterval(tick, 5000); } }); });
+    if (slides.length > 1 && !still) {
+      timer = setInterval(tick, 5000);
+      var stage = rot.parentElement;
+      ['pointerenter', 'focusin', 'touchstart'].forEach(function(ev){ stage.addEventListener(ev, function(){ held = true; }, {passive: true}); });
+      ['pointerleave', 'focusout', 'touchend'].forEach(function(ev){ stage.addEventListener(ev, function(){ held = false; }, {passive: true}); });
+    }
+  }
+})();

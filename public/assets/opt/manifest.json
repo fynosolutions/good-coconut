@@ -10,7 +10,8 @@
  "/assets/menu/black-sesame-egg-waffle-a894ec67.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/black-sesame-egg-waffle-a894ec67-480.webp"
+   "480": "/assets/opt/menu/black-sesame-egg-waffle-a894ec67-480.webp",
+   "485": "/assets/opt/menu/black-sesame-egg-waffle-a894ec67-960.webp"
   },
   "w": 485
  },
@@ -41,7 +42,8 @@
  "/assets/menu/cheesy-corn-egg-waffle-2d6e196d.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/cheesy-corn-egg-waffle-2d6e196d-480.webp"
+   "480": "/assets/opt/menu/cheesy-corn-egg-waffle-2d6e196d-480.webp",
+   "485": "/assets/opt/menu/cheesy-corn-egg-waffle-2d6e196d-960.webp"
   },
   "w": 485
  },
@@ -56,14 +58,16 @@
  "/assets/menu/chocolate-egg-waffle-ba92f962.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/chocolate-egg-waffle-ba92f962-480.webp"
+   "480": "/assets/opt/menu/chocolate-egg-waffle-ba92f962-480.webp",
+   "485": "/assets/opt/menu/chocolate-egg-waffle-ba92f962-960.webp"
   },
   "w": 485
  },
  "/assets/menu/coconut-egg-waffle-23cf2dae.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/coconut-egg-waffle-23cf2dae-480.webp"
+   "480": "/assets/opt/menu/coconut-egg-waffle-23cf2dae-480.webp",
+   "485": "/assets/opt/menu/coconut-egg-waffle-23cf2dae-960.webp"
   },
   "w": 485
  },
@@ -102,7 +106,8 @@
  "/assets/menu/coconut-pudding-af61c3d9.jpg": {
   "h": 445,
   "sizes": {
-   "480": "/assets/opt/menu/coconut-pudding-af61c3d9-480.webp"
+   "480": "/assets/opt/menu/coconut-pudding-af61c3d9-480.webp",
+   "486": "/assets/opt/menu/coconut-pudding-af61c3d9-960.webp"
   },
   "w": 486
  },
@@ -133,7 +138,8 @@
  "/assets/menu/double-flavor-egg-waffle-16f7f31e.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/double-flavor-egg-waffle-16f7f31e-480.webp"
+   "480": "/assets/opt/menu/double-flavor-egg-waffle-16f7f31e-480.webp",
+   "485": "/assets/opt/menu/double-flavor-egg-waffle-16f7f31e-960.webp"
   },
   "w": 485
  },
@@ -156,21 +162,24 @@
  "/assets/menu/handmade-taro-coconut-pudding-bb4d6f5b.jpg": {
   "h": 481,
   "sizes": {
-   "480": "/assets/opt/menu/handmade-taro-coconut-pudding-bb4d6f5b-480.webp"
+   "480": "/assets/opt/menu/handmade-taro-coconut-pudding-bb4d6f5b-480.webp",
+   "499": "/assets/opt/menu/handmade-taro-coconut-pudding-bb4d6f5b-960.webp"
   },
   "w": 499
  },
  "/assets/menu/handmade-taro-egg-waffle-ce848266.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/handmade-taro-egg-waffle-ce848266-480.webp"
+   "480": "/assets/opt/menu/handmade-taro-egg-waffle-ce848266-480.webp",
+   "485": "/assets/opt/menu/handmade-taro-egg-waffle-ce848266-960.webp"
   },
   "w": 485
  },
  "/assets/menu/himalyas-snowball-8525c1de.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/himalyas-snowball-8525c1de-480.webp"
+   "480": "/assets/opt/menu/himalyas-snowball-8525c1de-480.webp",
+   "485": "/assets/opt/menu/himalyas-snowball-8525c1de-960.webp"
   },
   "w": 485
  },
@@ -201,28 +210,32 @@
  "/assets/menu/mango-licious-a2a06b9f.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/mango-licious-a2a06b9f-480.webp"
+   "480": "/assets/opt/menu/mango-licious-a2a06b9f-480.webp",
+   "485": "/assets/opt/menu/mango-licious-a2a06b9f-960.webp"
   },
   "w": 485
  },
  "/assets/menu/matcha-egg-waffle-3da08ba4.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/matcha-egg-waffle-3da08ba4-480.webp"
+   "480": "/assets/opt/menu/matcha-egg-waffle-3da08ba4-480.webp",
+   "485": "/assets/opt/menu/matcha-egg-waffle-3da08ba4-960.webp"
   },
   "w": 485
  },
  "/assets/menu/matcha-red-bean-coconut-22bc7855.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/matcha-red-bean-coconut-22bc7855-480.webp"
+   "480": "/assets/opt/menu/matcha-red-bean-coconut-22bc7855-480.webp",
+   "485": "/assets/opt/menu/matcha-red-bean-coconut-22bc7855-960.webp"
   },
   "w": 485
  },
  "/assets/menu/matcha-red-bean-egg-waffle-b976257e.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/matcha-red-bean-egg-waffle-b976257e-480.webp"
+   "480": "/assets/opt/menu/matcha-red-bean-egg-waffle-b976257e-480.webp",
+   "485": "/assets/opt/menu/matcha-red-bean-egg-waffle-b976257e-960.webp"
   },
   "w": 485
  },
@@ -237,7 +250,8 @@
  "/assets/menu/original-choco-egg-waffle-ed38c97d.png": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/original-choco-egg-waffle-ed38c97d-480.webp"
+   "480": "/assets/opt/menu/original-choco-egg-waffle-ed38c97d-480.webp",
+   "485": "/assets/opt/menu/original-choco-egg-waffle-ed38c97d-960.webp"
   },
   "w": 485
  },
@@ -300,7 +314,8 @@
  "/assets/menu/red-bean-coconut-5fdff230.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/red-bean-coconut-5fdff230-480.webp"
+   "480": "/assets/opt/menu/red-bean-coconut-5fdff230-480.webp",
+   "485": "/assets/opt/menu/red-bean-coconut-5fdff230-960.webp"
   },
   "w": 485
  },
@@ -315,21 +330,24 @@
  "/assets/menu/red-bean-licious-56fa3dfd.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/red-bean-licious-56fa3dfd-480.webp"
+   "480": "/assets/opt/menu/red-bean-licious-56fa3dfd-480.webp",
+   "485": "/assets/opt/menu/red-bean-licious-56fa3dfd-960.webp"
   },
   "w": 485
  },
  "/assets/menu/strawberry-egg-waffle-7f5d6456.jpg": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/strawberry-egg-waffle-7f5d6456-480.webp"
+   "480": "/assets/opt/menu/strawberry-egg-waffle-7f5d6456-480.webp",
+   "485": "/assets/opt/menu/strawberry-egg-waffle-7f5d6456-960.webp"
   },
   "w": 485
  },
  "/assets/menu/taro-himalayas-chilled-bowl-3ed8e063.png": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/taro-himalayas-chilled-bowl-3ed8e063-480.webp"
+   "480": "/assets/opt/menu/taro-himalayas-chilled-bowl-3ed8e063-480.webp",
+   "485": "/assets/opt/menu/taro-himalayas-chilled-bowl-3ed8e063-960.webp"
   },
   "w": 485
  },
@@ -416,7 +434,8 @@
  "/assets/menu/wall-street/7801288.png": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/wall-street/7801288-480.webp"
+   "480": "/assets/opt/menu/wall-street/7801288-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801288-960.webp"
   },
   "w": 485
  },
@@ -439,14 +458,16 @@
  "/assets/menu/wall-street/7801299.png": {
   "h": 485,
   "sizes": {
-   "480": "/assets/opt/menu/wall-street/7801299-480.webp"
+   "480": "/assets/opt/menu/wall-street/7801299-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801299-960.webp"
   },
   "w": 485
  },
  "/assets/menu/wall-street/7974585.png": {
   "h": 1240,
   "sizes": {
-   "480": "/assets/opt/menu/wall-street/7974585-480.webp"
+   "480": "/assets/opt/menu/wall-street/7974585-480.webp",
+   "930": "/assets/opt/menu/wall-street/7974585-960.webp"
   },
   "w": 930
  },
@@ -501,7 +522,8 @@
  "/assets/original-about.jpg": {
   "h": 552,
   "sizes": {
-   "480": "/assets/opt/original-about-480.webp"
+   "480": "/assets/opt/original-about-480.webp",
+   "713": "/assets/opt/original-about-960.webp"
   },
   "w": 713
  },
@@ -513,6 +535,22 @@
   },
   "w": 1200
  },
+ "/assets/r10/new-persimmon-pudding.webp": {
+  "h": 1300,
+  "sizes": {
+   "480": "/assets/opt/r10/new-persimmon-pudding-480.webp",
+   "911": "/assets/opt/r10/new-persimmon-pudding-960.webp"
+  },
+  "w": 911
+ },
+ "/assets/r10/new-persimmon-puree.webp": {
+  "h": 1300,
+  "sizes": {
+   "480": "/assets/opt/r10/new-persimmon-puree-480.webp",
+   "960": "/assets/opt/r10/new-persimmon-puree-960.webp"
+  },
+  "w": 1022
+ },
  "/assets/r5/map-flushing.webp": {
   "h": 640,
   "sizes": {
@@ -520,5 +558,21 @@
    "960": "/assets/opt/r5/map-flushing-960.webp"
   },
   "w": 1200
+ },
+ "/assets/specialties/top-fresh-coconut.webp": {
+  "h": 1540,
+  "sizes": {
+   "480": "/assets/opt/specialties/top-fresh-coconut-480.webp",
+   "960": "/assets/opt/specialties/top-fresh-coconut-960.webp"
+  },
+  "w": 1044
+ },
+ "/assets/specialties/top-latte.webp": {
+  "h": 1590,
+  "sizes": {
+   "480": "/assets/opt/specialties/top-latte-480.webp",
+   "588": "/assets/opt/specialties/top-latte-960.webp"
+  },
+  "w": 588
  }
 }

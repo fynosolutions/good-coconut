@@ -23,3 +23,26 @@ export const gallery = [
  ['07','Fresh coconut drink poster'],
  ['08','Coconut Snowball poster']
 ];
+
+// ---- Home hero (2026-11-12) ----
+// New items shown in the big hero photo. To change what is "new", edit this list only.
+// label = the words in the small NEW tag.
+// One item = a still photo; two or more = they take turns every 5 seconds.
+export const newItems=[
+ {img:'/assets/r10/new-persimmon-pudding.webp',w:911,h:1300,alt:'Persimmon pudding with fresh persimmon and pearls in a Good Coconut glass jar',top:'fresh persimmon',bottom:'coconut pudding',label:'Persimmon pudding, fresh fruit'},
+ {img:'/assets/r10/new-persimmon-puree.webp',w:1022,h:1300,alt:'Persimmon purée over coconut pudding in a Good Coconut glass jar',top:'persimmon purée',bottom:'coconut pudding',label:'Persimmon pudding, purée'}
+];
+// Product line: the slow strip under the hero. [name, cut-out photo, menu section]
+export const lineup=[
+ ['Whole Coconut Pudding','/assets/specialties/p-whole-coconut.webp','/menu/#category-156004'],
+ ['Mango Pudding','/assets/specialties/p-mango-pudding.webp','/menu/#category-156004'],
+ ['Strawberry Pudding','/assets/specialties/p-strawberry-pudding.webp','/menu/#category-156004'],
+ ['Dragon Fruit Pudding','/assets/specialties/p-dragonfruit-pudding.webp','/menu/#category-156004'],
+ ['Coconut Americano','/assets/specialties/p-americano.webp','/menu/#category-156003'],
+ ['Taro Coconut Milk','/assets/specialties/p-taro-milk.webp','/menu/#category-156001'],
+ ['Black Sesame Coconut Milk','/assets/specialties/p-sesame-milk.webp','/menu/#category-156001'],
+ ['Lime Boba Coconut','/assets/specialties/p-lime-boba.webp','/menu/#category-156002'],
+ ['Persimmon Puree Pudding','/assets/specialties/top-persimmon.webp','/menu/#category-156004'],
+ ['Freshly Opened Coconut','/assets/specialties/top-fresh-coconut.webp','/menu/#category-156000'],
+ ['Coconut Latte','/assets/specialties/top-latte.webp','/menu/#category-156003']
+];

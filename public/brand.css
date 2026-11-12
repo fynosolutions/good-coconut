@@ -663,3 +663,54 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 .page-menu .place-note,.page-menu .menu-size{font-size:12px}
 .page-menu .menu-name-zh{font-size:12px}
 .form-note,.contact-aside .k{font-size:12px}
+
+/* ===== Home round 10 (2026-11-12): new-item rotation in the hero + product line strip ===== */
+.hero5-slide{margin:0;position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;opacity:0;transition:opacity .6s var(--ease,ease);pointer-events:none}
+.hero5-slide:first-child{position:relative;inset:auto;height:100%}
+.hero5-slide.is-on{opacity:1}
+.hero5-slide>img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 24px 30px rgb(36 66 138 / 22%))}
+.hero5-prod{aspect-ratio:10/13}
+.hero5-new{position:absolute;left:0;top:2%;z-index:4;margin:0;display:flex;align-items:center;gap:10px;padding:6px 12px 6px 6px;border-radius:100px;background:#fffdf5;border:1.5px solid var(--ink);font:500 13px/1 Poppins,sans-serif;color:var(--ink)}
+.hero5-new b{padding:6px 10px;border-radius:100px;background:var(--ink);color:var(--cream);font:700 12px/1 Poppins,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.hero5-dots{display:flex;gap:2px;margin-left:2px}
+.hero5-dots button{width:24px;height:24px;padding:0;border:0;background:none;cursor:pointer;display:grid;place-items:center}
+.hero5-dots button::before{content:'';width:8px;height:8px;border-radius:50%;border:1.5px solid var(--ink);transition:background-color .2s}
+.hero5-dots button[aria-pressed=true]::before{background:var(--ink)}
+.hero5-dots button:focus-visible{outline:2px solid var(--ink);outline-offset:1px;border-radius:50%}
+@media (prefers-reduced-motion:reduce){.hero5-slide{transition:none}}
+@media (max-width:800px){.hero5-new{font-size:12px;top:0}.hero5-new>span:not(.hero5-dots){display:none}}
+
+.lineup5{background:var(--cream);border-top:1px solid #24428a1f;border-bottom:1px solid #24428a1f;overflow:hidden;padding:18px 0 14px}
+.lineup-track{display:flex;width:max-content;animation:gc-lineup 60s linear infinite}
+.lineup5:hover .lineup-track,.lineup5:focus-within .lineup-track{animation-play-state:paused}
+.lineup-track ul{display:flex;gap:clamp(28px,4vw,56px);margin:0;padding:0 clamp(14px,2vw,28px);list-style:none;flex:none}
+.lineup-track a{display:grid;justify-items:center;gap:8px;text-decoration:none;color:var(--ink);font:600 13px/1.2 Poppins,sans-serif;white-space:nowrap;min-width:96px}
+.lineup-track img{height:88px;width:auto;display:block;transition:transform .2s var(--ease,ease)}
+.lineup-track a:hover img{transform:translateY(-4px)}
+.lineup-track a:hover span{text-decoration:underline;text-underline-offset:4px}
+@keyframes gc-lineup{to{transform:translateX(-50%)}}
+@media (max-width:800px){.lineup5{padding:14px 0 10px}.lineup-track{animation-duration:45s}.lineup-track img{height:68px}.lineup-track a{min-width:84px;gap:6px}}
+@media (prefers-reduced-motion:reduce){.lineup-track{animation:none}.lineup5{overflow-x:auto}.lineup-track ul[aria-hidden]{display:none}}
+/* round 10 review fixes */
+.hero5-slide .callout.c2{top:auto;bottom:6%}
+.hero5-new{left:auto;right:calc(76% + 12px);top:4%;white-space:nowrap}
+@media (min-width:1001px){.hero5{padding:16px 0 30px}}
+@media (max-width:1200px){.hero5-new{right:auto;left:0;top:0}}
+.lineup5{border-bottom:0;margin-bottom:clamp(28px,4vw,56px)}
+@media (max-width:800px){
+ .hero5-new{right:auto;left:0;top:-6px;font-size:12px}
+ .hero5-new>span:not(.hero5-dots){display:inline}
+ .hero5-slide .callout{display:none}
+ .hero5-stage{margin-top:14px}
+}
+@media (min-width:1001px){.hero5-stage .hero5-sticker{bottom:14%}}
+/* round 10, second review */
+.hero5-new{left:0;right:auto;top:0}
+.hero5-slide .callout.c2{bottom:1%}
+@media (min-width:1001px) and (max-width:1200px){.hero5{padding-top:34px}}
+@media (max-width:800px){.hero5-new{top:-30px}.hero5-stage{margin-top:40px}}
+/* round 10, third review */
+.hero5-new-name{display:inline-block;min-width:196px}
+@media (min-width:1201px){.hero5{padding-top:38px}.lineup5{padding:12px 0 10px}}
+@media (max-width:1200px){.hero5-slide .callout.c2{bottom:-3%}}
+@media (max-width:800px){.hero5-new-name{min-width:178px}}

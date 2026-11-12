@@ -14,6 +14,11 @@ manifest = {}
 srcs = set()
 for page in glob.glob(os.path.join(PUB, '**', 'index.html'), recursive=True):
     srcs |= set(re.findall(r'<img\b[^>]*?\bsrc="(/assets/[^"?]+\.(?:png|jpe?g|webp))"', open(page, encoding='utf8').read()))
+# pages already built point at the small copies, so keep every original the last manifest knew about
+try:
+    srcs |= set(json.load(open(os.path.join(OUT, 'manifest.json'))))
+except (OSError, ValueError):
+    pass
 for src in sorted(srcs):
     path = os.path.join(PUB, src.lstrip('/'))
     if src.startswith('/assets/opt/') or not os.path.exists(path) or os.path.getsize(path) < MIN_BYTES:
@@ -24,7 +29,7 @@ for src in sorted(srcs):
         im = im.convert(mode)
         entry = {'w': im.width, 'h': im.height, 'sizes': {}}
         for w in (480, 960):
-            if im.width <= w and w == 960 and entry['sizes']:
+            if w == 960 and im.width <= 480:
                 break
             tw = min(w, im.width)
             th = round(im.height * tw / im.width)
