@@ -2,7 +2,7 @@
    pour-line and callout motifs. Loaded after styles.css on every page. Only transform/opacity animate. */
 @font-face{font-family:Poppins;src:url('/assets/poppins-latin-700.woff2') format('woff2');font-weight:700;font-display:swap}
 @font-face{font-family:Poppins;src:url('/assets/poppins-latin-800.woff2') format('woff2');font-weight:800;font-display:swap}
-@font-face{font-family:Caveat;src:url('/assets/caveat-variable.ttf') format('truetype');font-weight:400 700;font-display:swap}
+@font-face{font-family:Caveat;src:url('/assets/caveat-latin.woff2') format('woff2'),url('/assets/caveat-variable.ttf') format('truetype');font-weight:400 700;font-display:swap}
 :root{--ink:#24428a;--ink2:#1c3470;--text:#2e3a57;--mint:#78ccc5;--mint2:#ddeeea;--cream:#fffdf5;--sand:#fbf3e4;--peach:#f6c7a1;--persim:#ee8a3c;--t-orange:#fbe2cc;--t-yellow:#fcefc7;--t-pink:#fadde0;--t-mint:#ddeeea;--t-lilac:#e8e4f3;--t-green:#e3efd8;--ease:cubic-bezier(.23,1,.32,1);--sea:#1c3470;--butter:#f6c7a1;--lilac:#fbf3e4}
 body{color:var(--text)}
 h1,h2,h3{color:var(--ink);font-weight:800;letter-spacing:-.03em;text-shadow:none}
@@ -639,3 +639,27 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 @media (max-width:800px){.page-menu .menu-hero-art{margin-bottom:36px}}
 /* home only: the moved Specialties intro's shop list ran off-screen at 821-1100 wide; put it on its own row */
 @media (min-width:821px) and (max-width:1100px){.sp.sp-moved .below{grid-template-columns:auto 1fr}.sp.sp-moved .below .sp-shops{grid-column:1/-1;grid-auto-flow:column;justify-content:end;gap:28px}}
+
+/* ===== 2026-11-12 audit fixes (phone-check + UX audit + blind review) ===== */
+/* arrows and the menu icon are inline SVG now (characters turned into emoji on phones) */
+.gl{display:inline-block;width:.95em;height:.95em;vertical-align:-.12em;flex:none}
+.menu-toggle .gl{width:1.15em;height:1.15em}
+/* readable sticker: white text needs a deeper persimmon (was 2.5:1) */
+.hero5-sticker{background:#c0501a;box-shadow:0 10px 24px rgb(192 80 26 / 30%)}
+.hero5-sticker small{font-size:12px}
+.sp .tops .card .name [lang="zh-Hans"],.card .name [lang="zh-Hans"]{color:var(--ink);opacity:1}
+/* no text under 12px */
+.tag{font-size:12px}
+.place-note,.menu-size{font-size:12px}
+@media (max-width:800px){.mobile-order{font-size:13px}}
+/* finger-sized links on phones */
+@media (max-width:800px){
+ .site-footer a,.text-link,.phone,.email-link,.footer-bottom a,.shop-actions a:not(.button){display:inline-flex;align-items:center;min-height:44px}
+ .footer-main a{display:flex}
+}
+/* phone header starts in its collapsed (enhanced) shape when scripts run, so the page does not jump */
+@media (max-width:800px){html.js .site-header{height:80px;flex-wrap:nowrap}html.js .site-header .menu-toggle{display:block}html.js .site-header:not(.enhanced) nav{display:none}}
+/* menu page small print (menu.css loads after this file, so these need the page class) */
+.page-menu .place-note,.page-menu .menu-size{font-size:12px}
+.page-menu .menu-name-zh{font-size:12px}
+.form-note,.contact-aside .k{font-size:12px}

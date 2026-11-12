@@ -52,9 +52,27 @@
     new MutationObserver(function(){ var a = cats.querySelector('a[aria-current]'); if (a && matchMedia('(max-width: 800px)').matches) { var left = a.getBoundingClientRect().left - cats.getBoundingClientRect().left + cats.scrollLeft - 56; if (cats.scrollTo) cats.scrollTo({left: Math.max(0, left), behavior: 'smooth'}); else cats.scrollLeft = Math.max(0, left); } }).observe(cats, {attributes: true, subtree: true, attributeFilter: ['aria-current']});
   }
   // Hero video: play only while visible, pause off-screen (saves battery on phones).
+  // 2026-11-12: it starts after the page has loaded, so the first-screen photo is not competing with it,
+  // and stays still (poster) for people who ask for reduced motion.
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var v = document.querySelector('.hero5 video');
-  if (v) {
-    var vio = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) { v.play().catch(function(){}); } else { v.pause(); } }); }, {threshold: 0.2});
-    vio.observe(v);
+  if (v && !still) {
+    var startHero = function(){
+      var vio = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) { v.play().catch(function(){}); } else { v.pause(); } }); }, {threshold: 0.2});
+      vio.observe(v);
+    };
+    if (document.readyState === 'complete') startHero(); else addEventListener('load', startHero);
+  }
+  // Videos further down load only when they come near the screen.
+  var late = document.querySelectorAll('video[data-src]');
+  if (late.length && 'IntersectionObserver' in window) {
+    var lio = new IntersectionObserver(function(es){ es.forEach(function(e){
+      var el = e.target;
+      if (e.isIntersecting) {
+        if (el.dataset.src) { el.src = el.dataset.src; el.removeAttribute('data-src'); el.preload = 'auto'; }
+        if (!still && el.hasAttribute('data-autoplay')) el.play().catch(function(){});
+      } else if (!el.dataset.src) { el.pause(); }
+    }); }, {rootMargin: '300px 0px'});
+    late.forEach(function(el){ lio.observe(el); });
   }
 })();

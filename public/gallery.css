@@ -1,4 +1,4 @@
-@font-face{font-family:Caveat;src:url('/assets/caveat-variable.ttf') format('truetype');font-weight:400 700;font-display:swap}
+@font-face{font-family:Caveat;src:url('/assets/caveat-latin.woff2') format('woff2'),url('/assets/caveat-variable.ttf') format('truetype');font-weight:400 700;font-display:swap}
 /* A new scrapbook surface, independent of the existing product photo ribbon. */
 .scrapbook{position:relative;background:#fbf3e4;padding:90px 0 135px;overflow:clip;scroll-margin-top:100px}
 .scrapbook::before{content:'';position:absolute;top:0;left:5%;right:5%;border-top:1px dashed #24428a40}

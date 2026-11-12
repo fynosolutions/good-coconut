@@ -1,0 +1,524 @@
+{
+ "/assets/menu/avocado-coconut-pudding-15ace4c2.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/avocado-coconut-pudding-15ace4c2-480.webp",
+   "960": "/assets/opt/menu/avocado-coconut-pudding-15ace4c2-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/black-sesame-egg-waffle-a894ec67.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/black-sesame-egg-waffle-a894ec67-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/black-sesame-pudding-919b97ef.jpg": {
+  "h": 855,
+  "sizes": {
+   "480": "/assets/opt/menu/black-sesame-pudding-919b97ef-480.webp",
+   "960": "/assets/opt/menu/black-sesame-pudding-919b97ef-960.webp"
+  },
+  "w": 1140
+ },
+ "/assets/menu/brown-sugar-boba-675eb917.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/brown-sugar-boba-675eb917-480.webp",
+   "960": "/assets/opt/menu/brown-sugar-boba-675eb917-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/caramel-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/caramel-supplied-480.webp",
+   "960": "/assets/opt/menu/caramel-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/cheesy-corn-egg-waffle-2d6e196d.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/cheesy-corn-egg-waffle-2d6e196d-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/choco-banana-egg-waffle-19c95b6e.jpg": {
+  "h": 972,
+  "sizes": {
+   "480": "/assets/opt/menu/choco-banana-egg-waffle-19c95b6e-480.webp",
+   "960": "/assets/opt/menu/choco-banana-egg-waffle-19c95b6e-960.webp"
+  },
+  "w": 972
+ },
+ "/assets/menu/chocolate-egg-waffle-ba92f962.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/chocolate-egg-waffle-ba92f962-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/coconut-egg-waffle-23cf2dae.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-egg-waffle-23cf2dae-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/coconut-jelly-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-jelly-supplied-480.webp",
+   "960": "/assets/opt/menu/coconut-jelly-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/coconut-latte-original-egg-waffle-22565f0a.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-latte-original-egg-waffle-22565f0a-480.webp",
+   "960": "/assets/opt/menu/coconut-latte-original-egg-waffle-22565f0a-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/coconut-ocean-smoothie-76384ce0.jpg": {
+  "h": 1732,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-ocean-smoothie-76384ce0-480.webp",
+   "960": "/assets/opt/menu/coconut-ocean-smoothie-76384ce0-960.webp"
+  },
+  "w": 1155
+ },
+ "/assets/menu/coconut-pudding-3d16a9a7.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-pudding-3d16a9a7-480.webp",
+   "960": "/assets/opt/menu/coconut-pudding-3d16a9a7-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/coconut-pudding-af61c3d9.jpg": {
+  "h": 445,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-pudding-af61c3d9-480.webp"
+  },
+  "w": 486
+ },
+ "/assets/menu/condensed-milk-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/condensed-milk-supplied-480.webp",
+   "960": "/assets/opt/menu/condensed-milk-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/cream-foam-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/cream-foam-supplied-480.webp",
+   "960": "/assets/opt/menu/cream-foam-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/diced-coconut-74ef4d00.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/diced-coconut-74ef4d00-480.webp",
+   "960": "/assets/opt/menu/diced-coconut-74ef4d00-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/double-flavor-egg-waffle-16f7f31e.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/double-flavor-egg-waffle-16f7f31e-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/dubai-chocolate-pudding-b51a7dd7.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/dubai-chocolate-pudding-b51a7dd7-480.webp",
+   "960": "/assets/opt/menu/dubai-chocolate-pudding-b51a7dd7-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/handmade-taro-coconut-milk-original-egg-waffle-6f2e28ee.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/handmade-taro-coconut-milk-original-egg-waffle-6f2e28ee-480.webp",
+   "960": "/assets/opt/menu/handmade-taro-coconut-milk-original-egg-waffle-6f2e28ee-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/handmade-taro-coconut-pudding-bb4d6f5b.jpg": {
+  "h": 481,
+  "sizes": {
+   "480": "/assets/opt/menu/handmade-taro-coconut-pudding-bb4d6f5b-480.webp"
+  },
+  "w": 499
+ },
+ "/assets/menu/handmade-taro-egg-waffle-ce848266.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/handmade-taro-egg-waffle-ce848266-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/himalyas-snowball-8525c1de.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/himalyas-snowball-8525c1de-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/iced-water-cup-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/iced-water-cup-supplied-480.webp",
+   "960": "/assets/opt/menu/iced-water-cup-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/lychee-coconut-jelly-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/lychee-coconut-jelly-supplied-480.webp",
+   "960": "/assets/opt/menu/lychee-coconut-jelly-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/mango-78aa199d.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/mango-78aa199d-480.webp",
+   "960": "/assets/opt/menu/mango-78aa199d-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/mango-licious-a2a06b9f.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/mango-licious-a2a06b9f-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/matcha-egg-waffle-3da08ba4.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/matcha-egg-waffle-3da08ba4-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/matcha-red-bean-coconut-22bc7855.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/matcha-red-bean-coconut-22bc7855-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/matcha-red-bean-egg-waffle-b976257e.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/matcha-red-bean-egg-waffle-b976257e-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/original-boba-b8115f61.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/original-boba-b8115f61-480.webp",
+   "960": "/assets/opt/menu/original-boba-b8115f61-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/original-choco-egg-waffle-ed38c97d.png": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/original-choco-egg-waffle-ed38c97d-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/osmanthus-jelly-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/osmanthus-jelly-supplied-480.webp",
+   "960": "/assets/opt/menu/osmanthus-jelly-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/pineapple-coconut-milk-pudding-b35ad247.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/pineapple-coconut-milk-pudding-b35ad247-480.webp",
+   "960": "/assets/opt/menu/pineapple-coconut-milk-pudding-b35ad247-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/pumpkin-coconut-milk-c-ce4bac01.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/pumpkin-coconut-milk-c-ce4bac01-480.webp",
+   "960": "/assets/opt/menu/pumpkin-coconut-milk-c-ce4bac01-960.webp"
+  },
+  "w": 1280
+ },
+ "/assets/menu/pumpkin-coconut-milk-h-47fd421b.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/pumpkin-coconut-milk-h-47fd421b-480.webp",
+   "960": "/assets/opt/menu/pumpkin-coconut-milk-h-47fd421b-960.webp"
+  },
+  "w": 1280
+ },
+ "/assets/menu/pumpkin-coconut-pudding-c40daaa8.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/pumpkin-coconut-pudding-c40daaa8-480.webp",
+   "960": "/assets/opt/menu/pumpkin-coconut-pudding-c40daaa8-960.webp"
+  },
+  "w": 1280
+ },
+ "/assets/menu/pumpkin-egg-waffle-supplied.png": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/pumpkin-egg-waffle-supplied-480.webp",
+   "960": "/assets/opt/menu/pumpkin-egg-waffle-supplied-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/red-bean-32f3af92.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/red-bean-32f3af92-480.webp",
+   "960": "/assets/opt/menu/red-bean-32f3af92-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/red-bean-coconut-5fdff230.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/red-bean-coconut-5fdff230-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/red-bean-coconut-original-egg-waffle-1ebbb7ab.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/red-bean-coconut-original-egg-waffle-1ebbb7ab-480.webp",
+   "960": "/assets/opt/menu/red-bean-coconut-original-egg-waffle-1ebbb7ab-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/red-bean-licious-56fa3dfd.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/red-bean-licious-56fa3dfd-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/strawberry-egg-waffle-7f5d6456.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/strawberry-egg-waffle-7f5d6456-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/taro-himalayas-chilled-bowl-3ed8e063.png": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/taro-himalayas-chilled-bowl-3ed8e063-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/taro-paste-2f7d555c.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/taro-paste-2f7d555c-480.webp",
+   "960": "/assets/opt/menu/taro-paste-2f7d555c-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801246.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801246-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801246-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801248.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801248-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801248-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801259.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801259-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801259-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801263.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801263-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801263-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801264.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801264-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801264-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801265.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801265-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801265-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801275.jpg": {
+  "h": 972,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801275-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801275-960.webp"
+  },
+  "w": 972
+ },
+ "/assets/menu/wall-street/7801276.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801276-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801276-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801283.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801283-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801283-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/menu/wall-street/7801288.png": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801288-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/wall-street/7801293.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801293-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801293-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801297.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801297-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801297-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801299.png": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801299-480.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/wall-street/7974585.png": {
+  "h": 1240,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7974585-480.webp"
+  },
+  "w": 930
+ },
+ "/assets/menu/wall-street/8640149.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/8640149-480.webp",
+   "960": "/assets/opt/menu/wall-street/8640149-960.webp"
+  },
+  "w": 1626
+ },
+ "/assets/menu/wall-street/8640152.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/8640152-480.webp",
+   "960": "/assets/opt/menu/wall-street/8640152-960.webp"
+  },
+  "w": 1595
+ },
+ "/assets/menu/wall-street/8640155.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/8640155-480.webp",
+   "960": "/assets/opt/menu/wall-street/8640155-960.webp"
+  },
+  "w": 1536
+ },
+ "/assets/menu/wall-street/8917247.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/8917247-480.webp",
+   "960": "/assets/opt/menu/wall-street/8917247-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/8917671.png": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/8917671-480.webp",
+   "960": "/assets/opt/menu/wall-street/8917671-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/water-chestnuts-popping-boba-56768bdc.jpg": {
+  "h": 1920,
+  "sizes": {
+   "480": "/assets/opt/menu/water-chestnuts-popping-boba-56768bdc-480.webp",
+   "960": "/assets/opt/menu/water-chestnuts-popping-boba-56768bdc-960.webp"
+  },
+  "w": 1483
+ },
+ "/assets/original-about.jpg": {
+  "h": 552,
+  "sizes": {
+   "480": "/assets/opt/original-about-480.webp"
+  },
+  "w": 713
+ },
+ "/assets/pudding.jpg": {
+  "h": 1310,
+  "sizes": {
+   "480": "/assets/opt/pudding-480.webp",
+   "960": "/assets/opt/pudding-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/r5/map-flushing.webp": {
+  "h": 640,
+  "sizes": {
+   "480": "/assets/opt/r5/map-flushing-480.webp",
+   "960": "/assets/opt/r5/map-flushing-960.webp"
+  },
+  "w": 1200
+ }
+}
