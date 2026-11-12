@@ -714,3 +714,67 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 @media (min-width:1201px){.hero5{padding-top:38px}.lineup5{padding:12px 0 10px}}
 @media (max-width:1200px){.hero5-slide .callout.c2{bottom:-3%}}
 @media (max-width:800px){.hero5-new-name{min-width:178px}}
+
+/* ===== Round 11 trial: dessert turntable hero (lab/turntable) ===== */
+.hero5-stage.has-wheel{min-height:0;aspect-ratio:100/84}
+@media (min-width:1001px){.hero5:has(.has-wheel){padding:20px 0 72px}}
+.wheel{position:absolute;inset:0;isolation:isolate;--t-peach:#fde3cf;--t-mint:#d7efe9;--t-sky:#dbe6f5;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+/* colour field behind the front product */
+.wheel-disc{position:absolute;left:50%;top:13%;width:60%;aspect-ratio:1;border-radius:50%;translate:-50% 0;background:var(--t-peach);transition:opacity .76s cubic-bezier(.65,0,.35,1)}
+.wheel-disc.is-b{opacity:0}
+.wheel-disc[data-tint=mint]{background:var(--t-mint)}.wheel-disc[data-tint=sky]{background:var(--t-sky)}.wheel-disc[data-tint=peach]{background:var(--t-peach)}
+/* the stand: a round top with a rim you can see, on a short foot */
+.wheel-plate{position:absolute;left:50%;top:80%;width:96%;aspect-ratio:96/31;translate:-50% -50%;border-radius:50%;background:#eaf6f3;box-shadow:0 3.2cqw 0 -0.2cqw var(--mint),0 3.4cqw 0 -0.2cqw #5fb9b1,0 7cqw 5cqw -3cqw rgb(36 66 138 / 26%)}
+.wheel-plate i{position:absolute;inset:7% 5%;border-radius:50%;border:2px dotted #24428a38}
+.wheel-stand{position:absolute;left:50%;top:92.5%;width:34%;aspect-ratio:34/9;translate:-50% 0;border-radius:0 0 50% 50% / 0 0 100% 100%;background:linear-gradient(#5fb9b1,#78ccc5)}
+.hero5-stage.has-wheel{container-type:inline-size}
+.wheel-items{position:absolute;inset:0;margin:0;padding:0;list-style:none}
+.wheel-item{position:absolute;left:50%;top:80%;width:46%;aspect-ratio:46/56;margin-left:-23%;transform:translateY(-100%);transform-origin:50% 100%;visibility:hidden;will-change:transform,opacity}
+.wheel-item.is-front,.wheel.is-live .wheel-item{visibility:visible}
+.wheel-pick{position:absolute;inset:0;padding:0;border:0;background:none;cursor:pointer;display:block;-webkit-tap-highlight-color:transparent}
+.wheel-pick:focus-visible{outline:2px solid var(--ink);outline-offset:3px;border-radius:12px}
+.wheel-bob{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;transition:transform .24s cubic-bezier(.23,1,.32,1)}
+.wheel-bob::after{content:'';position:absolute;left:14%;right:14%;bottom:-3.5%;height:9%;border-radius:50%;background:radial-gradient(closest-side,rgb(46 58 87 / 22%),transparent);z-index:-1}
+.wheel-bob img{position:relative;display:block;width:auto;height:auto;max-width:100%;max-height:100%;pointer-events:none;-webkit-user-drag:none}
+.wheel-item.is-front .wheel-bob{animation:wheel-bob 4.2s cubic-bezier(.37,0,.63,1) infinite}
+.wheel.is-turning .wheel-item.is-front .wheel-bob,.wheel.is-still .wheel-item.is-front .wheel-bob{animation:none}
+@keyframes wheel-bob{50%{transform:translateY(-6px)}}
+@media (hover:hover){.wheel-item:not(.is-front) .wheel-pick:hover .wheel-bob{transform:translateY(-8px)}.wheel-item.is-front .wheel-pick:hover .wheel-new{rotate:-4deg}}
+.wheel-pick:active .wheel-bob{transform:scale(.97)}
+/* NEW is a sticker on the product itself and travels with it */
+.wheel-new{position:absolute;left:0;top:20%;width:14.5cqw;max-width:104px;min-width:56px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:var(--persim);color:var(--ink);font:800 clamp(17px,4cqw,29px)/1 Poppins,sans-serif;letter-spacing:.03em;text-transform:uppercase;rotate:-12deg;box-shadow:0 0 0 3px #fffdf5,0 8px 16px rgb(36 66 138 / 22%);pointer-events:none;transition:rotate .24s cubic-bezier(.23,1,.32,1);z-index:2}
+/* name card with the two arrows beside it, like the card in front of a cake */
+.wheel-bar{position:absolute;left:50%;top:80%;translate:-50% 168%;z-index:200;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.wheel-name{display:flex;align-items:center;gap:10px;padding:9px 18px 9px 13px;border-radius:100px;background:#fffdf5;border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;box-shadow:0 8px 18px rgb(36 66 138 / 14%);transition:transform .12s ease-out,background-color .2s;min-width:236px}
+.wheel-name:hover{background:#fff}.wheel-name:active{transform:scale(.97)}
+.wheel-name i{width:9px;height:9px;border-radius:50%;background:var(--ink);flex:none}
+.wheel-name i.is-new{background:var(--persim);box-shadow:0 0 0 3px #ee8a3c33}
+.wheel-name>span{display:grid;gap:2px;transition:opacity .15s cubic-bezier(.4,0,1,1),transform .15s cubic-bezier(.4,0,1,1)}
+.wheel-name.is-swap>span{opacity:0;transform:translateY(-6px)}
+.wheel-name strong{font:700 15px/1.15 Poppins,sans-serif}
+.wheel-name small{font:500 12px/1.2 Poppins,sans-serif;color:var(--text,#2e3a57)}
+.wheel-btn{width:38px;height:38px;flex:none;border-radius:50%;border:1.5px solid var(--ink);background:#fffdf5;color:var(--ink);display:grid;place-items:center;cursor:pointer;font-size:15px;transition:background-color .2s,color .2s,transform .12s ease-out}
+.wheel-btn[hidden]{display:none}
+.wheel-btn:hover{background:var(--ink);color:#fffdf5}.wheel-btn:active{transform:scale(.94)}
+.wheel-btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.wheel-pause{width:30px;height:30px;border-color:#24428a66}
+.ic-pause{width:8px;height:10px;border-left:2.5px solid currentColor;border-right:2.5px solid currentColor}
+[data-wheel-pause][aria-pressed=true] .ic-pause{width:0;height:0;border:0;border-left:9px solid currentColor;border-top:6px solid transparent;border-bottom:6px solid transparent;margin-left:2px}
+@media (max-width:800px){
+ .hero5-stage.has-wheel{aspect-ratio:100/74;margin:0 0 44px}
+ .wheel-disc{top:8%;width:58%}
+ .wheel-bar{gap:6px;translate:-50% 150%}
+ .wheel-name{padding:7px 14px 7px 10px;min-width:0}.wheel-name strong{font-size:14px}.wheel-name small{display:none}
+ .wheel-btn{width:36px;height:36px}.wheel-pause{width:28px;height:28px}
+}
+@media (prefers-reduced-motion:reduce){.wheel-item.is-front .wheel-bob{animation:none}.wheel-disc{transition:none}}
+/* turntable, second review: fixed-width name card so the arrows never move; sticker on the outer shoulder */
+.wheel-name{width:300px;min-width:0;box-sizing:border-box}
+.wheel-name>span{min-width:0}.wheel-name strong,.wheel-name small{overflow:hidden;text-overflow:ellipsis}
+.wheel-item.is-right .wheel-new{left:auto;right:0}
+.wheel-plate i{border:1.5px solid #24428a1f}
+@media (max-width:800px){
+ .hero5-stage.has-wheel{aspect-ratio:100/66;margin:0 0 40px}
+ .wheel-name{width:244px;padding-right:10px}.wheel-name strong{font-size:13px}
+ .wheel-disc{top:4%;width:56%}
+}

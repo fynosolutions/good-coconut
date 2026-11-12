@@ -559,14 +559,6 @@
   },
   "w": 1200
  },
- "/assets/specialties/top-fresh-coconut.webp": {
-  "h": 1540,
-  "sizes": {
-   "480": "/assets/opt/specialties/top-fresh-coconut-480.webp",
-   "960": "/assets/opt/specialties/top-fresh-coconut-960.webp"
-  },
-  "w": 1044
- },
  "/assets/specialties/top-latte.webp": {
   "h": 1590,
   "sizes": {

@@ -29,20 +29,25 @@ export const gallery = [
 // label = the words in the small NEW tag.
 // One item = a still photo; two or more = they take turns every 5 seconds.
 export const newItems=[
- {img:'/assets/r10/new-persimmon-pudding.webp',w:911,h:1300,alt:'Persimmon pudding with fresh persimmon and pearls in a Good Coconut glass jar',top:'fresh persimmon',bottom:'coconut pudding',label:'Persimmon pudding, fresh fruit'},
- {img:'/assets/r10/new-persimmon-puree.webp',w:1022,h:1300,alt:'Persimmon purée over coconut pudding in a Good Coconut glass jar',top:'persimmon purée',bottom:'coconut pudding',label:'Persimmon pudding, purée'}
+ {img:'/assets/specialties/top-persimmon.webp',w:552,h:900,alt:'Persimmon Puree Pudding in a Good Coconut glass jar',top:'persimmon purée',bottom:'coconut pudding',label:'Persimmon season'}
 ];
 // Product line: the slow strip under the hero. [name, cut-out photo, menu section]
-export const lineup=[
- ['Whole Coconut Pudding','/assets/specialties/p-whole-coconut.webp','/menu/#category-156004'],
- ['Mango Pudding','/assets/specialties/p-mango-pudding.webp','/menu/#category-156004'],
- ['Strawberry Pudding','/assets/specialties/p-strawberry-pudding.webp','/menu/#category-156004'],
- ['Dragon Fruit Pudding','/assets/specialties/p-dragonfruit-pudding.webp','/menu/#category-156004'],
- ['Coconut Americano','/assets/specialties/p-americano.webp','/menu/#category-156003'],
- ['Taro Coconut Milk','/assets/specialties/p-taro-milk.webp','/menu/#category-156001'],
- ['Black Sesame Coconut Milk','/assets/specialties/p-sesame-milk.webp','/menu/#category-156001'],
- ['Lime Boba Coconut','/assets/specialties/p-lime-boba.webp','/menu/#category-156002'],
- ['Persimmon Puree Pudding','/assets/specialties/top-persimmon.webp','/menu/#category-156004'],
- ['Freshly Opened Coconut','/assets/specialties/top-fresh-coconut.webp','/menu/#category-156000'],
- ['Coconut Latte','/assets/specialties/top-latte.webp','/menu/#category-156003']
+export const lineup=[];
+
+// ---- Home hero turntable (2026-11-12, round 11) ----
+// Products standing on the turntable, in order. The first one marked isNew starts at the front.
+// To change the line-up or what is new, edit this list only. Photos must be re-lit cut-outs (see opt-images / r11).
+// size: how big the product stands at the front (1 = fills the stand). side: cap for tall cups when they stand at the side.
+// Keep the two new items apart in the list so they never stand next to each other.
+// tint: colour of the round field behind the front product (peach, mint, sand, sky).
+// sticker: where the NEW sticker sits on the photo, in % from the left and top.
+export const heroWheel=[
+ {name:'Persimmon Puree Pudding',note:'persimmon purée on coconut pudding',img:'/assets/specialties/top-persimmon.webp',w:552,h:900,size:1,tint:'peach',isNew:true,sticker:[2,20],href:'/menu/#category-156004'},
+ {name:'Coconut Latte',note:'coconut milk with espresso',img:'/assets/r11/coconut-latte.webp',w:481,h:1100,size:1,side:.74,tint:'sky',href:'/menu/#category-156003'},
+ {name:'Mango Pudding',note:'mango on coconut pudding',img:'/assets/specialties/p-mango-pudding.webp',w:510,h:720,size:.92,tint:'mint',href:'/menu/#category-156004'},
+ {name:'Freshly Opened Coconut',note:'opened to order, with a straw',img:'/assets/r11/fresh-coconut.webp',w:666,h:900,size:1,tint:'mint',href:'/menu/#category-156000'},
+ {name:'Persimmon Pudding',note:'fresh persimmon on coconut pudding',img:'/assets/r11/persimmon-pudding.webp',w:531,h:760,size:.95,tint:'peach',isNew:true,sticker:[0,22],href:'/menu/#category-156004'},
+ {name:'Taro Coconut Milk',note:'handmade taro, coconut milk',img:'/assets/specialties/p-taro-milk.webp',w:323,h:720,size:1,side:.74,tint:'sky',href:'/menu/#category-156001'},
+ {name:'Strawberry Pudding',note:'strawberry on coconut pudding',img:'/assets/specialties/p-strawberry-pudding.webp',w:427,h:720,size:.92,tint:'peach',href:'/menu/#category-156004'},
+ {name:'Lime Boba Coconut',note:'coconut water, lime, popping boba',img:'/assets/specialties/p-lime-boba.webp',w:306,h:720,size:1,side:.74,tint:'mint',href:'/menu/#category-156002'}
 ];

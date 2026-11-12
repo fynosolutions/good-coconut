@@ -98,3 +98,84 @@
     }
   }
 })();
+// Round 11 trial: dessert turntable in the hero. One angle is tweened; every product's place is worked out from it.
+(function(){
+  'use strict';
+  var root = document.querySelector('[data-wheel]'); if (!root) return;
+  var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = Array.prototype.slice.call(root.querySelectorAll('.wheel-item')), N = items.length, STEP = Math.PI * 2 / N;
+  var discs = root.querySelectorAll('.wheel-disc'), discOn = 0, nameEl = root.querySelector('.wheel-name'), ctrlBtns = root.querySelectorAll('.wheel-btn');
+  var lead = +root.dataset.lead || 0, pos = lead, target = lead, front = lead, W = 0, raf = 0, from = 0, t0 = 0, dur = 0, ease = null;
+  var paused = false, held = false, userPaused = false, timer = 0, turns = 0, seen = true;
+  var bez = function(x1, y1, x2, y2){ return function(t){ var u = t, i, x, d; for (i = 0; i < 6; i++) { x = 3*(1-u)*(1-u)*u*x1 + 3*(1-u)*u*u*x2 + u*u*u - t; d = 3*(1-u)*(1-u)*x1 + 6*(1-u)*u*(x2-x1) + 3*u*u*(1-x2); if (Math.abs(d) < 1e-6) break; u -= x / d; } return 3*(1-u)*(1-u)*u*y1 + 3*(1-u)*u*u*y2 + u*u*u; }; };
+  var E_AUTO = bez(.65, 0, .35, 1), E_USER = bez(.2, .8, .2, 1);
+  var mod = function(n){ return ((n % N) + N) % N; };
+  var place = function(){
+    var phone = W < 480, rx = W * (phone ? .44 : .46), ry = W * .12, i, th, d, s, el, f, x, badge;
+    for (i = 0; i < N; i++) {
+      el = items[i]; th = (i - pos) * STEP; d = (1 + Math.cos(th)) / 2; x = Math.sin(th) * rx;
+      // three stand in view at a time: one big in front, one smaller on each side, never covering each other
+      f = Math.pow(d, 5); s = (.36 + .64 * f) * ((+el.dataset.size || 1) * f + (+el.dataset.side || .9) * (1 - f));
+      el.style.transform = 'translate(' + x.toFixed(1) + 'px,calc(-100% + ' + (ry * (Math.cos(th) - .42)).toFixed(1) + 'px)) scale(' + s.toFixed(3) + ')';
+      var gone = d < .62;
+      el.style.opacity = gone ? 0 : Math.min(1, (d - .62) * 6).toFixed(2);
+      el.style.pointerEvents = gone ? 'none' : '';
+      el.style.zIndex = Math.round(d * 100);
+      badge = el.firstElementChild.querySelector('.wheel-new');
+      if (badge) { el.classList.toggle('is-right', x > W * .08); badge.style.scale = Math.max(1, .62 / s).toFixed(2); }   // sticker never shrinks below reading size
+    }
+  };
+  var setFront = function(i){
+    if (i === front && nameEl.dataset.ready) return; front = i; nameEl.dataset.ready = '1';
+    items.forEach(function(el, k){ el.classList.toggle('is-front', k === i); el.querySelector('.wheel-pick').tabIndex = k === i ? 0 : -1; });
+    var el = items[i], next = discs[1 - discOn]; next.dataset.tint = el.dataset.tint; next.style.opacity = 1; discs[discOn].style.opacity = 0; discOn = 1 - discOn;
+    nameEl.classList.add('is-swap');
+    setTimeout(function(){ nameEl.href = el.dataset.href; nameEl.querySelector('strong').textContent = el.dataset.name; nameEl.querySelector('small').textContent = el.dataset.note; nameEl.querySelector('i').className = el.hasAttribute('data-new') ? 'is-new' : ''; nameEl.classList.remove('is-swap'); }, still ? 0 : 170);
+  };
+  var frame = function(now){
+    var t = Math.min(1, (now - t0) / dur); pos = from + (target - from) * ease(t); place();
+    if (t < 1) raf = requestAnimationFrame(frame); else { raf = 0; pos = target; place(); root.classList.remove('is-turning'); schedule(); }
+  };
+  var go = function(to, user){
+    target = to; setFront(mod(Math.round(to)));
+    if (still) { pos = target; place(); return; }
+    from = pos; t0 = performance.now(); var steps = Math.abs(target - from);
+    dur = user ? Math.min(1000, 480 + 110 * Math.max(0, steps - 1)) : 760; ease = user ? E_USER : E_AUTO;
+    root.classList.add('is-turning'); if (!raf) raf = requestAnimationFrame(frame);
+  };
+  var schedule = function(){
+    clearTimeout(timer); if (still || userPaused || turns >= N * 2) return;
+    timer = setTimeout(function(){ if (paused || held || !seen || document.hidden) { schedule(); return; } turns++; go(Math.round(target) + 1, false); }, items[mod(Math.round(target))].hasAttribute('data-new') ? 7000 : 4500);
+  };
+  var nudge = function(dir){ turns = 0; go(Math.round(target) + dir, true); };
+  items.forEach(function(el, i){ el.querySelector('.wheel-pick').addEventListener('click', function(){
+    if (moved) return; var cur = mod(Math.round(target)); if (i === cur) { location.href = el.dataset.href; return; }
+    var diff = mod(i - cur); if (diff > N / 2) diff -= N; turns = 0; go(Math.round(target) + diff, true); }); });
+  root.querySelector('[data-wheel-prev]').addEventListener('click', function(){ nudge(-1); });
+  root.querySelector('[data-wheel-next]').addEventListener('click', function(){ nudge(1); });
+  var pauseBtn = root.querySelector('[data-wheel-pause]');
+  pauseBtn.addEventListener('click', function(){ userPaused = !userPaused; pauseBtn.setAttribute('aria-pressed', String(userPaused)); pauseBtn.setAttribute('aria-label', userPaused ? 'Start the turntable' : 'Pause the turntable'); root.classList.toggle('is-still', userPaused); if (userPaused) clearTimeout(timer); else { turns = 0; schedule(); } });
+  root.addEventListener('keydown', function(e){ if (e.key === 'ArrowLeft') { e.preventDefault(); nudge(-1); } else if (e.key === 'ArrowRight') { e.preventDefault(); nudge(1); } });
+  root.addEventListener('pointerenter', function(){ paused = true; }); root.addEventListener('pointerleave', function(){ paused = false; });
+  root.addEventListener('focusin', function(){ held = true; }); root.addEventListener('focusout', function(){ held = false; });
+  // drag / swipe: one notch per 110px (70px on phones); vertical scrolling stays native
+  var sx = 0, sy = 0, down = false, moved = false, base = 0;
+  root.addEventListener('pointerdown', function(e){ if (e.target.closest('.wheel-bar')) return; down = true; moved = false; sx = e.clientX; sy = e.clientY; base = target; });
+  addEventListener('pointermove', function(e){ if (!down) return; var dx = e.clientX - sx, dy = e.clientY - sy; if (!moved) { if (Math.abs(dx) < 8 || Math.abs(dx) < Math.abs(dy)) return; moved = true; clearTimeout(timer); if (raf) { cancelAnimationFrame(raf); raf = 0; } root.classList.add('is-turning'); }
+    pos = base - dx / (W < 480 ? 70 : 110); place(); });
+  var up = function(){ if (!down) return; down = false; if (!moved) return; turns = 0; target = pos; go(Math.round(pos), true); setTimeout(function(){ moved = false; }, 0); };
+  addEventListener('pointerup', up); addEventListener('pointercancel', up);
+  if ('IntersectionObserver' in window) new IntersectionObserver(function(es){ seen = es[0].isIntersecting; }, {threshold: .25}).observe(root);
+  var measure = function(){ W = root.clientWidth; place(); };
+  if ('ResizeObserver' in window) new ResizeObserver(measure).observe(root); else addEventListener('resize', measure);
+  measure(); root.classList.add('is-live'); ctrlBtns.forEach(function(b){ b.hidden = false; }); setFront(lead);
+  // entrance: back products slide in along the turntable; the front one only rises (it is the first-screen photo)
+  if (!still && items[0].animate) {
+    root.querySelector('.wheel-plate').animate([{transform: 'scaleX(.8)', opacity: 0}, {transform: 'none', opacity: 1}], {duration: 520, easing: 'cubic-bezier(.23,1,.32,1)'});
+    discs[discOn].animate([{transform: 'scale(.92)', opacity: 0}, {transform: 'none', opacity: 1}], {duration: 520, easing: 'cubic-bezier(.23,1,.32,1)'});
+    pos = lead - .45; place(); from = pos; target = lead; t0 = performance.now() + 200; dur = 900; ease = bez(.23, 1, .32, 1);
+    items.forEach(function(el, i){ if (i !== lead) el.animate([{opacity: 0}, {opacity: el.style.opacity}], {duration: 600, delay: 150, fill: 'backwards', easing: 'ease-out'}); });
+    var badge = items[lead].querySelector('.wheel-new'); if (badge) badge.animate([{scale: .4, rotate: '-40deg', opacity: 0}, {scale: 1, rotate: '-12deg', opacity: 1}], {duration: 420, delay: 750, fill: 'backwards', easing: 'cubic-bezier(.34,1.56,.64,1)'});
+    root.classList.add('is-turning'); raf = requestAnimationFrame(function start(now){ if (now < t0) { raf = requestAnimationFrame(start); return; } frame(now); });
+  } else schedule();
+})();
