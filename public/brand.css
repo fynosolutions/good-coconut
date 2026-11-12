@@ -778,3 +778,8 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
  .wheel-name{width:244px;padding-right:10px}.wheel-name strong{font-size:13px}
  .wheel-disc{top:4%;width:56%}
 }
+/* turntable, third review */
+.wheel-pause{border-color:var(--ink)}
+.wheel-name>span{flex:1;text-align:center}
+@media (max-width:800px){.hero5-stage.has-wheel{aspect-ratio:100/62;width:92%;margin:0 auto 40px}}
+@media (min-width:1001px) and (max-width:1200px){.hero5:has(.has-wheel){padding:48px 0 88px}}

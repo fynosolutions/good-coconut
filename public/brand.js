@@ -112,10 +112,16 @@
   var mod = function(n){ return ((n % N) + N) % N; };
   var place = function(){
     var phone = W < 480, rx = W * (phone ? .44 : .46), ry = W * .12, i, th, d, s, el, f, x, badge;
+    var fk = +items[mod(Math.round(pos))].dataset.sidek || 1, near = 1 - Math.min(1, Math.abs(pos - Math.round(pos)) * 2);   // a short product in front makes its neighbours step down
     for (i = 0; i < N; i++) {
       el = items[i]; th = (i - pos) * STEP; d = (1 + Math.cos(th)) / 2; x = Math.sin(th) * rx;
       // three stand in view at a time: one big in front, one smaller on each side, never covering each other
-      f = Math.pow(d, 5); s = (.36 + .64 * f) * ((+el.dataset.size || 1) * f + (+el.dataset.side || .9) * (1 - f));
+      f = Math.pow(d, 5); s = (.46 + .54 * f) * ((+el.dataset.size || 1) * f + (+el.dataset.side || .9) * (1 - f));
+      s *= 1 - (1 - fk) * near * (1 - f);
+      // the two neighbours stand a fixed gap away from the front product's visible edge, so nothing ever touches
+      var k = Math.round(pos), rel = i - k; rel = ((rel % N) + N) % N; if (rel > N / 2) rel -= N;
+      if (Math.abs(rel) === 1) { var fr = items[mod(k)], hw = function(e, sc){ var im = e.querySelector('img'), bw = W * .46, bh = bw * 56 / 46; return Math.min(bw, bh * im.width / im.height) * sc / 2; };
+        var want = rel * (hw(fr, +fr.dataset.size || 1) + (phone ? 14 : 30) + hw(el, s)); x = x + (want - x) * near; }
       el.style.transform = 'translate(' + x.toFixed(1) + 'px,calc(-100% + ' + (ry * (Math.cos(th) - .42)).toFixed(1) + 'px)) scale(' + s.toFixed(3) + ')';
       var gone = d < .62;
       el.style.opacity = gone ? 0 : Math.min(1, (d - .62) * 6).toFixed(2);

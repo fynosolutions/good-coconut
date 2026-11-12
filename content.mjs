@@ -40,14 +40,12 @@ export const lineup=[];
 // size: how big the product stands at the front (1 = fills the stand). side: cap for tall cups when they stand at the side.
 // Keep the two new items apart in the list so they never stand next to each other.
 // tint: colour of the round field behind the front product (peach, mint, sand, sky).
-// sticker: where the NEW sticker sits on the photo, in % from the left and top.
+// sideK: for a short, wide product (the whole coconut): how much the two side products shrink while it is in front.
 export const heroWheel=[
- {name:'Persimmon Puree Pudding',note:'persimmon purée on coconut pudding',img:'/assets/specialties/top-persimmon.webp',w:552,h:900,size:1,tint:'peach',isNew:true,sticker:[2,20],href:'/menu/#category-156004'},
+ {name:'Persimmon Puree Pudding',note:'persimmon purée on coconut pudding',img:'/assets/r11/persimmon-puree.webp',w:601,h:987,size:1,tint:'peach',isNew:true,href:'/menu/#category-156004'},
  {name:'Coconut Latte',note:'coconut milk with espresso',img:'/assets/r11/coconut-latte.webp',w:481,h:1100,size:1,side:.74,tint:'sky',href:'/menu/#category-156003'},
  {name:'Mango Pudding',note:'mango on coconut pudding',img:'/assets/specialties/p-mango-pudding.webp',w:510,h:720,size:.92,tint:'mint',href:'/menu/#category-156004'},
- {name:'Freshly Opened Coconut',note:'opened to order, with a straw',img:'/assets/r11/fresh-coconut.webp',w:666,h:900,size:1,tint:'mint',href:'/menu/#category-156000'},
- {name:'Persimmon Pudding',note:'fresh persimmon on coconut pudding',img:'/assets/r11/persimmon-pudding.webp',w:531,h:760,size:.95,tint:'peach',isNew:true,sticker:[0,22],href:'/menu/#category-156004'},
- {name:'Taro Coconut Milk',note:'handmade taro, coconut milk',img:'/assets/specialties/p-taro-milk.webp',w:323,h:720,size:1,side:.74,tint:'sky',href:'/menu/#category-156001'},
- {name:'Strawberry Pudding',note:'strawberry on coconut pudding',img:'/assets/specialties/p-strawberry-pudding.webp',w:427,h:720,size:.92,tint:'peach',href:'/menu/#category-156004'},
- {name:'Lime Boba Coconut',note:'coconut water, lime, popping boba',img:'/assets/specialties/p-lime-boba.webp',w:306,h:720,size:1,side:.74,tint:'mint',href:'/menu/#category-156002'}
+ {name:'Freshly Opened Coconut',note:'opened to order, with a straw',img:'/assets/r11/fresh-coconut.webp',w:666,h:900,size:1.14,sideK:.74,tint:'mint',href:'/menu/#category-156000'},
+ {name:'Persimmon Pudding',note:'fresh persimmon on coconut pudding',img:'/assets/r11/persimmon-pudding.webp',w:531,h:760,size:.95,tint:'peach',isNew:true,href:'/menu/#category-156004'},
+ {name:'Dragon Fruit Pudding',note:'dragon fruit on coconut pudding',img:'/assets/specialties/p-dragonfruit-pudding.webp',w:496,h:720,size:.92,tint:'mint',href:'/menu/#category-156004'}
 ];
