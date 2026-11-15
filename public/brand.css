@@ -789,3 +789,5 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 .hero5 .hero5-shops{font-size:15px;line-height:1.35;align-items:flex-start}.hero5 .hero5-shops a{display:block;min-height:44px;padding-top:2px}
 @media (min-width:1001px){.hero5-copy{margin-top:-56px}}
 @media (max-width:600px){.hero5 .hero5-shops{flex-direction:column;gap:14px}}
+@media (max-width:420px) and (max-height:700px){.hero5-stage.has-wheel{margin-bottom:58px}.hero5-copy .eyebrow{margin-bottom:4px}.hero5 .lead{margin:10px 0 14px;line-height:1.45}}
+.order-panel.fidi-first [data-shop=manhattan]{order:-1}

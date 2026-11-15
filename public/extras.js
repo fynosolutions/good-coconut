@@ -75,11 +75,11 @@ if(panel&&toggles.length){
   document.body.classList.toggle('order-open',open);
  }
  // A mouse click right after the hover opened it must not close it again; keyboard and touch toggle.
- toggles.forEach(t=>t.addEventListener('click',e=>{e.preventDefault();if(fine&&e.detail>0&&!t.classList.contains('mobile-order'))set(true);else set(!isOpen());}));
+ toggles.forEach(t=>t.addEventListener('click',e=>{e.preventDefault();panel.classList.toggle('fidi-first',!!t.closest('.hero5'));if(fine&&e.detail>0&&!t.classList.contains('mobile-order'))set(true);else set(!isOpen());}));
  if(fine){
   const hoverZone=[toggles.find(t=>!t.classList.contains('mobile-order')),panel].filter(Boolean);
   hoverZone.forEach(el=>{
-   el.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')set(true);});
+   el.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'){if(el!==panel)panel.classList.remove('fidi-first');set(true);}});
    el.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse')closeTimer=setTimeout(()=>set(false),200);});
   });
  }
