@@ -77,6 +77,7 @@
 /* Sip to scroll: the coconut empties as you scroll, then becomes an Order online button. */
 .sip{position:fixed;right:20px;bottom:20px;z-index:60;opacity:0;scale:.9;pointer-events:none;transition:opacity .25s ease-out,scale .25s cubic-bezier(.23,1,.32,1),transform .16s ease-out;display:grid;place-items:center;width:76px;height:76px;border:1.5px solid #24428a22;border-radius:50%;background:#fffdf5;box-shadow:0 6px 20px #24428a26;text-decoration:none}
 .sip.shown{opacity:1;scale:1;pointer-events:auto}
+.sip.shown.tucked{opacity:0;scale:.9;pointer-events:none}
 .sip:active{transform:scale(.95)}
 .sip svg{width:56px;height:56px;transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}
 .sip-label{position:absolute;inset:-1.5px;display:grid;place-items:center;border-radius:50%;background:#f6c7a1;color:#24428a;font-size:13px;font-weight:500;line-height:1.2;text-align:center;opacity:0;transform:scale(.9);transition:opacity .25s cubic-bezier(.23,1,.32,1),transform .25s cubic-bezier(.23,1,.32,1)}

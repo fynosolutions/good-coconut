@@ -93,8 +93,11 @@ const sip=document.createElement('a');
 sip.className='sip';sip.href='/online/';sip.setAttribute('aria-label','Order online');
 sip.innerHTML='<svg viewBox="0 0 100 100" aria-hidden="true"><defs><clipPath id="sip-bowl"><path d="M19 42a31 31 0 0 0 62 0Z"/></clipPath></defs><path d="M9 42a41 41 0 0 0 82 0Z" fill="#a47850" stroke="#123e40" stroke-width="3" stroke-linejoin="round"/><path d="M15 42a35 35 0 0 0 70 0Z" fill="#fffdf5"/><g clip-path="url(#sip-bowl)"><path class="sip-water" d="M15 44q6-4 12 0t12 0t12 0t12 0t12 0t12 0V80H15Z" fill="#8fd3e8"/></g><path d="M50 66 62 14l18-6" fill="none" stroke="#123e40" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 42h82" stroke="#123e40" stroke-width="3" stroke-linecap="round"/></svg><span class="sip-label" aria-hidden="true">Order<br>online</span>';
 const water=sip.querySelector('.sip-water');
-let queued=false;
-function update(){queued=false;const max=root.scrollHeight-innerHeight,p=max>0?Math.min(1,Math.max(0,scrollY/max)):0;water.style.transform=`translateY(${(p*30).toFixed(2)}px)`;sip.classList.toggle('done',p>.97);sip.classList.toggle('shown',scrollY>innerHeight*.5);}
+let queued=false,lastY=scrollY;
+const phone=matchMedia('(max-width: 800px)');
+// Phones (2026-11-15): the round button tucks away while you scroll down to read, so it never sits on a product name; it comes back when you scroll up or reach the end. The header keeps Order online on screen meanwhile.
+function update(){queued=false;const max=root.scrollHeight-innerHeight,p=max>0?Math.min(1,Math.max(0,scrollY/max)):0;water.style.transform=`translateY(${(p*30).toFixed(2)}px)`;sip.classList.toggle('done',p>.97);sip.classList.toggle('shown',scrollY>innerHeight*.5);
+ const dy=scrollY-lastY;if(Math.abs(dy)>8||p>.97){sip.classList.toggle('tucked',phone.matches&&dy>0&&p<=.97);lastY=scrollY;}}
 addEventListener('scroll',()=>{if(!queued){queued=true;requestAnimationFrame(update);}},{passive:true});
 addEventListener('resize',update);
 if(!document.body.classList.contains('page-contact')){document.body.append(sip);update();}
