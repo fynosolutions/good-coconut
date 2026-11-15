@@ -2,7 +2,7 @@
 
 Independent local edition, approved 2026-11-04. Existing good-coconut-homepage and its hosting identity remain untouched.
 
-Palette: coconut #fffdf5, mint #80c9c5, deep teal #123e40, sea #216a83, butter #f4df83, soft lilac #e9e3ef.
+Palette (official VI, 2026-11-08): royal blue #24428a (Pantone 2728C) for headings and buttons, mint #78ccc5 (Pantone 7471C), white, page cream #fffdf5. Deep teal #123e40 and butter #f4df83 were removed on 2026-11-08; do not use them.
 Type: local Poppins 600 for large, tightly spaced display headings; Poppins 400/500 for reading and navigation. Original logos retain their own lettering.
 Layout: full-width photographic opening with a prominent mint editorial headline, followed by waved sections, asymmetric story composition, alternating large product portraits, a moving photo ribbon, and straightforward store actions. Left aligned copy; centered display transitions.
 

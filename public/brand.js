@@ -120,7 +120,7 @@
       s *= 1 - (1 - fk) * near * (1 - f);
       // the two neighbours stand a fixed gap away from the front product's visible edge, so nothing ever touches
       var k = Math.round(pos), rel = i - k; rel = ((rel % N) + N) % N; if (rel > N / 2) rel -= N;
-      if (Math.abs(rel) === 1) { var fr = items[mod(k)], hw = function(e, sc){ var im = e.querySelector('img'), bw = W * .46, bh = bw * 56 / 46; return Math.min(bw, bh * im.width / im.height) * sc / 2; };
+      if (Math.abs(rel) === 1) { var fr = items[mod(k)], hw = function(e, sc){ var im = e.querySelector('img'), bw = W * .46, bh = bw * 56 / 46; var iw = +im.getAttribute('width') || im.naturalWidth || 1, ih = +im.getAttribute('height') || im.naturalHeight || 1; return Math.min(bw, bh * iw / ih) * sc / 2; };
         var want = rel * (hw(fr, +fr.dataset.size || 1) + (phone ? 14 : 30) + hw(el, s)); x = x + (want - x) * near; }
       el.style.transform = 'translate(' + x.toFixed(1) + 'px,calc(-100% + ' + (ry * (Math.cos(th) - .42)).toFixed(1) + 'px)) scale(' + s.toFixed(3) + ')';
       var gone = d < .62;
@@ -128,7 +128,7 @@
       el.style.pointerEvents = gone ? 'none' : '';
       el.style.zIndex = Math.round(d * 100);
       badge = el.firstElementChild.querySelector('.wheel-new');
-      if (badge) { el.classList.toggle('is-right', x > W * .08); badge.style.scale = Math.max(1, .62 / s).toFixed(2); }   // sticker never shrinks below reading size
+      if (badge) { el.classList.toggle('is-right', x > W * .08); badge.style.scale = '1'; }   // sticker never shrinks below reading size
     }
   };
   var setFront = function(i){
@@ -181,7 +181,7 @@
     discs[discOn].animate([{transform: 'scale(.92)', opacity: 0}, {transform: 'none', opacity: 1}], {duration: 520, easing: 'cubic-bezier(.23,1,.32,1)'});
     pos = lead - .45; place(); from = pos; target = lead; t0 = performance.now() + 200; dur = 900; ease = bez(.23, 1, .32, 1);
     items.forEach(function(el, i){ if (i !== lead) el.animate([{opacity: 0}, {opacity: el.style.opacity}], {duration: 600, delay: 150, fill: 'backwards', easing: 'ease-out'}); });
-    var badge = items[lead].querySelector('.wheel-new'); if (badge) badge.animate([{scale: .4, rotate: '-40deg', opacity: 0}, {scale: 1, rotate: '-12deg', opacity: 1}], {duration: 420, delay: 750, fill: 'backwards', easing: 'cubic-bezier(.34,1.56,.64,1)'});
+    var badge = items[lead].querySelector('.wheel-new'); if (badge) badge.animate([{scale: .4, rotate: '-40deg', opacity: 0}, {scale: 1, rotate: '-12deg', opacity: 1}], {duration: 420, delay: 750, fill: 'backwards', easing: 'cubic-bezier(.23,1,.32,1)'});
     root.classList.add('is-turning'); raf = requestAnimationFrame(function start(now){ if (now < t0) { raf = requestAnimationFrame(start); return; } frame(now); });
   } else schedule();
 })();
