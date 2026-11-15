@@ -112,7 +112,10 @@ if(document.querySelector('#menu-search')){
   const title=document.createElement('h2');title.id='menu-dialog-title';title.textContent=card.querySelector('h3').textContent;copy.append(title);
   copy.append(card.querySelector('.menu-name-zh').cloneNode(true),card.querySelector('.menu-card-meta').cloneNode(true));
   copy.append(card.querySelector('.product-detail-content').cloneNode(true));
-  const order=document.querySelector('.menu-outro .button').cloneNode(true);copy.append(order);inner.append(copy);
+  // The outro now has one order card per shop (no single .button): offer this menu's shop pickup link.
+  const shop=route(location.pathname).includes('/wall-street/')?'manhattan':'flushing';
+  const order=document.querySelector('.menu-outro .button')||document.querySelector(`.menu-outro .order-shop[data-shop="${shop}"] .order-pickup`);
+  if(order)copy.append(order.cloneNode(true));inner.append(copy);
   document.body.classList.add('menu-dialog-open');dialog.showModal();dialog.scrollTop=0;
  });
  dialog.querySelector('.menu-dialog-close').addEventListener('click',()=>dialog.close());

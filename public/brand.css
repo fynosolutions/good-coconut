@@ -738,9 +738,9 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 .wheel-bob img{position:relative;display:block;width:auto;height:auto;max-width:100%;max-height:100%;pointer-events:none;-webkit-user-drag:none}
 .wheel-item.is-front .wheel-bob{animation:wheel-bob 4.2s cubic-bezier(.37,0,.63,1) infinite}
 .wheel.is-turning .wheel-item.is-front .wheel-bob,.wheel.is-still .wheel-item.is-front .wheel-bob{animation:none}
-@keyframes wheel-bob{50%{transform:translateY(-6px)}}
+@keyframes wheel-bob{50%{translate:0 -6px}}
 @media (hover:hover){.wheel-item:not(.is-front) .wheel-pick:hover .wheel-bob{transform:translateY(-8px)}.wheel-item.is-front .wheel-pick:hover .wheel-new{rotate:-4deg}}
-.wheel-pick:active .wheel-bob{transform:scale(.97)}
+.wheel-pick:active .wheel-bob{transform:scale(.97);transition-duration:.12s}
 /* NEW is a sticker on the product itself and travels with it */
 .wheel-new{position:absolute;left:0;top:46%;width:14.5cqw;max-width:104px;min-width:56px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:var(--persim);color:var(--ink);font:800 clamp(19px,4cqw,29px)/1 Poppins,sans-serif;letter-spacing:.03em;text-transform:uppercase;rotate:-12deg;box-shadow:0 0 0 3px #fffdf5,0 8px 16px rgb(36 66 138 / 22%);pointer-events:none;transition:rotate .24s cubic-bezier(.23,1,.32,1);z-index:2}
 /* name card with the two arrows beside it, like the card in front of a cake */
@@ -749,7 +749,7 @@ body.page-home .sip.at-foot{opacity:0;pointer-events:none}
 .wheel-name:hover{background:#fff}.wheel-name:active{transform:scale(.97)}
 .wheel-name i{width:9px;height:9px;border-radius:50%;background:var(--ink);flex:none}
 .wheel-name i.is-new{background:var(--persim);box-shadow:0 0 0 3px #ee8a3c33}
-.wheel-name>span{display:grid;gap:2px;transition:opacity .15s cubic-bezier(.4,0,1,1),transform .15s cubic-bezier(.4,0,1,1)}
+.wheel-name>span{display:grid;gap:2px;transition:opacity .16s cubic-bezier(.23,1,.32,1),transform .16s cubic-bezier(.23,1,.32,1)}
 .wheel-name.is-swap>span{opacity:0;transform:translateY(-6px)}
 .wheel-name strong{font:700 15px/1.15 Poppins,sans-serif}
 .wheel-name small{font:500 12px/1.2 Poppins,sans-serif;color:var(--text,#2e3a57)}

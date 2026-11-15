@@ -106,7 +106,7 @@
   var items = Array.prototype.slice.call(root.querySelectorAll('.wheel-item')), N = items.length, STEP = Math.PI * 2 / N;
   var discs = root.querySelectorAll('.wheel-disc'), discOn = 0, nameEl = root.querySelector('.wheel-name'), ctrlBtns = root.querySelectorAll('.wheel-btn');
   var lead = +root.dataset.lead || 0, pos = lead, target = lead, front = lead, W = 0, raf = 0, from = 0, t0 = 0, dur = 0, ease = null;
-  var paused = false, held = false, userPaused = false, timer = 0, turns = 0, seen = true;
+  var paused = false, held = false, userPaused = false, timer = 0, turns = 0, seen = true, swapT = 0;
   var bez = function(x1, y1, x2, y2){ return function(t){ var u = t, i, x, d; for (i = 0; i < 6; i++) { x = 3*(1-u)*(1-u)*u*x1 + 3*(1-u)*u*u*x2 + u*u*u - t; d = 3*(1-u)*(1-u)*x1 + 6*(1-u)*u*(x2-x1) + 3*u*u*(1-x2); if (Math.abs(d) < 1e-6) break; u -= x / d; } return 3*(1-u)*(1-u)*u*y1 + 3*(1-u)*u*u*y2 + u*u*u; }; };
   var E_AUTO = bez(.65, 0, .35, 1), E_USER = bez(.2, .8, .2, 1);
   var mod = function(n){ return ((n % N) + N) % N; };
@@ -136,7 +136,7 @@
     items.forEach(function(el, k){ el.classList.toggle('is-front', k === i); el.querySelector('.wheel-pick').tabIndex = k === i ? 0 : -1; });
     var el = items[i], next = discs[1 - discOn]; next.dataset.tint = el.dataset.tint; next.style.opacity = 1; discs[discOn].style.opacity = 0; discOn = 1 - discOn;
     nameEl.classList.add('is-swap');
-    setTimeout(function(){ nameEl.href = el.dataset.href; nameEl.querySelector('strong').textContent = el.dataset.name; nameEl.querySelector('small').textContent = el.dataset.note; nameEl.querySelector('i').className = el.hasAttribute('data-new') ? 'is-new' : ''; nameEl.classList.remove('is-swap'); }, still ? 0 : 170);
+    clearTimeout(swapT); swapT = setTimeout(function(){ nameEl.href = el.dataset.href; nameEl.querySelector('strong').textContent = el.dataset.name; nameEl.querySelector('small').textContent = el.dataset.note; nameEl.querySelector('i').className = el.hasAttribute('data-new') ? 'is-new' : ''; nameEl.classList.remove('is-swap'); }, still ? 0 : 170);
   };
   var frame = function(now){
     var t = Math.min(1, (now - t0) / dur); pos = from + (target - from) * ease(t); place();
@@ -165,11 +165,15 @@
   root.addEventListener('pointerenter', function(){ paused = true; }); root.addEventListener('pointerleave', function(){ paused = false; });
   root.addEventListener('focusin', function(){ held = true; }); root.addEventListener('focusout', function(){ held = false; });
   // drag / swipe: one notch per 110px (70px on phones); vertical scrolling stays native
-  var sx = 0, sy = 0, down = false, moved = false, base = 0;
-  root.addEventListener('pointerdown', function(e){ if (e.target.closest('.wheel-bar')) return; down = true; moved = false; sx = e.clientX; sy = e.clientY; base = target; });
+  var sx = 0, sy = 0, down = false, moved = false, base = 0, lx = 0, lt = 0, vel = 0;   // vel: notches per ms, for the flick on release
+  root.addEventListener('pointerdown', function(e){ if (e.target.closest('.wheel-bar')) return; down = true; moved = false; sx = lx = e.clientX; sy = e.clientY; lt = e.timeStamp; vel = 0; base = target; });
   addEventListener('pointermove', function(e){ if (!down) return; var dx = e.clientX - sx, dy = e.clientY - sy; if (!moved) { if (Math.abs(dx) < 8 || Math.abs(dx) < Math.abs(dy)) return; moved = true; clearTimeout(timer); if (raf) { cancelAnimationFrame(raf); raf = 0; } root.classList.add('is-turning'); }
-    pos = base - dx / (W < 480 ? 70 : 110); place(); });
-  var up = function(){ if (!down) return; down = false; if (!moved) return; turns = 0; target = pos; go(Math.round(pos), true); setTimeout(function(){ moved = false; }, 0); };
+    var px = W < 480 ? 70 : 110, dt = e.timeStamp - lt; if (dt > 0) vel = .7 * (-(e.clientX - lx) / px / dt) + .3 * vel; lx = e.clientX; lt = e.timeStamp;
+    pos = base - dx / px; place(); });
+  // a quick flick carries one notch further than where the finger let go; a slow drag just settles to the nearest
+  var up = function(e){ if (!down) return; down = false; if (!moved) return; turns = 0; target = pos;
+    var v = e.type === 'pointerup' && e.timeStamp - lt < 80 ? vel : 0, to = Math.round(pos + Math.max(-1, Math.min(1, v * 120)));
+    to = Math.max(Math.round(base) - 2, Math.min(Math.round(base) + 2, to)); go(to, true); setTimeout(function(){ moved = false; }, 0); };
   addEventListener('pointerup', up); addEventListener('pointercancel', up);
   if ('IntersectionObserver' in window) new IntersectionObserver(function(es){ seen = es[0].isIntersecting; }, {threshold: .25}).observe(root);
   var measure = function(){ W = root.clientWidth; place(); };
