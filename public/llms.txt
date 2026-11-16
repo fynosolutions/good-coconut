@@ -17,6 +17,7 @@ Coconut drinks, coconut pudding and egg waffles in New York City. Two shops:
 - Phone: (929) 488-8858
 - Menu: https://good-coconut-motion-demo.vercel.app/menu/wall-street/
 - Pickup (Chowbus): https://pos.chowbus.com/online-ordering/store/Good-Coconutwall-street/44491
+- Delivery (Uber Eats): https://www.ubereats.com/store/good-coconut/WLOA4YTkWz2JFGy2dnesdA
 - Delivery (DoorDash): https://www.doordash.com/store/good-coconut-fidi-new-york-51088871/
 - Delivery (Grubhub): https://www.grubhub.com/restaurant/good-coconut-47-broadway-new-york/15173296
 - Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJg6qzaKFbwokRpdfe4txl3FU
