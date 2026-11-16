@@ -118,3 +118,6 @@ body.order-open .sip{opacity:0;pointer-events:none}
 .menu-introduction .menu-store-note .fine{font-size:13px!important}
 .menu-sidebar .menu-categories small{font-size:12px}
 .menu-sidebar .category-count{font-size:12px;opacity:.8}
+
+.app-icons{display:flex;gap:10px}
+.app-icons img{display:block;width:46px;height:46px;border-radius:14px;border:1px solid #24428a33}
