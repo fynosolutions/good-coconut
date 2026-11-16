@@ -1,0 +1,124 @@
+@font-face{font-family:Caveat;src:url('/assets/caveat-variable.ttf') format('truetype');font-weight:400 700;font-display:swap}
+/* A new scrapbook surface, independent of the existing product photo ribbon. */
+.scrapbook{position:relative;background:#faf6eb;padding:90px 0 135px;overflow:clip;scroll-margin-top:100px}
+.scrapbook::before{content:'';position:absolute;top:0;left:5%;right:5%;border-top:1px dashed #123e4040}
+.scrapbook-inner{width:min(1240px,calc(100% - 100px));margin:auto}
+.scrapbook ::selection{background:#f4df83;color:#123e40}
+.scrapbook-heading{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:0 30px}
+.scrapbook-heading h2{font-size:clamp(64px,7.6vw,96px);letter-spacing:-.04em;text-shadow:none;line-height:1.05}
+.scrap-title-dot{color:#b44d3b}
+.scrap-hand,.scrap-photo figcaption,.scrap-reel figcaption>span{font-family:Caveat,cursive;font-weight:500;line-height:1.05;letter-spacing:0}
+.scrap-subtitle{font-size:30px;margin-top:8px;transform:rotate(-3deg);color:#39675e}
+.scrapbook-intro{font-size:14px;line-height:1.9;max-width:30ch;padding-right:25px}
+.scrapbook-board{position:relative;height:860px;margin-top:45px;isolation:isolate}
+.scrap-piece{position:absolute;margin:0;box-shadow:2px 9px 19px #493a2424;transform:rotate(var(--tilt,0deg));transition:transform .35s cubic-bezier(.23,1,.32,1),box-shadow .35s;transform-origin:center}
+.scrap-photo{padding:12px 12px 14px;background:#fffef9}
+.scrap-photo-link{position:relative;display:block;overflow:hidden;text-decoration:none}
+.scrap-photo img{width:100%;aspect-ratio:1;object-fit:cover}
+.scrap-photo figcaption{text-align:center;font-size:27px;padding-top:14px}
+.scrap-expand{position:absolute;bottom:8px;right:8px;width:30px;height:30px;padding:6px;border-radius:50%;background:#fffdf5e6;color:#123e40}
+.scrap-expand svg{width:100%;height:100%}
+.scrap-tape{position:absolute;top:-14px;left:50%;width:84px;height:29px;transform:translateX(-50%) rotate(-5deg);background:#e5caa4c9;z-index:3;box-shadow:0 1px 2px #47372212;clip-path:polygon(2% 0,100% 3%,97% 24%,100% 42%,97% 60%,100% 82%,98% 100%,0 98%,3% 75%,0 55%,3% 30%)}
+.scrap-photo .scrap-tape-corner{top:28px;left:auto;right:-18px;width:68px;height:24px;transform:rotate(42deg);background:#c8ded4cf;pointer-events:none}
+.scrap-reel{padding:9px 9px 12px;background:#fffef9}
+.scrap-reel-media{position:relative;aspect-ratio:9/16;overflow:hidden;background:#c6deda}
+.scrap-reel-media>img,.scrap-reel-media>video{width:100%;height:100%;object-fit:cover}
+.scrap-reel-media:has(>img)::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#102d2720 20%,transparent 40%,#102d27c4);pointer-events:none}
+.scrap-video-label{position:absolute;top:12px;left:10px;right:10px;z-index:1;display:block;width:fit-content;padding:6px 9px;border-radius:3px;background:#fffdf5;color:#123e40;font-size:13px;font-weight:500;line-height:1.4;letter-spacing:0}
+
+
+.scrap-reel-title{position:absolute;bottom:20px;left:16px;right:12px;z-index:1;color:#fffdf5;font-size:24px;font-weight:600;line-height:1.14;letter-spacing:-.03em;max-width:10ch}
+.scrap-reel figcaption{padding:13px 3px 0}
+.scrap-reel figcaption>span{display:block;font-size:24px}
+.scrap-reel figcaption small{display:block;margin-top:6px;font-size:9px;line-height:1.4;color:#51645a}
+.scrap-pudding{left:1%;top:68px;width:23%;--tilt:-8deg;z-index:2}
+.scrap-first-bite{left:29%;top:14px;width:23%;--tilt:4deg;z-index:3}
+.scrap-shop{right:1%;top:8px;width:21%;--tilt:8deg;z-index:2}
+.scrap-shop img{aspect-ratio:1.22}
+.scrap-little-stop{left:55%;top:155px;width:21%;--tilt:-5deg;z-index:4}
+.scrap-little-stop .scrap-tape{background:#a4c9c1ca;transform:translateX(-50%) rotate(5deg)}
+.scrap-lime{left:3%;top:440px;width:23%;--tilt:5deg;z-index:3}
+.scrap-lime img{aspect-ratio:1.05}
+.scrap-lime .scrap-tape{background:#d5c7e4d9}
+.scrap-sweet-company{right:0;top:340px;width:21%;--tilt:7deg;z-index:5}
+.scrap-sweet-company .scrap-tape{background:#efc2b1d9}
+.scrap-note{left:32%;top:590px;width:20%;padding:32px 20px 25px;background:#f4df83;--tilt:-6deg;z-index:5;box-shadow:2px 8px 16px #493a241a}
+.scrap-note p{font-size:35px}
+.scrap-note p span{color:#8a3b29}
+.scrap-note-sign{display:block;font-size:9px;margin-top:16px;letter-spacing:.04em}
+.scrap-sticker{position:absolute;pointer-events:none;z-index:6;filter:drop-shadow(1px 4px 3px #493a2420)}
+.scrap-sticker-club{left:49%;top:10px;background:#80c9c5;border:5px solid #fffdf5;border-radius:50%;padding:15px 22px;text-align:center;font-size:11px;line-height:1.1;transform:rotate(-14deg)}
+.scrap-sticker-club strong{font:600 27px/1.2 Caveat,cursive;white-space:nowrap}
+.scrap-sticker-ny{left:0;top:395px;background:#e9e3ef;padding:12px 21px;border:5px solid #fffdf5;border-radius:4px;transform:rotate(-12deg);font-size:9px;line-height:1.5;letter-spacing:.08em}
+.scrap-sticker-ny strong{font-size:15px;letter-spacing:-.015em}
+.scrap-sticker-coconut{left:24%;top:330px;width:100px;height:100px;object-fit:contain;transform:rotate(14deg);filter:drop-shadow(0 4px 3px #493a2420)}
+.scrap-margin-note{position:absolute;right:2%;top:262px;transform:rotate(7deg);font-size:29px;color:#8a3b29}
+/* Two added rows flow with their content; offsets and frame sizes vary. */
+.scrapbook-continuation{position:relative;margin:35px 4px 110px}
+.scrap-extra-row{position:relative;display:grid;grid-template-columns:1.08fr .88fr 1.1fr .9fr;align-items:start;gap:34px;isolation:isolate}
+.scrap-extra-row+.scrap-extra-row{margin-top:90px}
+.scrap-extra-row>.scrap-photo{position:relative;inset:auto;width:100%;min-width:0;margin-top:var(--drop);--tilt:var(--angle);z-index:2}
+.scrap-extra-row>.scrap-photo:nth-child(1){--drop:48px;--angle:-7deg}
+.scrap-extra-row>.scrap-photo:nth-child(2){--drop:0px;--angle:6deg;z-index:3}
+.scrap-extra-row>.scrap-photo:nth-child(3){--drop:88px;--angle:-4deg}
+.scrap-extra-row>.scrap-photo:nth-child(4){--drop:28px;--angle:8deg}
+.scrap-extra-row>.scrap-photo:nth-child(2) img{aspect-ratio:.8}
+.scrap-extra-row>.scrap-photo:nth-child(3) img{aspect-ratio:1.18}
+.scrap-extra-row>.scrap-photo:nth-child(2)>.scrap-tape:not(.scrap-tape-corner){left:35%;transform:translateX(-50%) rotate(13deg);background:#c9b9dbc9}
+.scrap-extra-row>.scrap-photo:nth-child(3)>.scrap-tape:not(.scrap-tape-corner){width:102px;background:#e7b5a4c9;transform:translateX(-50%) rotate(-12deg)}
+.scrap-extra-row>.scrap-photo:nth-child(4)>.scrap-tape:not(.scrap-tape-corner){left:64%;background:#b9d8d1c9;transform:translateX(-50%) rotate(8deg)}
+.scrap-extra-row>.scrap-photo:nth-child(even)>.scrap-tape-corner{right:auto;left:-18px;transform:rotate(-42deg);background:#eedb9ccf}
+.scrap-extra-row>.scrap-photo:focus-within{z-index:8}
+.scrap-row-coconut-days{grid-template-columns:.92fr 1.1fr .9fr 1.05fr}
+.scrap-row-coconut-days>.scrap-photo:nth-child(1){--drop:0px;--angle:6deg}
+.scrap-row-coconut-days>.scrap-photo:nth-child(2){--drop:75px;--angle:-5deg}
+.scrap-row-coconut-days>.scrap-photo:nth-child(3){--drop:12px;--angle:8deg}
+.scrap-row-coconut-days>.scrap-photo:nth-child(4){--drop:100px;--angle:-7deg}
+.scrap-row-coconut-days>.scrap-photo:nth-child(2) img{aspect-ratio:1.1}
+.scrap-row-coconut-days>.scrap-photo:nth-child(3) img{aspect-ratio:.86}
+.scrap-row-annotation{position:absolute;bottom:-45px;left:10%;font-size:30px;color:#8a3b29;transform:rotate(-4deg);pointer-events:none}
+.scrap-row-coconut-days .scrap-row-annotation{left:auto;right:10%;transform:rotate(5deg)}
+.scrapbook-footer{text-align:center;margin-top:14px}
+.scrapbook-footer>.scrap-hand{max-width:none;font-size:32px}
+.scrap-social{display:inline-flex;align-items:center;gap:10px;padding:12px 21px;margin-top:22px;border:1px solid #123e4050;border-radius:30px;font-size:14px;font-weight:500;text-decoration:none;transition:background .2s}
+.scrap-social svg{width:20px;height:20px}
+.scrap-social:hover{background:#d6e9df}
+.scrapbook-preview-note{font-size:11px;line-height:1.7;color:#536459;margin:18px auto 0;max-width:62ch}
+.scrapbook a:focus-visible{outline:3px solid #216a83;outline-offset:6px}
+.scrap-piece:focus-within{z-index:8}
+.scrap-lightbox{position:fixed;padding:18px;border:0;background:#fffdf5;color:#123e40;width:min(720px,calc(100vw - 36px));max-height:90dvh;overflow:auto;box-shadow:0 20px 70px #123e4040;scrollbar-color:#80c9c5 #fffdf5}
+.scrap-lightbox::backdrop{background:#102d27c4}
+.scrap-lightbox>img{width:100%;max-height:73dvh;object-fit:contain}
+.scrap-lightbox>p{text-align:center;font-size:30px;padding:18px 0 5px;max-width:none}
+.scrap-lightbox-close{position:absolute;top:25px;right:25px;width:44px;height:44px;padding:10px;border:0;border-radius:50%;background:#fffdf5;box-shadow:0 2px 10px #123e4026}
+.scrap-lightbox-close svg{width:100%;height:100%}
+body.scrap-photo-open{overflow:hidden}
+@media(hover:hover) and (pointer:fine){.scrap-photo:hover{transform:rotate(0deg) translateY(-6px);z-index:8;box-shadow:3px 15px 30px #493a242e}.scrap-extra-row>.scrap-photo:hover{z-index:8}}
+/* The extra nav entry fits alongside the existing cursor picker. */
+@media(min-width:801px) and (max-width:1450px){.site-header{gap:18px}.site-header nav{gap:20px}.signature-icons{gap:16px}.signature-cta{display:none}.signature-picker{padding-right:6px}}
+@media(min-width:801px) and (max-width:1020px){.site-header{padding-left:24px;padding-right:24px;gap:14px}.site-header .logo{width:155px}.site-header nav{gap:15px}.signature-icons{gap:6px}.signature-picker{margin-left:0}.signature-picker button{width:34px;height:34px}}
+@media(max-width:1100px){
+ .scrapbook{padding-top:65px}.scrapbook-inner{width:calc(100% - 64px)}.scrapbook-heading{padding:0 10px}.scrapbook-board{height:740px;margin-top:40px}
+ .scrap-extra-row{gap:22px}.scrap-extra-row>.scrap-photo{padding:9px 9px 12px}.scrapbook-continuation{margin-top:25px}.scrap-extra-row>.scrap-photo:nth-child(3)>.scrap-tape:not(.scrap-tape-corner){width:80px}
+ .scrap-pudding{top:60px}.scrap-first-bite{left:29%;width:23%}.scrap-little-stop{left:55%;top:140px;width:21%}.scrap-sweet-company{top:340px}.scrap-lime{top:360px}.scrap-note{top:480px;left:32%;width:20%;padding:25px 17px 22px}.scrap-note p{font-size:28px}.scrap-sticker-coconut{top:285px;left:22%;width:80px;height:80px}.scrap-sticker-ny{top:320px}.scrap-margin-note{top:230px;font-size:25px}.scrap-sticker-club{padding:12px 14px}.scrap-reel-title{font-size:20px}.scrap-reel figcaption>span{font-size:21px}.scrap-photo figcaption{font-size:24px}.scrap-tape{width:70px;height:26px}
+}
+@media(max-width:900px){
+ .scrapbook{padding:55px 0 95px}.scrapbook-inner{width:calc(100% - 40px)}.scrapbook-heading{display:block;padding:0 8px}.scrapbook-heading h2{font-size:70px}.scrap-subtitle{font-size:26px}.scrapbook-intro{font-size:12px;margin-top:24px;padding:0}.scrapbook-intro br{display:none}
+ .scrapbook-board{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:38px 15px;height:auto;margin:58px 3px 40px;padding:0 0 35px}
+ .scrap-photo .scrap-tape-corner{width:45px;height:18px;top:20px;right:-12px}.scrap-extra-row>.scrap-photo:nth-child(even)>.scrap-tape-corner{left:-12px}
+ .scrapbook-continuation{margin:0 3px 95px}.scrap-extra-row{grid-template-columns:1fr 1fr;gap:34px 15px;align-items:start;padding-bottom:12px}.scrap-extra-row+.scrap-extra-row{margin-top:65px}.scrap-extra-row>.scrap-photo{padding:8px 8px 11px;grid-row:auto;grid-column:auto}
+ .scrap-extra-row>.scrap-photo:nth-child(1){--drop:24px;--angle:-6deg}.scrap-extra-row>.scrap-photo:nth-child(2){--drop:0px;--angle:5deg}.scrap-extra-row>.scrap-photo:nth-child(3){--drop:5px;--angle:5deg}.scrap-extra-row>.scrap-photo:nth-child(4){--drop:30px;--angle:-5deg}
+ .scrap-extra-row>.scrap-photo:nth-child(3)>.scrap-tape:not(.scrap-tape-corner){width:65px}
+ .scrap-row-coconut-days>.scrap-photo:nth-child(odd){--angle:6deg}.scrap-row-coconut-days>.scrap-photo:nth-child(even){--angle:-6deg}
+ .scrap-row-annotation{font-size:25px;bottom:-35px;left:5%}.scrap-row-coconut-days .scrap-row-annotation{right:5%}
+ .scrap-piece{position:relative;left:auto;right:auto;top:auto;width:100%;min-width:0}.scrap-photo{padding:8px 8px 11px}.scrap-photo figcaption{font-size:23px;padding-top:11px}.scrap-reel{padding:6px 6px 10px}.scrap-reel figcaption{padding-top:10px}.scrap-reel figcaption>span{font-size:22px}.scrap-reel figcaption small{font-size:12px}.scrap-reel-title{font-size:20px;left:11px;bottom:14px}.scrap-video-label{font-size:12px;left:7px;right:7px;top:8px;padding:5px 6px}
+ .scrap-first-bite{--tilt:4deg}.scrap-pudding{margin-top:23px;--tilt:-6deg}.scrap-shop{grid-column:2;grid-row:2;margin-top:20px;--tilt:6deg}.scrap-little-stop{grid-column:1;grid-row:2;margin-top:-32px;--tilt:-4deg}.scrap-lime{grid-column:1;grid-row:3;--tilt:-6deg;margin-top:-7px}.scrap-note{grid-column:1;grid-row:4;--tilt:4deg;padding:24px 13px 20px;margin-top:-30px}.scrap-note p{font-size:27px}.scrap-note-sign{font-size:8px;letter-spacing:0}.scrap-sweet-company{grid-column:2;grid-row:3 / span 2;margin-top:-16px;--tilt:5deg}
+ .scrap-sticker-club{left:auto;right:0;top:-105px;padding:10px 12px;font-size:8px;border-width:4px;transform:rotate(10deg)}.scrap-sticker-club strong{font-size:22px}.scrap-sticker-coconut{top:27%;left:38%;width:56px;height:56px}.scrap-sticker-ny{left:auto;right:-1%;top:53%;font-size:8px;padding:8px 13px;border-width:4px}.scrap-sticker-ny strong{font-size:12px}.scrap-margin-note{display:none}
+ .scrapbook-footer{margin-top:0}.scrapbook-footer>.scrap-hand{font-size:27px}.scrap-social{font-size:12px}.scrapbook-preview-note{font-size:10px;max-width:36ch}
+}
+@media(max-width:380px){.scrapbook-inner{width:calc(100% - 32px)}.scrapbook-heading h2{font-size:60px}.scrap-subtitle{font-size:23px}.scrap-photo figcaption,.scrap-reel figcaption>span{font-size:20px}.scrap-note p{font-size:24px}.scrap-reel-title{font-size:17px}.scrap-video-label{font-size:12px}.scrap-tape{width:55px;height:23px}.scrap-sticker-club{top:-96px;padding:9px}.scrap-sticker-club strong{font-size:19px}.scrap-sticker-coconut{width:58px;height:58px}.scrapbook-board{gap:32px 12px}}
+@media(prefers-reduced-motion:reduce){.scrap-piece,.scrap-social{transition:none}}
+
+/* Clear next steps; keep the existing scrapbook composition and photographs. */
+.scrapbook-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:22px;margin-top:24px}
+@media(max-width:800px){.scrapbook{scroll-margin-top:80px}.scrapbook-actions{gap:18px}.scrapbook-actions .text-link{padding:10px 0}}
