@@ -14,7 +14,7 @@ Coconut drinks, coconut pudding and egg waffles in New York City. Two shops:
 
 ## Good Coconut FiDi (Financial District, Lower Manhattan)
 - Address: Inside Golden Mall FiDi, lower level, 47 Broadway, Unit C7, New York, NY 10006
-- Phone: (929) 488-8858
+- Phone: (646) 490-7777
 - Menu: https://good-coconut-motion-demo.vercel.app/menu/wall-street/
 - Pickup (Chowbus): https://pos.chowbus.com/online-ordering/store/Good-Coconutwall-street/44491
 - Delivery (Uber Eats): https://www.ubereats.com/store/good-coconut/WLOA4YTkWz2JFGy2dnesdA
