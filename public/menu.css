@@ -63,3 +63,7 @@
 @keyframes gc-dialog-in{from{opacity:0;transform:translateY(8px) scale(.97)}}@keyframes gc-fade-in{from{opacity:0}}
 .menu-dialog[open]{animation:gc-dialog-in .22s cubic-bezier(.23,1,.32,1)}.menu-dialog[open]::backdrop{animation:gc-fade-in .22s ease-out}
 @media(prefers-reduced-motion:reduce){.menu-dialog[open],.menu-dialog[open]::backdrop{animation:none}}
+
+/* 2026-11-16: menu hero = persimmon poster (16:9), shown whole */
+.menu-hero-art{width:100%;max-width:620px;rotate:0deg}
+.menu-hero-art>img{aspect-ratio:16/9;object-fit:contain;border-radius:20px;border:0;box-shadow:0 14px 30px #24428a22}
