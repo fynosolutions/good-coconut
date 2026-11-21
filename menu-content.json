@@ -11332,9 +11332,10 @@
           "description_zh": "",
           "image": {
             "source_url": "",
-            "local_path": "",
-            "width": 0,
-            "height": 0
+            "local_path": "images/own/hong-kong-milk-tea.jpg",
+            "width": 1191,
+            "height": 1191,
+            "own": true
           },
           "option_groups": [],
           "sizes": [],
