@@ -679,6 +679,14 @@
   },
   "w": 1600
  },
+ "/assets/r13/persimmon-oil.webp": {
+  "h": 1292,
+  "sizes": {
+   "480": "/assets/opt/r13/persimmon-oil-480.webp",
+   "960": "/assets/opt/r13/persimmon-oil-960.webp"
+  },
+  "w": 1500
+ },
  "/assets/r13/store-case.webp": {
   "h": 1067,
   "sizes": {
