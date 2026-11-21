@@ -137,14 +137,14 @@ export const specialtiesBody=`<div class="sp">
 <section class="shell cater" id="catering" aria-label="Catering and big orders">
   <div class="shell-copy">
     <h2 class="cater-h"><span class="cater-word">Catering</span><span class="cater-sub">Feeding the whole office?</span></h2>
-    <p class="cater-offer"><strong>Orders over $150</strong> get a special offer: a discount or free puddings.</p>
+    <p class="cater-offer"><span class="co-k">Orders over</span><strong>$150</strong><span class="co-v">get a discount or free puddings</span></p>
     <p class="shell-more">Coconut drinks, pudding and egg waffles for meetings, birthdays and parties.</p>
     <a class="button cater-cta" href="/contact-us/?topic=catering#contact-form">Plan a catering order <span aria-hidden="true">→</span></a>
   </div>
-  <div class="shell-stage cater-stage" aria-hidden="true">
-    <img class="cp cp-back" src="/assets/r13/cater-pile.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async">
-    <img class="cp cp-front" src="/assets/r13/cater-stacks.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async">
-    <img class="cp cp-third" src="/assets/r13/cater-waffle.webp" alt="" width="800" height="800" loading="lazy" decoding="async">
+  <div class="shell-stage cater-stage">
+    <figure class="cb cb-tall"><img src="/assets/r13/cater-stacks.webp" alt="A barista holding four stacks of Good Coconut cups" width="1000" height="1000" loading="lazy" decoding="async"><figcaption>Drinks by the dozen</figcaption></figure>
+    <figure class="cb cb-top"><img src="/assets/r13/cater-pile.webp" alt="Coconut milk poured over persimmon in a Good Coconut cup" width="1000" height="1000" loading="lazy" decoding="async"><figcaption>Coconut milk, poured fresh</figcaption></figure>
+    <figure class="cb cb-bot"><img src="/assets/r13/cater-waffle.webp" alt="Egg waffles with fresh fruit" width="800" height="800" loading="lazy" decoding="async"><figcaption>Egg waffles</figcaption></figure>
   </div>
 </section>
 <section class="sp-outro" aria-label="Order">
