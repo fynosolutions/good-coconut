@@ -42,7 +42,7 @@ export const lineup=[];
 // tint: colour of the round field behind the front product (peach, mint, sand, sky).
 // sideK: for a short, wide product (the whole coconut): how much the two side products shrink while it is in front.
 export const heroWheel=[
- {name:'Persimmon Coconut Milk (Iced)',note:'persimmon purée, coconut milk and ice',img:'/assets/r12/shishi-yeye.webp',w:645,h:900,size:1,side:.8,tint:'peach',isNew:true,href:'/#persimmon-season'},
+ {name:'Persimmon Coconut Milk (Iced)',note:'persimmon purée, coconut milk and ice',img:'/assets/r12/shishi-yeye.webp',w:632,h:900,size:1,side:.8,tint:'peach',isNew:true,href:'/#persimmon-season'},
  {name:'Freshly Opened Coconut',note:'opened to order, with a straw',img:'/assets/r11/fresh-coconut.webp',w:666,h:900,size:1.14,sideK:.74,tint:'mint',href:'/menu/#category-156000'},
  {name:'Coconut Latte',note:'coconut milk with espresso',img:'/assets/r13/coconut-latte.webp',w:641,h:900,size:1,side:.8,tint:'sky',href:'/menu/#category-156003'},
  {name:'Persimmon Boba Pudding',note:'persimmon on coconut pudding, with popping boba',img:'/assets/r12/xishi-bobo.webp',w:607,h:900,size:.95,tint:'peach',href:'/#persimmon-season'},
