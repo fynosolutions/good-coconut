@@ -2,7 +2,23 @@
    Brand manual colours only: royal blue #24428A (Pantone 2728 C), mint #78CCC5 (Pantone 7471 C), white.
    Beige/sand section backgrounds and peach shop cards are replaced with blue, mint or a pale blue tint.
    This file loads last and only overrides colour and a few paddings; it does not touch any motion. */
-:root{--sand:#e8edf7;--lilac:#e8edf7;--blue-tint:#e8edf7;--blue-tint2:#dbe3f2}
+:root{--sand:#e4f5f3;--lilac:#e4f5f3;--blue-tint:#e4f5f3;--blue-tint2:#c9ebe8;--mint2:#e4f5f3;--t-mint:#e4f5f3;
+ /* 2026-11-21 (owner, after MeloMelo): one colour family. The header carries the main colour (mint) with the dark colour (royal blue)
+    for logo and text, pale areas are tints of mint, and decorations use mint instead of peach. Orange stays only on persimmon-season pieces. */
+ --peach:#78ccc5;--butter:#78ccc5;--t-peach:#c9ebe8;--t-sky:#c9ebe8;--t-orange:#c9ebe8}
+.sp{--mango:#78ccc5}
+.wheel{--t-peach:#aee0dc;--t-sky:#aee0dc;--t-mint:#aee0dc}
+.sp .top{--on:#bfe6e2}
+.sp .l-u{fill:#a9dcd7}
+/* Header: mint bar, royal blue logo and links */
+.site-header{background:var(--mint);border-bottom:0;box-shadow:0 1px 0 #24428a26,0 6px 18px -12px #24428a59}
+.site-header .logo img{mix-blend-mode:normal}
+.site-header nav a:not(.button){color:var(--ink)}
+.site-header .menu-toggle{border-color:var(--ink);color:var(--ink);background:transparent}
+.signature-picker{border-color:#24428a55;background:#ffffff55}
+.scrap-note{background:var(--mint)}
+.gc-burst i:nth-child(odd){background:var(--mint)}
+.sip-label{background:var(--mint)}
 
 /* ---------- Home ---------- */
 /* Top Three: the blue block now runs edge to edge */
@@ -13,9 +29,10 @@
 /* "Every sip starts inside a coconut": a mint band, edge to edge */
 .sp.sp-moved .shell{background:var(--mint);box-shadow:0 0 0 100vmax var(--mint);clip-path:inset(0 -100vmax);padding-top:clamp(40px,5vw,72px);padding-bottom:clamp(40px,5vw,72px);margin-bottom:clamp(40px,5vw,72px)}
 /* "By the sip. By the spoon.": royal blue section */
-.cats5{background:var(--ink)}
-.cats5 .head h2{color:var(--cream)}
-.cats5 .head .eyebrow{color:var(--mint)}
+.cats5{background:var(--mint)}
+.cats5 .head h2{color:var(--ink)}
+.cats5 .head .eyebrow{color:var(--ink)}
+.cats5 .cat{background:#d5ebe6}
 .cats5 .cat.big{background:#d5ebe6}
 .cats5 .cat.big.photo .ph{min-height:0;aspect-ratio:1.28;padding:0}
 .cats5 .cat.big.photo .ph img{object-fit:cover;object-position:50% 42%}
@@ -30,7 +47,7 @@
 .wall figure:nth-child(6) img{object-position:42% 50%}
 /* Gallery sits on the pale blue tint (set through --sand above) */
 /* Shop cards: FiDi card pale blue instead of peach (home and Visit us) */
-.visit5 .shop.manhattan,.full-shops .manhattan{background:var(--blue-tint2)}
+.visit5 .shop,.full-shops .shop{background:#c9ebe8}
 
 /* ---------- Visit us ---------- */
 /* the place tag sits in the lower corner so it never covers the shop sign */
@@ -56,7 +73,7 @@
 /* Contact art: the brand manual's two thumbs meeting, with coconuts for the O's of GOOOOOOOD! */
 .contact-art.connect-art{width:min(100%,430px);height:auto;aspect-ratio:468/360;align-items:center}
 .connect-svg{position:relative;z-index:1;width:100%;height:auto;overflow:visible;display:block}
-.contact-art.connect-art::before{left:50%;top:22%;width:60%;background:var(--blue-tint)}
+.contact-art.connect-art::before{left:50%;top:22%;width:60%;background:#fff;box-shadow:0 0 0 10px #a9ddd8}
 .connect-svg .ca-thumb,.connect-svg .ca-spark,.connect-svg .ca-o{transform-box:fill-box}
 .connect-svg .ca-thumb-l{transform-origin:100% 60%;transform:translateX(11px)}
 .connect-svg .ca-thumb-r{transform-origin:0% 60%;transform:translateX(-11px)}
@@ -92,3 +109,5 @@
 .menu-outro{background:var(--ink)}.menu-outro .wave{fill:var(--ink)}
 .menu-outro h2,.menu-outro>.wrap>p{color:var(--cream)}
 .menu-outro>.wrap>.text-link{color:var(--cream);text-decoration-color:#fffdf580}
+
+.site-footer h2{color:var(--mint)}
