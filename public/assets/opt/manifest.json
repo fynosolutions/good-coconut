@@ -591,6 +591,14 @@
   },
   "w": 1020
  },
+ "/assets/menu/wall-street/9216717.jpg": {
+  "h": 1191,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9216717-480.webp",
+   "960": "/assets/opt/menu/wall-street/9216717-960.webp"
+  },
+  "w": 1191
+ },
  "/assets/menu/wall-street/9250375.jpg": {
   "h": 1074,
   "sizes": {
@@ -726,6 +734,30 @@
    "960": "/assets/opt/r5/map-flushing-960.webp"
   },
   "w": 1200
+ },
+ "/assets/specialties/p-dragonfruit-pudding.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/specialties/p-dragonfruit-pudding-480.webp",
+   "536": "/assets/opt/specialties/p-dragonfruit-pudding-960.webp"
+  },
+  "w": 536
+ },
+ "/assets/specialties/p-strawberry-pudding.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/specialties/p-strawberry-pudding-480.webp",
+   "540": "/assets/opt/specialties/p-strawberry-pudding-960.webp"
+  },
+  "w": 540
+ },
+ "/assets/specialties/p-whole-coconut.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/specialties/p-whole-coconut-480.webp",
+   "718": "/assets/opt/specialties/p-whole-coconut-960.webp"
+  },
+  "w": 718
  },
  "/assets/specialties/top-latte.webp": {
   "h": 1590,

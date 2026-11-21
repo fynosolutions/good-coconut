@@ -142,11 +142,8 @@ export const specialtiesBody=`<div class="sp">
     <a class="button cater-cta" href="/contact-us/?topic=catering#contact-form">Plan a catering order <span aria-hidden="true">→</span></a>
   </div>
   <div class="shell-stage cater-stage" aria-hidden="true">
-    <img class="c1" src="/assets/r13/lime-boba-coconut.webp" alt="" width="578" height="900" loading="lazy" decoding="async">
-    <img class="c2" src="/assets/r12/shishi-yeye.webp" alt="" width="632" height="900" loading="lazy" decoding="async">
-    <img class="c3" src="/assets/r13/coconut-latte.webp" alt="" width="641" height="900" loading="lazy" decoding="async">
-    <img class="c4" src="/assets/specialties/p-mango-pudding.webp" alt="" width="552" height="900" loading="lazy" decoding="async">
-    <img class="c5" src="/assets/specialties/p-dragonfruit-pudding.webp" alt="" width="536" height="900" loading="lazy" decoding="async">
+    <figure class="cp cp-back"><img src="/assets/r13/cater-pile.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
+    <figure class="cp cp-front"><img src="/assets/r13/cater-stacks.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
   </div>
 </section>
 <section class="sp-outro" aria-label="Order">
