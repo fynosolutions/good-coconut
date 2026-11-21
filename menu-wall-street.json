@@ -8875,9 +8875,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRjME5RRUVRbXh2WWdBPS0tZDJPUkFWRmtvSE9lcmF5U3Q4ckZORUN4dS9mUGZCc2tKMWthVlJLY0pDYz0",
-            "local_path": "images/wall-street/7801297.png",
+            "local_path": "images/own/valueset-taro.webp",
             "width": 1200,
-            "height": 900
+            "height": 900,
+            "own": true
           },
           "option_groups": [
             {
@@ -9140,9 +9141,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRjME53RUVRbXh2WWdBPS0tZlZPRmg2amlNWGRhYTRKU1pyRjlTdjgxS0VxS0QzMUFmQWU5VVY5UmRLOD0",
-            "local_path": "images/wall-street/7801293.png",
+            "local_path": "images/own/valueset-redbean.webp",
             "width": 1200,
-            "height": 900
+            "height": 900,
+            "own": true
           },
           "option_groups": [
             {
@@ -9270,9 +9272,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRjME9RRUVRbXh2WWdBPS0tYWkrMDBBdVRnVUFxWHlqTHI3NTVMdmNzaW1VMUFHcUcxSmE5MXpzeFU1RT0",
-            "local_path": "images/wall-street/7801298.jpg",
+            "local_path": "images/own/valueset-brownsugar.webp",
             "width": 1200,
-            "height": 900
+            "height": 900,
+            "own": true
           },
           "option_groups": [
             {
@@ -9400,9 +9403,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRjMU1RRUVRbXh2WWdBPS0taWU0NGRVcmdwQnh5Nm54VHZJMDErOC9HUml6THRRWEpQLzVMdWRuY1lJOD0",
-            "local_path": "images/wall-street/7801310.jpg",
+            "local_path": "images/own/valueset-strawberry.webp",
             "width": 1200,
-            "height": 900
+            "height": 900,
+            "own": true
           },
           "option_groups": [
             {
@@ -9674,9 +9678,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVGs1TmprNE5nRUVRbXh2WWdBPS0tSGxDSnIwYWtWMUxYK1Z4YUNTbndvaXlvcjRsanpjYi9RYmpmdFNZd3owbz0",
-            "local_path": "images/wall-street/8917671.png",
+            "local_path": "images/own/valueset-latte.webp",
             "width": 1200,
-            "height": 900
+            "height": 900,
+            "own": true
           },
           "option_groups": [
             {
@@ -9931,9 +9936,10 @@
           "description_zh": "",
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakE1TVRRNU53RUVRbXh2WWdBPS0tRXdaMHdmSFVNakRqRVBSODZvSG8xUDhza2M5cFZtSVVxKzExNXl6dzgvUT0",
-            "local_path": "images/wall-street/9172146.jpg",
-            "width": 1020,
-            "height": 1020
+            "local_path": "images/own/valueset-hkmt.webp",
+            "width": 1200,
+            "height": 1200,
+            "own": true
           },
           "option_groups": [],
           "sizes": [],

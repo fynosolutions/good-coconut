@@ -72,7 +72,8 @@ const svgGlyphs=html=>html.split(/(<script[\s\S]*?<\/script>|<style[\s\S]*?<\/st
 let opt={};try{opt=JSON.parse(await readFile('public/assets/opt/manifest.json','utf8'));}catch{}
 const smallImages=html=>html.replace(/<img\b[^>]*>/g,tag=>{const m=tag.match(/\bsrc="([^"?]+)"/);const e=m&&opt[m[1]];if(!e||/\bsrcset=/.test(tag))return tag;
  const list=Object.entries(e.sizes).sort((a,b)=>a[0]-b[0]);const best=list[list.length-1][1];
- return tag.replace(m[0],`src="${best}" srcset="${list.map(([w,u])=>`${u} ${w}w`).join(', ')}" sizes="(max-width:800px) 46vw, 480px"`);});
+ const ds=tag.match(/\sdata-sizes="([^"]+)"/);if(ds){list.push([e.w,m[1]]);tag=tag.replace(ds[0],'');}  // an image shown larger than a menu card says its own display size and may also use the original
+ return tag.replace(m[0],`src="${best}" srcset="${list.map(([w,u])=>`${u} ${w}w`).join(', ')}" sizes="${ds?ds[1]:'(max-width:800px) 46vw, 480px'}"`);});
 // 3 Videos below the first screen wait until they are near the screen (brand.js loads them); the hero video waits for the page.
 const lateVideos=html=>html
  .replace(/<video src="(\/assets\/r5\/jars\.mp4)"([^>]*?) preload="metadata">/,'<video data-src="$1" data-autoplay$2 preload="none">')

@@ -173,3 +173,10 @@
 .season5 .season-card .ph img{object-position:50% 50%}
 .season-card .tag{padding-left:0}
 
+
+/* Menu hero (r19, 2026-11-21): poster bigger, less gap to the headline; the poster stays 16:9 */
+@media(min-width:801px){
+ .page-menu .menu-hero-layout{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,3vw,44px);align-items:center}
+ .page-menu .menu-hero h1{font-size:clamp(44px,4.5vw,66px);line-height:1.02}
+ .page-menu .menu-hero-art{max-width:none;width:100%;justify-self:stretch}
+}
