@@ -123,18 +123,21 @@
 .cater-h{margin:0 0 18px!important;color:var(--ink)}
 .cater-word{display:block;font-size:clamp(56px,7.4vw,108px);line-height:.92;letter-spacing:-.045em;font-weight:800}
 .cater-sub{display:block;margin-top:10px;font-size:clamp(22px,2.2vw,30px);line-height:1.15;letter-spacing:-.02em;font-weight:600}
-.cater-offer{margin:0 0 14px;padding:14px 18px;border-radius:14px;background:var(--ink);color:#fffdf5;font-size:clamp(18px,1.6vw,22px);line-height:1.35;max-width:34ch}
+.cater-offer{margin:0 0 14px;padding:14px 18px;border-radius:14px;background:var(--ink);color:#fffdf5;font-size:clamp(18px,1.6vw,22px);line-height:1.35;max-width:34ch;text-wrap:balance}
 .cater-offer strong{display:block;font-size:clamp(26px,2.6vw,36px);line-height:1.05;letter-spacing:-.02em;color:var(--mint)}
 .sp .shell.cater .shell-more{margin:0 0 20px;max-width:36ch;font-size:16px}
 .sp .shell.cater .cater-cta{background:var(--ink);color:#fff}
 .cater-stage{position:relative;width:min(620px,100%)!important;aspect-ratio:1.12!important;justify-self:end!important}
 .cater-stage .cp{position:absolute;display:block;height:auto;border-radius:20px;box-shadow:0 24px 48px rgb(36 66 138 / 20%)}
-.cater-stage .cp-back{right:0;top:0;width:72%}
-.cater-stage .cp-front{left:0;bottom:0;width:50%;outline:6px solid var(--mint)}
+.cater-stage .cp-back{right:4%;top:0;width:64%}
+.cater-stage .cp-front{left:0;bottom:6%;width:46%;outline:6px solid var(--mint);z-index:2}
+.cater-stage .cp-third{right:0;bottom:0;width:36%;outline:6px solid var(--mint);z-index:3}
 @supports (animation-timeline:view()){
   .cater-stage .cp-back{animation:cp-wipe linear both,cp-drift-a linear both;animation-timeline:view(),view();animation-range:entry 0% cover 40%,cover 0% cover 100%}
   .cater-stage .cp-front{animation:cp-wipe linear both,cp-drift-b linear both;animation-timeline:view(),view();animation-range:entry 15% cover 50%,cover 0% cover 100%}
+  .cater-stage .cp-third{animation:cp-wipe linear both,cp-drift-c linear both;animation-timeline:view(),view();animation-range:entry 25% cover 55%,cover 0% cover 100%}
 }
+@keyframes cp-drift-c{from{translate:0 80px}to{translate:0 -56px}}
 @keyframes cp-wipe{from{clip-path:inset(100% 0 0 0 round 20px);opacity:.4}to{clip-path:inset(0 0 0 0 round 20px);opacity:1}}
 @keyframes cp-drift-a{from{translate:0 24px}to{translate:0 -24px}}
 @keyframes cp-drift-b{from{translate:0 56px}to{translate:0 -40px}}

@@ -138,12 +138,13 @@ export const specialtiesBody=`<div class="sp">
   <div class="shell-copy">
     <h2 class="cater-h"><span class="cater-word">Catering</span><span class="cater-sub">Feeding the whole office?</span></h2>
     <p class="cater-offer"><strong>Orders over $150</strong> get a special offer: a discount or free puddings.</p>
-    <p class="shell-more">Coconut drinks and pudding for meetings, birthdays and parties.</p>
+    <p class="shell-more">Coconut drinks, pudding and egg waffles for meetings, birthdays and parties.</p>
     <a class="button cater-cta" href="/contact-us/?topic=catering#contact-form">Plan a catering order <span aria-hidden="true">→</span></a>
   </div>
   <div class="shell-stage cater-stage" aria-hidden="true">
     <img class="cp cp-back" src="/assets/r13/cater-pile.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async">
     <img class="cp cp-front" src="/assets/r13/cater-stacks.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async">
+    <img class="cp cp-third" src="/assets/r13/cater-waffle.webp" alt="" width="800" height="800" loading="lazy" decoding="async">
   </div>
 </section>
 <section class="sp-outro" aria-label="Order">
