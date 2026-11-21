@@ -1,0 +1,94 @@
+/* Round 13, 2026-11-21 (owner request): more of the brand's own two colours across the site.
+   Brand manual colours only: royal blue #24428A (Pantone 2728 C), mint #78CCC5 (Pantone 7471 C), white.
+   Beige/sand section backgrounds and peach shop cards are replaced with blue, mint or a pale blue tint.
+   This file loads last and only overrides colour and a few paddings; it does not touch any motion. */
+:root{--sand:#e8edf7;--lilac:#e8edf7;--blue-tint:#e8edf7;--blue-tint2:#dbe3f2}
+
+/* ---------- Home ---------- */
+/* Top Three: the blue block now runs edge to edge */
+.sp.sp-moved{overflow-x:clip}
+.sp.sp-moved .tops{box-shadow:0 0 0 100vmax var(--ink);clip-path:inset(0 -100vmax)}
+/* Eight signatures: pudding row on pale blue instead of sand (drinks row stays mint) */
+.sp .signatures .card:nth-child(-n+4){--cardbg:var(--blue-tint)}
+/* "Every sip starts inside a coconut": a mint band, edge to edge */
+.sp.sp-moved .shell{background:var(--mint);box-shadow:0 0 0 100vmax var(--mint);clip-path:inset(0 -100vmax);padding-top:clamp(40px,5vw,72px);padding-bottom:clamp(40px,5vw,72px);margin-bottom:clamp(40px,5vw,72px)}
+/* "By the sip. By the spoon.": royal blue section */
+.cats5{background:var(--ink)}
+.cats5 .head h2{color:var(--cream)}
+.cats5 .head .eyebrow{color:var(--mint)}
+.cats5 .cat.big{background:#d5ebe6}
+.cats5 .cat.big.photo .ph{min-height:0;aspect-ratio:1.28;padding:0}
+.cats5 .cat.big.photo .ph img{object-fit:cover;object-position:50% 42%}
+.cats5 .cat.big.photo .copy{padding-top:6px}
+/* the photo's own pale mint ground melts into the card, so no edge shows */
+.cats5 .cat.big.photo .ph img{-webkit-mask-image:linear-gradient(#000 72%,transparent 99%);mask-image:linear-gradient(#000 72%,transparent 99%)}
+@media(max-width:700px){.cats5 .cat.big.photo .note{display:none}}
+/* gallery: keep the shop sign in frame */
+.wall figure:nth-child(8) img{object-position:50% 50%}
+.wall figure:nth-child(4) img{object-position:60% 50%}
+.wall figure:nth-child(7) img{object-position:34% 50%}
+.wall figure:nth-child(6) img{object-position:50% 40%}
+/* Gallery sits on the pale blue tint (set through --sand above) */
+/* Shop cards: FiDi card pale blue instead of peach (home and Visit us) */
+.visit5 .shop.manhattan,.full-shops .manhattan{background:var(--blue-tint2)}
+
+/* ---------- Visit us ---------- */
+/* the place tag sits in the lower corner so it never covers the shop sign */
+.order-title .title-stage .tag{top:auto;bottom:14px;left:14px}
+.order-title .title-stage.photo-card{min-height:0;aspect-ratio:auto}
+.order-title .title-stage .blob{aspect-ratio:3/2;height:auto;min-height:0}
+.order-title .title-stage .blob img{object-position:50% 50%}
+.visit-note{background:var(--ink)}
+.visit-note h2{color:var(--cream)}
+.visit-note img{object-position:50% 100%}
+.visit-note p{color:#e8edf7}
+.visit-note .text-link{color:var(--cream);text-decoration-color:#fffdf580}
+.visit-note .text-link:hover{text-decoration-color:var(--cream)}
+
+/* ---------- Contact ---------- */
+.contact-title .contact-card{background:var(--ink)}
+.contact-card .k{color:var(--mint)}
+@media(min-width:801px){.contact-card .k{font-size:12px}}
+.contact-card a,.contact-card .text-link{color:var(--cream);text-decoration-color:#fffdf566}
+.contact-card a:hover{text-decoration-color:var(--cream)}
+.contact-card a:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
+
+/* Contact art: the brand manual's two thumbs meeting, with coconuts for the O's of GOOOOOOOD! */
+.contact-art.connect-art{width:min(100%,430px);height:auto;aspect-ratio:468/360;align-items:center}
+.connect-svg{position:relative;z-index:1;width:100%;height:auto;overflow:visible;display:block}
+.contact-art.connect-art::before{left:50%;top:22%;width:60%;background:var(--blue-tint)}
+.connect-svg .ca-thumb,.connect-svg .ca-spark,.connect-svg .ca-o{transform-box:fill-box}
+.connect-svg .ca-thumb-l{transform-origin:100% 60%;transform:translateX(11px)}
+.connect-svg .ca-thumb-r{transform-origin:0% 60%;transform:translateX(-11px)}
+.connect-svg .ca-spark{transform-origin:50% 100%}
+.connect-svg .ca-o{transform-origin:50% 50%}
+@media(prefers-reduced-motion:no-preference){
+ .connect-svg .ca-thumb-l{animation:ca-bump-l 4.8s cubic-bezier(.23,1,.32,1) infinite}
+ .connect-svg .ca-thumb-r{animation:ca-bump-r 4.8s cubic-bezier(.23,1,.32,1) infinite}
+ .connect-svg .ca-spark{animation:ca-spark 4.8s cubic-bezier(.23,1,.32,1) infinite}
+ .connect-svg .ca-s2{animation-delay:.05s}.connect-svg .ca-s3{animation-delay:.1s}
+ .connect-svg .ca-o{animation:ca-hop 4.8s cubic-bezier(.23,1,.32,1) infinite}
+ .connect-svg .ca-o2{animation-delay:.07s}.connect-svg .ca-o3{animation-delay:.14s}.connect-svg .ca-o4{animation-delay:.21s}
+ .connect-svg .ca-o5{animation-delay:.28s}.connect-svg .ca-o6{animation-delay:.35s}.connect-svg .ca-o7{animation-delay:.42s}
+}
+/* the two thumbs draw apart, come together and meet; the sparks flash at the meeting; the coconuts hop in a wave */
+@keyframes ca-bump-l{0%,66%,100%{transform:translateX(11px) rotate(0)}80%,90%{transform:translateX(-20px) rotate(-5deg)}96%{transform:translateX(14px) rotate(1deg)}}
+@keyframes ca-bump-r{0%,66%,100%{transform:translateX(-11px) rotate(0)}80%,90%{transform:translateX(20px) rotate(5deg)}96%{transform:translateX(-14px) rotate(-1deg)}}
+@keyframes ca-spark{0%{transform:scale(.2);opacity:0}5%{transform:scale(1.2);opacity:1}11%,64%{transform:scale(1);opacity:1}74%,100%{transform:scale(.2);opacity:0}}
+@keyframes ca-hop{0%,3%{transform:translateY(0)}9%{transform:translateY(-13px)}16%{transform:translateY(0)}20%{transform:translateY(-4px)}24%,100%{transform:translateY(0)}}
+@media(max-width:800px){.contact-art.connect-art{display:flex;width:min(78%,300px);height:auto;justify-self:center;margin:4px auto 0;grid-row:2;grid-column:1}.contact-title .wrap>.contact-card{grid-row:3}}
+
+/* ---------- Menu ---------- */
+/* The seasonal category (persimmon) leads the menu on a royal blue panel */
+.menu-category.is-season{background:var(--ink);border-top:0;border-radius:26px;padding:clamp(22px,2.6vw,34px) clamp(18px,2.4vw,32px) clamp(26px,3vw,38px);margin-bottom:34px}
+.menu-category.is-season+.menu-category{border-top:0}
+.menu-category.is-season .menu-category-heading h2,.menu-category.is-season .menu-category-heading p{color:var(--cream)}
+.menu-category.is-season .menu-category-heading p:last-child{opacity:.9}
+.season-tag{display:inline-flex;align-items:center;padding:7px 12px;border-radius:100px;background:var(--mint);color:var(--ink);font:700 11px/1 Poppins,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+.menu-category.is-season .menu-card{background:var(--cream);border-radius:18px;padding:10px 10px 14px}
+.menu-category.is-season .menu-card-copy{padding-left:6px;padding-right:6px}
+.menu-categories a.is-season>span:first-child::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--persim);margin-right:7px;vertical-align:1px}
+/* closing block of the menu: royal blue */
+.menu-outro{background:var(--ink)}.menu-outro .wave{fill:var(--ink)}
+.menu-outro h2,.menu-outro>.wrap>p{color:var(--cream)}
+.menu-outro>.wrap>.text-link{color:var(--cream);text-decoration-color:#fffdf580}

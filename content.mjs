@@ -44,7 +44,7 @@ export const lineup=[];
 export const heroWheel=[
  {name:'Persimmon Coconut Cooler',note:'persimmon purée, coconut milk and ice',img:'/assets/r12/shishi-yeye.webp',w:645,h:900,size:1,side:.8,tint:'peach',isNew:true,href:'/#persimmon-season'},
  {name:'Freshly Opened Coconut',note:'opened to order, with a straw',img:'/assets/r11/fresh-coconut.webp',w:666,h:900,size:1.14,sideK:.74,tint:'mint',href:'/menu/#category-156000'},
- {name:'Coconut Latte',note:'coconut milk with espresso',img:'/assets/r11/coconut-latte.webp',w:481,h:1100,size:1,side:.74,tint:'sky',href:'/menu/#category-156003'},
+ {name:'Coconut Latte',note:'coconut milk with espresso',img:'/assets/r13/coconut-latte.webp',w:641,h:900,size:1,side:.8,tint:'sky',href:'/menu/#category-156003'},
  {name:'Persimmon Boba Pudding',note:'persimmon on coconut pudding, with popping boba',img:'/assets/r12/xishi-bobo.webp',w:607,h:900,size:.95,tint:'peach',href:'/#persimmon-season'},
  {name:'Persimmon Pudding',note:'fresh persimmon on coconut pudding',img:'/assets/r11/persimmon-pudding.webp',w:531,h:760,size:.95,tint:'peach',isNew:true,href:'/#persimmon-season'},
  {name:'Dragon Fruit Pudding',note:'dragon fruit on coconut pudding',img:'/assets/specialties/p-dragonfruit-pudding.webp',w:496,h:720,size:.92,tint:'mint',href:'/menu/#category-156004'}

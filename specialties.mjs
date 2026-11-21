@@ -79,7 +79,7 @@ export const specialtiesBody=`<div class="sp">
       <p class="top-label"><span><b>Freshly Opened Coconut</b><i lang="zh-Hans">现开椰子</i><em class="top-desc">A freshly opened coconut in a Good Coconut bowl, with a straw.</em></span></p>
     </li>
     <li class="top" role="group" data-kind="latte" tabindex="0">
-      <div class="top-stage"><span class="disc" aria-hidden="true"></span><div class="icons" aria-hidden="true"><svg class="ic" viewBox="0 0 104 104"><ellipse cx="52" cy="52" rx="18" ry="26" transform="rotate(25 52 52)"/><path d="M46 30q10 20 0 44" transform="rotate(25 52 52)"/></svg><svg class="ic" viewBox="0 0 104 104"><path d="M52 72s-24-14-24-30a12 12 0 0 1 24-4a12 12 0 0 1 24 4c0 16-24 30-24 30z"/></svg><svg class="ic" viewBox="0 0 104 104"><path d="M52 72s-24-14-24-30a12 12 0 0 1 24-4a12 12 0 0 1 24 4c0 16-24 30-24 30z"/></svg><svg class="ic" viewBox="0 0 104 104"><ellipse cx="52" cy="52" rx="18" ry="26" transform="rotate(25 52 52)"/><path d="M46 30q10 20 0 44" transform="rotate(25 52 52)"/></svg><svg class="ic" viewBox="0 0 104 104"><ellipse cx="52" cy="52" rx="18" ry="26" transform="rotate(25 52 52)"/><path d="M46 30q10 20 0 44" transform="rotate(25 52 52)"/></svg><svg class="ic" viewBox="0 0 104 104"><path d="M52 72s-24-14-24-30a12 12 0 0 1 24-4a12 12 0 0 1 24 4c0 16-24 30-24 30z"/></svg></div><img class="top-prod" loading="lazy" decoding="async" src="/assets/specialties/top-latte.webp" alt="Coconut Latte" width="588" height="1591"></div>
+      <div class="top-stage"><span class="disc" aria-hidden="true"></span><div class="icons" aria-hidden="true"><svg class="ic" viewBox="0 0 104 104"><ellipse cx="52" cy="52" rx="18" ry="26" transform="rotate(25 52 52)"/><path d="M46 30q10 20 0 44" transform="rotate(25 52 52)"/></svg><svg class="ic" viewBox="0 0 104 104"><path d="M52 72s-24-14-24-30a12 12 0 0 1 24-4a12 12 0 0 1 24 4c0 16-24 30-24 30z"/></svg><svg class="ic" viewBox="0 0 104 104"><path d="M52 72s-24-14-24-30a12 12 0 0 1 24-4a12 12 0 0 1 24 4c0 16-24 30-24 30z"/></svg><svg class="ic" viewBox="0 0 104 104"><ellipse cx="52" cy="52" rx="18" ry="26" transform="rotate(25 52 52)"/><path d="M46 30q10 20 0 44" transform="rotate(25 52 52)"/></svg><svg class="ic" viewBox="0 0 104 104"><ellipse cx="52" cy="52" rx="18" ry="26" transform="rotate(25 52 52)"/><path d="M46 30q10 20 0 44" transform="rotate(25 52 52)"/></svg><svg class="ic" viewBox="0 0 104 104"><path d="M52 72s-24-14-24-30a12 12 0 0 1 24-4a12 12 0 0 1 24 4c0 16-24 30-24 30z"/></svg></div><img class="top-prod" loading="lazy" decoding="async" src="/assets/r13/coconut-latte-top.webp" alt="Coconut Latte" width="735" height="918"></div>
       <span class="top-tag">Signature</span>
       <p class="top-label"><span><b>Coconut Latte</b><i lang="zh-Hans">生椰拿铁</i><em class="top-desc">Coconut milk with espresso.</em></span></p>
     </li>
@@ -112,12 +112,12 @@ export const specialtiesBody=`<div class="sp">
     </li>
     <li class="card" role="button" data-fruit="coffee" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-americano.webp" alt="Coconut Americano 椰青美式" loading="lazy" width="382" height="720">
+      <img class="prod" src="/assets/r13/coconut-americano.webp" alt="Coconut Americano 椰青美式" loading="lazy" width="599" height="900">
       <p class="name">Coconut Americano<span lang="zh-Hans">椰青美式</span></p>
     </li>
     <li class="card" role="button" data-fruit="taro" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-taro-milk.webp" alt="Handmade Taro Coconut Milk 手打香芋椰椰" loading="lazy" width="323" height="720">
+      <img class="prod" src="/assets/r13/taro-coconut-milk.webp" alt="Handmade Taro Coconut Milk 手打香芋椰椰" loading="lazy" width="580" height="900">
       <p class="name">Handmade Taro Coconut Milk<span lang="zh-Hans">手打香芋椰椰</span></p>
     </li>
     <li class="card" role="button" data-fruit="sesame" tabindex="0">
@@ -127,7 +127,7 @@ export const specialtiesBody=`<div class="sp">
     </li>
     <li class="card" role="button" data-fruit="lime" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-lime-boba.webp" alt="Lime Boba Coconut 青柠爆珠鲜椰水" loading="lazy" width="306" height="720">
+      <img class="prod" src="/assets/r13/lime-boba-coconut.webp" alt="Lime Boba Coconut 青柠爆珠鲜椰水" loading="lazy" width="601" height="900">
       <p class="name">Lime Boba Coconut<span lang="zh-Hans">青柠爆珠鲜椰水</span></p>
     </li>
   </ul>

@@ -6,16 +6,150 @@
     "address": "41-28 Main St T6, Flushing, NY 11354"
   },
   "source_url": "https://pos.chowbus.com/online-ordering/store/Good-Coconut/15247",
-  "captured_date": "2026-11-05",
+  "captured_date": "2026-11-21",
   "capture_timezone": "Asia/Shanghai",
   "currency": "USD",
   "content_policy": "保留源站全部商品和原始中英文；不导出库存及售罄状态；不补写缺失内容。",
   "categories": [
     {
+      "id": "332149",
+      "order": 1,
+      "name_en": "Persimmon Seasonal Specials",
+      "name_zh": "柿子季节限定",
+      "items": [
+        {
+          "id": "9247129",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakV5TVRBek13RUVRbXh2WWdBPS0tUjUwSU54Rzg3WGt5bktTaXdzMEx1L1liK055SVZCSkdHM3J3WHpmN29JZz0",
+            "local_path": "images/sync/9247129.jpg",
+            "width": 1074,
+            "height": 1074
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 1,
+          "name_en": "persimmon coconut milk (iced)",
+          "name_zh": "柿柿椰椰 (冷)",
+          "price": {
+            "amount": "6.75",
+            "currency": "USD",
+            "display": "$6.75⁺"
+          }
+        },
+        {
+          "id": "9247133",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakV5TVRBek5RRUVRbXh2WWdBPS0tM1lIVkNqazd2RmdTMlBSbUZuUjNJRzhPMkxaeGxmaTh3L3RKbEs5cmJXYz0",
+            "local_path": "images/sync/9247133.jpg",
+            "width": 1074,
+            "height": 1074
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 2,
+          "name_en": "persimmon coconut milk (hot)",
+          "name_zh": "柿柿如意 (热)",
+          "price": {
+            "amount": "6.95",
+            "currency": "USD",
+            "display": "$6.95⁺"
+          }
+        },
+        {
+          "id": "9247137",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakV5TVRBek53RUVRbXh2WWdBPS0tMmRxM243R2RxZWJKRkNyMTRndWVrOWdwNVhMd0lZSFgzdzZma2tBYlErRT0",
+            "local_path": "images/sync/9247137.jpg",
+            "width": 1074,
+            "height": 1074
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 3,
+          "name_en": "persimmon licious",
+          "name_zh": "心想柿成",
+          "price": {
+            "amount": "8.99",
+            "currency": "USD",
+            "display": "$8.99⁺"
+          }
+        },
+        {
+          "id": "9247141",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakV5TVRBek9RRUVRbXh2WWdBPS0tMFhOTENxNWllUzRFQ1A1aG1NL21VVG10YnhlQW44NStGc1Y4SzhxaytYTT0",
+            "local_path": "images/sync/9247141.jpg",
+            "width": 1074,
+            "height": 1074
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 4,
+          "name_en": "lucky persimmon",
+          "name_zh": "喜柿生椰",
+          "price": {
+            "amount": "7.99",
+            "currency": "USD",
+            "display": "$7.99⁺"
+          }
+        },
+        {
+          "id": "9247145",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakV5TVRBME5BRUVRbXh2WWdBPS0tWWpTTVdVSXBld1NmQzFsbk1mRmJ0cEVKVXJtbFdCZXJQVkdRZ0MzMHdnZz0",
+            "local_path": "images/sync/9247145.jpg",
+            "width": 1074,
+            "height": 1074
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 5,
+          "name_en": "persimmon puree pudding",
+          "name_zh": "喜柿啵啵",
+          "price": {
+            "amount": "10.99",
+            "currency": "USD",
+            "display": "$10.99⁺"
+          }
+        },
+        {
+          "id": "9247149",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakV5TVRBME1RRUVRbXh2WWdBPS0tNE8zb1VHNWEzWWpxdE5HQWxYSzNrTThac3ZvR2kvWVpyNEE4MWF3b1Rhdz0",
+            "local_path": "images/sync/9247149.jpg",
+            "width": 1074,
+            "height": 1074
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 6,
+          "name_en": "persimmon pudding",
+          "name_zh": "喜柿多多布丁",
+          "price": {
+            "amount": "10.99",
+            "currency": "USD",
+            "display": "$10.99⁺"
+          }
+        }
+      ]
+    },
+    {
       "id": "156000",
+      "order": 2,
       "name_en": "Top Seller",
       "name_zh": "人气热卖",
-      "order": 1,
       "items": [
         {
           "id": "5042338",
@@ -85,7 +219,7 @@
           "description_en": "Whole nature coconut with meat and water come with Himalayan sauce",
           "description_zh": "天然完整的椰子，既可以吃椰肉也可以和椰水，另加桂花酱",
           "price": {
-            "amount": "14.5",
+            "amount": "14.50",
             "currency": "USD",
             "display": "$14.50"
           },
@@ -104,9 +238,9 @@
     },
     {
       "id": "156001",
+      "order": 3,
       "name_en": "Special Coconut Milk",
       "name_zh": "特调椰奶系列",
-      "order": 2,
       "items": [
         {
           "id": "3810156",
@@ -2215,310 +2349,14 @@
             }
           ],
           "sizes": []
-        },
-        {
-          "id": "7511547",
-          "order": 8,
-          "name_en": "watermelon coconut milk",
-          "name_zh": "西瓜椰椰",
-          "description_en": "Coconut milk with watermelon and original boba",
-          "description_zh": "椰奶加西瓜和脆啵啵",
-          "price": {
-            "amount": "6.5",
-            "currency": "USD",
-            "display": "$6.50⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURZd013RUVRbXh2WWdBPS0tL1hydHJiU0lZQkFVRmJoU2dHdUNZU0FoMUN1b2x6OHJHR1BaR3hrTTRHVT0",
-            "local_path": "images/watermelon-coconut-milk-fd6d4c9a.jpg",
-            "width": 1200,
-            "height": 900
-          },
-          "sizes_from_description": [],
-          "quality_notes": [],
-          "option_groups": [
-            {
-              "id": "146790",
-              "name_en": "size",
-              "name_zh": "尺寸",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "972237",
-                  "name_en": "500ml",
-                  "name_zh": "中杯",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107472",
-              "name_en": "sugar level",
-              "name_zh": "糖度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735224",
-                  "name_en": "30% sugar",
-                  "name_zh": "30%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735225",
-                  "name_en": "50% sugar",
-                  "name_zh": "50%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735226",
-                  "name_en": "70% sugar",
-                  "name_zh": "70%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744792",
-                  "name_en": "100% sugar",
-                  "name_zh": "100%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107473",
-              "name_en": "ice level",
-              "name_zh": "冰度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735227",
-                  "name_en": "50% ice",
-                  "name_zh": "50%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735228",
-                  "name_en": "70% ice",
-                  "name_zh": "70%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735229",
-                  "name_en": "100% ice",
-                  "name_zh": "100%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1040646",
-                  "name_en": "no ice",
-                  "name_zh": "去冰",
-                  "price_adjustment": {
-                    "amount": "1",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1041237",
-                  "name_en": "30% ice",
-                  "name_zh": "30%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107456",
-              "name_en": "toppings",
-              "name_zh": "小料",
-              "min_selected_options": null,
-              "max_selected_options": null,
-              "options": [
-                {
-                  "id": "735134",
-                  "name_en": "water chestnuts popping boba",
-                  "name_zh": "马蹄爆爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735135",
-                  "name_en": "original boba",
-                  "name_zh": "原味脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735136",
-                  "name_en": "taro boba",
-                  "name_zh": "香芋脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735137",
-                  "name_en": "brown sugar boba",
-                  "name_zh": "黑糖脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735138",
-                  "name_en": "red bean",
-                  "name_zh": "红豆",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744500",
-                  "name_en": "mango",
-                  "name_zh": "芒果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744502",
-                  "name_en": "diced coconut",
-                  "name_zh": "椰肉",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "746359",
-                  "name_en": "taro paste",
-                  "name_zh": "芋泥",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "766845",
-                  "name_en": "expresso",
-                  "name_zh": "意式浓缩",
-                  "price_adjustment": {
-                    "amount": "1.5",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829983",
-                  "name_en": "caramel",
-                  "name_zh": "焦糖酱",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829984",
-                  "name_en": "condensed milk",
-                  "name_zh": "炼乳",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "967301",
-                  "name_en": "mango boba",
-                  "name_zh": "芒果爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "981944",
-                  "name_en": "osmanthus jelly",
-                  "name_zh": "桂花冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1182987",
-                  "name_en": "coconut pudding",
-                  "name_zh": "椰奶布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1587153",
-                  "name_en": "chocolate pudding",
-                  "name_zh": "巧克力布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1669977",
-                  "name_en": "coconut jelly",
-                  "name_zh": "椰果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
-          "sizes": [
-            "500ml"
-          ]
         }
       ]
     },
     {
       "id": "156003",
+      "order": 4,
       "name_en": "Signature Latte / Tea",
       "name_zh": "特调椰咖/椰茶",
-      "order": 3,
       "items": [
         {
           "id": "5948767",
@@ -4594,322 +4432,8 @@
           ]
         },
         {
-          "id": "7511550",
-          "order": 11,
-          "name_en": "pure melon passion tea",
-          "name_zh": "西瓜果萃百香茶",
-          "description_en": "green tea with lemon and watermelon",
-          "description_zh": "百香果绿茶加新鲜柠檬和西瓜",
-          "price": {
-            "amount": "6.15",
-            "currency": "USD",
-            "display": "$6.15⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVNU1nRUVRbXh2WWdBPS0td2hrT1g4U0l4Vk5PeW8vcEFJWTgvR0k5MGxtaFVhSUNDVDZRR3hYNXhoTT0",
-            "local_path": "images/pure-melon-passion-tea-200dcb0d.jpg",
-            "width": 1200,
-            "height": 900
-          },
-          "sizes_from_description": [],
-          "quality_notes": [],
-          "option_groups": [
-            {
-              "id": "146790",
-              "name_en": "size",
-              "name_zh": "尺寸",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "972237",
-                  "name_en": "500ml",
-                  "name_zh": "中杯",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107472",
-              "name_en": "sugar level",
-              "name_zh": "糖度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735224",
-                  "name_en": "30% sugar",
-                  "name_zh": "30%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735225",
-                  "name_en": "50% sugar",
-                  "name_zh": "50%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735226",
-                  "name_en": "70% sugar",
-                  "name_zh": "70%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744792",
-                  "name_en": "100% sugar",
-                  "name_zh": "100%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107473",
-              "name_en": "ice level",
-              "name_zh": "冰度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735227",
-                  "name_en": "50% ice",
-                  "name_zh": "50%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735228",
-                  "name_en": "70% ice",
-                  "name_zh": "70%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735229",
-                  "name_en": "100% ice",
-                  "name_zh": "100%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1040646",
-                  "name_en": "no ice",
-                  "name_zh": "去冰",
-                  "price_adjustment": {
-                    "amount": "1",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1041237",
-                  "name_en": "30% ice",
-                  "name_zh": "30%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107456",
-              "name_en": "toppings",
-              "name_zh": "小料",
-              "min_selected_options": null,
-              "max_selected_options": null,
-              "options": [
-                {
-                  "id": "735134",
-                  "name_en": "water chestnuts popping boba",
-                  "name_zh": "马蹄爆爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735135",
-                  "name_en": "original boba",
-                  "name_zh": "原味脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735136",
-                  "name_en": "taro boba",
-                  "name_zh": "香芋脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735137",
-                  "name_en": "brown sugar boba",
-                  "name_zh": "黑糖脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735138",
-                  "name_en": "red bean",
-                  "name_zh": "红豆",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744500",
-                  "name_en": "mango",
-                  "name_zh": "芒果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744502",
-                  "name_en": "diced coconut",
-                  "name_zh": "椰肉",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "746359",
-                  "name_en": "taro paste",
-                  "name_zh": "芋泥",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "766845",
-                  "name_en": "expresso",
-                  "name_zh": "意式浓缩",
-                  "price_adjustment": {
-                    "amount": "1.5",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829983",
-                  "name_en": "caramel",
-                  "name_zh": "焦糖酱",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829984",
-                  "name_en": "condensed milk",
-                  "name_zh": "炼乳",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "967301",
-                  "name_en": "mango boba",
-                  "name_zh": "芒果爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "981944",
-                  "name_en": "osmanthus jelly",
-                  "name_zh": "桂花冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1167543",
-                  "name_en": "coconut milk jelly",
-                  "name_zh": "椰奶冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1182987",
-                  "name_en": "coconut pudding",
-                  "name_zh": "椰奶布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1290491",
-                  "name_en": "sweet corn",
-                  "name_zh": "玉米粒",
-                  "price_adjustment": {
-                    "amount": "0.69",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1587153",
-                  "name_en": "chocolate pudding",
-                  "name_zh": "巧克力布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1669977",
-                  "name_en": "coconut jelly",
-                  "name_zh": "椰果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
-          "sizes": [
-            "500ml"
-          ]
-        },
-        {
           "id": "7511563",
-          "order": 12,
+          "order": 11,
           "name_en": "pure orange passion tea",
           "name_zh": "鲜橙果萃百香茶",
           "description_en": "Passion flavored green tea with lemon and orange",
@@ -5225,9 +4749,9 @@
     },
     {
       "id": "156002",
+      "order": 5,
       "name_en": "Special Coconut Refresher",
       "name_zh": "特调鲜椰水",
-      "order": 4,
       "items": [
         {
           "id": "5026192",
@@ -6412,328 +5936,14 @@
           "sizes": [
             "500ml"
           ]
-        },
-        {
-          "id": "7511556",
-          "order": 5,
-          "name_en": "watermelon boba coconut",
-          "name_zh": "西瓜爆珠鲜椰水",
-          "description_en": "Coconut water with water chestnuts popping boba and diced coconut meat and watermelon",
-          "description_zh": "椰水加马蹄爆珠和椰肉粒和西瓜",
-          "price": {
-            "amount": "7.59",
-            "currency": "USD",
-            "display": "$7.59⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVNE9BRUVRbXh2WWdBPS0tZW43cDAyN0xMbVB1ZjM2bFFqWFZpZEx1dW12dVorVi9LUG50VEVuakR3dz0",
-            "local_path": "images/watermelon-boba-coconut-4c930fe7.jpg",
-            "width": 1200,
-            "height": 900
-          },
-          "sizes_from_description": [],
-          "quality_notes": [],
-          "option_groups": [
-            {
-              "id": "146790",
-              "name_en": "size",
-              "name_zh": "尺寸",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "990218",
-                  "name_en": "500ml",
-                  "name_zh": "",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107472",
-              "name_en": "sugar level",
-              "name_zh": "糖度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735224",
-                  "name_en": "30% sugar",
-                  "name_zh": "30%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735225",
-                  "name_en": "50% sugar",
-                  "name_zh": "50%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735226",
-                  "name_en": "70% sugar",
-                  "name_zh": "70%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744792",
-                  "name_en": "100% sugar",
-                  "name_zh": "100%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107473",
-              "name_en": "ice level",
-              "name_zh": "冰度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "1041237",
-                  "name_en": "30% ice",
-                  "name_zh": "30%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735227",
-                  "name_en": "50% ice",
-                  "name_zh": "50%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735228",
-                  "name_en": "70% ice",
-                  "name_zh": "70%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735229",
-                  "name_en": "100% ice",
-                  "name_zh": "100%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1040646",
-                  "name_en": "no ice",
-                  "name_zh": "去冰",
-                  "price_adjustment": {
-                    "amount": "1",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107456",
-              "name_en": "toppings",
-              "name_zh": "小料",
-              "min_selected_options": null,
-              "max_selected_options": null,
-              "options": [
-                {
-                  "id": "735134",
-                  "name_en": "water chestnuts popping boba",
-                  "name_zh": "马蹄爆爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735135",
-                  "name_en": "original boba",
-                  "name_zh": "原味脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735136",
-                  "name_en": "taro boba",
-                  "name_zh": "香芋脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735137",
-                  "name_en": "brown sugar boba",
-                  "name_zh": "黑糖脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735138",
-                  "name_en": "red bean",
-                  "name_zh": "红豆",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744500",
-                  "name_en": "mango",
-                  "name_zh": "芒果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744502",
-                  "name_en": "diced coconut",
-                  "name_zh": "椰肉",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "746359",
-                  "name_en": "taro paste",
-                  "name_zh": "芋泥",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "766845",
-                  "name_en": "expresso",
-                  "name_zh": "意式浓缩",
-                  "price_adjustment": {
-                    "amount": "1.5",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829983",
-                  "name_en": "caramel",
-                  "name_zh": "焦糖酱",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829984",
-                  "name_en": "condensed milk",
-                  "name_zh": "炼乳",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "967301",
-                  "name_en": "mango boba",
-                  "name_zh": "芒果爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "981944",
-                  "name_en": "osmanthus jelly",
-                  "name_zh": "桂花冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1167543",
-                  "name_en": "coconut milk jelly",
-                  "name_zh": "椰奶冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1182987",
-                  "name_en": "coconut pudding",
-                  "name_zh": "椰奶布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1290491",
-                  "name_en": "sweet corn",
-                  "name_zh": "玉米粒",
-                  "price_adjustment": {
-                    "amount": "0.69",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1587153",
-                  "name_en": "chocolate pudding",
-                  "name_zh": "巧克力布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1669977",
-                  "name_en": "coconut jelly",
-                  "name_zh": "椰果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
-          "sizes": [
-            "500ml"
-          ]
         }
       ]
     },
     {
       "id": "261720",
+      "order": 6,
       "name_en": "Licious Slush",
       "name_zh": "特调冰沙系列",
-      "order": 5,
       "items": [
         {
           "id": "7189451",
@@ -7693,9 +6903,9 @@
     },
     {
       "id": "156004",
+      "order": 7,
       "name_en": "Coconut Pudding",
       "name_zh": "椰奶冻系列",
-      "order": 6,
       "items": [
         {
           "id": "3849377",
@@ -10706,375 +9916,8 @@
           "sizes": []
         },
         {
-          "id": "7189471",
-          "order": 17,
-          "name_en": "banana coco pudding",
-          "name_zh": "香蕉椰奶布丁",
-          "description_en": "",
-          "description_zh": "",
-          "price": {
-            "amount": "10.99",
-            "currency": "USD",
-            "display": "$10.99⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVeU5nRUVRbXh2WWdBPS0tZFA0bUo3S251dXl0d1VORVdLUzhKa0ZHUWI5SkFncTVaZkNkSkQzVDFZRT0",
-            "local_path": "images/banana-coco-pudding-ca0e0238.jpg",
-            "width": 1200,
-            "height": 900
-          },
-          "sizes_from_description": [],
-          "quality_notes": [
-            "源站未提供商品说明"
-          ],
-          "option_groups": [
-            {
-              "id": "107456",
-              "name_en": "toppings",
-              "name_zh": "小料",
-              "min_selected_options": null,
-              "max_selected_options": null,
-              "options": [
-                {
-                  "id": "735134",
-                  "name_en": "water chestnuts popping boba",
-                  "name_zh": "马蹄爆爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735135",
-                  "name_en": "original boba",
-                  "name_zh": "原味脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735136",
-                  "name_en": "taro boba",
-                  "name_zh": "香芋脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735137",
-                  "name_en": "brown sugar boba",
-                  "name_zh": "黑糖脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735138",
-                  "name_en": "red bean",
-                  "name_zh": "红豆",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744500",
-                  "name_en": "mango",
-                  "name_zh": "芒果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744502",
-                  "name_en": "diced coconut",
-                  "name_zh": "椰肉",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "746359",
-                  "name_en": "taro paste",
-                  "name_zh": "芋泥",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "766845",
-                  "name_en": "expresso",
-                  "name_zh": "意式浓缩",
-                  "price_adjustment": {
-                    "amount": "1.5",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829983",
-                  "name_en": "caramel",
-                  "name_zh": "焦糖酱",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829984",
-                  "name_en": "condensed milk",
-                  "name_zh": "炼乳",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "967301",
-                  "name_en": "mango boba",
-                  "name_zh": "芒果爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "981944",
-                  "name_en": "osmanthus jelly",
-                  "name_zh": "桂花冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1587153",
-                  "name_en": "chocolate pudding",
-                  "name_zh": "巧克力布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1669977",
-                  "name_en": "coconut jelly",
-                  "name_zh": "椰果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
-          "sizes": []
-        },
-        {
-          "id": "7511561",
-          "order": 18,
-          "name_en": "coconut watermelon pudding",
-          "name_zh": "西瓜椰奶布丁",
-          "description_en": "",
-          "description_zh": "",
-          "price": {
-            "amount": "10.99",
-            "currency": "USD",
-            "display": "$10.99⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURZeE1RRUVRbXh2WWdBPS0tSXYzS0V2YjhTSUtjNWR5UEFueVJQUjFpWXhVSTJBT1RIRDdZc1JQZlZTTT0",
-            "local_path": "images/coconut-watermelon-pudding-ec4b2be6.jpg",
-            "width": 1200,
-            "height": 900
-          },
-          "sizes_from_description": [],
-          "quality_notes": [
-            "源站未提供商品说明"
-          ],
-          "option_groups": [
-            {
-              "id": "146790",
-              "name_en": "size",
-              "name_zh": "尺寸",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "989695",
-                  "name_en": "cup",
-                  "name_zh": "杯",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107456",
-              "name_en": "toppings",
-              "name_zh": "小料",
-              "min_selected_options": null,
-              "max_selected_options": null,
-              "options": [
-                {
-                  "id": "735134",
-                  "name_en": "water chestnuts popping boba",
-                  "name_zh": "马蹄爆爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735135",
-                  "name_en": "original boba",
-                  "name_zh": "原味脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735136",
-                  "name_en": "taro boba",
-                  "name_zh": "香芋脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735137",
-                  "name_en": "brown sugar boba",
-                  "name_zh": "黑糖脆啵啵",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735138",
-                  "name_en": "red bean",
-                  "name_zh": "红豆",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744500",
-                  "name_en": "mango",
-                  "name_zh": "芒果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744502",
-                  "name_en": "diced coconut",
-                  "name_zh": "椰肉",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "746359",
-                  "name_en": "taro paste",
-                  "name_zh": "芋泥",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "766845",
-                  "name_en": "expresso",
-                  "name_zh": "意式浓缩",
-                  "price_adjustment": {
-                    "amount": "1.5",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829983",
-                  "name_en": "caramel",
-                  "name_zh": "焦糖酱",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "829984",
-                  "name_en": "condensed milk",
-                  "name_zh": "炼乳",
-                  "price_adjustment": {
-                    "amount": "0.49",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "967301",
-                  "name_en": "mango boba",
-                  "name_zh": "芒果爆珠",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "981944",
-                  "name_en": "osmanthus jelly",
-                  "name_zh": "桂花冻",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1182987",
-                  "name_en": "coconut pudding",
-                  "name_zh": "椰奶布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1587153",
-                  "name_en": "chocolate pudding",
-                  "name_zh": "巧克力布丁",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1669977",
-                  "name_en": "coconut jelly",
-                  "name_zh": "椰果",
-                  "price_adjustment": {
-                    "amount": "0.79",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
-          "sizes": []
-        },
-        {
           "id": "7806264",
-          "order": 19,
+          "order": 17,
           "name_en": "dubai chocolate pudding",
           "name_zh": "迪拜巧克力布丁",
           "description_en": "",
@@ -11253,7 +10096,7 @@
         },
         {
           "id": "8916710",
-          "order": 20,
+          "order": 18,
           "name_en": "avocado coconut pudding",
           "name_zh": "牛油果椰奶布丁",
           "description_en": "",
@@ -11434,9 +10277,9 @@
     },
     {
       "id": "196851",
+      "order": 8,
       "name_en": "Handmade Desserts",
       "name_zh": "手工甜品",
-      "order": 7,
       "items": [
         {
           "id": "5333631",
@@ -11465,9 +10308,9 @@
     },
     {
       "id": "231998",
+      "order": 9,
       "name_en": "Value Set",
       "name_zh": "超值套餐",
-      "order": 8,
       "items": [
         {
           "id": "6209610",
@@ -12453,14 +11296,64 @@
             }
           ],
           "sizes": []
+        },
+        {
+          "id": "231998-6",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOakE1TVRjeU9BRUVRbXh2WWdBPS0tNllNbzhEcHRINmVONHBJQTA0ZE5xWVlkSUFuVXR2elpIb21PZGlpU0xqTT0",
+            "local_path": "images/sync/231998-6.jpg",
+            "width": 1254,
+            "height": 1254
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 6,
+          "name_en": "hong kong milk tea original egg waffle",
+          "name_zh": "港式奶茶原味鸡蛋仔",
+          "price": {
+            "amount": "8.99",
+            "currency": "USD",
+            "display": "$8.99⁺"
+          }
+        }
+      ]
+    },
+    {
+      "id": "240735",
+      "order": 10,
+      "name_en": "Milk Tea",
+      "name_zh": "奶茶",
+      "items": [
+        {
+          "id": "9138808",
+          "description_en": "",
+          "description_zh": "",
+          "image": {
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
+          },
+          "option_groups": [],
+          "sizes": [],
+          "order": 1,
+          "name_en": "hong kong milk tea",
+          "name_zh": "港式奶茶",
+          "price": {
+            "amount": "5.35",
+            "currency": "USD",
+            "display": "$5.35⁺"
+          }
         }
       ]
     },
     {
       "id": "231143",
+      "order": 11,
       "name_en": "Egg Waffle",
       "name_zh": "奶香鸡蛋仔",
-      "order": 9,
       "items": [
         {
           "id": "6858556",
@@ -12470,7 +11363,7 @@
           "description_en": "",
           "description_zh": "",
           "price": {
-            "amount": "6",
+            "amount": "6.00",
             "currency": "USD",
             "display": "$6.00"
           },
@@ -12595,7 +11488,7 @@
           "description_en": "",
           "description_zh": "",
           "price": {
-            "amount": "7.5",
+            "amount": "7.50",
             "currency": "USD",
             "display": "$7.50⁺"
           },
@@ -12759,7 +11652,7 @@
           "description_en": "",
           "description_zh": "",
           "price": {
-            "amount": "6.5",
+            "amount": "6.50",
             "currency": "USD",
             "display": "$6.50"
           },
@@ -12809,7 +11702,7 @@
           "description_en": "",
           "description_zh": "",
           "price": {
-            "amount": "7",
+            "amount": "7.00",
             "currency": "USD",
             "display": "$7.00"
           },
@@ -12839,12 +11732,10 @@
             "display": "$9.25"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/pumpkin-egg-waffle-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -12857,9 +11748,9 @@
     },
     {
       "id": "159353",
+      "order": 12,
       "name_en": "Toppings",
       "name_zh": "小料",
-      "order": 10,
       "items": [
         {
           "id": "3914065",
@@ -13015,7 +11906,7 @@
           "id": "3914098",
           "order": 7,
           "name_en": "diced coconut",
-          "name_zh": "椰肉 ",
+          "name_zh": "椰肉",
           "description_en": "",
           "description_zh": "",
           "price": {
@@ -13074,12 +11965,10 @@
             "display": "$0.49"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/caramel-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -13101,12 +11990,10 @@
             "display": "$0.49"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/condensed-milk-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -13123,17 +12010,15 @@
           "description_en": "",
           "description_zh": "",
           "price": {
-            "amount": "1.5",
+            "amount": "1.50",
             "currency": "USD",
             "display": "$1.50"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/cream-foam-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -13155,12 +12040,10 @@
             "display": "$0.69"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/osmanthus-jelly-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -13177,17 +12060,15 @@
           "description_en": "",
           "description_zh": "",
           "price": {
-            "amount": "1",
+            "amount": "1.00",
             "currency": "USD",
             "display": "$1.00"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/iced-water-cup-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -13209,241 +12090,16 @@
             "display": "$0.79"
           },
           "image": {
-            "source_url": null,
-            "local_path": "images/coconut-jelly-supplied.png",
-            "width": 1254,
-            "height": 1254,
-            "source_type": "user_provided",
-            "provided_date": "2026-11-05"
+            "source_url": "",
+            "local_path": "",
+            "width": 0,
+            "height": 0
           },
           "sizes_from_description": [],
           "quality_notes": [
             "源站未提供商品说明"
           ],
           "option_groups": [],
-          "sizes": []
-        }
-      ]
-    },
-    {
-      "id": "317360",
-      "name_en": "Golden Pumpkin",
-      "name_zh": "金桂南瓜",
-      "order": 11,
-      "items": [
-        {
-          "id": "8640022",
-          "order": 1,
-          "name_en": "pumpkin coconut milk (c)",
-          "name_zh": "南瓜椰椰冷饮",
-          "description_en": "pumpkin+crystal boba+coconut milk",
-          "description_zh": "南瓜+脆啵啵+椰奶",
-          "price": {
-            "amount": "6.99",
-            "currency": "USD",
-            "display": "$6.99⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVGc1TnpNeU1RRUVRbXh2WWdBPS0tWGZmMlErOWxvbU9vNytBaXJGaWJNYlJSazRIeENFMVdXS2VrbUJSQzdBVT0",
-            "local_path": "images/pumpkin-coconut-milk-c-ce4bac01.jpg",
-            "width": 1280,
-            "height": 1920
-          },
-          "sizes_from_description": [],
-          "quality_notes": [],
-          "option_groups": [
-            {
-              "id": "107472",
-              "name_en": "sugar level",
-              "name_zh": "糖度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735224",
-                  "name_en": "30% sugar",
-                  "name_zh": "30%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735225",
-                  "name_en": "50% sugar",
-                  "name_zh": "50%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735226",
-                  "name_en": "70% sugar",
-                  "name_zh": "70%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744792",
-                  "name_en": "100% sugar",
-                  "name_zh": "100%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "107473",
-              "name_en": "ice level",
-              "name_zh": "冰度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "1041237",
-                  "name_en": "30% ice",
-                  "name_zh": "30%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735227",
-                  "name_en": "50% ice",
-                  "name_zh": "50%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735228",
-                  "name_en": "70% ice",
-                  "name_zh": "70%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735229",
-                  "name_en": "100% ice",
-                  "name_zh": "100%冰",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "1040646",
-                  "name_en": "no ice",
-                  "name_zh": "去冰",
-                  "price_adjustment": {
-                    "amount": "1",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
-          "sizes": []
-        },
-        {
-          "id": "8640025",
-          "order": 2,
-          "name_en": "pumpkin coconut pudding",
-          "name_zh": "南瓜椰奶布丁",
-          "description_en": "Pumpkin paste+coconut pudding",
-          "description_zh": "南瓜泥+椰奶布丁",
-          "price": {
-            "amount": "11.99",
-            "currency": "USD",
-            "display": "$11.99"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVGc1TnpNeE1BRUVRbXh2WWdBPS0tK2JPNTBLZGRIZ3p3L0YxcTlZdEE5aU5CNnovYlFjZHhTSFZ1bStyZFI2VT0",
-            "local_path": "images/pumpkin-coconut-pudding-c40daaa8.jpg",
-            "width": 1280,
-            "height": 1920
-          },
-          "sizes_from_description": [],
-          "quality_notes": [],
-          "option_groups": [],
-          "sizes": []
-        },
-        {
-          "id": "8640028",
-          "order": 3,
-          "name_en": "pumpkin coconut milk (h)",
-          "name_zh": "南瓜椰椰热饮",
-          "description_en": "pumpkin+crystal boba+coconut milk",
-          "description_zh": "南瓜+脆啵啵+椰奶",
-          "price": {
-            "amount": "7.49",
-            "currency": "USD",
-            "display": "$7.49⁺"
-          },
-          "image": {
-            "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVGc1TnpNeE5BRUVRbXh2WWdBPS0tQ3hQVzkvaHhHRTlDRkxoeVVVOUdiMkw5SDZsQjVTRThJYmd6eWFldnBEbz0",
-            "local_path": "images/pumpkin-coconut-milk-h-47fd421b.jpg",
-            "width": 1280,
-            "height": 1920
-          },
-          "sizes_from_description": [],
-          "quality_notes": [],
-          "option_groups": [
-            {
-              "id": "107472",
-              "name_en": "sugar level",
-              "name_zh": "糖度",
-              "min_selected_options": 1,
-              "max_selected_options": 1,
-              "options": [
-                {
-                  "id": "735224",
-                  "name_en": "30% sugar",
-                  "name_zh": "30%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735225",
-                  "name_en": "50% sugar",
-                  "name_zh": "50%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "735226",
-                  "name_en": "70% sugar",
-                  "name_zh": "70%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                },
-                {
-                  "id": "744792",
-                  "name_en": "100% sugar",
-                  "name_zh": "100%糖",
-                  "price_adjustment": {
-                    "amount": "0",
-                    "currency": "USD"
-                  }
-                }
-              ]
-            }
-          ],
           "sizes": []
         }
       ]

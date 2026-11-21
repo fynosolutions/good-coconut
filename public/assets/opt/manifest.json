@@ -343,6 +343,62 @@
   },
   "w": 485
  },
+ "/assets/menu/sync/231998-6.jpg": {
+  "h": 1254,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/231998-6-480.webp",
+   "960": "/assets/opt/menu/sync/231998-6-960.webp"
+  },
+  "w": 1254
+ },
+ "/assets/menu/sync/9247129.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/9247129-480.webp",
+   "960": "/assets/opt/menu/sync/9247129-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/sync/9247133.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/9247133-480.webp",
+   "960": "/assets/opt/menu/sync/9247133-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/sync/9247137.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/9247137-480.webp",
+   "960": "/assets/opt/menu/sync/9247137-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/sync/9247141.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/9247141-480.webp",
+   "960": "/assets/opt/menu/sync/9247141-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/sync/9247145.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/9247145-480.webp",
+   "960": "/assets/opt/menu/sync/9247145-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/sync/9247149.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/sync/9247149-480.webp",
+   "960": "/assets/opt/menu/sync/9247149-960.webp"
+  },
+  "w": 1074
+ },
  "/assets/menu/taro-himalayas-chilled-bowl-3ed8e063.png": {
   "h": 485,
   "sizes": {
@@ -358,6 +414,14 @@
    "960": "/assets/opt/menu/taro-paste-2f7d555c-960.webp"
   },
   "w": 1483
+ },
+ "/assets/menu/wall-street/332231-3.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/332231-3-480.webp",
+   "960": "/assets/opt/menu/wall-street/332231-3-960.webp"
+  },
+  "w": 1074
  },
  "/assets/menu/wall-street/7801246.jpg": {
   "h": 1920,
@@ -511,6 +575,62 @@
   },
   "w": 1200
  },
+ "/assets/menu/wall-street/9138676.jpg": {
+  "h": 1191,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9138676-480.webp",
+   "960": "/assets/opt/menu/wall-street/9138676-960.webp"
+  },
+  "w": 1191
+ },
+ "/assets/menu/wall-street/9172146.jpg": {
+  "h": 1020,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9172146-480.webp",
+   "960": "/assets/opt/menu/wall-street/9172146-960.webp"
+  },
+  "w": 1020
+ },
+ "/assets/menu/wall-street/9250375.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9250375-480.webp",
+   "960": "/assets/opt/menu/wall-street/9250375-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/wall-street/9250379.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9250379-480.webp",
+   "960": "/assets/opt/menu/wall-street/9250379-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/wall-street/9250387.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9250387-480.webp",
+   "960": "/assets/opt/menu/wall-street/9250387-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/wall-street/9250391.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9250391-480.webp",
+   "960": "/assets/opt/menu/wall-street/9250391-960.webp"
+  },
+  "w": 1074
+ },
+ "/assets/menu/wall-street/9250395.jpg": {
+  "h": 1074,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/9250395-480.webp",
+   "960": "/assets/opt/menu/wall-street/9250395-960.webp"
+  },
+  "w": 1074
+ },
  "/assets/menu/water-chestnuts-popping-boba-56768bdc.jpg": {
   "h": 1920,
   "sizes": {
@@ -550,6 +670,54 @@
    "960": "/assets/opt/r10/new-persimmon-puree-960.webp"
   },
   "w": 1022
+ },
+ "/assets/r12/persimmon-poster.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/r12/persimmon-poster-480.webp",
+   "960": "/assets/opt/r12/persimmon-poster-960.webp"
+  },
+  "w": 1600
+ },
+ "/assets/r13/store-case.webp": {
+  "h": 1067,
+  "sizes": {
+   "480": "/assets/opt/r13/store-case-480.webp",
+   "960": "/assets/opt/r13/store-case-960.webp"
+  },
+  "w": 1600
+ },
+ "/assets/r13/store-counter.webp": {
+  "h": 1067,
+  "sizes": {
+   "480": "/assets/opt/r13/store-counter-480.webp",
+   "960": "/assets/opt/r13/store-counter-960.webp"
+  },
+  "w": 1600
+ },
+ "/assets/r13/store-front-tall.webp": {
+  "h": 1600,
+  "sizes": {
+   "480": "/assets/opt/r13/store-front-tall-480.webp",
+   "960": "/assets/opt/r13/store-front-tall-960.webp"
+  },
+  "w": 1067
+ },
+ "/assets/r13/store-jars.webp": {
+  "h": 1067,
+  "sizes": {
+   "480": "/assets/opt/r13/store-jars-480.webp",
+   "960": "/assets/opt/r13/store-jars-960.webp"
+  },
+  "w": 1600
+ },
+ "/assets/r13/store-sign.webp": {
+  "h": 955,
+  "sizes": {
+   "480": "/assets/opt/r13/store-sign-480.webp",
+   "960": "/assets/opt/r13/store-sign-960.webp"
+  },
+  "w": 1600
  },
  "/assets/r5/map-flushing.webp": {
   "h": 640,
