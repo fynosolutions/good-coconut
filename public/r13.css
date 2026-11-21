@@ -27,7 +27,7 @@
 .wall figure:nth-child(8) img{object-position:50% 50%}
 .wall figure:nth-child(4) img{object-position:60% 50%}
 .wall figure:nth-child(7) img{object-position:34% 50%}
-.wall figure:nth-child(6) img{object-position:50% 40%}
+.wall figure:nth-child(6) img{object-position:42% 50%}
 /* Gallery sits on the pale blue tint (set through --sand above) */
 /* Shop cards: FiDi card pale blue instead of peach (home and Visit us) */
 .visit5 .shop.manhattan,.full-shops .manhattan{background:var(--blue-tint2)}
@@ -40,7 +40,7 @@
 .order-title .title-stage .blob img{object-position:50% 50%}
 .visit-note{background:var(--ink)}
 .visit-note h2{color:var(--cream)}
-.visit-note img{object-position:50% 100%}
+.visit-note img{object-position:50% 60%}
 .visit-note p{color:#e8edf7}
 .visit-note .text-link{color:var(--cream);text-decoration-color:#fffdf580}
 .visit-note .text-link:hover{text-decoration-color:var(--cream)}

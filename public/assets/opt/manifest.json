@@ -711,14 +711,6 @@
   },
   "w": 1600
  },
- "/assets/r13/store-sign.webp": {
-  "h": 955,
-  "sizes": {
-   "480": "/assets/opt/r13/store-sign-480.webp",
-   "960": "/assets/opt/r13/store-sign-960.webp"
-  },
-  "w": 1600
- },
  "/assets/r5/map-flushing.webp": {
   "h": 640,
   "sizes": {
