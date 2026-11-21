@@ -38,7 +38,9 @@
   const closeLayer = () => { if (!layer) return; const l = layer; layer = null; l.classList.remove('show'); setTimeout(() => l.remove(), 220); o2.setAttribute('aria-pressed', 'false'); };
   const openLayer = () => {   // phones: the enlarged video sits in its own centred layer so nothing is clipped
     layer = document.createElement('div'); layer.className = 'video-layer'; layer.setAttribute('role', 'dialog'); layer.setAttribute('aria-label', 'Fresh coconut video');
-    layer.innerHTML = '<video src="' + video.currentSrc + '" muted loop playsinline autoplay></video><button type="button">Close</button>';
+    // the small video may not have its address yet (it loads only near the screen), so fall back to data-src; keep the poster
+    const src = video.currentSrc || video.getAttribute('src') || video.dataset.src || '', poster = video.getAttribute('poster') || '';
+    layer.innerHTML = '<video src="' + src + '"' + (poster ? ' poster="' + poster + '"' : '') + ' muted loop playsinline webkit-playsinline autoplay></video><button type="button">Close</button>';
     layer.addEventListener('click', closeLayer); document.body.appendChild(layer);
     requestAnimationFrame(() => layer && layer.classList.add('show')); layer.querySelector('video').play().catch(() => {}); o2.setAttribute('aria-pressed', 'true');
   };

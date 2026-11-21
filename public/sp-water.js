@@ -7,6 +7,8 @@
   const N = matchMedia('(max-width: 820px)').matches ? 96 : 128;
   const cur = new Float32Array(N * N), prev = new Float32Array(N * N), wall = new Uint8Array(N * N), packed = new Uint8Array(N * N * 4);
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+  // the photo is big: fetch it only when the coconut comes near the screen (2026-11-21, saves ~450 KB on first load)
+  const nearScreen = () => new Promise(go => { if (!('IntersectionObserver' in window)) return go(); const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { io.disconnect(); go(); } }, { rootMargin: '400px 0px' }); io.observe(cv); });
   const load = src => new Promise((ok, no) => { const i = new Image(); i.decoding = 'async'; i.onload = () => ok(i); i.onerror = no; i.src = src; });
 
   const gl = cv.getContext('webgl', { premultipliedAlpha: true, alpha: true, antialias: false });
@@ -16,7 +18,7 @@
   if (!gl) {
     const ctx = cv.getContext('2d');
     const still = () => { if (!photo) return; S = cv.clientWidth || 480; dpr = Math.min(2, devicePixelRatio || 1); cv.width = cv.height = Math.round(S * dpr); ctx.drawImage(photo, 0, 0, cv.width, cv.height); };
-    load('/assets/specialties/water-coconut.webp').then(p => { photo = p; still(); });
+    nearScreen().then(() => load('/assets/specialties/water-coconut.webp')).then(p => { photo = p; still(); });
     new ResizeObserver(still).observe(cv);
     return;
   }
@@ -70,7 +72,7 @@ void main(){
   }
   function resize() { S = cv.clientWidth || 480; dpr = Math.min(2, devicePixelRatio || 1); cv.width = cv.height = Math.round(S * dpr); render(); }
 
-  Promise.all([load('/assets/specialties/water-coconut.webp'), load('/assets/specialties/water-mask.png')]).then(([p, m]) => {
+  nearScreen().then(() => Promise.all([load('/assets/specialties/water-coconut.webp'), load('/assets/specialties/water-mask.png')])).then(([p, m]) => {
     photo = p;
     gl.activeTexture(gl.TEXTURE0); gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, p);
     gl.activeTexture(gl.TEXTURE1); gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, m);

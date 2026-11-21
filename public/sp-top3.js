@@ -45,13 +45,16 @@
     let raf = 0, seen = false;
     const pickCentre = () => {
       raf = 0; if (!seen) return;
-      const lb = list.getBoundingClientRect(), mid = lb.left + lb.width / 2;
+      // phones stack the cards (2026-11-21): then the card nearest the middle of the screen wins, not the middle of the row
+      const stacked = list.scrollWidth <= list.clientWidth + 2;
+      const lb = list.getBoundingClientRect(), mid = stacked ? innerHeight / 2 : lb.left + lb.width / 2;
       let best = null, bd = Infinity;
-      cards.forEach(c => { const b = c.getBoundingClientRect(), d = Math.abs(b.left + b.width / 2 - mid); if (d < bd) { bd = d; best = c; } });
+      cards.forEach(c => { const b = c.getBoundingClientRect(), d = stacked ? Math.abs(b.top + b.height / 2 - mid) : Math.abs(b.left + b.width / 2 - mid); if (d < bd) { bd = d; best = c; } });
       if (best && !best.classList.contains('on')) { cards.forEach(c => c !== best && off(c)); on(best); }
     };
     list.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(pickCentre); }, { passive: true });
-    new IntersectionObserver(([e]) => { seen = e.isIntersecting && e.intersectionRatio > .5; if (seen) pickCentre(); }, { threshold: [.5] }).observe(list);
+    addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(pickCentre); }, { passive: true });
+    new IntersectionObserver(([e]) => { seen = e.isIntersecting && (e.intersectionRatio > .5 || e.intersectionRect.height > innerHeight * .5); if (seen) pickCentre(); }, { threshold: [0, .25, .5] }).observe(list);
   }
   window.__tops = { on, off, setTilt };
 })();

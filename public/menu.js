@@ -1,3 +1,4 @@
+const menuTimeout=ms=>{if(AbortSignal.timeout)return AbortSignal.timeout(ms);const c=new AbortController();setTimeout(()=>c.abort(new DOMException('Timed out','TimeoutError')),ms);return c.signal;};  // old WeChat WebViews lack AbortSignal.timeout (2026-11-21)
 if(document.querySelector('#menu-search')){
  const locationNav=document.querySelector('.menu-location-switch');
  const dialog=document.querySelector('.menu-dialog');
@@ -18,7 +19,7 @@ if(document.querySelector('#menu-search')){
  const cache=new Map([[activeRoute,Promise.resolve(snapshot(document))]]);
  function loadMenu(path){
   if(!cache.has(path)){
-   const pending=fetch(path,{signal:AbortSignal.timeout(15000)}).then(async response=>{
+   const pending=fetch(path,{signal:menuTimeout(15000)}).then(async response=>{
     if(!response.ok)throw new Error('Menu unavailable');
     return snapshot(new DOMParser().parseFromString(await response.text(),'text/html'));
    }).catch(error=>{cache.delete(path);throw error;});
@@ -40,7 +41,7 @@ if(document.querySelector('#menu-search')){
  function updateActive(){
   scheduled=false;const visible=categories.filter(c=>!c.hidden);
   const top=innerWidth<=800?215:140;
-  const active=visible.filter(c=>c.getBoundingClientRect().top<=top).at(-1)||visible[0];
+  const active=visible.filter(c=>c.getBoundingClientRect().top<=top).pop()||visible[0];
   setActive(active?.dataset.category);
  }
  function filter(){

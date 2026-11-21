@@ -180,3 +180,11 @@
  .page-menu .menu-hero h1{font-size:clamp(44px,4.5vw,66px);line-height:1.02}
  .page-menu .menu-hero-art{max-width:none;width:100%;justify-self:stretch}
 }
+
+/* Phone pass (2026-11-21): the menu kicker was 10px; shop links under the Visit us title were 22px tall to tap */
+.menu-hero-copy .place-note{font-size:12px}
+.hero5-shops a{display:inline-block;padding-block:8px}
+/* Phone pass, Codex review (2026-11-21): turntable controls fit a 360px phone; bigger tap areas for contact links and FAQ rows */
+@media (max-width:380px){.wheel-name{width:206px}}
+.contact-card a{display:inline-block;padding-block:9px}
+.faq summary{padding-block:10px}

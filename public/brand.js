@@ -44,12 +44,12 @@
     setTimeout(spy, 300);
   }
   // Phone menu: mark the sidebar when it is stuck so the search box can hide under the header.
-  var sb = document.querySelector('.menu-sidebar');
-  if (sb) { var onScroll = function(){ sb.classList.toggle('stuck', matchMedia('(max-width: 800px)').matches && sb.getBoundingClientRect().top <= 18); }; addEventListener('scroll', onScroll, {passive: true}); onScroll(); }
+  // (2026-11-21) look the sidebar and chips up each time: switching shop replaces the whole menu block
+  if (document.querySelector('.menu-sidebar')) { var onScroll = function(){ var sb = document.querySelector('.menu-sidebar'); if (sb) sb.classList.toggle('stuck', matchMedia('(max-width: 800px)').matches && sb.getBoundingClientRect().top <= 18); }; addEventListener('scroll', onScroll, {passive: true}); onScroll(); }
   // Phone menu: keep the active category chip in view as the page scrolls.
-  var cats = document.querySelector('.menu-categories');
-  if (cats && 'MutationObserver' in window) {
-    new MutationObserver(function(){ var a = cats.querySelector('a[aria-current]'); if (a && matchMedia('(max-width: 800px)').matches) { var left = a.getBoundingClientRect().left - cats.getBoundingClientRect().left + cats.scrollLeft - 56; if (cats.scrollTo) cats.scrollTo({left: Math.max(0, left), behavior: 'smooth'}); else cats.scrollLeft = Math.max(0, left); } }).observe(cats, {attributes: true, subtree: true, attributeFilter: ['aria-current']});
+  var main = document.querySelector('main');
+  if (document.querySelector('.menu-categories') && main && 'MutationObserver' in window) {
+    new MutationObserver(function(){ var cats = document.querySelector('.menu-categories'); if (!cats) return; var a = cats.querySelector('a[aria-current]'); if (a && matchMedia('(max-width: 800px)').matches) { var left = a.getBoundingClientRect().left - cats.getBoundingClientRect().left + cats.scrollLeft - 56; if (cats.scrollTo) cats.scrollTo({left: Math.max(0, left), behavior: 'smooth'}); else cats.scrollLeft = Math.max(0, left); } }).observe(main, {attributes: true, childList: true, subtree: true, attributeFilter: ['aria-current']});
   }
   // Hero video: play only while visible, pause off-screen (saves battery on phones).
   // 2026-11-12: it starts after the page has loaded, so the first-screen photo is not competing with it,
@@ -74,6 +74,13 @@
       } else if (!el.dataset.src) { el.pause(); }
     }); }, {rootMargin: '300px 0px'});
     late.forEach(function(el){ lio.observe(el); });
+  }
+  // WeChat on iPhone can refuse to start muted videos until its bridge is ready or the visitor first touches the page (2026-11-21).
+  if (!still) {
+    var kick = function(){ document.querySelectorAll('video[data-autoplay]:not([data-src]),video[data-hero-video]').forEach(function(el){
+      var r = el.getBoundingClientRect(); if (el.paused && r.bottom > 0 && r.top < innerHeight) el.play().catch(function(){}); }); };
+    document.addEventListener('WeixinJSBridgeReady', kick, false);
+    addEventListener('touchstart', kick, {passive: true, once: true});
   }
 })();
 // Runs on its own so the dots still work when the reveal code above stops early for reduced motion.
