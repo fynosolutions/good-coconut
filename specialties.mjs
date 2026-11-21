@@ -136,14 +136,14 @@ export const specialtiesBody=`<div class="sp">
 </div>
 <section class="shell cater" id="catering" aria-label="Catering and big orders">
   <div class="shell-copy">
-    <p class="peek-title">Catering &amp; big orders</p>
-    <h2>Feeding the<br>whole office?</h2>
-    <p class="shell-more">Coconut drinks and pudding for meetings, birthdays and parties. Orders over $150 come with a special offer, like a discount or free puddings.</p>
+    <h2 class="cater-h"><span class="cater-word">Catering</span><span class="cater-sub">Feeding the whole office?</span></h2>
+    <p class="cater-offer"><strong>Orders over $150</strong> get a special offer: a discount or free puddings.</p>
+    <p class="shell-more">Coconut drinks and pudding for meetings, birthdays and parties.</p>
     <a class="button cater-cta" href="/contact-us/?topic=catering#contact-form">Plan a catering order <span aria-hidden="true">→</span></a>
   </div>
   <div class="shell-stage cater-stage" aria-hidden="true">
-    <figure class="cp cp-back"><img src="/assets/r13/cater-pile.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
-    <figure class="cp cp-front"><img src="/assets/r13/cater-stacks.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async"></figure>
+    <img class="cp cp-back" src="/assets/r13/cater-pile.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async">
+    <img class="cp cp-front" src="/assets/r13/cater-stacks.webp" alt="" width="1000" height="1000" loading="lazy" decoding="async">
   </div>
 </section>
 <section class="sp-outro" aria-label="Order">
