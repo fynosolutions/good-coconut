@@ -271,6 +271,14 @@
   },
   "w": 1191
  },
+ "/assets/menu/own/valueset-hkmt.webp": {
+  "h": 1200,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-hkmt-480.webp",
+   "960": "/assets/opt/menu/own/valueset-hkmt-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/pineapple-coconut-milk-pudding-b35ad247.png": {
   "h": 900,
   "sizes": {
