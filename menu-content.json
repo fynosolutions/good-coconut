@@ -11369,9 +11369,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEEyTVRJd05RRUVRbXh2WWdBPS0tbzZkL0FWbjg3ZjErRTVRMzJNZkJqblhBUlk1V24rWWI4SFVDdnQvb3JzND0",
-            "local_path": "images/original-egg-waffle-9fe18978.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-original.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11394,9 +11395,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEEyTVRJd053RUVRbXh2WWdBPS0tNnhEMDd1YWkxNnhrNXV0RHMyczFMbkFtM2ltRzQ0aklPdmswRzlwR0NLQT0",
-            "local_path": "images/chocolate-egg-waffle-ba92f962.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-chocolate.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11419,9 +11421,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEEyTVRJd09RRUVRbXh2WWdBPS0tMURtWUdPZndRK0w2LzVUMTd1K2N6OStnVU5TNGVyODZ2OWkyQWJVYWMyWT0",
-            "local_path": "images/matcha-egg-waffle-3da08ba4.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-matcha.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11444,9 +11447,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEEyTVRJeE1RRUVRbXh2WWdBPS0tbWd5OHlLc3I3ZnNrVXZXdVBibnJBYlYxc0xwYncwSTU3Wmt0MU5yODZBND0",
-            "local_path": "images/coconut-egg-waffle-23cf2dae.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-coconut.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11469,9 +11473,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEEyTVRJeE13RUVRbXh2WWdBPS0tR3NCOFRFRzVPZ3ZTSUFjaTJNUWgwV1A3RERwb1hVUFhuNVA2ZklqMzRuYz0",
-            "local_path": "images/black-sesame-egg-waffle-a894ec67.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-black-sesame.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11494,9 +11499,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEV4TURreE9BRUVRbXh2WWdBPS0tdDQwSjF2LzNUSU1wWXc3dFJYSFQ5ajl2bys0VmdmKzBFRUwzY0trS3lpbz0",
-            "local_path": "images/double-flavor-egg-waffle-16f7f31e.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-double-flavor.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11583,9 +11589,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEUxTWpFMk5BRUVRbXh2WWdBPS0tbVNLa09Wc1dMSWlRMVJqTHNIdHE2UXNpTGErLytQeFJTWnllN2xTSWdIdz0",
-            "local_path": "images/matcha-red-bean-egg-waffle-b976257e.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-matcha-red-bean.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11608,9 +11615,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEUxTWpFMk5nRUVRbXh2WWdBPS0tc2I2bGQvQzdnTjNMQ2ExMnRQTVZSY1FRYmNvLzZHSEw1d29GVzIwRGtzYz0",
-            "local_path": "images/handmade-taro-egg-waffle-ce848266.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-taro.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11633,9 +11641,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEUxTWpFMk9BRUVRbXh2WWdBPS0taFJldnRUZXdmR05EYXlES2EvTitTNS9UdnhnTTBlZk9wTHhSM3lCc0htND0",
-            "local_path": "images/cheesy-corn-egg-waffle-2d6e196d.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-cheesy-corn.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11658,9 +11667,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEl3TkRVME5nRUVRbXh2WWdBPS0tNnNmdUpmb3ltU2FyT3k1NVJWQ2wvVUlyQXBreGR6OVJVaTJPbUFwVWRtMD0",
-            "local_path": "images/strawberry-egg-waffle-7f5d6456.jpg",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-strawberry.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11683,9 +11693,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVE0zTlRrek5RRUVRbXh2WWdBPS0tdGNIRERHR1dPbmVLQzY0OEpoanhWWGFKMWVLTnZhcFpKVzdMalBTSDRCYz0",
-            "local_path": "images/choco-banana-egg-waffle-19c95b6e.jpg",
-            "width": 972,
-            "height": 972
+            "local_path": "images/own/egg-waffle-choco-banana.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11708,9 +11719,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVE01TWpVMU1nRUVRbXh2WWdBPS0tMVRYcElLYUwvdkh5S0d6Zk1FRXdCZURLc05qQnFyZklkQzNXREdaMFlWcz0",
-            "local_path": "images/original-choco-egg-waffle-ed38c97d.png",
-            "width": 485,
-            "height": 485
+            "local_path": "images/own/egg-waffle-original-choco.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -11733,9 +11745,10 @@
           },
           "image": {
             "source_url": "",
-            "local_path": "",
-            "width": 0,
-            "height": 0
+            "local_path": "images/own/egg-waffle-pumpkin.webp",
+            "width": 900,
+            "height": 900,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [

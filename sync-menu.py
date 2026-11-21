@@ -92,7 +92,9 @@ for file, key in STORES:
             it.update(order=n, name_en=li['name_en'], name_zh=li['name_zh'])
             if not it.get('points'):     # points items show "100 pts" on Chowbus; keep their saved listing
                 it['price'] = {'amount': li['amount'], 'currency': 'USD', 'display': li['price_display']}
-            if li['image_url'] and li['image_url'] != it['image'].get('source_url'):
+            if it['image'].get('own'):   # our own product photo (2026-11-21, owner approved); Chowbus photo changes don't replace it
+                pass
+            elif li['image_url'] and li['image_url'] != it['image'].get('source_url'):
                 rel = f'images/{"wall-street/" if key == "wall-street" else "sync/"}{it["id"]}.jpg'
                 dst = os.path.join(ROOT, 'public', 'assets', 'menu', rel.replace('images/', '', 1))
                 log.append(f'  photo {k}')
