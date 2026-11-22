@@ -204,3 +204,5 @@
  .sp .top-list{padding-inline:16px!important;box-sizing:border-box}
  .footer-bottom{align-items:baseline;padding-right:84px}
 }
+/* Phone pass, design review round 3 (2026-11-21): the floating order button steps aside while the phone menu is open */
+body.menu-open .sip{opacity:0;visibility:hidden;pointer-events:none}
