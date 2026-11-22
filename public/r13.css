@@ -198,3 +198,9 @@
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";position:absolute;right:4px;top:50%;translate:0 -50%;font:600 22px/1 Poppins,sans-serif;color:var(--blue,#24428a)}
 .faq details[open]>summary::after{content:"\2212"}
+/* Phone pass, design review round 2 (2026-11-21): NEW badge off the cup's printed name; Top Three cards keep a side margin when stacked; footer bottom row on one line and clear of the round order button */
+.wheel-new{top:6%;left:-4%}
+@media (max-width:800px){
+ .sp .top-list{padding-inline:16px!important;box-sizing:border-box}
+ .footer-bottom{align-items:baseline;padding-right:84px}
+}
