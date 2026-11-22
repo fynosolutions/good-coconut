@@ -21,7 +21,7 @@ export function shopSchema(s){
   address:{'@type':'PostalAddress',streetAddress:s.street,addressLocality:s.locality,addressRegion:'NY',postalCode:s.postal,addressCountry:'US'},
   geo:{'@type':'GeoCoordinates',latitude:s.lat,longitude:s.lng},
   containedInPlace:{'@type':'ShoppingCenter',name:s.mall.replace(/^Inside /,'').replace(/, lower level$/,'')},
-  ...(s.hours?{openingHours:'Mo-Su 11:00-21:30'}:{}),
+  ...(s.hours?{openingHours:'Mo-Su 11:00-'+(s.id==='manhattan'?'21:00':'21:30')}:{}),
   potentialAction:{'@type':'OrderAction',target:[s.order,...s.delivery.map(d=>d[1])]},
   parentOrganization:{'@id':brandId}};
 }
