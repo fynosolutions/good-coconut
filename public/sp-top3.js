@@ -55,6 +55,8 @@
     list.addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(pickCentre); }, { passive: true });
     addEventListener('scroll', () => { if (!raf) raf = requestAnimationFrame(pickCentre); }, { passive: true });
     new IntersectionObserver(([e]) => { seen = e.isIntersecting && (e.intersectionRatio > .5 || e.intersectionRect.height > innerHeight * .5); if (seen) pickCentre(); }, { threshold: [0, .25, .5] }).observe(list);
+    // late images above can push the cards without any scroll (Safari keeps no scroll anchor): pick again when the page height changes
+    if ('ResizeObserver' in window) new ResizeObserver(() => { if (seen && !raf) raf = requestAnimationFrame(pickCentre); }).observe(document.body);
   }
   window.__tops = { on, off, setTilt };
 })();
