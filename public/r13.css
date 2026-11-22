@@ -188,3 +188,13 @@
 @media (max-width:380px){.wheel-name{width:206px}}
 .contact-card a{display:inline-block;padding-block:9px}
 .faq summary{padding-block:10px}
+/* Phone pass, design review (2026-11-21): the open menu shows a close mark; full product name under the turntable (two lines); FAQ uses the site's own +/− */
+.menu-toggle{position:relative}
+.menu-toggle[aria-expanded=true] .gl{opacity:0}
+.menu-toggle[aria-expanded=true]::before,.menu-toggle[aria-expanded=true]::after{content:"";position:absolute;left:50%;top:50%;width:17px;height:2.2px;border-radius:2px;background:currentColor;translate:-50% -50%;rotate:45deg}
+.menu-toggle[aria-expanded=true]::after{rotate:-45deg}
+@media (max-width:800px){.wheel-name strong{white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-height:1.15}.wheel-name small{display:none}}
+.faq summary{list-style:none;position:relative;padding-right:32px;font-size:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:50%;translate:0 -50%;font:600 22px/1 Poppins,sans-serif;color:var(--blue,#24428a)}
+.faq details[open]>summary::after{content:"\2212"}
