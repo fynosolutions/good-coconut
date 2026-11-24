@@ -1,5 +1,5 @@
 // Public site origin, used for schema.org and sitemap URLs. Change it when the real domain goes live.
-export const site='https://good-coconut-motion-demo.vercel.app';
+export const site='https://goodcoconutusa.com';
 export const brand = {email:'goodcoconut01@gmail.com', instagram:'goodcoconutny', red:'goodcoconut', wechat:'goodcoconut01'};
 // Store facts checked 2026-11-04 against Google Maps, Apple Maps, NYC address lookup and each ordering page.
 // FiDi = the name on its Google profile ("Good Coconut FiDi") and its mall ("Golden Mall FiDi").

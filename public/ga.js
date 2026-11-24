@@ -1,7 +1,7 @@
 /* GA4 for Good Coconut (property "Good Coconut (025)", 2026-11-23 launch audit). Loads only on the live host.
    CSP allows only same-origin scripts, so this is a file, not an inline snippet. */
 (()=>{
- const ID='G-V2D265TG8D',HOSTS=['good-coconut-motion-demo.vercel.app'];
+ const ID='G-V2D265TG8D',HOSTS=['goodcoconutusa.com','www.goodcoconutusa.com','good-coconut-motion-demo.vercel.app'];
  if(!HOSTS.includes(location.hostname))return;
  window.dataLayer=window.dataLayer||[];
  const gtag=window.gtag=function(){dataLayer.push(arguments);};

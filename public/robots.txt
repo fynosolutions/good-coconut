@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://good-coconut-motion-demo.vercel.app/sitemap.xml
+Sitemap: https://goodcoconutusa.com/sitemap.xml

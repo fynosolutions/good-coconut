@@ -3,13 +3,41 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "functions": {"api/contact.js": {"maxDuration": 30}},
-  "headers": [{
-    "source": "/(.*)",
-    "headers": [
-      {"key": "X-Content-Type-Options", "value": "nosniff"},
-      {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
-      {"key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self' https://*.google-analytics.com https://www.googletagmanager.com; style-src 'self'; script-src 'self' https://www.googletagmanager.com; font-src 'self'; connect-src 'self' https://feast-contact.fynosolutions.xyz https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src https://www.google.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"}
-    ]
-  }]
+  "functions": {
+    "api/contact.js": {
+      "maxDuration": 30
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; img-src 'self' https://*.google-analytics.com https://www.googletagmanager.com; style-src 'self'; script-src 'self' https://www.googletagmanager.com; font-src 'self'; connect-src 'self' https://feast-contact.fynosolutions.xyz https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; frame-src https://www.google.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.goodcoconutusa.com"
+        }
+      ],
+      "destination": "https://goodcoconutusa.com/$1",
+      "permanent": true
+    }
+  ]
 }
