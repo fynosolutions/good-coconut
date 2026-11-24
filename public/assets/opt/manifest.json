@@ -7,6 +7,22 @@
   },
   "w": 1200
  },
+ "/assets/menu/banana-choco-licious-ff51acc8.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/banana-choco-licious-ff51acc8-480.webp",
+   "960": "/assets/opt/menu/banana-choco-licious-ff51acc8-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/black-sesame-coconut-milk-hot-b5fe192e.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/black-sesame-coconut-milk-hot-b5fe192e-480.webp",
+   "960": "/assets/opt/menu/black-sesame-coconut-milk-hot-b5fe192e-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/black-sesame-egg-waffle-a894ec67.jpg": {
   "h": 485,
   "sizes": {
@@ -30,6 +46,22 @@
    "960": "/assets/opt/menu/brown-sugar-boba-675eb917-960.webp"
   },
   "w": 1483
+ },
+ "/assets/menu/brown-sugar-coconut-milk-hot-cfb69fc3.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/brown-sugar-coconut-milk-hot-cfb69fc3-480.webp",
+   "960": "/assets/opt/menu/brown-sugar-coconut-milk-hot-cfb69fc3-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/caramel-latte-hot-5d2b2a56.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/caramel-latte-hot-5d2b2a56-480.webp",
+   "960": "/assets/opt/menu/caramel-latte-hot-5d2b2a56-960.webp"
+  },
+  "w": 1200
  },
  "/assets/menu/caramel-supplied.png": {
   "h": 1254,
@@ -63,6 +95,38 @@
   },
   "w": 485
  },
+ "/assets/menu/classic-banana-milk-8f73da26.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/classic-banana-milk-8f73da26-480.webp",
+   "960": "/assets/opt/menu/classic-banana-milk-8f73da26-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/coco-breeze-28439e4e.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/coco-breeze-28439e4e-480.webp",
+   "960": "/assets/opt/menu/coco-breeze-28439e4e-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/coco-licious-f2191aaa.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/coco-licious-f2191aaa-480.webp",
+   "960": "/assets/opt/menu/coco-licious-f2191aaa-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/coconut-americano-7891ff8e.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-americano-7891ff8e-480.webp",
+   "960": "/assets/opt/menu/coconut-americano-7891ff8e-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/coconut-egg-waffle-23cf2dae.jpg": {
   "h": 485,
   "sizes": {
@@ -79,11 +143,27 @@
   },
   "w": 1254
  },
+ "/assets/menu/coconut-latte-4fa0c989.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-latte-4fa0c989-480.webp",
+   "960": "/assets/opt/menu/coconut-latte-4fa0c989-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/coconut-latte-original-egg-waffle-22565f0a.png": {
   "h": 900,
   "sizes": {
    "480": "/assets/opt/menu/coconut-latte-original-egg-waffle-22565f0a-480.webp",
    "960": "/assets/opt/menu/coconut-latte-original-egg-waffle-22565f0a-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/coconut-meat-coconut-milk-a06ff80d.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/coconut-meat-coconut-milk-a06ff80d-480.webp",
+   "960": "/assets/opt/menu/coconut-meat-coconut-milk-a06ff80d-960.webp"
   },
   "w": 1200
  },
@@ -127,6 +207,14 @@
   },
   "w": 1254
  },
+ "/assets/menu/creamy-latte-hot-d0115cb7.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/creamy-latte-hot-d0115cb7-480.webp",
+   "960": "/assets/opt/menu/creamy-latte-hot-d0115cb7-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/diced-coconut-74ef4d00.jpg": {
   "h": 1920,
   "sizes": {
@@ -143,11 +231,51 @@
   },
   "w": 485
  },
+ "/assets/menu/dragon-fruit-pudding-b1c74184.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/dragon-fruit-pudding-b1c74184-480.webp",
+   "960": "/assets/opt/menu/dragon-fruit-pudding-b1c74184-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/dubai-chocolate-pudding-b51a7dd7.png": {
   "h": 900,
   "sizes": {
    "480": "/assets/opt/menu/dubai-chocolate-pudding-b51a7dd7-480.webp",
    "960": "/assets/opt/menu/dubai-chocolate-pudding-b51a7dd7-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/durian-pudding-e9d26b04.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/durian-pudding-e9d26b04-480.webp",
+   "960": "/assets/opt/menu/durian-pudding-e9d26b04-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/freshly-opened-coconut-c094444d.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/freshly-opened-coconut-c094444d-480.webp",
+   "960": "/assets/opt/menu/freshly-opened-coconut-c094444d-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/ginger-coconut-milk-hot-15ed99e1.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/ginger-coconut-milk-hot-15ed99e1-480.webp",
+   "960": "/assets/opt/menu/ginger-coconut-milk-hot-15ed99e1-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/handmade-taro-coconut-milk-14726d09.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/handmade-taro-coconut-milk-14726d09-480.webp",
+   "960": "/assets/opt/menu/handmade-taro-coconut-milk-14726d09-960.webp"
   },
   "w": 1200
  },
@@ -175,6 +303,38 @@
   },
   "w": 485
  },
+ "/assets/menu/healthy-coco-refresher-b52409df.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/healthy-coco-refresher-b52409df-480.webp",
+   "960": "/assets/opt/menu/healthy-coco-refresher-b52409df-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/himalaya-blossom-1e5f9df4.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/himalaya-blossom-1e5f9df4-480.webp",
+   "960": "/assets/opt/menu/himalaya-blossom-1e5f9df4-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/himalaya-plum-a0cac359.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/himalaya-plum-a0cac359-480.webp",
+   "960": "/assets/opt/menu/himalaya-plum-a0cac359-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/himalaya-pudding-a5867c8a.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/himalaya-pudding-a5867c8a-480.webp",
+   "960": "/assets/opt/menu/himalaya-pudding-a5867c8a-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/himalyas-snowball-8525c1de.jpg": {
   "h": 485,
   "sizes": {
@@ -190,6 +350,22 @@
    "960": "/assets/opt/menu/iced-water-cup-supplied-960.webp"
   },
   "w": 1254
+ },
+ "/assets/menu/lime-boba-coconut-7289c337.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/lime-boba-coconut-7289c337-480.webp",
+   "960": "/assets/opt/menu/lime-boba-coconut-7289c337-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/low-cal-coconut-milk-1ec23624.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/low-cal-coconut-milk-1ec23624-480.webp",
+   "960": "/assets/opt/menu/low-cal-coconut-milk-1ec23624-960.webp"
+  },
+  "w": 1200
  },
  "/assets/menu/lychee-coconut-jelly-supplied.png": {
   "h": 1254,
@@ -207,6 +383,14 @@
   },
   "w": 1483
  },
+ "/assets/menu/mango-coconut-milk-970f289c.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/mango-coconut-milk-970f289c-480.webp",
+   "960": "/assets/opt/menu/mango-coconut-milk-970f289c-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/mango-licious-a2a06b9f.jpg": {
   "h": 485,
   "sizes": {
@@ -214,6 +398,30 @@
    "485": "/assets/opt/menu/mango-licious-a2a06b9f-960.webp"
   },
   "w": 485
+ },
+ "/assets/menu/mango-pudding-ebd7dd06.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/mango-pudding-ebd7dd06-480.webp",
+   "960": "/assets/opt/menu/mango-pudding-ebd7dd06-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/mango-puree-pudding-5a2aede9.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/mango-puree-pudding-5a2aede9-480.webp",
+   "960": "/assets/opt/menu/mango-puree-pudding-5a2aede9-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/matcha-coconut-milk-hot-2e47f45e.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/matcha-coconut-milk-hot-2e47f45e-480.webp",
+   "960": "/assets/opt/menu/matcha-coconut-milk-hot-2e47f45e-960.webp"
+  },
+  "w": 1200
  },
  "/assets/menu/matcha-egg-waffle-3da08ba4.jpg": {
   "h": 485,
@@ -263,6 +471,110 @@
   },
   "w": 1254
  },
+ "/assets/menu/own/egg-waffle-black-sesame.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-black-sesame-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-black-sesame-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-cheesy-corn.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-cheesy-corn-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-cheesy-corn-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-choco-banana.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-choco-banana-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-choco-banana-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-chocolate.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-chocolate-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-chocolate-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-coconut.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-coconut-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-coconut-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-double-flavor.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-double-flavor-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-double-flavor-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-matcha-red-bean.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-matcha-red-bean-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-matcha-red-bean-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-matcha.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-matcha-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-matcha-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-original-choco.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-original-choco-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-original-choco-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-original.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-original-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-original-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-pumpkin.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-pumpkin-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-pumpkin-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-strawberry.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-strawberry-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-strawberry-960.webp"
+  },
+  "w": 900
+ },
+ "/assets/menu/own/egg-waffle-taro.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/egg-waffle-taro-480.webp",
+   "900": "/assets/opt/menu/own/egg-waffle-taro-960.webp"
+  },
+  "w": 900
+ },
  "/assets/menu/own/hong-kong-milk-tea.jpg": {
   "h": 1191,
   "sizes": {
@@ -271,11 +583,211 @@
   },
   "w": 1191
  },
+ "/assets/menu/own/pudding-black-sesame.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-black-sesame-480.webp",
+   "960": "/assets/opt/menu/own/pudding-black-sesame-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-dragon-fruit.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-dragon-fruit-480.webp",
+   "960": "/assets/opt/menu/own/pudding-dragon-fruit-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-dubai-chocolate.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-dubai-chocolate-480.webp",
+   "960": "/assets/opt/menu/own/pudding-dubai-chocolate-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-durian.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-durian-480.webp",
+   "960": "/assets/opt/menu/own/pudding-durian-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-kiwi.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-kiwi-480.webp",
+   "960": "/assets/opt/menu/own/pudding-kiwi-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-mango.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-mango-480.webp",
+   "960": "/assets/opt/menu/own/pudding-mango-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-original.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-original-480.webp",
+   "960": "/assets/opt/menu/own/pudding-original-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-osmanthus.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-osmanthus-480.webp",
+   "960": "/assets/opt/menu/own/pudding-osmanthus-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-papaya.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-papaya-480.webp",
+   "960": "/assets/opt/menu/own/pudding-papaya-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-peach-gum.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-peach-gum-480.webp",
+   "960": "/assets/opt/menu/own/pudding-peach-gum-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-pineapple.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-pineapple-480.webp",
+   "960": "/assets/opt/menu/own/pudding-pineapple-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-strawberry.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-strawberry-480.webp",
+   "960": "/assets/opt/menu/own/pudding-strawberry-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-super-berry.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-super-berry-480.webp",
+   "960": "/assets/opt/menu/own/pudding-super-berry-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-taro.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-taro-480.webp",
+   "960": "/assets/opt/menu/own/pudding-taro-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-whole-coconut-mango.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-whole-coconut-mango-480.webp",
+   "960": "/assets/opt/menu/own/pudding-whole-coconut-mango-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/pudding-whole-coconut.webp": {
+  "h": 1000,
+  "sizes": {
+   "480": "/assets/opt/menu/own/pudding-whole-coconut-480.webp",
+   "960": "/assets/opt/menu/own/pudding-whole-coconut-960.webp"
+  },
+  "w": 1000
+ },
+ "/assets/menu/own/valueset-brownsugar.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-brownsugar-480.webp",
+   "960": "/assets/opt/menu/own/valueset-brownsugar-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/own/valueset-hkmt-v2.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-hkmt-v2-480.webp",
+   "960": "/assets/opt/menu/own/valueset-hkmt-v2-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/own/valueset-hkmt.webp": {
   "h": 1200,
   "sizes": {
    "480": "/assets/opt/menu/own/valueset-hkmt-480.webp",
    "960": "/assets/opt/menu/own/valueset-hkmt-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/own/valueset-latte.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-latte-480.webp",
+   "960": "/assets/opt/menu/own/valueset-latte-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/own/valueset-redbean.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-redbean-480.webp",
+   "960": "/assets/opt/menu/own/valueset-redbean-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/own/valueset-strawberry-v2.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-strawberry-v2-480.webp",
+   "960": "/assets/opt/menu/own/valueset-strawberry-v2-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/own/valueset-strawberry-v3.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-strawberry-v3-480.webp",
+   "960": "/assets/opt/menu/own/valueset-strawberry-v3-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/own/valueset-taro.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/own/valueset-taro-480.webp",
+   "960": "/assets/opt/menu/own/valueset-taro-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/papaya-pudding-b137e27d.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/papaya-pudding-b137e27d-480.webp",
+   "960": "/assets/opt/menu/papaya-pudding-b137e27d-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/peach-gum-coconut-pudding-aa424cbb.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/peach-gum-coconut-pudding-aa424cbb-480.webp",
+   "960": "/assets/opt/menu/peach-gum-coconut-pudding-aa424cbb-960.webp"
   },
   "w": 1200
  },
@@ -319,6 +831,14 @@
   },
   "w": 1254
  },
+ "/assets/menu/pure-orange-passion-tea-10b7ae76.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/pure-orange-passion-tea-10b7ae76-480.webp",
+   "960": "/assets/opt/menu/pure-orange-passion-tea-10b7ae76-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/red-bean-32f3af92.jpg": {
   "h": 1920,
   "sizes": {
@@ -358,6 +878,30 @@
    "485": "/assets/opt/menu/strawberry-egg-waffle-7f5d6456-960.webp"
   },
   "w": 485
+ },
+ "/assets/menu/strawberry-pudding-aa15e8e4.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/strawberry-pudding-aa15e8e4-480.webp",
+   "960": "/assets/opt/menu/strawberry-pudding-aa15e8e4-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/strawberry-puree-pudding-566b32d1.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/strawberry-puree-pudding-566b32d1-480.webp",
+   "960": "/assets/opt/menu/strawberry-puree-pudding-566b32d1-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/super-berry-pudding-2383ead8.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/super-berry-pudding-2383ead8-480.webp",
+   "960": "/assets/opt/menu/super-berry-pudding-2383ead8-960.webp"
+  },
+  "w": 1200
  },
  "/assets/menu/sync/231998-6.jpg": {
   "h": 1254,
@@ -439,6 +983,102 @@
   },
   "w": 1074
  },
+ "/assets/menu/wall-street/7801231.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801231-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801231-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801232.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801232-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801232-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801233.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801233-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801233-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801234.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801234-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801234-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801236.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801236-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801236-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801238.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801238-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801238-960.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/wall-street/7801239.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801239-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801239-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801240.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801240-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801240-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801241.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801241-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801241-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801242.jpg": {
+  "h": 445,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801242-480.webp",
+   "486": "/assets/opt/menu/wall-street/7801242-960.webp"
+  },
+  "w": 486
+ },
+ "/assets/menu/wall-street/7801243.jpg": {
+  "h": 445,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801243-480.webp",
+   "486": "/assets/opt/menu/wall-street/7801243-960.webp"
+  },
+  "w": 486
+ },
+ "/assets/menu/wall-street/7801244.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801244-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801244-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/wall-street/7801246.jpg": {
   "h": 1920,
   "sizes": {
@@ -455,6 +1095,38 @@
   },
   "w": 1200
  },
+ "/assets/menu/wall-street/7801251.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801251-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801251-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801254.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801254-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801254-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801256.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801256-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801256-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801257.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801257-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801257-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/wall-street/7801259.jpg": {
   "h": 1920,
   "sizes": {
@@ -462,6 +1134,30 @@
    "960": "/assets/opt/menu/wall-street/7801259-960.webp"
   },
   "w": 1483
+ },
+ "/assets/menu/wall-street/7801260.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801260-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801260-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801261.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801261-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801261-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801262.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801262-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801262-960.webp"
+  },
+  "w": 1200
  },
  "/assets/menu/wall-street/7801263.jpg": {
   "h": 1920,
@@ -487,6 +1183,62 @@
   },
   "w": 1483
  },
+ "/assets/menu/wall-street/7801267.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801267-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801267-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801269.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801269-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801269-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801270.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801270-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801270-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801271.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801271-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801271-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801272.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801272-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801272-960.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/wall-street/7801273.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801273-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801273-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801274.jpg": {
+  "h": 481,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801274-480.webp",
+   "499": "/assets/opt/menu/wall-street/7801274-960.webp"
+  },
+  "w": 499
+ },
  "/assets/menu/wall-street/7801275.jpg": {
   "h": 972,
   "sizes": {
@@ -503,6 +1255,38 @@
   },
   "w": 1483
  },
+ "/assets/menu/wall-street/7801279.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801279-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801279-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801280.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801280-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801280-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801281.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801281-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801281-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801282.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801282-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801282-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/menu/wall-street/7801283.jpg": {
   "h": 1920,
   "sizes": {
@@ -510,6 +1294,30 @@
    "960": "/assets/opt/menu/wall-street/7801283-960.webp"
   },
   "w": 1483
+ },
+ "/assets/menu/wall-street/7801284.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801284-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801284-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801286.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801286-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801286-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801287.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801287-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801287-960.webp"
+  },
+  "w": 485
  },
  "/assets/menu/wall-street/7801288.png": {
   "h": 485,
@@ -519,11 +1327,27 @@
   },
   "w": 485
  },
+ "/assets/menu/wall-street/7801291.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801291-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801291-960.webp"
+  },
+  "w": 485
+ },
  "/assets/menu/wall-street/7801293.png": {
   "h": 900,
   "sizes": {
    "480": "/assets/opt/menu/wall-street/7801293-480.webp",
    "960": "/assets/opt/menu/wall-street/7801293-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801295.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801295-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801295-960.webp"
   },
   "w": 1200
  },
@@ -542,6 +1366,94 @@
    "485": "/assets/opt/menu/wall-street/7801299-960.webp"
   },
   "w": 485
+ },
+ "/assets/menu/wall-street/7801301.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801301-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801301-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801302.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801302-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801302-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801305.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801305-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801305-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801306.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801306-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801306-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801307.jpg": {
+  "h": 485,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801307-480.webp",
+   "485": "/assets/opt/menu/wall-street/7801307-960.webp"
+  },
+  "w": 485
+ },
+ "/assets/menu/wall-street/7801308.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801308-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801308-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801311.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801311-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801311-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801312.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801312-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801312-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801313.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801313-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801313-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801315.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801315-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801315-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/wall-street/7801316.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/wall-street/7801316-480.webp",
+   "960": "/assets/opt/menu/wall-street/7801316-960.webp"
+  },
+  "w": 1200
  },
  "/assets/menu/wall-street/7974585.png": {
   "h": 1240,
@@ -663,6 +1575,30 @@
   },
   "w": 1483
  },
+ "/assets/menu/water-chestnuts-popping-boba-7ed641f8.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/water-chestnuts-popping-boba-7ed641f8-480.webp",
+   "960": "/assets/opt/menu/water-chestnuts-popping-boba-7ed641f8-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/whole-coconut-pudding-8ba44bb7.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/whole-coconut-pudding-8ba44bb7-480.webp",
+   "960": "/assets/opt/menu/whole-coconut-pudding-8ba44bb7-960.webp"
+  },
+  "w": 1200
+ },
+ "/assets/menu/whole-coconut-pudding-with-mango-popping-boba-40968d0e.jpg": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/menu/whole-coconut-pudding-with-mango-popping-boba-40968d0e-480.webp",
+   "960": "/assets/opt/menu/whole-coconut-pudding-with-mango-popping-boba-40968d0e-960.webp"
+  },
+  "w": 1200
+ },
  "/assets/original-about.jpg": {
   "h": 552,
   "sizes": {
@@ -758,6 +1694,14 @@
    "536": "/assets/opt/specialties/p-dragonfruit-pudding-960.webp"
   },
   "w": 536
+ },
+ "/assets/specialties/p-strawberry-pudding-v2.webp": {
+  "h": 900,
+  "sizes": {
+   "480": "/assets/opt/specialties/p-strawberry-pudding-v2-480.webp",
+   "585": "/assets/opt/specialties/p-strawberry-pudding-v2-960.webp"
+  },
+  "w": 585
  },
  "/assets/specialties/p-strawberry-pudding.webp": {
   "h": 900,

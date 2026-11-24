@@ -10,10 +10,12 @@ if(document.querySelector('#menu-search')){
  notice.className='menu-switch-status';notice.setAttribute('role','status');
  locationNav.after(notice);
 
+ const inert=document.implementation.createHTMLDocument('');
  function snapshot(doc){
   const nodes=parts.map(selector=>doc.querySelector(selector));
   if(nodes.some(node=>!node)||!doc.querySelector('.menu-layout[data-location]'))throw new Error('Incomplete menu');
-  return {nodes:nodes.map(node=>node.cloneNode(true)),title:doc.title,description:doc.querySelector('meta[name="description"]')?.content||''};
+  // Copy into an unrendered document: clones made in the live page start downloading every lazy menu photo at once (4.7MB, 2026-11-23 audit).
+  return {nodes:nodes.map(node=>inert.importNode(node,true)),title:doc.title,description:doc.querySelector('meta[name="description"]')?.content||''};
  }
  // Keep the current menu available for instant return, before search changes it.
  const cache=new Map([[activeRoute,Promise.resolve(snapshot(document))]]);
