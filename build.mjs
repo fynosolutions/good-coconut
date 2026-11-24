@@ -81,13 +81,18 @@ const lateVideos=html=>html
  .replace(/(<section class="hero5"[\s\S]*?<video) autoplay( muted loop playsinline) preload="metadata"/,'$1$2 preload="none" data-hero-video');
 const lcpPreload=html=>{const m=html.match(/<li class="wheel-item is-front"[^>]*><button[^>]*><span class="wheel-bob"><img src="([^"]+)"(?: srcset="([^"]+)" sizes="([^"]+)")?/)||html.match(/<div class="hero5-slide is-on"[^>]*><img src="([^"]+)"(?: srcset="([^"]+)" sizes="([^"]+)")?/);return m?html.replace('<link rel="preload" href="/assets/poppins-latin-600.woff2"',`<link rel="preload" as="image" href="${m[1]}"${m[2]?` imagesrcset="${m[2]}" imagesizes="${m[3]}"`:''} fetchpriority="high"><link rel="preload" href="/assets/poppins-latin-600.woff2"`):html;};
 // 4 (2026-11-21) Old iOS WeChat needs webkit-playsinline or videos open full screen. (No link-preview tags: 毛 2026-11-21 said the share card is not needed.)
-const shareTags=(html,dir,title,desc)=>html.replace(/ playsinline(?! webkit-playsinline)/g,' playsinline webkit-playsinline');
+const shareTags=(html,dir,title,desc)=>html.replace(/ playsinline(?! webkit-playsinline)/g,' playsinline webkit-playsinline')
+// 2026-11-24 SEO on the real domain: canonical URL, H1 area words for search (hidden), alt text on product photos.
+const altText={'shishi-yeye':'Persimmon coconut milk','fresh-coconut':'Fresh young coconut','coconut-latte':'Coconut latte','xishi-bobo':'Persimmon boba drink','persimmon-pudding':'Persimmon coconut pudding','p-dragonfruit-pudding-v2':'Dragon fruit coconut pudding','o1-coconut':'Fresh coconut'};
+const seoTags=(html,dir)=>html.replace('</title>',`</title><link rel="canonical" href="${site}/${dir?dir+'/':''}">`)
+ .replace(/<\/h1>/,'<span class="seo-only"> Good Coconut, coconut drinks and pudding in Flushing, Queens and FiDi, Manhattan</span></h1>')
+ .replace(/<img([^>]*?)src="([^"]*\/([\w-]+)\.(?:webp|jpg|png))"([^>]*?)alt=""/g,(m,a,src,name,b)=>altText[name]?`<img${a}src="${src}"${b}alt="${altText[name]}"`:m);
 // 5 (2026-11-21, 毛) Menu links open the FiDi menu by default; Flushing stays one tap away in the shop switch (/menu/#menu-browse is left alone).
 const fidiMenu=JSON.parse(await readFile('menu-wall-street.json','utf8')),flMenu=JSON.parse(await readFile('menu-content.json','utf8'));
 const fidiCat=Object.fromEntries(flMenu.categories.map(c=>[String(c.id),String((fidiMenu.categories.find(x=>x.name_en===c.name_en)||{}).id||'')]));
 const fidiLinks=html=>html.replace(/href="\/menu\/"/g,'href="/menu/wall-street/"').replace(/href="\/menu\/#category-(\d+)"/g,(m,id)=>fidiCat[id]?`href="/menu/wall-street/#category-${fidiCat[id]}"`:'href="/menu/wall-street/"');
 for(const [key,dir,title,description] of pages){const f=`public/${dir?dir+'/':''}index.html`;let html=await readFile(f,'utf8');
- html=svgGlyphs(smallImages(html)).replace('<link rel="stylesheet"',`<script src="/head.js"></script>${dir==='specialties'?'':'<script src="/ga.js" async></script>'}<link rel="stylesheet"`);if(key==='home')html=lcpPreload(lateVideos(html));html=fidiLinks(shareTags(html,dir,title,description));await writeFile(f,html);}
+ html=svgGlyphs(smallImages(html)).replace('<link rel="stylesheet"',`<script src="/head.js"></script>${dir==='specialties'?'':'<script src="/ga.js" async></script>'}<link rel="stylesheet"`);if(key==='home')html=lcpPreload(lateVideos(html));html=seoTags(fidiLinks(shareTags(html,dir,title,description)),dir);await writeFile(f,html);}
 // the round 11 trial address now just sends people to the home page
 await mkdir('public/lab/turntable',{recursive:true});await writeFile('public/lab/turntable/index.html','<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=/"><title>Good Coconut</title><link rel="canonical" href="/"></head><body><p><a href="/">Good Coconut home</a></p></body></html>');
 await writeFile('public/llms.txt',llms);
