@@ -10,6 +10,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 PUB = os.path.join(ROOT, 'public')
 OUT = os.path.join(PUB, 'assets', 'opt')
 MIN_BYTES = 120_000          # only images that are actually heavy
+MENU_MIN_BYTES = 30_000      # menu photos are 1200px at 60-100 KB; phones only need 480px (2026-11-23 launch audit)
 manifest = {}
 srcs = set()
 for page in glob.glob(os.path.join(PUB, '**', 'index.html'), recursive=True):
@@ -21,7 +22,7 @@ except (OSError, ValueError):
     pass
 for src in sorted(srcs):
     path = os.path.join(PUB, src.lstrip('/'))
-    if src.startswith('/assets/opt/') or not os.path.exists(path) or os.path.getsize(path) < MIN_BYTES:
+    if src.startswith('/assets/opt/') or not os.path.exists(path) or os.path.getsize(path) < (MENU_MIN_BYTES if src.startswith('/assets/menu/') else MIN_BYTES):
         continue
     with Image.open(path) as im:
         im.load()

@@ -87,7 +87,7 @@ const fidiMenu=JSON.parse(await readFile('menu-wall-street.json','utf8')),flMenu
 const fidiCat=Object.fromEntries(flMenu.categories.map(c=>[String(c.id),String((fidiMenu.categories.find(x=>x.name_en===c.name_en)||{}).id||'')]));
 const fidiLinks=html=>html.replace(/href="\/menu\/"/g,'href="/menu/wall-street/"').replace(/href="\/menu\/#category-(\d+)"/g,(m,id)=>fidiCat[id]?`href="/menu/wall-street/#category-${fidiCat[id]}"`:'href="/menu/wall-street/"');
 for(const [key,dir,title,description] of pages){const f=`public/${dir?dir+'/':''}index.html`;let html=await readFile(f,'utf8');
- html=svgGlyphs(smallImages(html)).replace('<link rel="stylesheet"','<script src="/head.js"></script><link rel="stylesheet"');if(key==='home')html=lcpPreload(lateVideos(html));html=fidiLinks(shareTags(html,dir,title,description));await writeFile(f,html);}
+ html=svgGlyphs(smallImages(html)).replace('<link rel="stylesheet"',`<script src="/head.js"></script>${dir==='specialties'?'':'<script src="/ga.js" async></script>'}<link rel="stylesheet"`);if(key==='home')html=lcpPreload(lateVideos(html));html=fidiLinks(shareTags(html,dir,title,description));await writeFile(f,html);}
 // the round 11 trial address now just sends people to the home page
 await mkdir('public/lab/turntable',{recursive:true});await writeFile('public/lab/turntable/index.html','<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0; url=/"><title>Good Coconut</title><link rel="canonical" href="/"></head><body><p><a href="/">Good Coconut home</a></p></body></html>');
 await writeFile('public/llms.txt',llms);
