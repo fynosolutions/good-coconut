@@ -47,6 +47,7 @@ const faqs=[
  ['Where are the two shops?',`Flushing is inside Golden Shopping Mall at ${shops[0].street}, ${shops[0].city}. FiDi is on the lower level of Golden Mall FiDi at ${shops[1].street}, ${shops[1].city}.`],
  ['Can I order ahead for pickup?','Yes. Both shops take pickup orders on Chowbus. Choose Flushing or FiDi above, or use Order online at the top of the page.'],
  ['Do you deliver?',`${shops.map(s=>`${s.name} delivers through ${s.delivery.map(d=>d[0]).join(', ').replace(/, ([^,]*)$/,' and $1')}`).join('. ')}.`],
+ ['Is there seating at the FiDi shop?','Yes. Golden Mall FiDi is a food hall with shared seating for about 20 people, so you can sit down with your drink or dessert. Seats are first come, first served. Takeout and delivery are available too.'],
  ['Can I ask about ingredients or allergens?','Please call your shop before ordering so the team can help with your specific product and dietary questions.']
 ];
 const faqSchema=`<script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}</script>`;
