@@ -7707,9 +7707,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZM01RRUVRbXh2WWdBPS0tTVJYdHl3RXdNVFpBQlUyRXkzZnAzdlBnUWJmQjN6bVhMaDVSMEtNOVZXOD0",
-            "local_path": "images/wall-street/7801281.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-mango-puree.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -7864,9 +7865,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZM013RUVRbXh2WWdBPS0tMnIrNHNOMlo2b0ErUTgwWEEvL3J6VllHTTVCSnVvVWpzcmIzK2hSNFJxVT0",
-            "local_path": "images/wall-street/7801231.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-strawberry-puree.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
