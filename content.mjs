@@ -47,5 +47,5 @@ export const heroWheel=[
  {name:'Coconut Latte',note:'coconut milk with espresso',img:'/assets/r13/coconut-latte.webp',w:641,h:900,size:1,side:.8,tint:'sky',href:'/menu/#category-156003'},
  {name:'Persimmon Boba Pudding',note:'persimmon on coconut pudding, with popping boba',img:'/assets/r12/xishi-bobo.webp',w:607,h:900,size:.95,tint:'peach',href:'/#persimmon-season'},
  {name:'Persimmon Pudding',note:'fresh persimmon on coconut pudding',img:'/assets/r11/persimmon-pudding.webp',w:531,h:760,size:.95,tint:'peach',isNew:true,href:'/#persimmon-season'},
- {name:'Dragon Fruit Pudding',note:'dragon fruit on coconut pudding',img:'/assets/specialties/p-dragonfruit-pudding.webp',w:496,h:720,size:.92,tint:'mint',href:'/menu/#category-156004'}
+ {name:'Dragon Fruit Pudding',note:'dragon fruit on coconut pudding',img:'/assets/specialties/p-dragonfruit-pudding-v2.webp',w:470,h:720,size:.92,tint:'mint',href:'/menu/#category-156004'}
 ];

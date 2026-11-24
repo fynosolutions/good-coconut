@@ -6921,9 +6921,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhORFF4TmpNMU5RRUVRbXh2WWdBPS0tUkJ0YTdFOTM4b1k1WWVtK05YT3lTYmsxRnFvNU5ZeHhmbHZDTGtPL1lHcz0",
-            "local_path": "images/coconut-pudding-af61c3d9.jpg",
-            "width": 486,
-            "height": 445
+            "local_path": "images/own/pudding-original.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -7118,9 +7119,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhORFEzTlRnM01nRUVRbXh2WWdBPS0tZy9KZy9pU2JYMVltVmJxWFM2S1N5SU12QlJrU295MzFqUzdTaW5qMVBLaz0",
-            "local_path": "images/handmade-taro-coconut-pudding-bb4d6f5b.jpg",
-            "width": 499,
-            "height": 481
+            "local_path": "images/own/pudding-taro.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -7297,9 +7299,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl3TURFek13RUVRbXh2WWdBPS0tTm85NzF1THNNc012VGJGSnptQmt5VnFZRjRhTjBTMlNHVE1WQ01RM0ZVbz0",
-            "local_path": "images/himalaya-pudding-a5867c8a.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-osmanthus.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -7476,9 +7479,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl3TURFMU13RUVRbXh2WWdBPS0tNVRuZ0R4UGJCTHBzMm41OHowOFY4VHRCRjgwcHZUNEtuUytTY2FNdStjST0",
-            "local_path": "images/whole-coconut-pudding-8ba44bb7.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-whole-coconut.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -7655,9 +7659,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl3TURFMU1RRUVRbXh2WWdBPS0taEtWMmFCT1ZHUVJ2SFlIdTIwd082S0FYSHhrRUNOcjhpL1FPM2xPRkpVST0",
-            "local_path": "images/whole-coconut-pudding-with-mango-popping-boba-40968d0e.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-whole-coconut-mango.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -7834,9 +7839,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVEl5T0RjMk5BRUVRbXh2WWdBPS0tZkN5YldVM3hMQ3FnKzJmT3c2dVQ3clFqeGRzcDhYQ0FqTmpMK0VnLzVuTT0",
-            "local_path": "images/black-sesame-pudding-919b97ef.jpg",
-            "width": 1140,
-            "height": 855
+            "local_path": "images/own/pudding-black-sesame.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -8031,9 +8037,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVNU9RRUVRbXh2WWdBPS0tekhIS1IxTTZiVFF3NlkxMEZ5ajJ4SGFvTUZZN3lpS3ZRa3Q5YlUya0ViST0",
-            "local_path": "images/durian-pudding-e9d26b04.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-durian.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -8228,9 +8235,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVek1nRUVRbXh2WWdBPS0tUnN4elVCaFRZRDNtZjlMQkZrN0NudGt1OHM4dnUxVVdiaFdpRzVPa2JRTT0",
-            "local_path": "images/strawberry-pudding-aa15e8e4.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-strawberry.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -8783,9 +8791,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVMk53RUVRbXh2WWdBPS0tMGtZTFBTZHF0bm9ONGo0VkU2dVZuQkRoMHdONk5BQ0w2V3Y2M29MbWVURT0",
-            "local_path": "images/mango-pudding-ebd7dd06.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-mango.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -8962,9 +8971,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVNU5nRUVRbXh2WWdBPS0tNW81dzVNdDBJWCsyTGpVUGdhdVpPZGk3bEUxWlgybjNOQ2l1dS93QkdCND0",
-            "local_path": "images/peach-gum-coconut-pudding-aa424cbb.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-peach-gum.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -9141,9 +9151,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVGs1TnpJMU9RRUVRbXh2WWdBPS0tTjQ3MVpxL0hscFJ5RjhMV0xRTmV5c3lSczdVNDAyZWpkTzRqdnp3SStiTT0",
-            "local_path": "images/pineapple-coconut-milk-pudding-b35ad247.png",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-pineapple.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -9338,9 +9349,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVM013RUVRbXh2WWdBPS0tNHJzdDFmQTV3V3RLcnRlVldaT0lJMEk2bFpldjAzWDcrZjN6QXhKSTBNYz0",
-            "local_path": "images/papaya-pudding-b137e27d.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-papaya.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -9535,9 +9547,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVMk13RUVRbXh2WWdBPS0tTlJ2bko4VUxKQ09QTHFRdmYzYk8ybWJOTUFtTWkzZ21WN0NwNXV3ZlN1TT0",
-            "local_path": "images/super-berry-pudding-2383ead8.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-super-berry.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -9732,9 +9745,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVMU1BRUVRbXh2WWdBPS0tVUhUYTUrbkFuL2RtUWdxY05WaE51aElIaWlGWTArVVRyUGhhQytDRzlzWT0",
-            "local_path": "images/dragon-fruit-pudding-b1c74184.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-dragon-fruit.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -9929,9 +9943,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFU0TmpBd05nRUVRbXh2WWdBPS0tM2pkR2YveGZmZ1U5ekgzWGVvZW5wbnJiRFBxOHFWY3oyeE1pcDBVSGJlWT0",
-            "local_path": "images/dubai-chocolate-pudding-b51a7dd7.png",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-dubai-chocolate.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "sizes_from_description": [],
           "quality_notes": [
@@ -10893,7 +10908,7 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFUzTURVME5nRUVRbXh2WWdBPS0tWlpBSWhhcHBreUFpcThHYjFXQzdRd3puRTkrN2YxaUh2cUUwTWpxQXlpRT0",
-            "local_path": "images/own/valueset-strawberry-v2.webp",
+            "local_path": "images/own/valueset-strawberry-v3.webp",
             "width": 1200,
             "height": 900,
             "own": true

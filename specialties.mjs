@@ -92,22 +92,22 @@ export const specialtiesBody=`<div class="sp">
   <ul class="cards" id="cards">
     <li class="card" role="button" data-fruit="coconut" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-whole-coconut.webp" alt="Whole Coconut Pudding with Mango &amp; Popping Boba 整颗多芒爆珠布丁" loading="lazy" width="718" height="900">
+      <img class="prod" src="/assets/specialties/p-whole-coconut-v2.webp" alt="Whole Coconut Pudding with Mango &amp; Popping Boba 整颗多芒爆珠布丁" loading="lazy" width="712" height="900">
       <p class="name">Whole Coconut Pudding with Mango &amp; Popping Boba<span lang="zh-Hans">整颗多芒爆珠布丁</span></p>
     </li>
     <li class="card" role="button" data-fruit="mango" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-mango-pudding.webp" alt="Mango Pudding 芒果椰奶布丁" loading="lazy" width="552" height="900">
+      <img class="prod" src="/assets/specialties/p-mango-pudding-v2.webp" alt="Mango Pudding 芒果椰奶布丁" loading="lazy" width="568" height="900">
       <p class="name">Mango Pudding<span lang="zh-Hans">芒果椰奶布丁</span></p>
     </li>
     <li class="card" role="button" data-fruit="strawberry" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-strawberry-pudding.webp" alt="Strawberry Pudding 草莓椰奶布丁" loading="lazy" width="540" height="900">
+      <img class="prod" src="/assets/specialties/p-strawberry-pudding-v2.webp" alt="Strawberry Pudding 草莓椰奶布丁" loading="lazy" width="585" height="900">
       <p class="name">Strawberry Pudding<span lang="zh-Hans">草莓椰奶布丁</span></p>
     </li>
     <li class="card" role="button" data-fruit="dragonfruit" tabindex="0">
       <div class="burst" aria-hidden="true"></div>
-      <img class="prod" src="/assets/specialties/p-dragonfruit-pudding.webp" alt="Dragon Fruit Pudding 火龙果椰奶布丁" loading="lazy" width="536" height="900">
+      <img class="prod" src="/assets/specialties/p-dragonfruit-pudding-v2.webp" alt="Dragon Fruit Pudding 火龙果椰奶布丁" loading="lazy" width="588" height="900">
       <p class="name">Dragon Fruit Pudding<span lang="zh-Hans">火龙果椰奶布丁</span></p>
     </li>
     <li class="card" role="button" data-fruit="coffee" tabindex="0">

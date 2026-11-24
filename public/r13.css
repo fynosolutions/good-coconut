@@ -206,3 +206,13 @@
 }
 /* Phone pass, design review round 3 (2026-11-21): the floating order button steps aside while the phone menu is open */
 body.menu-open .sip{opacity:0;visibility:hidden;pointer-events:none}
+
+/* 2026-11-23 r20: free-membership pop-up (menu pages, see r13.js) */
+.member-pop{padding:0;border:0;border-radius:24px;background:#fffdf5;width:min(400px,92vw,calc((90dvh - 140px) * .8));max-width:none;overflow:hidden;box-shadow:0 24px 60px rgba(20,36,80,.28)}
+.member-pop::backdrop{background:rgba(20,36,80,.45)}
+.member-pop[open]{animation:gc-dialog-in .24s cubic-bezier(.23,1,.32,1)}
+.member-pop img{display:block;width:100%;height:auto}
+.member-pop-cta{display:block;margin:14px 16px 4px;padding:15px 18px;border-radius:999px;background:#24428a;color:#fff;text-align:center;font-weight:600;font-size:16px;text-decoration:none}
+.member-pop-cta:hover,.member-pop-cta:focus-visible{background:#1b3470}
+.member-pop-x{display:block;margin:0 auto 6px;min-height:44px;padding:0 18px;border:0;background:none;color:#4a5878;font:inherit;font-size:14px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}.member-pop:focus{outline:none}
+@media(prefers-reduced-motion:reduce){.member-pop[open]{animation:none}}

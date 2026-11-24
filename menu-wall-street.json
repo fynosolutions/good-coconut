@@ -5829,9 +5829,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZME5BRUVRbXh2WWdBPS0tcjl6RnRWanBqVzY1ckRLeWR6Q0tlYmo3NnRKNXF2a2ZTdE1rUGVLc01WND0",
-            "local_path": "images/wall-street/7801243.jpg",
-            "width": 486,
-            "height": 445
+            "local_path": "images/own/pudding-original.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6006,9 +6007,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZME53RUVRbXh2WWdBPS0tS0NCQ2hsZC9kcURUUlJINE5aSnZpc2xHK1NQRWlwY2NIaDVvNHgxR29Ycz0",
-            "local_path": "images/wall-street/7801274.jpg",
-            "width": 499,
-            "height": 481
+            "local_path": "images/own/pudding-taro.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6163,9 +6165,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZME9RRUVRbXh2WWdBPS0tcUU3d1lweHNuOTAvVVhsTS9ZTW9xQWNzUW91MVhTT3QvQ3FHN0pubTBlUT0",
-            "local_path": "images/wall-street/7801232.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-osmanthus.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6320,9 +6323,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZek9RRUVRbXh2WWdBPS0tRTZWd2IxUldrTzRJR0VIck92L01VVHdIaDc3dkdQT0VVc3J2VSs5cnBjMD0",
-            "local_path": "images/wall-street/7801241.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-whole-coconut.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6477,9 +6481,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZME1RRUVRbXh2WWdBPS0taWlmMEVKYXhaQUJ3ZkpTaXJTWndaSmFRajZ5QStHTWF6a3lNTzRnV08xOD0",
-            "local_path": "images/wall-street/7801262.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-whole-coconut-mango.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6634,9 +6639,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZMU13RUVRbXh2WWdBPS0tcWNkaFUzMGo0KzI4SEtDRWtocXZhdExaUUIxbWxFSG1Lb04vVnRGYVBubz0",
-            "local_path": "images/wall-street/7801234.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-durian.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6811,9 +6817,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZMU53RUVRbXh2WWdBPS0tSDIrUVpnblExd0JPbFpsSGNBM2NwWjQzUFRSZ291dTZtMnBLMGp5cHFsVT0",
-            "local_path": "images/wall-street/7801261.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-strawberry.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -6988,9 +6995,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVGs1TmprNE1nRUVRbXh2WWdBPS0tMUNvTFVjL24vSTdqYlJHdXYyN3pLTXhBdWs0MFFYcythQkprU2IrcnljOD0",
-            "local_path": "images/wall-street/7801248.png",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-pineapple.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -7165,9 +7173,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZMk5RRUVRbXh2WWdBPS0tQ0JkVElReFlMVThSSjhOVllsMUkyWCtJdVlEWmxoait4amZNdUUrT2xlMD0",
-            "local_path": "images/wall-street/7801280.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-papaya.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -7342,9 +7351,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZMk53RUVRbXh2WWdBPS0tbTBiR1lhTkJtcDhSNVZoazFsV1Y5MzZibTRkMHZ6WUF5Vk1YYVJFU0xFQT0",
-            "local_path": "images/wall-street/7801244.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-super-berry.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -7519,9 +7529,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZMk9RRUVRbXh2WWdBPS0teURnMWFFaElOQkRvV2VFN2JnTWFYZnJMajgveVNWWmxyV2JZcjNVbFRQYz0",
-            "local_path": "images/wall-street/7801233.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-dragon-fruit.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -8010,9 +8021,10 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRZM05RRUVRbXh2WWdBPS0temRsWklUeHQwUnhYblNEVEhQbFZVQ1ZKdjBuNC9XWElCcFhQRm5DajBQST0",
-            "local_path": "images/wall-street/7801257.jpg",
-            "width": 1200,
-            "height": 900
+            "local_path": "images/own/pudding-mango.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [
             {
@@ -8316,9 +8328,10 @@
           "description_zh": "",
           "image": {
             "source_url": "",
-            "local_path": "",
-            "width": 0,
-            "height": 0
+            "local_path": "images/own/pudding-kiwi.webp",
+            "width": 1000,
+            "height": 1000,
+            "own": true
           },
           "option_groups": [],
           "sizes": [],
@@ -9403,7 +9416,7 @@
           },
           "image": {
             "source_url": "https://api.chowbus.com/compendium/api/v1/image_proxy/blobs/Skg4REFRRUhiV1Z6YzJGblpRSC9nQUFCQWdFQ1NVUUJEQUFCQkZSNWNHVUJEQUFBQUJML2dBRUhOVFl5TlRjMU1RRUVRbXh2WWdBPS0taWU0NGRVcmdwQnh5Nm54VHZJMDErOC9HUml6THRRWEpQLzVMdWRuY1lJOD0",
-            "local_path": "images/own/valueset-strawberry-v2.webp",
+            "local_path": "images/own/valueset-strawberry-v3.webp",
             "width": 1200,
             "height": 900,
             "own": true
