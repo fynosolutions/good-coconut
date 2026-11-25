@@ -39,8 +39,8 @@
 
 }
 .sp .below{display:grid;grid-template-columns:auto 1fr auto;gap:48px;align-items:start;margin:52px 0 0;padding-bottom:48px}
-.sp h1{font-size:clamp(36px,3.8vw,54px);line-height:1.04;letter-spacing:-.02em;margin:0;font-weight:600}
-.sp h1 span{display:block;white-space:nowrap}
+.sp h1,.sp .sp-h1{font-size:clamp(36px,3.8vw,54px);line-height:1.04;letter-spacing:-.02em;margin:0;font-weight:600}
+.sp h1 span,.sp .sp-h1 span{display:block;white-space:nowrap}
 .sp .side{text-align:left}
 .sp .sub{font-size:18px;margin:4px 0 16px;text-wrap:balance}
 .sp .m{display:none}
@@ -179,8 +179,8 @@
 .sp .menu-link a{color:var(--ink);font-weight:600}
 .sp .prod{height:56%;margin-top:10%}
 /* round-4 design review fixes */
-.sp h1{font-size:clamp(40px,4.2vw,60px)}
-.sp h1,.sp .signatures h2,.sp .shell h2,.sp .sp-outro h2{text-shadow:none}
+.sp h1,.sp .sp-h1{font-size:clamp(40px,4.2vw,60px)}
+.sp h1,.sp .signatures h2,.sp .shell h2,.sp .sp-outro h2,.sp .sp-h1{text-shadow:none}
 .sp .tops-head h2,.sp .tops-zh{font-size:clamp(28px,3.4vw,46px)}
 .sp .top-stage{padding:7% 0}
 .sp .top-prod,.sp .top[data-kind=coconut] .top-prod{position:absolute;inset:0;margin:auto;width:auto;height:auto;max-height:82%;max-width:74%}
@@ -211,12 +211,12 @@
   .sp .top{flex-basis:80%}
 }
 @media (max-width:820px){.sp .card{aspect-ratio:auto;padding-bottom:14px}.sp .prod{height:40vw;max-height:210px;margin-top:9%}}
-@media (max-width:820px){.sp h1 span{white-space:normal}.sp h1{font-size:clamp(32px,9vw,44px)}.sp .sub,.sp .side{white-space:normal;min-width:0}.sp .below{min-width:0}.sp .below>*{min-width:0}}
+@media (max-width:820px){.sp h1 span,.sp .sp-h1 span{white-space:normal}.sp h1,.sp .sp-h1{font-size:clamp(32px,9vw,44px)}.sp .sub,.sp .side{white-space:normal;min-width:0}.sp .below{min-width:0}.sp .below>*{min-width:0}}
 
 /* round 5: brand layer alignment */
 .sp .tops-head h2,.sp .tops h2,.sp .tops h3{color:#fffdf5}
 .sp .tops .card h3,.sp .tops .card .name{color:var(--ink)}
-.sp h1,.sp h2,.sp h3{text-shadow:none}
+.sp h1,.sp h2,.sp h3,.sp .sp-h1{text-shadow:none}
 .sp .card .prod{position:relative;height:62%}
 .sp .card .prod img{position:absolute;inset:0;margin:auto;max-height:92%;max-width:84%;width:auto;height:auto;object-fit:contain}
 .sp .sp-sub,.sp .lead{color:var(--text)}
@@ -249,7 +249,7 @@
  .sp .street{max-height:110px;margin-top:10px}
  .sp .word-wrap{margin-top:12px}
  .sp .below{margin-top:16px;padding-bottom:18px;gap:10px}
- .sp .below h1{font-size:clamp(30px,8.6vw,38px)}
+ .sp .below h1,.sp .below .sp-h1{font-size:clamp(30px,8.6vw,38px)}
  .sp .below .ctas{display:flex;gap:10px;flex-wrap:wrap}
  .sp .sp-shops{display:none}
 }
